@@ -1,0 +1,494 @@
+{
+  "topic": "Enigma: cómo se descifró la máquina secreta de los nazis",
+  "title": "Enigma: cómo se descifró la máquina «indescifrable» de los nazis",
+  "description": "Durante la Segunda Guerra Mundial, el ejército alemán confiaba en una máquina que creía imposible de romper: Enigma. Con casi 159 trillones de combinaciones posibles cada día, probarlas una a una era impensable. Y aun así, se descifró.\n\nEn este vídeo te cuento la historia completa: cómo funcionaba Enigma, cómo tres jóvenes matemáticos polacos la rompieron por primera vez en 1932, el secreto que entregaron a británicos y franceses semanas antes de la guerra, el trabajo de Alan Turing y miles de personas en Bletchley Park, el fallo de diseño que acabó delatando a la máquina y el trágico final de Turing.\n\nEn Crónica Tech contamos la historia de los inventos y las personas que cambiaron el mundo. Si te gusta la historia de la tecnología, suscríbete y cuéntame en los comentarios qué historia quieres que contemos después.",
+  "tags": [
+    "Enigma",
+    "máquina Enigma",
+    "Alan Turing",
+    "Bletchley Park",
+    "Marian Rejewski",
+    "Segunda Guerra Mundial",
+    "criptografía",
+    "historia de la tecnología",
+    "historia de la informática",
+    "código Enigma descifrado",
+    "crónica tech"
+  ],
+  "hashtags": [
+    "#Enigma",
+    "#AlanTuring",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "LA MÁQUINA INDESCIFRABLE",
+  "thumbnail_query": "enigma machine cipher",
+  "thumbnail_icon": "🔐",
+  "pinned_comment": "¿Conocías el papel de los matemáticos polacos en esta historia? 🇵🇱 Casi siempre se cuenta solo la parte de Turing. ¿Qué otra historia de la tecnología quieres que contemos? 👇",
+  "sources": [
+    "https://codesandciphers.org.uk/virtualbp/poles/poles.htm",
+    "https://chalkdustmagazine.com/features/how-polish-cryptographers-first-broke-the-unbreakable-cipher/",
+    "https://media.defense.gov/2022/Sep/29/2003087366/-1/-1/0/SolvingTheEnigma24_Final.PDF",
+    "https://cryptocellar.org/enigma/files/enigma-design-flaws.pdf"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Segunda Guerra Mundial. Cada día, miles de mensajes militares alemanes cruzan el aire por radio. Cualquiera puede captarlos. Pero nadie puede leerlos.",
+      "visual_query": "world war 2 radio operator",
+      "card": {
+        "layout": "title",
+        "heading": "Enigma",
+        "items": [
+          "La máquina «indescifrable» de los nazis"
+        ],
+        "icon": "🔐"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Porque antes de enviarse, pasan por una máquina que el ejército alemán considera imposible de romper. Su nombre lo dice todo: Enigma.",
+      "visual_query": "enigma cipher machine",
+      "card": {
+        "layout": "quote",
+        "heading": "Para Alemania, Enigma era imposible de romper",
+        "items": [],
+        "icon": "🛡️"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Hoy te voy a contar cómo se rompió. Una historia de matemáticos brillantes, de un secreto entregado justo a tiempo, de miles de personas trabajando en silencio, y de un pequeño fallo que lo cambió todo.",
+      "visual_query": "old documents secret",
+      "card": {
+        "layout": "bullets",
+        "heading": "En este vídeo",
+        "items": [
+          "Cómo funcionaba Enigma",
+          "Los matemáticos polacos",
+          "Turing y Bletchley Park",
+          "El fallo que la delató"
+        ],
+        "icon": "📜"
+      }
+    },
+    {
+      "section": "Cómo funcionaba Enigma",
+      "narration": "Enigma parecía una máquina de escribir metida en una caja de madera. Tenía un teclado, un panel de letras que se iluminaban y, por dentro, unas ruedas llamadas rotores.",
+      "visual_query": "vintage typewriter wooden box",
+      "card": {
+        "layout": "bullets",
+        "heading": "Por fuera, una máquina de escribir",
+        "items": [
+          "Un teclado",
+          "Un panel de letras luminosas",
+          "Rotores en su interior"
+        ],
+        "icon": "⌨️"
+      }
+    },
+    {
+      "section": "Cómo funcionaba Enigma",
+      "narration": "Al pulsar una letra, la electricidad atravesaba los rotores, rebotaba y volvía por otro camino, encendiendo una letra distinta. Pulsabas la A y se iluminaba, por ejemplo, la T.",
+      "visual_query": "electric circuit wires",
+      "card": {
+        "layout": "steps",
+        "heading": "Al pulsar una tecla",
+        "items": [
+          "La corriente cruza los rotores",
+          "Rebota y vuelve por otro camino",
+          "Se enciende otra letra"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "Cómo funcionaba Enigma",
+      "narration": "Pero el truco estaba en que, con cada pulsación, los rotores giraban. Así que si volvías a pulsar la A, ya no salía la T, sino otra letra completamente diferente.",
+      "visual_query": "rotating gears mechanism",
+      "card": {
+        "layout": "quote",
+        "heading": "Cada tecla movía los rotores: la misma letra nunca se cifraba igual",
+        "items": [],
+        "icon": "⚙️"
+      }
+    },
+    {
+      "section": "Cómo funcionaba Enigma",
+      "narration": "Además, un panel de cables en la parte delantera intercambiaba pares de letras antes y después de pasar por los rotores. Más capas de confusión.",
+      "visual_query": "patch cables panel",
+      "card": {
+        "layout": "bullets",
+        "heading": "El panel de conexiones",
+        "items": [
+          "Cables que intercambian pares de letras",
+          "Antes y después de los rotores",
+          "Multiplica las combinaciones"
+        ],
+        "icon": "🔌"
+      }
+    },
+    {
+      "section": "Cómo funcionaba Enigma",
+      "narration": "Cada día, los operadores configuraban la máquina siguiendo un libro de claves secreto. Y el número de configuraciones posibles en la versión del ejército era de casi ciento cincuenta y nueve trillones. Un ciento cincuenta y nueve seguido de dieciocho ceros.",
+      "visual_query": "numbers mathematics",
+      "card": {
+        "layout": "number",
+        "heading": "configuraciones posibles cada día",
+        "items": [
+          "≈ 159 trillones"
+        ],
+        "icon": "🔢"
+      }
+    },
+    {
+      "section": "Cómo funcionaba Enigma",
+      "narration": "Probarlas una a una a mano habría llevado más tiempo que la edad del universo. Por eso los alemanes estaban tan tranquilos.",
+      "visual_query": "hourglass time",
+      "card": {
+        "layout": "quote",
+        "heading": "Probarlas todas a mano era imposible",
+        "items": [
+          "Por eso Alemania confiaba en ella"
+        ],
+        "icon": "⏳"
+      }
+    },
+    {
+      "section": "Los polacos",
+      "narration": "Pero la primera grieta no apareció en Londres, sino en Varsovia. Polonia, encajada entre Alemania y la Unión Soviética, tenía muy claro que necesitaba saber lo que tramaban sus vecinos.",
+      "visual_query": "warsaw old city",
+      "card": {
+        "layout": "title",
+        "heading": "La primera grieta: Polonia",
+        "items": [
+          "Varsovia, años treinta"
+        ],
+        "icon": "🇵🇱"
+      }
+    },
+    {
+      "section": "Los polacos",
+      "narration": "Su servicio de cifrado tomó una decisión muy adelantada a su tiempo: en lugar de contratar solo a expertos en idiomas, contrató a matemáticos.",
+      "visual_query": "mathematics chalkboard",
+      "card": {
+        "layout": "quote",
+        "heading": "En lugar de lingüistas, matemáticos",
+        "items": [
+          "Una decisión adelantada a su tiempo"
+        ],
+        "icon": "🧮"
+      }
+    },
+    {
+      "section": "Los polacos",
+      "narration": "Entre ellos, tres jóvenes: Marian Rejewski, Jerzy Różycki y Henryk Zygalski. Y a finales de mil novecientos treinta y dos, Rejewski logró lo que parecía imposible: reconstruyó el cableado interno de la Enigma militar usando matemáticas.",
+      "visual_query": "young mathematician 1930s",
+      "card": {
+        "layout": "number",
+        "heading": "Rejewski rompe por primera vez la Enigma militar",
+        "items": [
+          "1932"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Los polacos",
+      "narration": "Sin haber visto nunca la máquina por dentro, dedujo cómo estaba construida. Con ayuda, eso sí, de algunos documentos conseguidos por la inteligencia francesa.",
+      "visual_query": "blueprint schematic",
+      "card": {
+        "layout": "bullets",
+        "heading": "Sin ver la máquina por dentro",
+        "items": [
+          "Matemáticas de permutaciones",
+          "Documentos de la inteligencia francesa",
+          "Reconstruyó el cableado"
+        ],
+        "icon": "🔍"
+      }
+    },
+    {
+      "section": "Los polacos",
+      "narration": "Durante años, los polacos leyeron muchos mensajes alemanes. Incluso construyeron una máquina para automatizar parte del trabajo, a la que llamaron bomba.",
+      "visual_query": "vintage machine gears",
+      "card": {
+        "layout": "title",
+        "heading": "La «bomba» polaca",
+        "items": [
+          "Una máquina para buscar las claves"
+        ],
+        "icon": "🛠️"
+      }
+    },
+    {
+      "section": "El secreto entregado",
+      "narration": "Pero los alemanes fueron complicando la máquina, y los recursos polacos no daban para más. En julio de mil novecientos treinta y nueve, con la guerra a punto de estallar, tomaron una decisión histórica.",
+      "visual_query": "storm clouds dark",
+      "card": {
+        "layout": "number",
+        "heading": "Polonia comparte su secreto con Reino Unido y Francia",
+        "items": [
+          "Julio de 1939"
+        ],
+        "icon": "🤝"
+      }
+    },
+    {
+      "section": "El secreto entregado",
+      "narration": "En una reunión secreta cerca de Varsovia, entregaron todo lo que sabían a británicos y franceses: sus métodos, sus técnicas y réplicas de la máquina Enigma.",
+      "visual_query": "secret meeting forest",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que entregaron",
+        "items": [
+          "Sus métodos matemáticos",
+          "Sus técnicas de trabajo",
+          "Réplicas de Enigma"
+        ],
+        "icon": "📦"
+      }
+    },
+    {
+      "section": "El secreto entregado",
+      "narration": "Cinco semanas después, Alemania invadió Polonia. Si esa reunión no se hubiera celebrado, la historia podría haber sido muy distinta.",
+      "visual_query": "tanks war 1939",
+      "card": {
+        "layout": "quote",
+        "heading": "Cinco semanas después, empezó la guerra",
+        "items": [],
+        "icon": "⏱️"
+      }
+    },
+    {
+      "section": "Bletchley Park",
+      "narration": "El testigo pasó a una mansión en la campiña inglesa: Bletchley Park. Allí, en el máximo secreto, el Reino Unido reunió a matemáticos, lingüistas, campeones de ajedrez y hasta aficionados a los crucigramas.",
+      "visual_query": "english country mansion",
+      "card": {
+        "layout": "title",
+        "heading": "Bletchley Park",
+        "items": [
+          "La mansión de los secretos"
+        ],
+        "icon": "🏰"
+      }
+    },
+    {
+      "section": "Bletchley Park",
+      "narration": "Y entre ellos, un joven matemático de Cambridge que acabaría siendo una leyenda: Alan Turing.",
+      "visual_query": "cambridge university",
+      "card": {
+        "layout": "title",
+        "heading": "Alan Turing",
+        "items": [
+          "Matemático de Cambridge"
+        ],
+        "icon": "👤"
+      }
+    },
+    {
+      "section": "Bletchley Park",
+      "narration": "Turing, junto a su colega Gordon Welchman, diseñó una versión mucho más potente de la bomba polaca. Era una enorme máquina electromecánica que probaba posibles configuraciones a toda velocidad y descartaba las imposibles.",
+      "visual_query": "electromechanical machine",
+      "card": {
+        "layout": "steps",
+        "heading": "La bombe británica",
+        "items": [
+          "Prueba configuraciones",
+          "Descarta las imposibles",
+          "Deja pocas candidatas"
+        ],
+        "icon": "⚙️"
+      }
+    },
+    {
+      "section": "Bletchley Park",
+      "narration": "La primera de estas máquinas entró en funcionamiento en mil novecientos cuarenta. Al final de la guerra había más de doscientas, y en Bletchley trabajaban cerca de diez mil personas. La mayoría, mujeres.",
+      "visual_query": "women working wartime office",
+      "card": {
+        "layout": "number",
+        "heading": "personas trabajaban en Bletchley Park al final de la guerra, la mayoría mujeres",
+        "items": [
+          "≈ 10.000"
+        ],
+        "icon": "👩‍💼"
+      }
+    },
+    {
+      "section": "El fallo de Enigma",
+      "narration": "Pero ni siquiera estas máquinas podían probar trillones de opciones a ciegas. Necesitaban una pista. Y Enigma tenía un punto débil.",
+      "visual_query": "crack in wall",
+      "card": {
+        "layout": "title",
+        "heading": "El punto débil de Enigma",
+        "items": [],
+        "icon": "🧩"
+      }
+    },
+    {
+      "section": "El fallo de Enigma",
+      "narration": "Por cómo estaba construida, una letra nunca podía cifrarse como sí misma. La A jamás se convertía en A. Parece un detalle sin importancia, pero era un regalo para los descifradores.",
+      "visual_query": "letter A typography",
+      "card": {
+        "layout": "quote",
+        "heading": "Una letra nunca se cifraba como sí misma",
+        "items": [
+          "La A jamás era A"
+        ],
+        "icon": "🅰️"
+      }
+    },
+    {
+      "section": "El fallo de Enigma",
+      "narration": "Además, los mensajes alemanes eran muy repetitivos. Muchos partes meteorológicos empezaban igual, con la palabra Wetter, tiempo en alemán. Otros terminaban con fórmulas fijas.",
+      "visual_query": "weather report vintage",
+      "card": {
+        "layout": "bullets",
+        "heading": "Mensajes predecibles",
+        "items": [
+          "Partes del tiempo: «Wetter»",
+          "Saludos y fórmulas fijas",
+          "Rutinas que se repetían"
+        ],
+        "icon": "🌦️"
+      }
+    },
+    {
+      "section": "El fallo de Enigma",
+      "narration": "Así que los descifradores adivinaban una palabra probable, la colocaban sobre el mensaje cifrado y, gracias al fallo de Enigma, descartaban las posiciones imposibles. Con esa pista, la bombe hacía el resto.",
+      "visual_query": "puzzle solving",
+      "card": {
+        "layout": "steps",
+        "heading": "Así se rompía una clave",
+        "items": [
+          "Adivinar una palabra probable",
+          "Descartar posiciones imposibles",
+          "La bombe busca la clave"
+        ],
+        "icon": "🔓"
+      }
+    },
+    {
+      "section": "El fallo de Enigma",
+      "narration": "La lección es fascinante: Enigma no cayó solo por las matemáticas, sino por los hábitos de las personas que la usaban.",
+      "visual_query": "human habits routine",
+      "card": {
+        "layout": "quote",
+        "heading": "Enigma cayó por los hábitos humanos",
+        "items": [
+          "No solo por las matemáticas"
+        ],
+        "icon": "👥"
+      }
+    },
+    {
+      "section": "El impacto",
+      "narration": "La información obtenida, con el nombre en clave de Ultra, fue clave en la batalla del Atlántico, donde los submarinos alemanes hundían los barcos que abastecían al Reino Unido.",
+      "visual_query": "submarine ocean war",
+      "card": {
+        "layout": "bullets",
+        "heading": "El impacto de Ultra",
+        "items": [
+          "La batalla del Atlántico",
+          "Rutas de submarinos",
+          "Planes de batalla enemigos"
+        ],
+        "icon": "🚢"
+      }
+    },
+    {
+      "section": "El impacto",
+      "narration": "Algunos historiadores, como Harry Hinsley, que trabajó en Bletchley, estimaron que este trabajo acortó la guerra en unos dos años. Es una cifra discutida, pero da una idea de su importancia.",
+      "visual_query": "history books",
+      "card": {
+        "layout": "number",
+        "heading": "menos de guerra, según algunas estimaciones (discutidas)",
+        "items": [
+          "≈ 2 años"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "El impacto",
+      "narration": "Y aquí viene lo increíble: todo esto se mantuvo en secreto durante décadas. Los protagonistas no pudieron contar a nadie, ni siquiera a sus familias, lo que habían hecho.",
+      "visual_query": "top secret stamp",
+      "card": {
+        "layout": "quote",
+        "heading": "Un secreto guardado durante décadas",
+        "items": [
+          "Ni sus familias lo sabían"
+        ],
+        "icon": "🤫"
+      }
+    },
+    {
+      "section": "El final de Turing",
+      "narration": "El final de Alan Turing fue trágico. En mil novecientos cincuenta y dos fue condenado por su homosexualidad, entonces delito en el Reino Unido, y sometido a un castigo químico. Murió en mil novecientos cincuenta y cuatro, con solo cuarenta y un años.",
+      "visual_query": "rain window melancholy",
+      "card": {
+        "layout": "steps",
+        "heading": "El final de Turing",
+        "items": [
+          "1952: condenado por ser homosexual",
+          "Castigo químico",
+          "1954: muere con 41 años"
+        ],
+        "icon": "🕯️"
+      }
+    },
+    {
+      "section": "El final de Turing",
+      "narration": "En dos mil trece recibió un indulto real póstumo, y hoy su cara aparece en el billete de cincuenta libras. Además, es considerado uno de los padres de la informática moderna.",
+      "visual_query": "british pound banknote",
+      "card": {
+        "layout": "bullets",
+        "heading": "Su legado",
+        "items": [
+          "2013: indulto real póstumo",
+          "Su cara en el billete de 50 libras",
+          "Padre de la informática moderna"
+        ],
+        "icon": "🏅"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Y no olvidemos a Rejewski, Różycki y Zygalski, sin los que nada de esto habría empezado. Durante años, su papel fue casi desconocido fuera de Polonia.",
+      "visual_query": "memorial monument",
+      "card": {
+        "layout": "quote",
+        "heading": "Sin los matemáticos polacos, nada de esto habría empezado",
+        "items": [],
+        "icon": "🇵🇱"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "La historia de Enigma nos deja una lección que sigue vigente hoy en la ciberseguridad: ninguna máquina es más segura que las personas que la usan.",
+      "visual_query": "cyber security lock",
+      "card": {
+        "layout": "quote",
+        "heading": "Ninguna máquina es más segura que quien la usa",
+        "items": [
+          "La lección de Enigma"
+        ],
+        "icon": "🔐"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a Crónica Tech, donde contamos la historia de los inventos que cambiaron el mundo. Y déjame en los comentarios qué historia quieres que contemos la próxima vez.",
+      "visual_query": "subscribe button",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a Crónica Tech",
+        "items": [
+          "Los inventos que cambiaron el mundo"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "full_description": "Durante la Segunda Guerra Mundial, el ejército alemán confiaba en una máquina que creía imposible de romper: Enigma. Con casi 159 trillones de combinaciones posibles cada día, probarlas una a una era impensable. Y aun así, se descifró.\n\nEn este vídeo te cuento la historia completa: cómo funcionaba Enigma, cómo tres jóvenes matemáticos polacos la rompieron por primera vez en 1932, el secreto que entregaron a británicos y franceses semanas antes de la guerra, el trabajo de Alan Turing y miles de personas en Bletchley Park, el fallo de diseño que acabó delatando a la máquina y el trágico final de Turing.\n\nEn Crónica Tech contamos la historia de los inventos y las personas que cambiaron el mundo. Si te gusta la historia de la tecnología, suscríbete y cuéntame en los comentarios qué historia quieres que contemos después.\n\nCapítulos:\n0:00 Introducción\n0:27 Cómo funcionaba Enigma\n1:27 Los polacos\n2:19 El secreto entregado\n2:47 Bletchley Park\n3:29 El fallo de Enigma\n4:17 El impacto\n4:47 El final de Turing\n5:11 Conclusión\n\nFuentes:\nhttps://codesandciphers.org.uk/virtualbp/poles/poles.htm\nhttps://chalkdustmagazine.com/features/how-polish-cryptographers-first-broke-the-unbreakable-cipher/\nhttps://media.defense.gov/2022/Sep/29/2003087366/-1/-1/0/SolvingTheEnigma24_Final.PDF\nhttps://cryptocellar.org/enigma/files/enigma-design-flaws.pdf\n\n#Enigma #AlanTuring #HistoriaDeLaTecnología",
+  "duration_s": 340.03600000000006
+}
