@@ -143,9 +143,9 @@ def main(argv=None) -> int:
             try:
                 res = pipeline.upload_dir(cfg, db, wd, publish_at=when.strftime("%Y-%m-%dT%H:%M:%SZ"))
             except HttpError as e:
-                if "quota" in str(e).lower():
+                if "quota" in str(e).lower() or "uploadlimitexceeded" in str(e).lower():
                     upload_ok = False
-                    print(f"[{src.name}] CUOTA AGOTADA: se sigue renderizando y se suben más tarde", flush=True)
+                    print(f"[{src.name}] LÍMITE DE SUBIDAS/CUOTA ALCANZADO: se sigue renderizando y se suben más tarde", flush=True)
                     continue
                 print(f"[{src.name}] ERROR al subir: {e}", flush=True)
                 continue
