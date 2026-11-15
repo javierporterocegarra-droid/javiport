@@ -9,6 +9,7 @@ SCRIPT_SCHEMA = {
         "hashtags": {"type": "array", "items": {"type": "string"}, "description": "3 hashtags con #"},
         "thumbnail_text": {"type": "string", "description": "2-4 palabras impactantes para la miniatura"},
         "thumbnail_query": {"type": "string", "description": "búsqueda EN INGLÉS de una foto llamativa para la miniatura"},
+        "thumbnail_icon": {"type": "string", "description": "un emoji grande y expresivo para la miniatura"},
         "pinned_comment": {"type": "string", "description": "comentario del canal que invite a comentar"},
         "scenes": {
             "type": "array",
@@ -18,13 +19,26 @@ SCRIPT_SCHEMA = {
                     "section": {"type": "string", "description": "nombre corto del capítulo al que pertenece"},
                     "narration": {"type": "string", "description": "texto que leerá la voz en off"},
                     "visual_query": {"type": "string", "description": "búsqueda EN INGLÉS de vídeo de stock para esta escena (2-4 palabras concretas)"},
+                    "card": {
+                        "type": "object",
+                        "description": "gráfico animado de la escena (se usa si no hay vídeo de stock)",
+                        "properties": {
+                            "layout": {"type": "string", "enum": ["title", "bullets", "number", "quote", "steps"]},
+                            "heading": {"type": "string", "description": "texto principal, máx. 8 palabras"},
+                            "items": {"type": "array", "items": {"type": "string"},
+                                      "description": "bullets/steps: 2-4 frases cortas; number: [la cifra]; title: [subtítulo] o vacío"},
+                            "icon": {"type": "string", "description": "un emoji relacionado o cadena vacía"},
+                        },
+                        "required": ["layout", "heading", "items", "icon"],
+                        "additionalProperties": False,
+                    },
                 },
-                "required": ["section", "narration", "visual_query"],
+                "required": ["section", "narration", "visual_query", "card"],
                 "additionalProperties": False,
             },
         },
     },
-    "required": ["title", "description", "tags", "hashtags", "thumbnail_text", "thumbnail_query", "pinned_comment", "scenes"],
+    "required": ["title", "description", "tags", "hashtags", "thumbnail_text", "thumbnail_query", "thumbnail_icon", "pinned_comment", "scenes"],
     "additionalProperties": False,
 }
 
@@ -76,6 +90,9 @@ Reglas:
 - La narración se leerá con voz sintética: frases naturales, sin acotaciones, emojis ni markdown.
 - Escribe los números como se pronuncian si hay ambigüedad.
 - Cada escena tiene una búsqueda visual concreta y filmable en inglés (p. ej. "astronaut floating space station").
+- Cada escena tiene además una tarjeta gráfica que resume visualmente lo que se dice (cifras con "number",
+  listas con "bullets", procesos con "steps", ideas clave con "quote", inicio de capítulo con "title").
+  Varía los tipos para mantener el ritmo visual.
 - Nada de afirmaciones falsas, médicas o financieras personalizadas.
 - El título y la miniatura deben ser intrigantes pero cumplir lo que prometen.
 - No incluyas capítulos ni timestamps en la descripción (se añaden automáticamente)."""

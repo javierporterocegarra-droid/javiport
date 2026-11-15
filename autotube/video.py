@@ -19,12 +19,28 @@ def dims(cfg: dict) -> tuple[int, int]:
     return (1080, 1920) if cfg["video"]["format"] == "short" else (1920, 1080)
 
 
-def render_scene(cfg: dict, media: Path, audio: Path, duration: float, out: Path) -> float:
+def render_scene(cfg: dict, media: Path | list[Path], audio: Path, duration: float, out: Path,
+                 card: bool = False) -> float:
+    """media: un vídeo, una imagen o una lista de imágenes que se revelan en secuencia."""
     w, h = dims(cfg)
     fps = cfg["video"]["fps"]
     total = duration + SCENE_GAP
     frames = int(total * fps) + 1
-    if media.suffix.lower() == ".mp4":
+    if isinstance(media, list) and len(media) == 1:
+        media = media[0]
+    if isinstance(media, list):  # tarjeta con elementos que aparecen uno a uno
+        lead = min(1.2, total * 0.25)  # el primer estado se ve algo menos
+        per = (total - lead) / len(media)
+        lst = out.with_suffix(".txt")
+        lines = [f"file '{p.resolve()}'\nduration {lead + per if i == 0 else per:.3f}\n" for i, p in enumerate(media)]
+        lst.write_text("".join(lines) + f"file '{media[-1].resolve()}'\n", encoding="utf-8")
+        vin = ["-f", "concat", "-safe", "0", "-i", str(lst)]
+        vf = f"scale={w}:{h},fps={fps}"
+    elif card:  # tarjeta fija: zoom suave y centrado para no recortar texto
+        vin = ["-loop", "1", "-framerate", str(fps), "-i", str(media)]
+        vf = (f"scale={w * 2}:{h * 2},zoompan=z='1+0.05*on/{frames}':d=1:x='iw/2-(iw/zoom/2)':"
+              f"y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps}")
+    elif media.suffix.lower() == ".mp4":
         vin = ["-stream_loop", "-1", "-i", str(media)]
         vf = f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},fps={fps}"
     else:  # imagen fija con efecto Ken Burns

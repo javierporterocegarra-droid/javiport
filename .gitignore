@@ -7,3 +7,4 @@ secrets/
 client_secret*.json
 token.json
 data/*.db-journal
+models/

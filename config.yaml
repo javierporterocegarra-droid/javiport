@@ -3,18 +3,19 @@
 # ==========================================================
 
 channel:
-  name: "Mi Canal"
+  name: "Tecnología Sin Humo"
   # Nicho del canal: cuanto más concreto, mejor rendimiento y más coherencia.
-  niche: "curiosidades de ciencia, tecnología y el universo explicadas de forma sencilla"
+  niche: "IA y ciberseguridad explicadas para el día a día: cómo funciona la tecnología que usas y cómo protegerte"
   language: es            # idioma de los guiones y metadatos
   region: ES              # país para tendencias de YouTube (ES, MX, AR, US...)
-  audience: "hispanohablantes de 18 a 40 años curiosos por la ciencia"
+  audience: "hispanohablantes de 18 a 55 años que usan tecnología a diario pero no son expertos"
   tone: "cercano, entusiasta, riguroso, sin clickbait engañoso"
   # Palabras clave semilla para buscar lo que funciona en tu nicho
   keywords:
-    - "curiosidades ciencia"
-    - "universo explicado"
-    - "tecnología futuro"
+    - "cómo funciona la inteligencia artificial"
+    - "estafas con inteligencia artificial"
+    - "ciberseguridad para principiantes"
+    - "privacidad en el móvil"
   # Temas que NUNCA debe tratar
   banned_topics:
     - política partidista
@@ -27,12 +28,53 @@ video:
   subtitles: true
   music_dir: assets/music # pon aquí .mp3 libres de derechos; se elige uno al azar
   music_volume: 0.08
+  # stock = vídeos de Pexels | cards = gráficos animados | auto = Pexels si hay clave, si no gráficos
+  visuals: auto
+  theme_color: "#22D3EE"
 
 tts:
-  engine: edge            # edge (gratis) | elevenlabs
-  voice: es-ES-AlvaroNeural   # otras: es-MX-JorgeNeural, es-ES-ElviraNeural, es-MX-DaliaNeural
+  engine: kokoro          # kokoro (gratis, local) | edge (gratis, online) | elevenlabs (de pago, la mejor)
+  kokoro_voice: em_alex   # em_alex / em_santa (hombre), ef_dora (mujer)
+  kokoro_speed: 1.05
+  voice: es-ES-AlvaroNeural   # para edge: es-MX-JorgeNeural, es-ES-ElviraNeural, es-MX-DaliaNeural
   rate: "+6%"
   elevenlabs_voice_id: ""
+  # Cómo debe pronunciar la voz palabras en inglés o siglas (solo afecta al audio)
+  pronunciations:
+    ChatGPT: "chat yi pi ti"
+    GPT: "yi pi ti"
+    OpenAI: "open ei ai"
+    passkeys: "páskis"
+    passkey: "páski"
+    Passkeys: "Páskis"
+    Passkey: "Páski"
+    deepfakes: "dipfeiks"
+    deepfake: "dipfeik"
+    Deepfakes: "Dipfeiks"
+    WhatsApp: "guasap"
+    Google: "gúgol"
+    iPhone: "aifon"
+    Android: "ándroid"
+    FBI: "efe be i"
+    IA: "i a"
+    Face ID: "feis ai di"
+    Arup: "Árup"
+    Bluetooth: "blutuz"
+    phishing: "fishing"
+    transformer: "transfórmer"
+    Transformer: "Transfórmer"
+    GPT-3: "yi pi ti tres"
+    Microsoft: "Maicrosoft"
+    Apple: "Ápel"
+    PayPal: "Peipal"
+    iCloud: "ai claud"
+    Hong Kong: "Jong Kong"
+    QR: "cu erre"
+    SMS: "ese eme ese"
+    Chrome: "crom"
+    Windows: "uíndous"
+    iPad: "aipad"
+    CEO: "ceo"
 
 thumbnail:
   font: /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf

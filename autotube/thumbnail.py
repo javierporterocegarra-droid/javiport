@@ -6,7 +6,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 
-from . import media
+from . import cards, media
 
 W, H = 1280, 720
 
@@ -36,7 +36,8 @@ def _fit_font(draw, lines, font_path, max_w, max_h):
     return ImageFont.truetype(font_path, size)
 
 
-def make_thumbnail(cfg: dict, text: str, query: str, workdir: Path, fallback_media: list[Path]) -> Path:
+def make_thumbnail(cfg: dict, text: str, query: str, workdir: Path, fallback_media: list[Path],
+                   icon: str = "") -> Path:
     out = workdir / "thumbnail.jpg"
     bg_path = None
     try:
@@ -48,8 +49,20 @@ def make_thumbnail(cfg: dict, text: str, query: str, workdir: Path, fallback_med
             bg_path = _frame_from_video(m, workdir / "thumb_bg.png") if m.suffix == ".mp4" else m
             if bg_path:
                 break
-    bg = _cover(Image.open(bg_path)) if bg_path else Image.new("RGB", (W, H), (20, 20, 40))
-    bg = ImageEnhance.Contrast(ImageEnhance.Color(bg).enhance(1.35)).enhance(1.15)
+    accent = cfg["thumbnail"].get("accent_color", "#FFD400")
+    if bg_path:
+        bg = _cover(Image.open(bg_path))
+        bg = ImageEnhance.Contrast(ImageEnhance.Color(bg).enhance(1.35)).enhance(1.15)
+    else:  # estilo gráfico: fondo tecnológico + emoji gigante
+        theme = cards.hex_rgb(cfg["video"].get("theme_color", "#22D3EE"))
+        bg = cards.background((W, H), theme, seed=7).copy()
+        glow = Image.new("RGB", (W, H))
+        ImageDraw.Draw(glow).ellipse([W - 560, 80, W - 20, 620], fill=theme)
+        glow = glow.filter(ImageFilter.GaussianBlur(90))
+        bg = Image.composite(glow, bg, glow.convert("L").point(lambda v: int(v * 0.55)))
+    e = cards.emoji(icon, 430) if icon else None
+    if e:
+        bg.paste(e, (W - e.width - 50, (H - e.height) // 2), e)
 
     # degradado oscuro a la izquierda para que el texto se lea
     shade = Image.new("L", (W, H))
@@ -63,7 +76,6 @@ def make_thumbnail(cfg: dict, text: str, query: str, workdir: Path, fallback_med
     lines = textwrap.wrap(" ".join(words), width=max(8, len(" ".join(words)) // 2 + 1))[:3]
     font_path = cfg["thumbnail"]["font"]
     font = _fit_font(draw, lines, font_path, int(W * 0.62), int(H * 0.78))
-    accent = cfg["thumbnail"].get("accent_color", "#FFD400")
     y = (H - len(lines) * font.size * 1.08) / 2
     for i, line in enumerate(lines):
         draw.text((50, y), line, font=font, fill=accent if i % 2 else "white",

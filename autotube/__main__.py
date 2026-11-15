@@ -3,6 +3,7 @@
   python -m autotube auth                 # conectar tu canal de YouTube (una sola vez)
   python -m autotube trends               # ver qué tema elegiría ahora
   python -m autotube create [--topic X] [--no-upload]
+  python -m autotube render output/<carpeta>  # vídeo a partir de un script.json (escrito o editado a mano)
   python -m autotube upload output/<carpeta>
   python -m autotube manage               # estadísticas + responder comentarios
   python -m autotube report               # informe de aprendizajes (alimenta la elección de temas)
@@ -27,6 +28,8 @@ def main(argv=None) -> int:
     c = sub.add_parser("create")
     c.add_argument("--topic")
     c.add_argument("--no-upload", action="store_true")
+    r = sub.add_parser("render", help="renderiza un vídeo a partir de output/<carpeta>/script.json")
+    r.add_argument("workdir")
     u = sub.add_parser("upload")
     u.add_argument("workdir")
     sub.add_parser("manage")
@@ -49,6 +52,16 @@ def main(argv=None) -> int:
         get_credentials(cfg, interactive=True)
         ch = youtube_oauth(cfg).channels().list(part="snippet", mine=True).execute()["items"][0]
         print(f"Conectado al canal: {ch['snippet']['title']}")
+        return 0
+
+    if args.cmd == "render":
+        import json
+        from . import pipeline
+        wd = Path(args.workdir)
+        sc = json.loads((wd / "script.json").read_text(encoding="utf-8"))
+        dossier = (wd / "research.md").read_text(encoding="utf-8") if (wd / "research.md").exists() else ""
+        pipeline.render_from_script(cfg, db, wd, sc, dossier)
+        print(f"Vídeo listo: {wd / 'video.mp4'}")
         return 0
 
     from .llm import LLM

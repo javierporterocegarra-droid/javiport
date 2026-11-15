@@ -1,0 +1,479 @@
+{
+  "topic": "Passkeys: el fin de las contraseñas",
+  "title": "Passkeys: por qué las contraseñas van a desaparecer (y cómo activarlas)",
+  "description": "Las contraseñas tienen los días contados. Apple, Google y Microsoft llevan años impulsando las passkeys, o «llaves de acceso»: una forma de iniciar sesión con tu huella, tu cara o el PIN de tu móvil, sin escribir ninguna contraseña. En este vídeo te explico qué son, cómo funcionan por dentro (sin fórmulas), por qué son mucho más seguras contra el phishing y las filtraciones, qué pasa si pierdes el móvil y cómo activarlas en tus cuentas paso a paso.\n\nUn cambio pequeño que te puede ahorrar un disgusto enorme. Si te ha servido, suscríbete a Tecnología Sin Humo: explicamos la inteligencia artificial y la ciberseguridad para personas normales, sin tecnicismos.",
+  "tags": [
+    "passkeys",
+    "llaves de acceso",
+    "qué son las passkeys",
+    "adiós a las contraseñas",
+    "seguridad contraseñas",
+    "phishing",
+    "ciberseguridad",
+    "cómo activar passkeys",
+    "Google passkeys",
+    "WhatsApp llave de acceso",
+    "FIDO",
+    "tecnología sin humo"
+  ],
+  "hashtags": [
+    "#Passkeys",
+    "#Ciberseguridad",
+    "#Tecnología"
+  ],
+  "thumbnail_text": "ADIÓS CONTRASEÑAS",
+  "thumbnail_query": "fingerprint smartphone unlock",
+  "thumbnail_icon": "🔑",
+  "pinned_comment": "¿Ya usas passkeys en alguna cuenta? 🔑 Cuéntame en cuál las has activado primero, y si tienes dudas, pregúntame aquí 👇",
+  "sources": [
+    "https://fidoalliance.org/passkeys/",
+    "https://www.mobileidworld.com/fido-alliance-reports-3-billion-passkeys-in-use-shows-93-authentication-success-rate/",
+    "https://fidoalliance.org/wp-content/uploads/2025/10/FIDO-Passkey-Index-October-2025.pdf"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Piensa en cuántas contraseñas tienes. ¿Veinte? ¿Cincuenta? Y ahora sé sincero: ¿cuántas de ellas son la misma, con un número distinto al final?",
+      "visual_query": "password login screen",
+      "card": {
+        "layout": "title",
+        "heading": "¿Cuántas contraseñas tienes?",
+        "items": [
+          "¿Y cuántas son la misma con un número al final?"
+        ],
+        "icon": "🤔"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "No te preocupes, no eres el único. Las contraseñas son incómodas, las olvidamos, las repetimos… y los ciberdelincuentes lo saben.",
+      "visual_query": "frustrated person computer",
+      "card": {
+        "layout": "bullets",
+        "heading": "El problema de las contraseñas",
+        "items": [
+          "Las olvidamos",
+          "Las repetimos",
+          "Los delincuentes lo saben"
+        ],
+        "icon": "😩"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Por eso las grandes tecnológicas llevan años trabajando en reemplazarlas. La solución se llama passkey, o en español, llave de acceso. Y es posible que ya la tengas disponible en tu móvil sin saberlo.",
+      "visual_query": "smartphone fingerprint unlock",
+      "card": {
+        "layout": "title",
+        "heading": "Passkeys: el fin de las contraseñas",
+        "items": [
+          "También llamadas «llaves de acceso»"
+        ],
+        "icon": "🔑"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "En este vídeo vas a ver qué son, cómo funcionan por dentro, por qué son mucho más seguras, y cómo activarlas en tus cuentas en un par de minutos.",
+      "visual_query": "tutorial step by step",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que vas a aprender",
+        "items": [
+          "Qué es una passkey",
+          "Cómo funciona por dentro",
+          "Por qué es más segura",
+          "Cómo activarla"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Empecemos por el problema. Una contraseña es un secreto que tú sabes y que el servidor de la web también guarda de alguna forma. Es decir, el secreto está en dos sitios.",
+      "visual_query": "server data center",
+      "card": {
+        "layout": "quote",
+        "heading": "Con una contraseña, el secreto está en dos sitios",
+        "items": [
+          "Tu cabeza y el servidor de la web"
+        ],
+        "icon": "🔓"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Y eso abre tres puertas a los atacantes. Primera: si la web sufre una filtración, tu contraseña puede acabar en manos de cualquiera.",
+      "visual_query": "data breach hacker",
+      "card": {
+        "layout": "bullets",
+        "heading": "Puerta 1: las filtraciones",
+        "items": [
+          "La web sufre un ataque",
+          "Se filtran millones de credenciales",
+          "Se venden o se publican"
+        ],
+        "icon": "💧"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Segunda: si usas la misma contraseña en varios sitios, con una filtración pueden entrar en todas tus cuentas. Es lo que se conoce como relleno de credenciales.",
+      "visual_query": "keys many doors",
+      "card": {
+        "layout": "quote",
+        "heading": "Una contraseña repetida abre todas tus puertas",
+        "items": [
+          "Relleno de credenciales"
+        ],
+        "icon": "🚪"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Y tercera, la más traicionera: el phishing. Te llega un correo o un SMS con un enlace a una web que parece la de tu banco, pero es falsa. Escribes tu contraseña… y se la acabas de dar al estafador.",
+      "visual_query": "phishing email warning",
+      "card": {
+        "layout": "steps",
+        "heading": "Puerta 3: el phishing",
+        "items": [
+          "Te llega un enlace falso",
+          "La web parece tu banco",
+          "Escribes la contraseña… y la roban"
+        ],
+        "icon": "🎣"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Ni siquiera una contraseña larguísima te protege de esto. Si se la das tú mismo a una web falsa, da igual lo segura que fuera.",
+      "visual_query": "lock broken",
+      "card": {
+        "layout": "quote",
+        "heading": "Una contraseña perfecta no sirve si se la das a una web falsa",
+        "items": [],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Qué es una passkey",
+      "narration": "Las passkeys resuelven estos tres problemas de golpe. Y la idea es muy elegante.",
+      "visual_query": "solution light bulb",
+      "card": {
+        "layout": "title",
+        "heading": "¿Qué es una passkey?",
+        "items": [
+          "Tres problemas resueltos de golpe"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Qué es una passkey",
+      "narration": "Cuando creas una passkey para una web, tu dispositivo genera dos llaves digitales que van unidas. Una llave privada, que se queda guardada en tu móvil o tu ordenador. Y una llave pública, que se envía a la web.",
+      "visual_query": "two keys",
+      "card": {
+        "layout": "steps",
+        "heading": "Se crean dos llaves",
+        "items": [
+          "Llave privada: se queda en tu móvil",
+          "Llave pública: se guarda en la web"
+        ],
+        "icon": "🗝️"
+      }
+    },
+    {
+      "section": "Qué es una passkey",
+      "narration": "Imagina un buzón. Cualquiera puede ver el buzón y meter cartas, eso es la llave pública. Pero solo tú tienes la llave que lo abre, eso es la llave privada.",
+      "visual_query": "mailbox street",
+      "card": {
+        "layout": "bullets",
+        "heading": "Como un buzón",
+        "items": [
+          "Llave pública: el buzón, que cualquiera ve",
+          "Llave privada: la única que lo abre",
+          "Y esa solo la tienes tú"
+        ],
+        "icon": "📬"
+      }
+    },
+    {
+      "section": "Qué es una passkey",
+      "narration": "Cuando quieres iniciar sesión, la web te manda un reto, una especie de pregunta única. Tu dispositivo la firma con la llave privada, y la web comprueba esa firma con la llave pública. Si encaja, estás dentro.",
+      "visual_query": "digital signature verification",
+      "card": {
+        "layout": "steps",
+        "heading": "Así inicias sesión",
+        "items": [
+          "La web envía un reto",
+          "Tu móvil lo firma",
+          "La web comprueba la firma"
+        ],
+        "icon": "✍️"
+      }
+    },
+    {
+      "section": "Qué es una passkey",
+      "narration": "Y para usar la llave privada, tu móvil te pide desbloquearlo: con tu huella, tu cara o tu PIN. Pero ojo, tu huella no viaja a ninguna parte. Solo sirve para desbloquear la llave dentro de tu dispositivo.",
+      "visual_query": "face unlock phone",
+      "card": {
+        "layout": "quote",
+        "heading": "Tu huella o tu cara nunca salen de tu móvil",
+        "items": [
+          "Solo desbloquean la llave"
+        ],
+        "icon": "👆"
+      }
+    },
+    {
+      "section": "Por qué es más segura",
+      "narration": "Ahora volvamos a las tres puertas, y verás por qué esto es tan potente.",
+      "visual_query": "security shield",
+      "card": {
+        "layout": "title",
+        "heading": "¿Por qué es más segura?",
+        "items": [],
+        "icon": "🛡️"
+      }
+    },
+    {
+      "section": "Por qué es más segura",
+      "narration": "Filtraciones: si atacan la web, solo pueden robar llaves públicas, que no sirven para entrar en tu cuenta. Repetición: cada passkey es única para cada web, así que no hay nada que reutilizar.",
+      "visual_query": "safe vault",
+      "card": {
+        "layout": "bullets",
+        "heading": "Filtraciones y repetición",
+        "items": [
+          "Una llave pública robada no sirve para entrar",
+          "Cada web tiene su propia passkey",
+          "No hay nada que reutilizar"
+        ],
+        "icon": "🔐"
+      }
+    },
+    {
+      "section": "Por qué es más segura",
+      "narration": "Y phishing: la passkey está ligada a la dirección exacta de la web. Si entras en una web falsa que imita a tu banco, tu móvil simplemente no ofrecerá la llave, porque la dirección no coincide. No puedes dársela al estafador ni queriendo.",
+      "visual_query": "fake website warning",
+      "card": {
+        "layout": "quote",
+        "heading": "En una web falsa, tu passkey ni siquiera aparece",
+        "items": [
+          "Está ligada a la dirección real"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "Por qué es más segura",
+      "narration": "Además, no hay nada que memorizar ni que escribir. Y eso también ayuda: según la alianza FIDO, que desarrolla este estándar, los inicios de sesión con passkey tienen éxito alrededor del noventa y tres por ciento de las veces, más del doble que otros métodos.",
+      "visual_query": "happy user phone",
+      "card": {
+        "layout": "number",
+        "heading": "de inicios de sesión con éxito con passkeys, según la alianza FIDO",
+        "items": [
+          "93 %"
+        ],
+        "icon": "✅"
+      }
+    },
+    {
+      "section": "Quién las usa",
+      "narration": "¿Y esto es algo de futuro? Para nada. En dos mil veintidós, Apple, Google y Microsoft anunciaron juntos su apoyo a este estándar, y hoy funciona en la mayoría de móviles y ordenadores modernos.",
+      "visual_query": "technology companies devices",
+      "card": {
+        "layout": "bullets",
+        "heading": "Ya funciona en",
+        "items": [
+          "iPhone, iPad y Mac",
+          "Android y Chrome",
+          "Windows"
+        ],
+        "icon": "📱"
+      }
+    },
+    {
+      "section": "Quién las usa",
+      "narration": "La alianza FIDO calcula que ya hay alrededor de tres mil millones de passkeys en uso. Y casi la mitad de las cien webs más visitadas del mundo ya las permiten.",
+      "visual_query": "world map connections",
+      "card": {
+        "layout": "number",
+        "heading": "passkeys en uso, según la alianza FIDO (2025)",
+        "items": [
+          "≈ 3.000 millones"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "Quién las usa",
+      "narration": "Entre ellas, cuentas que usas a diario: Google, Microsoft, la cuenta de Apple, WhatsApp, Amazon o PayPal, entre muchas otras.",
+      "visual_query": "apps smartphone screen",
+      "card": {
+        "layout": "bullets",
+        "heading": "Algunas cuentas que ya las permiten",
+        "items": [
+          "Google y Microsoft",
+          "Cuenta de Apple",
+          "WhatsApp",
+          "Amazon y PayPal"
+        ],
+        "icon": "🌐"
+      }
+    },
+    {
+      "section": "Cómo activarlas",
+      "narration": "Así que vamos a la práctica. Te recomiendo empezar por tu cuenta de Google o la de Apple, porque son la llave de todo lo demás.",
+      "visual_query": "hands holding phone settings",
+      "card": {
+        "layout": "title",
+        "heading": "Cómo activarlas",
+        "items": [
+          "Empieza por tu cuenta principal"
+        ],
+        "icon": "🛠️"
+      }
+    },
+    {
+      "section": "Cómo activarlas",
+      "narration": "En Google, entra en la configuración de tu cuenta, ve a la sección de Seguridad y busca la opción de llaves de acceso. Pulsa en crear una llave de acceso, confirma con tu huella o tu PIN, y listo.",
+      "visual_query": "phone settings menu",
+      "card": {
+        "layout": "steps",
+        "heading": "En tu cuenta de Google",
+        "items": [
+          "Cuenta de Google → Seguridad",
+          "Llaves de acceso",
+          "Crear y confirmar con huella o PIN"
+        ],
+        "icon": "⚙️"
+      }
+    },
+    {
+      "section": "Cómo activarlas",
+      "narration": "En WhatsApp es igual de fácil: Ajustes, Cuenta, Llaves de acceso. Y en muchas otras webs, la próxima vez que inicies sesión, te lo ofrecerán directamente. Cuando veas el aviso, acéptalo.",
+      "visual_query": "messaging app phone",
+      "card": {
+        "layout": "steps",
+        "heading": "En WhatsApp",
+        "items": [
+          "Ajustes",
+          "Cuenta",
+          "Llaves de acceso"
+        ],
+        "icon": "💬"
+      }
+    },
+    {
+      "section": "Cómo activarlas",
+      "narration": "Un consejo: para ver qué webs las admiten, simplemente busca la palabra passkey o llave de acceso en los ajustes de seguridad de cada servicio que uses.",
+      "visual_query": "searching settings",
+      "card": {
+        "layout": "quote",
+        "heading": "Busca «llave de acceso» en los ajustes de seguridad",
+        "items": [],
+        "icon": "🔍"
+      }
+    },
+    {
+      "section": "Preguntas frecuentes",
+      "narration": "Ahora, las dudas típicas. La primera: ¿y si pierdo el móvil? Tranquilo. Normalmente las passkeys se sincronizan de forma cifrada con tu cuenta de Apple, de Google o con tu gestor de contraseñas. Al configurar un móvil nuevo, vuelven a estar ahí.",
+      "visual_query": "lost phone",
+      "card": {
+        "layout": "bullets",
+        "heading": "¿Y si pierdo el móvil?",
+        "items": [
+          "Se sincronizan cifradas en la nube",
+          "En tu cuenta de Apple, Google o gestor",
+          "Vuelven al configurar el móvil nuevo"
+        ],
+        "icon": "📵"
+      }
+    },
+    {
+      "section": "Preguntas frecuentes",
+      "narration": "Eso sí, mantén siempre un método de recuperación actualizado en tus cuentas, como un correo o un número de teléfono. Y protege tu móvil con un buen PIN, porque ahora es tu llave maestra.",
+      "visual_query": "phone lock screen pin",
+      "card": {
+        "layout": "bullets",
+        "heading": "Dos precauciones",
+        "items": [
+          "Método de recuperación actualizado",
+          "Un buen PIN en tu móvil: es tu llave maestra"
+        ],
+        "icon": "📌"
+      }
+    },
+    {
+      "section": "Preguntas frecuentes",
+      "narration": "Segunda duda: ¿puedo usarlas en un ordenador que no es mío? Sí. Muchas webs te muestran un código QR: lo escaneas con tu móvil, confirmas con tu huella, y entras sin escribir nada en ese ordenador.",
+      "visual_query": "scan qr code phone",
+      "card": {
+        "layout": "steps",
+        "heading": "En un ordenador ajeno",
+        "items": [
+          "La web muestra un código QR",
+          "Lo escaneas con tu móvil",
+          "Confirmas y entras"
+        ],
+        "icon": "📷"
+      }
+    },
+    {
+      "section": "Preguntas frecuentes",
+      "narration": "Y tercera: ¿desaparecen ya las contraseñas? Todavía no. Muchas webs aún no admiten passkeys y conviven con las contraseñas. Así que, mientras tanto, usa un gestor de contraseñas y activa la verificación en dos pasos donde puedas.",
+      "visual_query": "password manager app",
+      "card": {
+        "layout": "bullets",
+        "heading": "Mientras tanto…",
+        "items": [
+          "Usa un gestor de contraseñas",
+          "Activa la verificación en dos pasos",
+          "Y passkeys donde se pueda"
+        ],
+        "icon": "🧰"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "En resumen: una passkey es una llave digital que vive en tu dispositivo, que no se puede filtrar, que no se puede repetir y que no se puede entregar a una web falsa. Y además es más cómoda.",
+      "visual_query": "secure smartphone",
+      "card": {
+        "layout": "steps",
+        "heading": "Resumen",
+        "items": [
+          "No se filtra",
+          "No se repite",
+          "No se la das a una web falsa"
+        ],
+        "icon": "🔑"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Así que te propongo un reto: hoy mismo, activa una passkey en tu cuenta principal. Te lleva dos minutos y es uno de los mayores saltos de seguridad que puedes dar.",
+      "visual_query": "challenge accepted",
+      "card": {
+        "layout": "quote",
+        "heading": "Reto: activa hoy tu primera passkey",
+        "items": [
+          "Dos minutos, mucha más seguridad"
+        ],
+        "icon": "🏁"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha servido, suscríbete a Tecnología Sin Humo, y cuéntame en los comentarios en qué cuenta la has activado primero. ¡Nos vemos en el próximo vídeo!",
+      "visual_query": "subscribe button",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a Tecnología Sin Humo",
+        "items": [
+          "IA y ciberseguridad, sin tecnicismos"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

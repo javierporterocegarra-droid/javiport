@@ -1,7 +1,8 @@
-"""Voz en off (edge-tts gratis o ElevenLabs) + tiempos de subtítulos."""
+"""Voz en off (edge-tts, Kokoro local o ElevenLabs) + tiempos de subtítulos."""
 
 import asyncio
 import json
+import re
 import subprocess
 from pathlib import Path
 
@@ -56,14 +57,61 @@ def _even_words(text: str, duration: float) -> list[dict]:
     return words
 
 
+KOKORO_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
+_kokoro = None
+
+
+def _kokoro_model(cfg: dict):
+    global _kokoro
+    if _kokoro is None:
+        from kokoro_onnx import Kokoro
+
+        mdir = Path(cfg["tts"].get("kokoro_dir", "models"))
+        if not mdir.is_absolute():
+            mdir = Path(__file__).resolve().parent.parent / mdir
+        mdir.mkdir(parents=True, exist_ok=True)
+        files = ("kokoro-v1.0.int8.onnx", "voices-v1.0.bin")
+        for name in files:
+            if not (mdir / name).exists():
+                r = requests.get(KOKORO_URL + name, timeout=600)
+                r.raise_for_status()
+                (mdir / name).write_bytes(r.content)
+        _kokoro = Kokoro(str(mdir / files[0]), str(mdir / files[1]))
+    return _kokoro
+
+
+def _kokoro_tts(cfg: dict, text: str, out: Path) -> None:
+    import soundfile as sf
+
+    tts = cfg["tts"]
+    samples, sr = _kokoro_model(cfg).create(
+        text, voice=tts.get("kokoro_voice", "em_alex"), speed=float(tts.get("kokoro_speed", 1.0)), lang="es")
+    wav = out.with_suffix(".wav")
+    sf.write(wav, samples, sr)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-b:a", "192k", str(out)], check=True)
+    wav.unlink()
+
+
+def spoken(cfg: dict, text: str) -> str:
+    """Aplica el diccionario de pronunciación (solo al audio, no a los subtítulos)."""
+    for word, say in sorted(cfg["tts"].get("pronunciations", {}).items(), key=lambda kv: -len(kv[0])):
+        text = re.sub(rf"(?<!\w){re.escape(word)}(?!\w)", say, text)
+    return text
+
+
 def synthesize(cfg: dict, text: str, out: Path) -> tuple[float, list[dict]]:
     """Genera el audio de una escena. Devuelve (duración, palabras con tiempos)."""
     tts = cfg["tts"]
     words: list[dict] = []
+    say = spoken(cfg, text)
     if tts["engine"] == "elevenlabs":
-        _elevenlabs(text, tts["elevenlabs_voice_id"], out)
+        _elevenlabs(say, tts["elevenlabs_voice_id"], out)
+    elif tts["engine"] == "kokoro":
+        _kokoro_tts(cfg, say, out)
     else:
-        words = asyncio.run(_edge(text, tts["voice"], tts.get("rate", "+0%"), out))
+        words = asyncio.run(_edge(say, tts["voice"], tts.get("rate", "+0%"), out))
+        if say != text:
+            words = []  # los tiempos de palabra no coinciden con el texto mostrado
     duration = audio_duration(out)
     if not words:
         words = _even_words(text, duration)

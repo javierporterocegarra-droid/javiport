@@ -8,8 +8,8 @@ Sistema que gestiona un canal de YouTube de principio a fin:
 | 2. Tema | Propone 5 ideas, las puntúa y elige la mejor sin repetir temas anteriores y aprendiendo de tus métricas | Claude (salida JSON estructurada) |
 | 3. Investigación | Busca en la web y crea un dossier con datos verificados y fuentes | Claude + búsqueda web |
 | 4. Guion | Guion por escenas pensado para retención, título SEO, descripción, etiquetas, hashtags, texto de miniatura y comentario | Claude |
-| 5. Voz | Narración en español con voz neuronal + tiempos palabra a palabra | edge-tts (gratis) o ElevenLabs |
-| 6. Imágenes | Vídeo de stock para cada escena (con imagen + efecto Ken Burns como respaldo) | Pexels (gratis) |
+| 5. Voz | Narración en español con voz neuronal, con diccionario de pronunciación para palabras en inglés | Kokoro (gratis, local), edge-tts (gratis) o ElevenLabs |
+| 6. Imágenes | Vídeo de stock para cada escena, o gráficos animados generados (titulares, cifras, listas que aparecen una a una, pasos) | Pexels (gratis) o generador propio |
 | 7. Vídeo | Montaje, subtítulos quemados, música de fondo, normalización de volumen a -14 LUFS, capítulos automáticos | ffmpeg |
 | 8. Miniatura | 1280×720, foto llamativa, texto grande con contorno y color de acento | Pillow |
 | 9. Subida | Título, descripción, etiquetas, miniatura, playlist, programación, declaración de contenido sintético, comentario del canal | YouTube Data API |
@@ -60,6 +60,7 @@ privacidad, programación, playlist... Mete música libre de derechos en `assets
 python -m autotube trends                     # ¿qué tema elegiría hoy?
 python -m autotube create --no-upload         # genera un vídeo completo sin subirlo (revísalo en output/)
 python -m autotube create --topic "Por qué el cielo es azul"
+python -m autotube render output/mi-video      # renderiza a partir de un script.json escrito/editado a mano
 python -m autotube upload output/20261115-1500-mi-video
 python -m autotube manage                     # estadísticas + responder comentarios
 python -m autotube report                     # informe de qué funciona (se guarda en data/feedback.md)
@@ -101,6 +102,25 @@ Alternativa local: `crontab -e` → `17 15 * * * cd /ruta/javiport && .venv/bin/
    para voces e imágenes generadas que puedan parecer reales.
 6. **Derechos**: el material de Pexels es libre para uso comercial; la música debe serlo también.
 
+## Vídeos ya preparados
+
+En `videos/` hay 3 guiones completos del canal **Tecnología Sin Humo** (nicho: IA y ciberseguridad
+para el día a día), con título, descripción, etiquetas, fuentes y miniatura:
+
+1. `01-como-funciona-chatgpt` — Cómo funciona ChatGPT por dentro (explicado sin fórmulas)
+2. `02-estafas-con-ia` — Estafas con IA: voces clonadas y videollamadas falsas (y cómo protegerte)
+3. `03-passkeys-adios-contrasenas` — Passkeys: por qué las contraseñas van a desaparecer
+
+Para regenerarlos (por ejemplo, con otra voz o tras editar el guion):
+
+```bash
+mkdir -p output/01 && cp videos/01-como-funciona-chatgpt/script.json output/01/
+python -m autotube render output/01
+python -m autotube upload output/01
+```
+
+El audio se guarda en caché: si solo cambias los gráficos o una escena, el re-render es rápido.
+
 ## Estructura
 
 ```
@@ -109,6 +129,7 @@ autotube/
   script.py      investigación web + guion y SEO
   tts.py         voz en off y tiempos de subtítulos
   media.py       vídeo/fotos de stock (Pexels) y fondos de respaldo
+  cards.py       gráficos animados (motion graphics) generados
   video.py       montaje con ffmpeg, subtítulos, música, capítulos
   thumbnail.py   miniaturas
   uploader.py    subida a YouTube

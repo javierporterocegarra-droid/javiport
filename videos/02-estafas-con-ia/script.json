@@ -1,0 +1,496 @@
+{
+  "topic": "Estafas con inteligencia artificial: voces clonadas y videollamadas falsas",
+  "title": "Estafas con IA: voces clonadas y videollamadas falsas (y cómo protegerte)",
+  "description": "Las estafas con inteligencia artificial ya no son ciencia ficción. Hoy un delincuente puede clonar la voz de un familiar con unos segundos de audio, o montar una videollamada falsa con la cara de tu jefe. En este vídeo te cuento cómo funcionan las estafas con voces clonadas y deepfakes, el caso real de la empresa que perdió unos 25 millones de dólares en una sola videollamada, qué dicen los datos del FBI, y lo más importante: las señales de alarma y los trucos sencillos para protegerte a ti y a tu familia.\n\nIncluye el truco de la «palabra clave familiar», que recomienda el propio FBI, y qué hacer si ya has caído en una estafa.\n\nEn Tecnología Sin Humo explicamos la inteligencia artificial y la ciberseguridad para personas normales, sin tecnicismos. Comparte este vídeo con tus padres y abuelos: puede ahorrarles un buen susto.",
+  "tags": [
+    "estafas con inteligencia artificial",
+    "voz clonada",
+    "deepfake",
+    "estafa videollamada",
+    "cómo evitar estafas",
+    "estafa hijo en apuros",
+    "ciberseguridad",
+    "fraude IA",
+    "palabra clave familiar",
+    "FBI estafas IA",
+    "tecnología sin humo"
+  ],
+  "hashtags": [
+    "#Ciberseguridad",
+    "#Estafas",
+    "#InteligenciaArtificial"
+  ],
+  "thumbnail_text": "NO ERA SU VOZ",
+  "thumbnail_query": "phone call scam warning",
+  "thumbnail_icon": "📞",
+  "pinned_comment": "¿Tienes ya una palabra clave con tu familia? 🔐 Si este vídeo te ha servido, compártelo con alguien que pueda caer en estas estafas. Y cuéntame: ¿te ha llegado alguna vez un mensaje sospechoso? 👇",
+  "sources": [
+    "https://www.secureworld.io/industry-news/ai-enabled-fraud-topped-893m-fbi",
+    "https://nationalcioreview.com/articles-insights/extra-bytes/fbi-cybercrime-report-reveals-20-8-billion-lost-in-2025/",
+    "https://abc17news.com/money/cnn-business-consumer/2024/05/16/british-engineering-giant-arup-revealed-as-25-million-deepfake-scam-victim/",
+    "https://www.incibe.es/"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Suena el teléfono. Es tu hija. Llorando. Dice que ha tenido un accidente y que necesita dinero ahora mismo. Es su voz. Su forma de hablar. Todo encaja.",
+      "visual_query": "worried woman phone call",
+      "card": {
+        "layout": "title",
+        "heading": "«Mamá, he tenido un accidente…»",
+        "items": [],
+        "icon": "📞"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Pero tu hija está tranquilamente en clase. Esa voz la ha creado una inteligencia artificial. Y este tipo de estafa ya no es ciencia ficción.",
+      "visual_query": "artificial intelligence voice waveform",
+      "card": {
+        "layout": "quote",
+        "heading": "No era su voz. Era una inteligencia artificial.",
+        "items": [],
+        "icon": "🎭"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "En este vídeo te explico cómo funcionan las estafas con voces clonadas y videollamadas falsas, un caso real que costó unos veinticinco millones de dólares, y los trucos más sencillos para protegerte a ti y a tu familia.",
+      "visual_query": "family protection security",
+      "card": {
+        "layout": "bullets",
+        "heading": "Hoy vas a aprender",
+        "items": [
+          "Cómo se clona una voz",
+          "El caso de la videollamada falsa",
+          "Las señales de alarma",
+          "Cómo protegerte"
+        ],
+        "icon": "🛡️"
+      }
+    },
+    {
+      "section": "Los datos",
+      "narration": "Primero, el tamaño del problema. En su informe anual de ciberdelitos de dos mil veinticinco, el FBI incluyó por primera vez un apartado dedicado a fraudes con inteligencia artificial.",
+      "visual_query": "report documents investigation",
+      "card": {
+        "layout": "title",
+        "heading": "El FBI ya cuenta las estafas con IA",
+        "items": [
+          "Informe anual de ciberdelitos 2025"
+        ],
+        "icon": "🕵️"
+      }
+    },
+    {
+      "section": "Los datos",
+      "narration": "Registró más de veintidós mil denuncias relacionadas con inteligencia artificial, con pérdidas de unos ochocientos noventa millones de dólares. Solo en Estados Unidos, y solo contando a quienes denunciaron.",
+      "visual_query": "money loss graph",
+      "card": {
+        "layout": "number",
+        "heading": "en pérdidas por fraudes con IA (EE. UU., 2025)",
+        "items": [
+          "≈ 893 millones $"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "Los datos",
+      "narration": "Y es solo una parte. Ese mismo año, las pérdidas totales por ciberdelitos denunciadas al FBI superaron los veinte mil millones de dólares.",
+      "visual_query": "cyber crime hacker",
+      "card": {
+        "layout": "number",
+        "heading": "en pérdidas totales por ciberdelitos denunciadas al FBI en 2025",
+        "items": [
+          "+20.000 millones $"
+        ],
+        "icon": "📊"
+      }
+    },
+    {
+      "section": "Los datos",
+      "narration": "Además, muchos expertos creen que estas cifras se quedan cortas. A menudo la víctima ni siquiera sabe que detrás había una inteligencia artificial, y muchas personas no denuncian por vergüenza.",
+      "visual_query": "iceberg underwater",
+      "card": {
+        "layout": "quote",
+        "heading": "Las cifras son solo la punta del iceberg",
+        "items": [
+          "Muchas víctimas no denuncian"
+        ],
+        "icon": "🧊"
+      }
+    },
+    {
+      "section": "Cómo se clona una voz",
+      "narration": "¿Y cómo se clona una voz? Por desgracia, es más fácil de lo que parece. Algunos sistemas de investigación han demostrado que pueden imitar una voz con apenas unos segundos de audio.",
+      "visual_query": "sound waves microphone",
+      "card": {
+        "layout": "title",
+        "heading": "¿Cómo se clona una voz?",
+        "items": [
+          "Bastan unos segundos de audio"
+        ],
+        "icon": "🎙️"
+      }
+    },
+    {
+      "section": "Cómo se clona una voz",
+      "narration": "¿Y de dónde sacan ese audio? De un vídeo en redes sociales, de un audio de WhatsApp reenviado, o incluso de una llamada en la que solo dices «¿sí?, ¿quién es?».",
+      "visual_query": "social media phone scrolling",
+      "card": {
+        "layout": "bullets",
+        "heading": "De dónde sacan tu voz",
+        "items": [
+          "Vídeos en redes sociales",
+          "Audios reenviados",
+          "Llamadas cortas de «¿sí, quién es?»"
+        ],
+        "icon": "📱"
+      }
+    },
+    {
+      "section": "Cómo se clona una voz",
+      "narration": "Con esa muestra, la inteligencia artificial aprende el timbre, el acento y la forma de hablar. Después, el estafador escribe lo que quiere decir, y el programa lo pronuncia con la voz de tu familiar.",
+      "visual_query": "computer audio editing",
+      "card": {
+        "layout": "steps",
+        "heading": "Así funciona la clonación",
+        "items": [
+          "Consiguen unos segundos de audio",
+          "La IA aprende timbre y acento",
+          "Escriben el texto y suena «real»"
+        ],
+        "icon": "🧬"
+      }
+    },
+    {
+      "section": "Cómo se clona una voz",
+      "narration": "Y con la imagen pasa lo mismo. Los llamados deepfakes permiten poner la cara de una persona sobre la de otra en un vídeo, incluso en directo, durante una videollamada.",
+      "visual_query": "face recognition digital",
+      "card": {
+        "layout": "quote",
+        "heading": "Deepfake: la cara de otra persona, incluso en directo",
+        "items": [],
+        "icon": "🎭"
+      }
+    },
+    {
+      "section": "El caso Arup",
+      "narration": "Y esto nos lleva a uno de los casos más famosos. A principios de dos mil veinticuatro, un empleado de la oficina de Hong Kong de Arup, una gran empresa británica de ingeniería, recibió un mensaje que parecía de su director financiero.",
+      "visual_query": "office building city skyline",
+      "card": {
+        "layout": "title",
+        "heading": "El caso Arup",
+        "items": [
+          "Hong Kong, principios de 2024"
+        ],
+        "icon": "🏢"
+      }
+    },
+    {
+      "section": "El caso Arup",
+      "narration": "Al principio sospechó. Pero entonces le invitaron a una videollamada. En la pantalla estaban el director financiero y varios compañeros a los que conocía. Les veía la cara y les oía la voz.",
+      "visual_query": "video conference call",
+      "card": {
+        "layout": "bullets",
+        "heading": "La videollamada",
+        "items": [
+          "El director financiero",
+          "Varios compañeros conocidos",
+          "Caras y voces familiares"
+        ],
+        "icon": "💻"
+      }
+    },
+    {
+      "section": "El caso Arup",
+      "narration": "Todos eran falsos. Según la policía de Hong Kong, eran recreaciones hechas con inteligencia artificial a partir de vídeos y audios públicos.",
+      "visual_query": "mask disguise",
+      "card": {
+        "layout": "quote",
+        "heading": "Todos los de la llamada eran falsos",
+        "items": [
+          "Según la policía de Hong Kong"
+        ],
+        "icon": "🤖"
+      }
+    },
+    {
+      "section": "El caso Arup",
+      "narration": "Convencido, el empleado hizo quince transferencias a cinco cuentas bancarias. En total, doscientos millones de dólares de Hong Kong. Unos veinticinco millones de dólares estadounidenses.",
+      "visual_query": "bank transfer money",
+      "card": {
+        "layout": "number",
+        "heading": "en 15 transferencias tras una videollamada falsa",
+        "items": [
+          "≈ 25 millones $"
+        ],
+        "icon": "🏦"
+      }
+    },
+    {
+      "section": "El caso Arup",
+      "narration": "La lección es clara: hoy, ver y oír a alguien en una pantalla ya no es prueba suficiente de que sea quien dice ser.",
+      "visual_query": "warning sign",
+      "card": {
+        "layout": "quote",
+        "heading": "Ver y oír ya no es prueba suficiente",
+        "items": [],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Las estafas más comunes",
+      "narration": "Pero tranquilo, no hace falta ser una multinacional para ser objetivo. Estas son las estafas con inteligencia artificial más habituales para cualquier persona.",
+      "visual_query": "people using smartphones",
+      "card": {
+        "layout": "title",
+        "heading": "Las estafas más comunes",
+        "items": [],
+        "icon": "🎣"
+      }
+    },
+    {
+      "section": "Las estafas más comunes",
+      "narration": "La primera: el familiar en apuros. Una llamada o un audio de un hijo, un nieto o tu pareja, con su voz, pidiendo dinero urgente por un accidente, una detención o un móvil roto.",
+      "visual_query": "elderly woman phone worried",
+      "card": {
+        "layout": "bullets",
+        "heading": "1. El familiar en apuros",
+        "items": [
+          "Voz de un hijo, nieto o pareja",
+          "Accidente, detención o móvil roto",
+          "Piden dinero urgente"
+        ],
+        "icon": "🆘"
+      }
+    },
+    {
+      "section": "Las estafas más comunes",
+      "narration": "La segunda: el falso jefe. Alguien con la voz o la cara de un directivo pide una transferencia urgente y confidencial. Es la versión moderna del clásico fraude del CEO.",
+      "visual_query": "business man office phone",
+      "card": {
+        "layout": "bullets",
+        "heading": "2. El falso jefe",
+        "items": [
+          "Voz o cara de un directivo",
+          "Transferencia urgente",
+          "«Que no se entere nadie»"
+        ],
+        "icon": "👔"
+      }
+    },
+    {
+      "section": "Las estafas más comunes",
+      "narration": "Y la tercera: los anuncios falsos de inversión. Vídeos en redes de famosos o presentadores recomendando una inversión milagrosa. Son deepfakes, y el famoso no tiene nada que ver.",
+      "visual_query": "cryptocurrency investment ad",
+      "card": {
+        "layout": "bullets",
+        "heading": "3. Famosos falsos que invierten",
+        "items": [
+          "Vídeos de famosos en redes",
+          "Inversiones «milagrosas»",
+          "Suelen pedir criptomonedas"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Las señales de alarma",
+      "narration": "Lo bueno es que casi todas estas estafas comparten las mismas señales de alarma. Si las conoces, las vas a reconocer al momento.",
+      "visual_query": "red alarm light",
+      "card": {
+        "layout": "title",
+        "heading": "Las señales de alarma",
+        "items": [
+          "Casi todas las estafas las comparten"
+        ],
+        "icon": "🚨"
+      }
+    },
+    {
+      "section": "Las señales de alarma",
+      "narration": "Urgencia: todo tiene que hacerse ya, sin tiempo para pensar. Secreto: te piden que no se lo cuentes a nadie. Y un método de pago raro: criptomonedas, tarjetas regalo o una cuenta que no conoces.",
+      "visual_query": "clock urgency stress",
+      "card": {
+        "layout": "steps",
+        "heading": "Las 3 señales clave",
+        "items": [
+          "Urgencia: «tiene que ser ya»",
+          "Secreto: «no se lo digas a nadie»",
+          "Pago raro: cripto o tarjetas regalo"
+        ],
+        "icon": "🚩"
+      }
+    },
+    {
+      "section": "Las señales de alarma",
+      "narration": "Y en las llamadas, fíjate en los detalles. Pausas extrañas, una entonación un poco plana, o que evite responder preguntas personales. Aunque cuidado: la tecnología mejora cada mes, así que no confíes solo en tu oído.",
+      "visual_query": "listening carefully headphones",
+      "card": {
+        "layout": "bullets",
+        "heading": "Pistas en la llamada",
+        "items": [
+          "Pausas o entonación extrañas",
+          "Evita preguntas personales",
+          "Ojo: cada vez es más difícil notarlo"
+        ],
+        "icon": "👂"
+      }
+    },
+    {
+      "section": "Cómo protegerte",
+      "narration": "Ahora sí, cómo protegerte. Y el primer truco es tan sencillo como eficaz: la palabra clave familiar.",
+      "visual_query": "family together home",
+      "card": {
+        "layout": "title",
+        "heading": "Cómo protegerte",
+        "items": [
+          "Empieza por la palabra clave familiar"
+        ],
+        "icon": "🔐"
+      }
+    },
+    {
+      "section": "Cómo protegerte",
+      "narration": "Acuerda con tu familia una palabra o frase secreta, que no esté en redes ni sea fácil de adivinar. Si alguien te llama pidiendo dinero, pídele la palabra. El propio FBI recomienda este truco.",
+      "visual_query": "secret password lock",
+      "card": {
+        "layout": "bullets",
+        "heading": "La palabra clave familiar",
+        "items": [
+          "Una palabra o frase secreta",
+          "Que no aparezca en redes",
+          "Pídela ante cualquier petición urgente"
+        ],
+        "icon": "🗝️"
+      }
+    },
+    {
+      "section": "Cómo protegerte",
+      "narration": "Segundo truco: cuelga y llama tú. Si te llama tu hijo desde un número raro, o tu banco, o tu jefe, cuelga y llama tú al número que ya tienes guardado. Es la forma más fiable de comprobarlo.",
+      "visual_query": "hang up phone",
+      "card": {
+        "layout": "quote",
+        "heading": "Cuelga y llama tú al número de siempre",
+        "items": [
+          "La comprobación más fiable"
+        ],
+        "icon": "📲"
+      }
+    },
+    {
+      "section": "Cómo protegerte",
+      "narration": "Tercero: en el trabajo, ninguna transferencia importante debería aprobarse solo por una llamada o una videollamada. Siempre una segunda confirmación por otro canal.",
+      "visual_query": "business meeting approval",
+      "card": {
+        "layout": "bullets",
+        "heading": "En el trabajo",
+        "items": [
+          "Nunca pagar solo por una llamada",
+          "Confirmar por un segundo canal",
+          "Dos personas para pagos grandes"
+        ],
+        "icon": "🧾"
+      }
+    },
+    {
+      "section": "Cómo protegerte",
+      "narration": "Y cuarto: cuida lo que compartes. Pon tus redes en privado si no necesitas que sean públicas, y piensa dos veces antes de publicar vídeos donde se oiga tu voz con claridad.",
+      "visual_query": "privacy settings phone",
+      "card": {
+        "layout": "steps",
+        "heading": "Cuida tu huella digital",
+        "items": [
+          "Redes en privado",
+          "Menos vídeos con tu voz",
+          "Activa la verificación en dos pasos"
+        ],
+        "icon": "🔒"
+      }
+    },
+    {
+      "section": "Si ya te ha pasado",
+      "narration": "¿Y si ya has caído? Que no te dé vergüenza: le puede pasar a cualquiera. Actúa rápido.",
+      "visual_query": "help support hands",
+      "card": {
+        "layout": "title",
+        "heading": "¿Y si ya has caído?",
+        "items": [
+          "Le puede pasar a cualquiera. Actúa rápido."
+        ],
+        "icon": "🆘"
+      }
+    },
+    {
+      "section": "Si ya te ha pasado",
+      "narration": "Llama a tu banco cuanto antes para intentar bloquear o recuperar el dinero. Guarda todas las pruebas: mensajes, números, capturas. Y denuncia a la policía.",
+      "visual_query": "bank call emergency",
+      "card": {
+        "layout": "steps",
+        "heading": "Qué hacer",
+        "items": [
+          "Llama a tu banco ya",
+          "Guarda las pruebas",
+          "Denuncia a la policía"
+        ],
+        "icon": "📋"
+      }
+    },
+    {
+      "section": "Si ya te ha pasado",
+      "narration": "Si estás en España, puedes llamar gratis al cero diecisiete, la línea de ayuda en ciberseguridad de INCIBE. En otros países, consulta con la policía o con tu banco cuál es el canal oficial.",
+      "visual_query": "help line support call",
+      "card": {
+        "layout": "number",
+        "heading": "Línea gratuita de ayuda en ciberseguridad de INCIBE (España)",
+        "items": [
+          "017"
+        ],
+        "icon": "☎️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Resumiendo: la inteligencia artificial puede copiar una voz y una cara, pero no puede copiar vuestra palabra clave, ni el número de teléfono que tienes guardado. Desconfía de la urgencia, comprueba siempre, y no pagues con prisas.",
+      "visual_query": "shield protection",
+      "card": {
+        "layout": "steps",
+        "heading": "Resumen",
+        "items": [
+          "Palabra clave",
+          "Cuelga y llama tú",
+          "Desconfía de la urgencia"
+        ],
+        "icon": "🛡️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Y ahora, un favor: comparte este vídeo con tus padres, tus abuelos o esa persona que sabes que podría caer. Puede ahorrarles un susto enorme.",
+      "visual_query": "sharing phone family",
+      "card": {
+        "layout": "quote",
+        "heading": "Compártelo con quien más lo necesite",
+        "items": [
+          "Padres, abuelos, amigos"
+        ],
+        "icon": "❤️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Suscríbete a Tecnología Sin Humo para más vídeos como este, y cuéntame en los comentarios si alguna vez te ha llegado una llamada o un mensaje sospechoso. ¡Nos vemos en el próximo!",
+      "visual_query": "subscribe notification bell",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a Tecnología Sin Humo",
+        "items": [
+          "IA y ciberseguridad, sin tecnicismos"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}
