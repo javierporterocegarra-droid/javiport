@@ -57,6 +57,31 @@ def create_video(cfg: dict, llm, db, topic_override: str | None = None) -> Path:
         raise
 
 
+def _align_words(words: list[dict], text: str) -> list[dict]:
+    """Pone a los tiempos de palabra el texto original (con puntuación y mayúsculas del guion)."""
+    import unicodedata as _u
+
+    def norm(w: str) -> str:
+        w = _u.normalize("NFKD", w.lower())
+        return "".join(c for c in w if c.isalnum())
+
+    tokens = text.split()
+    if len(tokens) == len(words):
+        return [{**w, "text": t} for w, t in zip(words, tokens)]
+    out, j = [], 0
+    for w in words:
+        nw = norm(w["text"])
+        k = j
+        while k < len(tokens) and k < j + 4 and norm(tokens[k]) != nw and nw not in norm(tokens[k]):
+            k += 1
+        if k < len(tokens) and k < j + 4:
+            out.append({**w, "text": tokens[k]})
+            j = k + 1
+        else:
+            out.append(w)
+    return out
+
+
 def _cached_tts(cfg: dict, text: str, audio: Path):
     """Reutiliza el audio si la narración y la voz no han cambiado (re-render rápido)."""
     t = cfg["tts"]
@@ -148,7 +173,7 @@ def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = ""
                 kind = "stock"
                 assets = media.fetch_scene_media(cfg, scene["visual_query"], scene["section"],
                                                  workdir / f"media_{i:03d}", dur, used)
-            plan.append((scene, audio, dur, words, kind, assets))
+            plan.append((scene, audio, dur, _align_words(words, scene["narration"]), kind, assets))
         total_video = sum(p[2] + video.SCENE_GAP for p in plan)
 
         # Pasada 2: render de cada escena
