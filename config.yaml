@@ -39,7 +39,7 @@ tts:
   engine: edge            # edge (voces neuronales de Microsoft, gratis) | kokoro (local, más robótica) | elevenlabs (de pago)
   kokoro_voice: em_alex   # em_alex / em_santa (hombre), ef_dora (mujer)
   kokoro_speed: 1.05
-  voice: es-ES-AlvaroNeural   # edge: es-MX-JorgeNeural, es-ES-XimenaNeural, es-US-AlonsoNeural...
+  voice: es-ES-XimenaNeural   # edge: es-ES-AlvaroNeural, es-MX-JorgeNeural, es-ES-XimenaNeural, es-US-AlonsoNeural...
   rate: "+4%"
   elevenlabs_voice_id: ""
   # Pronunciación para la voz edge (solo afecta al audio): basta con algunas siglas
