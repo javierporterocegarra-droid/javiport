@@ -1,0 +1,317 @@
+{
+  "topic": "Los hermanos Wright y el primer vuelo a motor",
+  "title": "12 segundos que cambiaron el mundo: el primer vuelo de los hermanos Wright",
+  "description": "El 17 de diciembre de 1903, en una playa ventosa de Carolina del Norte, un avión fabricado por dos hermanos que tenían una tienda de bicicletas despegó, voló 12 segundos y recorrió unos 37 metros. Era el primer vuelo controlado de un avión a motor de la historia.\n\nEn este vídeo te cuento cómo Wilbur y Orville Wright lo consiguieron sin estudios universitarios ni grandes fondos: sus experimentos con planeadores, el túnel de viento casero, el secreto del control y aquel día histórico en Kitty Hawk.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "hermanos Wright",
+    "primer vuelo",
+    "historia de la aviación",
+    "Kitty Hawk",
+    "Wright Flyer",
+    "Orville Wright",
+    "Wilbur Wright",
+    "1903",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#HermanosWright",
+    "#Aviación",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "12 SEGUNDOS",
+  "thumbnail_query": "Los hermanos Wright y el primer vuelo a motor",
+  "thumbnail_icon": "✈️",
+  "thumbnail_photo": "First flight 1903 Wright",
+  "pinned_comment": "Del primer vuelo (1903) a pisar la Luna (1969) pasaron solo 66 años 🚀 ¿Qué invento te parece más increíble? 👇",
+  "sources": [
+    "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+    "https://www.nps.gov/wrbr/learn/historyculture/thefirstflight.htm",
+    "https://www.britannica.com/biography/Wright-brothers"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Diecisiete de diciembre de mil novecientos tres. Una playa helada y ventosa de Carolina del Norte. Cinco testigos. Y una máquina de madera y tela que, según casi todo el mundo, no debería poder volar.",
+      "visual_query": "Kitty Hawk, Carolina del Norte",
+      "card": {
+        "layout": "number",
+        "heading": "Kitty Hawk, Carolina del Norte",
+        "items": [
+          "17 dic. 1903"
+        ],
+        "icon": "🌬️"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Doce segundos después, la historia de la humanidad había cambiado para siempre. Hoy te cuento cómo dos hermanos que arreglaban bicicletas consiguieron lo que ingenieros y científicos de todo el mundo no habían logrado.",
+      "visual_query": "Los hermanos Wright",
+      "card": {
+        "layout": "title",
+        "heading": "Los hermanos Wright",
+        "items": [
+          "12 segundos que cambiaron el mundo"
+        ],
+        "icon": "✈️"
+      },
+      "photo": "Wright brothers portrait",
+      "photo_caption": "Wilbur y Orville Wright"
+    },
+    {
+      "section": "Los hermanos",
+      "narration": "Wilbur y Orville Wright vivían en Dayton, Ohio. No tenían títulos universitarios. Tenían una tienda de bicicletas, mucha curiosidad y una enorme capacidad para trabajar con las manos.",
+      "visual_query": "Wilbur y Orville",
+      "card": {
+        "layout": "bullets",
+        "heading": "Wilbur y Orville",
+        "items": [
+          "Dayton, Ohio",
+          "Sin estudios universitarios",
+          "Una tienda de bicicletas"
+        ],
+        "icon": "🚲"
+      }
+    },
+    {
+      "section": "Los hermanos",
+      "narration": "De niños, su padre les regaló un helicóptero de juguete hecho de corcho, bambú y papel, que se impulsaba con una goma elástica. Según contaron después, ahí empezó su fascinación por volar.",
+      "visual_query": "Un juguete volador encendió la chispa",
+      "card": {
+        "layout": "quote",
+        "heading": "Un juguete volador encendió la chispa",
+        "items": [],
+        "icon": "🧸"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "A finales del siglo diecinueve, muchos inventores intentaban volar. Pero casi todos se concentraban en lo mismo: alas más grandes y motores más potentes.",
+      "visual_query": "Todos buscaban más potencia",
+      "card": {
+        "layout": "quote",
+        "heading": "Todos buscaban más potencia",
+        "items": [],
+        "icon": "🔧"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Los Wright se dieron cuenta de que el verdadero problema era otro: el control. Un avión no solo tenía que levantarse del suelo. Tenía que poder girar, equilibrarse y no caer en cuanto soplara una ráfaga de viento.",
+      "visual_query": "El verdadero reto",
+      "card": {
+        "layout": "steps",
+        "heading": "El verdadero reto",
+        "items": [
+          "Subir",
+          "Equilibrarse",
+          "Girar con control"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Observando a los pájaros, Wilbur se fijó en que inclinan las puntas de las alas para girar. Y se le ocurrió una idea brillante: retorcer las alas del avión con cables. Lo llamaron alabeo de las alas.",
+      "visual_query": "Retorcer las alas, como los pájaros",
+      "card": {
+        "layout": "quote",
+        "heading": "Retorcer las alas, como los pájaros",
+        "items": [
+          "El «alabeo»"
+        ],
+        "icon": "🦅"
+      }
+    },
+    {
+      "section": "Experimentos",
+      "narration": "Entre mil novecientos y mil novecientos dos, construyeron varios planeadores y los probaron en Kitty Hawk, un lugar con vientos fuertes y constantes y dunas de arena para aterrizar sin romperse nada.",
+      "visual_query": "¿Por qué Kitty Hawk?",
+      "card": {
+        "layout": "bullets",
+        "heading": "¿Por qué Kitty Hawk?",
+        "items": [
+          "Viento fuerte y constante",
+          "Dunas de arena blanda",
+          "Lejos de curiosos"
+        ],
+        "icon": "🏖️"
+      },
+      "photo": "Wright glider 1902",
+      "photo_caption": "Planeador de los Wright, 1902"
+    },
+    {
+      "section": "Experimentos",
+      "narration": "Pero los resultados eran peores de lo esperado. Descubrieron que los datos científicos de la época sobre las alas estaban equivocados. Así que hicieron algo muy de ellos: construyeron su propio túnel de viento.",
+      "visual_query": "Los datos estaban mal. Así que hicieron los suyos.",
+      "card": {
+        "layout": "quote",
+        "heading": "Los datos estaban mal. Así que hicieron los suyos.",
+        "items": [],
+        "icon": "🌪️"
+      }
+    },
+    {
+      "section": "Experimentos",
+      "narration": "Con una caja y un ventilador, probaron unas doscientas formas de ala distintas. Con esos datos diseñaron un planeador que, en mil novecientos dos, voló cientos de veces con un control nunca visto.",
+      "visual_query": "formas de ala probadas en su túnel de viento casero",
+      "card": {
+        "layout": "number",
+        "heading": "formas de ala probadas en su túnel de viento casero",
+        "items": [
+          "≈ 200"
+        ],
+        "icon": "📊"
+      }
+    },
+    {
+      "section": "El motor",
+      "narration": "Solo faltaba el motor. Ningún fabricante tenía uno lo bastante ligero y potente, así que su mecánico, Charlie Taylor, lo construyó en el taller en unas seis semanas. Daba unos doce caballos de potencia.",
+      "visual_query": "Un motor hecho a mano",
+      "card": {
+        "layout": "bullets",
+        "heading": "Un motor hecho a mano",
+        "items": [
+          "Construido por Charlie Taylor",
+          "En unas seis semanas",
+          "Unos 12 caballos de potencia"
+        ],
+        "icon": "🔩"
+      }
+    },
+    {
+      "section": "El motor",
+      "narration": "Las hélices también las diseñaron ellos mismos. Entendieron que una hélice es, en realidad, un ala que gira.",
+      "visual_query": "Una hélice es un ala que gira",
+      "card": {
+        "layout": "quote",
+        "heading": "Una hélice es un ala que gira",
+        "items": [],
+        "icon": "🌀"
+      }
+    },
+    {
+      "section": "El gran día",
+      "narration": "El catorce de diciembre lanzaron una moneda para decidir quién pilotaba. Ganó Wilbur, pero el avión se levantó demasiado, perdió velocidad y dañó una pieza al caer. Tocaba reparar.",
+      "visual_query": "Primer intento: 14 de diciembre",
+      "card": {
+        "layout": "steps",
+        "heading": "Primer intento: 14 de diciembre",
+        "items": [
+          "Moneda al aire: gana Wilbur",
+          "Sube demasiado",
+          "Pequeño accidente"
+        ],
+        "icon": "🪙"
+      }
+    },
+    {
+      "section": "El gran día",
+      "narration": "Tres días después, era el turno de Orville. A las diez y media de la mañana, contra un viento helado, el Flyer avanzó por su raíl de madera… y se levantó.",
+      "visual_query": "17 de diciembre, 10:35",
+      "card": {
+        "layout": "title",
+        "heading": "17 de diciembre, 10:35",
+        "items": [
+          "Orville a los mandos"
+        ],
+        "icon": "🛫"
+      },
+      "photo": "First flight 1903 Wright",
+      "photo_caption": "El primer vuelo, 17 de diciembre de 1903"
+    },
+    {
+      "section": "El gran día",
+      "narration": "Voló doce segundos y recorrió unos treinta y siete metros. Menos que la envergadura de un avión de pasajeros moderno. Pero era el primer vuelo controlado y sostenido de un avión a motor.",
+      "visual_query": "duró el primer vuelo, recorriendo unos 37 metros",
+      "card": {
+        "layout": "number",
+        "heading": "duró el primer vuelo, recorriendo unos 37 metros",
+        "items": [
+          "12 segundos"
+        ],
+        "icon": "⏱️"
+      }
+    },
+    {
+      "section": "El gran día",
+      "narration": "Ese día hicieron cuatro vuelos. El último, con Wilbur a los mandos, duró cincuenta y nueve segundos y recorrió unos doscientos sesenta metros.",
+      "visual_query": "17 de diciembre: 4 vuelos",
+      "card": {
+        "layout": "bullets",
+        "heading": "17 de diciembre: 4 vuelos",
+        "items": [
+          "1.º: 12 s y unos 37 m",
+          "4.º: 59 s y unos 260 m"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Después",
+      "narration": "Curiosamente, casi nadie les creyó al principio. Hubo poca prensa y mucho escepticismo. No fue hasta mil novecientos ocho, en exhibiciones públicas en Francia y Estados Unidos, cuando el mundo se rindió ante ellos.",
+      "visual_query": "Al principio, casi nadie les creyó",
+      "card": {
+        "layout": "quote",
+        "heading": "Al principio, casi nadie les creyó",
+        "items": [
+          "Hasta 1908"
+        ],
+        "icon": "📰"
+      },
+      "photo": "Wilbur Wright Le Mans 1908",
+      "photo_caption": "Exhibición de Wilbur en Francia, 1908"
+    },
+    {
+      "section": "Legado",
+      "narration": "Lo increíble es la velocidad del progreso. Solo sesenta y seis años después de aquellos doce segundos, el ser humano pisaba la Luna.",
+      "visual_query": "66 años de progreso",
+      "card": {
+        "layout": "steps",
+        "heading": "66 años de progreso",
+        "items": [
+          "1903: primer vuelo",
+          "1969: el ser humano en la Luna"
+        ],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "Legado",
+      "narration": "Y hay un detalle precioso: en mil novecientos sesenta y nueve, Neil Armstrong llevó a la Luna un trocito de tela del ala del avión original de los Wright.",
+      "visual_query": "Un trozo del avión de 1903 viajó a la Luna",
+      "card": {
+        "layout": "quote",
+        "heading": "Un trozo del avión de 1903 viajó a la Luna",
+        "items": [
+          "Con Neil Armstrong, en 1969"
+        ],
+        "icon": "🌕"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "La historia de los hermanos Wright nos enseña que no siempre gana quien tiene más recursos, sino quien entiende mejor el problema. Ellos no buscaron más potencia: buscaron control.",
+      "visual_query": "No ganó el más rico: ganó quien entendió el problema",
+      "card": {
+        "layout": "quote",
+        "heading": "No ganó el más rico: ganó quien entendió el problema",
+        "items": [],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

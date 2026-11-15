@@ -1,0 +1,272 @@
+{
+  "topic": "El transistor, el invento más importante del siglo XX",
+  "title": "El invento más fabricado de la historia (y casi nadie sabe cuál es)",
+  "description": "Está en tu móvil, en tu ordenador, en tu coche y en tu lavadora. Se fabrica en cantidades tan enormes que se considera el objeto más fabricado de la historia de la humanidad. Es el transistor, y fue inventado en diciembre de 1947 en los Laboratorios Bell.\n\nEn este vídeo te cuento la historia del transistor: el problema de las válvulas de vacío, los tres científicos que lo inventaron y ganaron el Nobel, la radio de bolsillo que lo hizo popular, el circuito integrado, la ley de Moore y cómo llegamos a chips con decenas de miles de millones de transistores.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "transistor",
+    "invención del transistor",
+    "Bell Labs",
+    "Laboratorios Bell",
+    "Shockley",
+    "Bardeen",
+    "Brattain",
+    "chips",
+    "ley de Moore",
+    "historia de la electrónica",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#Transistor",
+    "#Chips",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "EL INVENTO MÁS FABRICADO",
+  "thumbnail_query": "El transistor, el invento más importante del siglo XX",
+  "thumbnail_icon": "🔬",
+  "thumbnail_photo": "Replica of first transistor",
+  "pinned_comment": "¿Te imaginabas que el objeto más fabricado de la historia es algo que ni siquiera se ve? 🔬 👇",
+  "sources": [
+    "https://www.nobelprize.org/prizes/physics/1956/summary/",
+    "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+    "https://www.britannica.com/technology/transistor"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Te propongo una pregunta: ¿cuál es el objeto que más veces ha fabricado la humanidad en toda su historia? No es el ladrillo, ni el tornillo, ni el clavo.",
+      "visual_query": "¿Cuál es el objeto más fabricado de la historia?",
+      "card": {
+        "layout": "quote",
+        "heading": "¿Cuál es el objeto más fabricado de la historia?",
+        "items": [],
+        "icon": "❓"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Es algo que no puedes ver a simple vista y que llevas ahora mismo en el bolsillo. Miles de millones de ellos. Se llama transistor, y sin él no existiría casi nada de la tecnología actual.",
+      "visual_query": "El transistor",
+      "card": {
+        "layout": "title",
+        "heading": "El transistor",
+        "items": [
+          "El invento más fabricado de la historia"
+        ],
+        "icon": "🔬"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Para entender su importancia, hay que volver a los años cuarenta. Los aparatos electrónicos, como las radios o los primeros ordenadores, funcionaban con válvulas de vacío: tubos de cristal parecidos a bombillas.",
+      "visual_query": "Las válvulas de vacío",
+      "card": {
+        "layout": "bullets",
+        "heading": "Las válvulas de vacío",
+        "items": [
+          "Tubos de cristal",
+          "Grandes y frágiles",
+          "Se calentaban y se fundían"
+        ],
+        "icon": "💡"
+      },
+      "photo": "Vacuum tubes",
+      "photo_caption": "Válvulas de vacío"
+    },
+    {
+      "section": "El problema",
+      "narration": "Las válvulas funcionaban, pero eran grandes, gastaban mucha energía, se calentaban y se fundían a menudo. Un ordenador como ENIAC tenía unas dieciocho mil.",
+      "visual_query": "ENIAC necesitaba unas 18.000 válvulas",
+      "card": {
+        "layout": "quote",
+        "heading": "ENIAC necesitaba unas 18.000 válvulas",
+        "items": [],
+        "icon": "🔥"
+      }
+    },
+    {
+      "section": "Bell Labs",
+      "narration": "La compañía telefónica estadounidense AT&T necesitaba algo mejor para su red. Y en sus Laboratorios Bell, en Nueva Jersey, formó un equipo para buscar un sustituto basado en semiconductores.",
+      "visual_query": "Laboratorios Bell",
+      "card": {
+        "layout": "title",
+        "heading": "Laboratorios Bell",
+        "items": [
+          "Nueva Jersey, años 40"
+        ],
+        "icon": "🏢"
+      }
+    },
+    {
+      "section": "Bell Labs",
+      "narration": "Un semiconductor es un material, como el germanio o el silicio, que conduce la electricidad a medias. Y lo más interesante: esa conducción se puede controlar.",
+      "visual_query": "Semiconductor: conduce a medias… y se puede controlar",
+      "card": {
+        "layout": "quote",
+        "heading": "Semiconductor: conduce a medias… y se puede controlar",
+        "items": [],
+        "icon": "⚛️"
+      }
+    },
+    {
+      "section": "El invento",
+      "narration": "En diciembre de mil novecientos cuarenta y siete, los físicos John Bardeen y Walter Brattain lo consiguieron: un pequeño artilugio de germanio, oro y plástico que amplificaba una señal eléctrica. Era el primer transistor.",
+      "visual_query": "Bardeen y Brattain crean el primer transistor",
+      "card": {
+        "layout": "number",
+        "heading": "Bardeen y Brattain crean el primer transistor",
+        "items": [
+          "Dic. 1947"
+        ],
+        "icon": "⚡"
+      },
+      "photo": "Replica of first transistor",
+      "photo_caption": "Réplica del primer transistor (1947)"
+    },
+    {
+      "section": "El invento",
+      "narration": "Su jefe, William Shockley, se sintió desplazado por no haber participado directamente. Así que se encerró a trabajar y, pocas semanas después, diseñó una versión mejorada: el transistor de unión, más fácil de fabricar.",
+      "visual_query": "Shockley, celoso, diseñó una versión mejor",
+      "card": {
+        "layout": "quote",
+        "heading": "Shockley, celoso, diseñó una versión mejor",
+        "items": [],
+        "icon": "😤"
+      }
+    },
+    {
+      "section": "El invento",
+      "narration": "En mil novecientos cincuenta y seis, los tres recibieron el Premio Nobel de Física.",
+      "visual_query": "Bardeen, Brattain y Shockley: Premio Nobel de Física",
+      "card": {
+        "layout": "number",
+        "heading": "Bardeen, Brattain y Shockley: Premio Nobel de Física",
+        "items": [
+          "1956"
+        ],
+        "icon": "🏅"
+      },
+      "photo": "Bardeen Shockley Brattain 1948",
+      "photo_caption": "Bardeen, Shockley y Brattain"
+    },
+    {
+      "section": "Qué hace",
+      "narration": "Pero, ¿qué hace exactamente un transistor? Dos cosas muy simples. Puede amplificar una señal, como una radio que sube el volumen. Y puede funcionar como un interruptor: encendido o apagado. Uno o cero.",
+      "visual_query": "Un transistor hace dos cosas",
+      "card": {
+        "layout": "steps",
+        "heading": "Un transistor hace dos cosas",
+        "items": [
+          "Amplificar señales",
+          "Encender y apagar: 1 o 0"
+        ],
+        "icon": "🔀"
+      }
+    },
+    {
+      "section": "Qué hace",
+      "narration": "Y con miles de millones de interruptores que se encienden y apagan miles de millones de veces por segundo, se puede hacer cualquier cálculo. Eso es, en el fondo, un ordenador.",
+      "visual_query": "Miles de millones de interruptores = un ordenador",
+      "card": {
+        "layout": "quote",
+        "heading": "Miles de millones de interruptores = un ordenador",
+        "items": [],
+        "icon": "💻"
+      }
+    },
+    {
+      "section": "La radio de bolsillo",
+      "narration": "El transistor llegó al gran público con la radio. En mil novecientos cincuenta y cuatro salió a la venta la Regency TR-1, la primera radio de transistores comercial. Por primera vez, la música cabía en el bolsillo.",
+      "visual_query": "Regency TR-1: la primera radio de transistores",
+      "card": {
+        "layout": "number",
+        "heading": "Regency TR-1: la primera radio de transistores",
+        "items": [
+          "1954"
+        ],
+        "icon": "📻"
+      },
+      "photo": "Regency TR-1 transistor radio",
+      "photo_caption": "Radio Regency TR-1 (1954)"
+    },
+    {
+      "section": "El chip",
+      "narration": "El siguiente gran salto llegó a finales de los cincuenta: el circuito integrado. Jack Kilby, en Texas Instruments, y Robert Noyce, en Fairchild, descubrieron cómo fabricar muchos transistores juntos sobre una misma pieza de material. Había nacido el chip.",
+      "visual_query": "El circuito integrado",
+      "card": {
+        "layout": "steps",
+        "heading": "El circuito integrado",
+        "items": [
+          "1958: Jack Kilby",
+          "1959: Robert Noyce",
+          "Muchos transistores en un chip"
+        ],
+        "icon": "🧩"
+      }
+    },
+    {
+      "section": "Moore",
+      "narration": "En mil novecientos sesenta y cinco, Gordon Moore, que años después cofundaría Intel, hizo una predicción: el número de transistores en un chip se duplicaría cada cierto tiempo. Con algunos ajustes, se cumplió durante décadas. Es la famosa ley de Moore.",
+      "visual_query": "Ley de Moore: los transistores se duplican cada pocos años",
+      "card": {
+        "layout": "quote",
+        "heading": "Ley de Moore: los transistores se duplican cada pocos años",
+        "items": [
+          "Gordon Moore, 1965"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Hoy",
+      "narration": "El resultado es asombroso. El primer microprocesador de Intel, en mil novecientos setenta y uno, tenía unos dos mil trescientos transistores. Los chips más avanzados de hoy tienen decenas de miles de millones.",
+      "visual_query": "De miles a miles de millones",
+      "card": {
+        "layout": "steps",
+        "heading": "De miles a miles de millones",
+        "items": [
+          "1971: unos 2.300",
+          "Hoy: decenas de miles de millones"
+        ],
+        "icon": "🚀"
+      },
+      "photo": "Intel 4004",
+      "photo_caption": "Intel 4004, el primer microprocesador (1971)"
+    },
+    {
+      "section": "Hoy",
+      "narration": "Y son tan pequeños que se miden en nanómetros. Miles de veces más finos que un cabello humano.",
+      "visual_query": "Miles de veces más finos que un cabello",
+      "card": {
+        "layout": "quote",
+        "heading": "Miles de veces más finos que un cabello",
+        "items": [],
+        "icon": "🔍"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Desde aquel pequeño artilugio de germanio de mil novecientos cuarenta y siete hasta el móvil que tienes en la mano. El transistor quizá sea el invento más importante del siglo veinte. Y es tan pequeño que nunca lo verás.",
+      "visual_query": "El invento más importante que nunca verás",
+      "card": {
+        "layout": "quote",
+        "heading": "El invento más importante que nunca verás",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "topic": "Los orígenes de Google: de Stanford a un garaje",
+  "title": "Google empezó en un garaje (y casi lo venden por menos de un millón)",
+  "description": "En 1998, dos estudiantes de doctorado de Stanford, Larry Page y Sergey Brin, fundaron una pequeña empresa en un garaje alquilado de Menlo Park, California. Su idea era ordenar la información del mundo con un algoritmo llamado PageRank. Hoy Google es una de las empresas más grandes del planeta.\n\nEn este vídeo te cuento cómo se conocieron (no se cayeron bien), qué era BackRub, de dónde viene el nombre «Google», el cheque de 100.000 dólares firmado a una empresa que aún no existía y la venta que casi hacen por menos de un millón de dólares.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "Google",
+    "historia de Google",
+    "Larry Page",
+    "Sergey Brin",
+    "PageRank",
+    "Stanford",
+    "buscador",
+    "Silicon Valley",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#Google",
+    "#SiliconValley",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "EMPEZÓ EN UN GARAJE",
+  "thumbnail_query": "Los orígenes de Google: de Stanford a un garaje",
+  "thumbnail_icon": "🔍",
+  "thumbnail_photo": "Google garage Menlo Park",
+  "pinned_comment": "¿Te imaginas el mundo si hubieran vendido Google en 1999? 🤯 Te leo 👇",
+  "sources": [
+    "https://about.google/our-story/",
+    "http://infolab.stanford.edu/~backrub/google.html",
+    "https://www.britannica.com/money/Google-Inc"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Mil novecientos noventa y nueve. Dos jóvenes intentan vender su pequeño buscador a una empresa de internet por menos de un millón de dólares. La empresa dice que no.",
+      "visual_query": "Intentaron venderlo por menos de un millón",
+      "card": {
+        "layout": "quote",
+        "heading": "Intentaron venderlo por menos de un millón",
+        "items": [
+          "Y les dijeron que no"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Ese buscador se llamaba Google. Y aquella negativa fue, probablemente, uno de los mayores errores de la historia de los negocios. Hoy te cuento cómo empezó todo.",
+      "visual_query": "Los orígenes de Google",
+      "card": {
+        "layout": "title",
+        "heading": "Los orígenes de Google",
+        "items": [
+          "De Stanford a un garaje"
+        ],
+        "icon": "🔍"
+      }
+    },
+    {
+      "section": "Stanford",
+      "narration": "La historia empieza en mil novecientos noventa y cinco, en la Universidad de Stanford, en California. Sergey Brin, estudiante de doctorado, hace de guía para un grupo de nuevos alumnos. Uno de ellos es Larry Page.",
+      "visual_query": "Larry Page y Sergey Brin se conocen en Stanford",
+      "card": {
+        "layout": "number",
+        "heading": "Larry Page y Sergey Brin se conocen en Stanford",
+        "items": [
+          "1995"
+        ],
+        "icon": "🎓"
+      },
+      "photo": "Stanford University Main Quad",
+      "photo_caption": "Universidad de Stanford"
+    },
+    {
+      "section": "Stanford",
+      "narration": "Según contaron después, al principio no se cayeron bien. Discutían por todo. Pero precisamente esas discusiones los convirtieron en grandes amigos y socios.",
+      "visual_query": "Al principio no se cayeron bien",
+      "card": {
+        "layout": "quote",
+        "heading": "Al principio no se cayeron bien",
+        "items": [],
+        "icon": "🤝"
+      }
+    },
+    {
+      "section": "BackRub",
+      "narration": "Larry quería estudiar la estructura de la web: cómo unas páginas enlazan a otras. Y tuvo una intuición: un enlace es como un voto. Si muchas páginas importantes enlazan a una, esa página probablemente es importante.",
+      "visual_query": "La gran idea",
+      "card": {
+        "layout": "steps",
+        "heading": "La gran idea",
+        "items": [
+          "Un enlace es como un voto",
+          "Votos de páginas importantes valen más",
+          "Así se ordenan los resultados"
+        ],
+        "icon": "🗳️"
+      }
+    },
+    {
+      "section": "BackRub",
+      "narration": "Era la misma lógica que las citas en los artículos científicos: los trabajos más citados suelen ser los más relevantes. Al algoritmo lo llamaron PageRank, un juego de palabras con el apellido de Larry.",
+      "visual_query": "PageRank: como las citas científicas",
+      "card": {
+        "layout": "quote",
+        "heading": "PageRank: como las citas científicas",
+        "items": [
+          "Y un guiño al apellido de Larry Page"
+        ],
+        "icon": "📚"
+      }
+    },
+    {
+      "section": "BackRub",
+      "narration": "Su primer buscador, en mil novecientos noventa y seis, se llamó BackRub, que en inglés significa «masaje en la espalda», por los enlaces que apuntan hacia atrás. Funcionaba en los servidores de la universidad y consumía tanto ancho de banda que a veces colapsaba la red de Stanford.",
+      "visual_query": "BackRub (1996)",
+      "card": {
+        "layout": "bullets",
+        "heading": "BackRub (1996)",
+        "items": [
+          "Funcionaba en Stanford",
+          "Ordenadores montados con piezas",
+          "Colapsaba la red de la universidad"
+        ],
+        "icon": "🖥️"
+      }
+    },
+    {
+      "section": "El nombre",
+      "narration": "Necesitaban un nombre mejor. Eligieron Google, inspirado en «googol», el nombre matemático del número uno seguido de cien ceros. Representaba la enorme cantidad de información que querían organizar.",
+      "visual_query": "Googol: un 1 seguido de 100 ceros",
+      "card": {
+        "layout": "number",
+        "heading": "Googol: un 1 seguido de 100 ceros",
+        "items": [
+          "10¹⁰⁰"
+        ],
+        "icon": "🔢"
+      }
+    },
+    {
+      "section": "El cheque",
+      "narration": "En mil novecientos noventa y ocho, buscaron inversores. Uno de ellos, Andy Bechtolsheim, cofundador de Sun Microsystems, vio una demostración y les firmó un cheque de cien mil dólares a nombre de «Google Inc.».",
+      "visual_query": "dólares de su primer gran inversor",
+      "card": {
+        "layout": "number",
+        "heading": "dólares de su primer gran inversor",
+        "items": [
+          "100.000"
+        ],
+        "icon": "🧾"
+      }
+    },
+    {
+      "section": "El cheque",
+      "narration": "El problema es que Google Inc. todavía no existía. No podían ingresar el cheque. Así que tuvieron que crear la empresa a toda prisa.",
+      "visual_query": "Un cheque para una empresa que aún no existía",
+      "card": {
+        "layout": "quote",
+        "heading": "Un cheque para una empresa que aún no existía",
+        "items": [],
+        "icon": "😅"
+      }
+    },
+    {
+      "section": "El garaje",
+      "narration": "Google se fundó oficialmente en septiembre de mil novecientos noventa y ocho. Su primera oficina fue el garaje de una casa en Menlo Park, California, alquilado a Susan Wojcicki, que años después sería directora de YouTube.",
+      "visual_query": "El garaje de Menlo Park",
+      "card": {
+        "layout": "steps",
+        "heading": "El garaje de Menlo Park",
+        "items": [
+          "Septiembre de 1998",
+          "Garaje alquilado a Susan Wojcicki",
+          "Ella dirigiría YouTube años después"
+        ],
+        "icon": "🏠"
+      },
+      "photo": "Google garage Menlo Park",
+      "photo_caption": "El garaje de Menlo Park"
+    },
+    {
+      "section": "La venta fallida",
+      "narration": "Y entonces llega la anécdota del principio. En mil novecientos noventa y nueve, según se ha contado muchas veces, ofrecieron Google a la empresa Excite por una cifra de unos setecientos cincuenta mil dólares. Excite no aceptó.",
+      "visual_query": "Excite rechazó comprar Google",
+      "card": {
+        "layout": "quote",
+        "heading": "Excite rechazó comprar Google",
+        "items": [
+          "Por unos 750.000 dólares, según se cuenta"
+        ],
+        "icon": "🙅"
+      }
+    },
+    {
+      "section": "El éxito",
+      "narration": "Google tenía algo que los demás buscadores no tenían: resultados mucho mejores y una página limpia, casi vacía, mientras la competencia llenaba sus portadas de anuncios y noticias.",
+      "visual_query": "Por qué ganó Google",
+      "card": {
+        "layout": "bullets",
+        "heading": "Por qué ganó Google",
+        "items": [
+          "Resultados mucho mejores",
+          "Una página limpia y rápida",
+          "Sin distracciones"
+        ],
+        "icon": "✨"
+      }
+    },
+    {
+      "section": "El éxito",
+      "narration": "En los años dos mil llegaron Gmail, Google Maps, la compra de YouTube y Android. En dos mil cuatro salió a bolsa. Y hoy procesa miles de millones de búsquedas cada día.",
+      "visual_query": "De garaje a gigante",
+      "card": {
+        "layout": "steps",
+        "heading": "De garaje a gigante",
+        "items": [
+          "2004: salida a bolsa",
+          "Gmail, Maps, YouTube, Android",
+          "Miles de millones de búsquedas al día"
+        ],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Una idea sencilla, que un enlace es un voto, un garaje alquilado y un cheque para una empresa que no existía. La historia de Google demuestra que las grandes revoluciones pueden empezar en el lugar más pequeño.",
+      "visual_query": "Las grandes revoluciones empiezan en lugares pequeños",
+      "card": {
+        "layout": "quote",
+        "heading": "Las grandes revoluciones empiezan en lugares pequeños",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "topic": "La guerra de las corrientes: Tesla y Westinghouse contra Edison",
+  "title": "Tesla contra Edison: la guerra que decidió cómo llega la luz a tu casa",
+  "description": "A finales del siglo XIX, dos sistemas eléctricos lucharon por iluminar el mundo: la corriente continua de Thomas Edison y la corriente alterna de Nikola Tesla y George Westinghouse. Fue una batalla de patentes, de negocios y de propaganda, con animales electrocutados y hasta una silla eléctrica de por medio.\n\nEn este vídeo te cuento la guerra de las corrientes: quién tenía razón, cómo la Exposición de Chicago de 1893 y las cataratas del Niágara decidieron el ganador, y por qué hoy en día ambas corrientes siguen vivas.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "Tesla vs Edison",
+    "guerra de las corrientes",
+    "Nikola Tesla",
+    "Thomas Edison",
+    "corriente alterna",
+    "corriente continua",
+    "George Westinghouse",
+    "historia de la electricidad",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#Tesla",
+    "#Edison",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "TESLA VS EDISON",
+  "thumbnail_query": "La guerra de las corrientes: Tesla y Westinghouse contra Edison",
+  "thumbnail_icon": "⚡",
+  "thumbnail_photo": "Nikola Tesla 1890 Napoleon Sarony",
+  "pinned_comment": "¿Tú de quién eres: Tesla o Edison? ⚡ Te leo en los comentarios 👇",
+  "sources": [
+    "https://www.energy.gov/articles/war-currents-ac-vs-dc-power",
+    "https://www.britannica.com/biography/Nikola-Tesla",
+    "https://www.britannica.com/biography/Thomas-Edison"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Cada vez que enchufas el móvil, estás usando el resultado de una guerra. Una guerra sin soldados, pero con patentes, millones de dólares, propaganda… y algunos animales que pagaron el precio.",
+      "visual_query": "La guerra de las corrientes",
+      "card": {
+        "layout": "title",
+        "heading": "La guerra de las corrientes",
+        "items": [
+          "Tesla y Westinghouse contra Edison"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "De un lado, Thomas Edison, el inventor más famoso del mundo. Del otro, un joven ingeniero serbio llamado Nikola Tesla, con el apoyo del empresario George Westinghouse. Lo que estaba en juego: cómo iba a llegar la electricidad a todas las casas del planeta.",
+      "visual_query": "Los contendientes",
+      "card": {
+        "layout": "steps",
+        "heading": "Los contendientes",
+        "items": [
+          "Edison: corriente continua",
+          "Tesla y Westinghouse: corriente alterna"
+        ],
+        "icon": "🥊"
+      }
+    },
+    {
+      "section": "Edison",
+      "narration": "Empecemos por Edison. En mil ochocientos ochenta y dos inauguró en Nueva York la central de Pearl Street, una de las primeras centrales eléctricas comerciales del mundo. Iluminaba unas manzanas de Manhattan con corriente continua.",
+      "visual_query": "Edison inaugura la central de Pearl Street, Nueva York",
+      "card": {
+        "layout": "number",
+        "heading": "Edison inaugura la central de Pearl Street, Nueva York",
+        "items": [
+          "1882"
+        ],
+        "icon": "💡"
+      },
+      "photo": "Thomas Edison 1878 Brady",
+      "photo_caption": "Thomas Edison"
+    },
+    {
+      "section": "Edison",
+      "narration": "La corriente continua fluye siempre en la misma dirección, como el agua por una tubería. Es sencilla y segura a bajo voltaje. Pero tenía un gran problema.",
+      "visual_query": "Corriente continua: siempre en la misma dirección",
+      "card": {
+        "layout": "quote",
+        "heading": "Corriente continua: siempre en la misma dirección",
+        "items": [],
+        "icon": "➡️"
+      }
+    },
+    {
+      "section": "Edison",
+      "narration": "No podía viajar lejos. A los pocos kilómetros, gran parte de la energía se perdía en forma de calor. Eso significaba que haría falta una central eléctrica cada pocas calles. Algo carísimo.",
+      "visual_query": "El problema de la continua",
+      "card": {
+        "layout": "bullets",
+        "heading": "El problema de la continua",
+        "items": [
+          "Pierde energía con la distancia",
+          "Una central cada pocas calles",
+          "Muy cara de extender"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Tesla",
+      "narration": "Y aquí entra Nikola Tesla. Nacido en mil ochocientos cincuenta y seis en la actual Croacia, llegó a Nueva York en mil ochocientos ochenta y cuatro con poco más que unas monedas en el bolsillo y la cabeza llena de ideas.",
+      "visual_query": "Nikola Tesla",
+      "card": {
+        "layout": "title",
+        "heading": "Nikola Tesla",
+        "items": [
+          "Llega a Nueva York en 1884"
+        ],
+        "icon": "🧠"
+      },
+      "photo": "Nikola Tesla 1890 Napoleon Sarony",
+      "photo_caption": "Nikola Tesla (h. 1890)"
+    },
+    {
+      "section": "Tesla",
+      "narration": "Trabajó una temporada para Edison, pero acabaron mal. Según contaba el propio Tesla, Edison le prometió una gran recompensa si mejoraba sus máquinas, y luego le dijo que era una broma. Sea o no exacta la anécdota, la relación terminó rota.",
+      "visual_query": "Trabajó para Edison… y acabaron enfrentados",
+      "card": {
+        "layout": "quote",
+        "heading": "Trabajó para Edison… y acabaron enfrentados",
+        "items": [],
+        "icon": "💔"
+      }
+    },
+    {
+      "section": "Tesla",
+      "narration": "La gran idea de Tesla era la corriente alterna, que cambia de sentido muchas veces por segundo. Su ventaja es enorme: con un aparato llamado transformador se puede subir a voltajes muy altos para viajar cientos de kilómetros perdiendo poca energía, y luego bajarla para usarla en casa.",
+      "visual_query": "La ventaja de la alterna",
+      "card": {
+        "layout": "steps",
+        "heading": "La ventaja de la alterna",
+        "items": [
+          "Se sube el voltaje",
+          "Viaja lejos perdiendo poco",
+          "Se baja para usarla en casa"
+        ],
+        "icon": "🔄"
+      }
+    },
+    {
+      "section": "Tesla",
+      "narration": "Tesla patentó un motor de corriente alterna que funcionaba de maravilla. Y en mil ochocientos ochenta y ocho, el empresario George Westinghouse compró sus patentes y apostó todo por la corriente alterna.",
+      "visual_query": "Westinghouse compra las patentes de Tesla",
+      "card": {
+        "layout": "number",
+        "heading": "Westinghouse compra las patentes de Tesla",
+        "items": [
+          "1888"
+        ],
+        "icon": "🤝"
+      },
+      "photo": "George Westinghouse",
+      "photo_caption": "George Westinghouse"
+    },
+    {
+      "section": "La guerra",
+      "narration": "Edison vio amenazado su negocio y lanzó una campaña para convencer al público de que la corriente alterna era peligrosa. Y en parte tenía razón: los altos voltajes pueden ser mortales.",
+      "visual_query": "Edison: «La corriente alterna es peligrosa»",
+      "card": {
+        "layout": "quote",
+        "heading": "Edison: «La corriente alterna es peligrosa»",
+        "items": [],
+        "icon": "☠️"
+      }
+    },
+    {
+      "section": "La guerra",
+      "narration": "Pero la campaña se volvió macabra. Un ingeniero llamado Harold Brown, con el apoyo del entorno de Edison, organizó demostraciones públicas en las que electrocutaba animales con corriente alterna para asustar a la gente.",
+      "visual_query": "Una campaña macabra",
+      "card": {
+        "layout": "bullets",
+        "heading": "Una campaña macabra",
+        "items": [
+          "Demostraciones públicas",
+          "Animales electrocutados",
+          "Para asustar al público"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "La guerra",
+      "narration": "Y llegó a algo todavía más oscuro. En mil ochocientos noventa, Estados Unidos ejecutó por primera vez a un preso en la silla eléctrica, William Kemmler. Funcionaba con corriente alterna. Sus defensores querían que el público asociara la alterna con la muerte.",
+      "visual_query": "Primera ejecución en la silla eléctrica, con corriente alterna",
+      "card": {
+        "layout": "number",
+        "heading": "Primera ejecución en la silla eléctrica, con corriente alterna",
+        "items": [
+          "1890"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "El desenlace",
+      "narration": "Pero la tecnología acabó imponiéndose a la propaganda. En mil ochocientos noventa y tres, Westinghouse ganó el contrato para iluminar la Exposición Universal de Chicago con corriente alterna. Millones de visitantes vieron miles de bombillas encendidas a la vez.",
+      "visual_query": "La Exposición de Chicago se ilumina con corriente alterna",
+      "card": {
+        "layout": "number",
+        "heading": "La Exposición de Chicago se ilumina con corriente alterna",
+        "items": [
+          "1893"
+        ],
+        "icon": "🎡"
+      },
+      "photo": "World's Columbian Exposition 1893 night",
+      "photo_caption": "Exposición Universal de Chicago, 1893"
+    },
+    {
+      "section": "El desenlace",
+      "narration": "Y llegó el golpe definitivo: las cataratas del Niágara. Allí se construyó una gran central hidroeléctrica con el sistema de Tesla y Westinghouse. En mil ochocientos noventa y seis empezó a enviar electricidad a la ciudad de Búfalo, a unos cuarenta kilómetros.",
+      "visual_query": "Las cataratas del Niágara",
+      "card": {
+        "layout": "steps",
+        "heading": "Las cataratas del Niágara",
+        "items": [
+          "Central hidroeléctrica",
+          "Sistema de Tesla y Westinghouse",
+          "1896: luz hasta Búfalo"
+        ],
+        "icon": "🌊"
+      },
+      "photo": "Adams Power Plant Niagara Falls",
+      "photo_caption": "Central Adams, cataratas del Niágara"
+    },
+    {
+      "section": "El desenlace",
+      "narration": "La corriente alterna había ganado. Con el tiempo, incluso la empresa heredera de Edison, General Electric, acabó adoptándola.",
+      "visual_query": "La corriente alterna ganó la guerra",
+      "card": {
+        "layout": "quote",
+        "heading": "La corriente alterna ganó la guerra",
+        "items": [],
+        "icon": "🏆"
+      }
+    },
+    {
+      "section": "Hoy",
+      "narration": "Pero la historia tiene un giro final. La corriente continua nunca desapareció. Tu móvil, tu ordenador y las baterías funcionan con continua: el cargador se encarga de convertirla.",
+      "visual_query": "La continua sigue viva",
+      "card": {
+        "layout": "bullets",
+        "heading": "La continua sigue viva",
+        "items": [
+          "Móviles y ordenadores",
+          "Baterías y coches eléctricos",
+          "Paneles solares"
+        ],
+        "icon": "🔋"
+      }
+    },
+    {
+      "section": "Hoy",
+      "narration": "Y gracias a la electrónica moderna, hoy existen líneas de corriente continua de alta tensión que transportan energía a miles de kilómetros, incluso bajo el mar. En cierto modo, ambos tenían parte de razón.",
+      "visual_query": "Al final, ambos tenían parte de razón",
+      "card": {
+        "layout": "quote",
+        "heading": "Al final, ambos tenían parte de razón",
+        "items": [],
+        "icon": "🤝"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Edison murió rico y famoso. Tesla, en cambio, murió solo y casi arruinado en una habitación de hotel de Nueva York en mil novecientos cuarenta y tres. Hoy su nombre lo llevan coches eléctricos y una unidad de medida del campo magnético.",
+      "visual_query": "Dos finales muy distintos",
+      "card": {
+        "layout": "bullets",
+        "heading": "Dos finales muy distintos",
+        "items": [
+          "Edison: rico y famoso",
+          "Tesla: murió casi arruinado en 1943",
+          "Hoy, su nombre está en todas partes"
+        ],
+        "icon": "⏳"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

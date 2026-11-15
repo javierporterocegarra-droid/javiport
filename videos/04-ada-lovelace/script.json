@@ -1,0 +1,344 @@
+{
+  "topic": "Ada Lovelace, la primera programadora de la historia",
+  "title": "Ada Lovelace: la primera programadora… un siglo antes del ordenador",
+  "description": "En 1843, cien años antes de que existiera el primer ordenador electrónico, una joven matemática británica escribió lo que muchos consideran el primer programa informático de la historia. Se llamaba Ada Lovelace, era hija del poeta Lord Byron, y fue capaz de imaginar que una máquina de calcular podría algún día componer música.\n\nEn este vídeo te cuento su historia: su infancia entre la poesía y las matemáticas, su encuentro con Charles Babbage y su máquina analítica, la famosa Nota G y por qué su visión sigue sorprendiendo hoy.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "Ada Lovelace",
+    "primera programadora",
+    "Charles Babbage",
+    "máquina analítica",
+    "historia de la informática",
+    "mujeres en la ciencia",
+    "Lord Byron",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#AdaLovelace",
+    "#HistoriaDeLaTecnología",
+    "#MujeresEnLaCiencia"
+  ],
+  "thumbnail_text": "LA PRIMERA PROGRAMADORA",
+  "thumbnail_query": "Ada Lovelace, la primera programadora de la historia",
+  "thumbnail_icon": "💡",
+  "thumbnail_photo": "Ada Lovelace portrait",
+  "pinned_comment": "¿Sabías que el primer programa de la historia se escribió en 1843? 🤯 ¿Qué otra pionera de la tecnología quieres que contemos? 👇",
+  "sources": [
+    "https://www.britannica.com/biography/Ada-Lovelace",
+    "https://www.computerhistory.org/babbage/adalovelace/",
+    "https://www.sciencemuseum.org.uk/objects-and-stories/ada-lovelace"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Mil ochocientos cuarenta y tres. Todavía no existe la electricidad en las casas, ni el teléfono, ni la bombilla. Y sin embargo, una mujer de veintisiete años escribe lo que hoy muchos consideran el primer programa informático de la historia.",
+      "visual_query": "El primer programa informático",
+      "card": {
+        "layout": "number",
+        "heading": "El primer programa informático",
+        "items": [
+          "1843"
+        ],
+        "icon": "📜"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Se llamaba Ada Lovelace. Y no solo escribió un programa para una máquina que nunca llegó a construirse: imaginó, cien años antes que nadie, lo que los ordenadores podrían llegar a hacer.",
+      "visual_query": "Ada Lovelace",
+      "card": {
+        "layout": "title",
+        "heading": "Ada Lovelace",
+        "items": [
+          "La primera programadora"
+        ],
+        "icon": "💡"
+      },
+      "photo": "Ada Lovelace portrait",
+      "photo_caption": "Ada Lovelace (retrato de A. E. Chalon, h. 1840)"
+    },
+    {
+      "section": "Una infancia singular",
+      "narration": "Ada nació en Londres en mil ochocientos quince. Era la única hija legítima de Lord Byron, el poeta más famoso y escandaloso de su época. Pero nunca llegó a conocerlo: sus padres se separaron cuando ella tenía apenas un mes.",
+      "visual_query": "Ada Byron",
+      "card": {
+        "layout": "bullets",
+        "heading": "Ada Byron",
+        "items": [
+          "Nace en Londres en 1815",
+          "Hija del poeta Lord Byron",
+          "Nunca llegó a conocer a su padre"
+        ],
+        "icon": "👶"
+      },
+      "photo": "Lord Byron portrait Thomas Phillips",
+      "photo_caption": "Lord Byron, su padre"
+    },
+    {
+      "section": "Una infancia singular",
+      "narration": "Su madre, Annabella, estaba decidida a que Ada no heredara el carácter apasionado de su padre. Así que hizo algo muy poco habitual para una niña de la época: la educó en matemáticas y ciencia.",
+      "visual_query": "Su madre la educó en matemáticas para alejarla de la poesía",
+      "card": {
+        "layout": "quote",
+        "heading": "Su madre la educó en matemáticas para alejarla de la poesía",
+        "items": [],
+        "icon": "📐"
+      }
+    },
+    {
+      "section": "Una infancia singular",
+      "narration": "Ada era una niña brillante e imaginativa. Con solo doce años se obsesionó con la idea de volar: estudió la anatomía de los pájaros y diseñó, sobre el papel, una máquina voladora.",
+      "visual_query": "A los 12 años…",
+      "card": {
+        "layout": "bullets",
+        "heading": "A los 12 años…",
+        "items": [
+          "Estudió cómo vuelan los pájaros",
+          "Diseñó una máquina voladora",
+          "La llamó «vuelología»"
+        ],
+        "icon": "🕊️"
+      }
+    },
+    {
+      "section": "Babbage",
+      "narration": "En mil ochocientos treinta y tres, con diecisiete años, Ada fue a una fiesta en casa de un matemático famoso: Charles Babbage. Allí vio algo que le cambió la vida.",
+      "visual_query": "Charles Babbage",
+      "card": {
+        "layout": "title",
+        "heading": "Charles Babbage",
+        "items": [
+          "Londres, 1833"
+        ],
+        "icon": "🎩"
+      },
+      "photo": "Charles Babbage 1860",
+      "photo_caption": "Charles Babbage"
+    },
+    {
+      "section": "Babbage",
+      "narration": "Babbage había construido una parte de su máquina diferencial, un enorme artilugio de engranajes capaz de calcular tablas de números sin errores. La mayoría de los invitados la veían como un juguete curioso. Ada entendió lo que significaba.",
+      "visual_query": "Los invitados vieron un juguete. Ada vio el futuro.",
+      "card": {
+        "layout": "quote",
+        "heading": "Los invitados vieron un juguete. Ada vio el futuro.",
+        "items": [],
+        "icon": "⚙️"
+      },
+      "photo": "Babbage Difference Engine",
+      "photo_caption": "Máquina diferencial de Babbage"
+    },
+    {
+      "section": "Babbage",
+      "narration": "Entre ellos nació una amistad y una colaboración que duraría casi veinte años. Babbage la llamaba «la hechicera de los números».",
+      "visual_query": "«La hechicera de los números»",
+      "card": {
+        "layout": "quote",
+        "heading": "«La hechicera de los números»",
+        "items": [
+          "Así la llamaba Babbage"
+        ],
+        "icon": "✨"
+      }
+    },
+    {
+      "section": "La máquina analítica",
+      "narration": "Pero Babbage pronto soñó con algo mucho más ambicioso: la máquina analítica. No serviría para un solo tipo de cálculo, sino para cualquiera. Se le darían instrucciones mediante tarjetas perforadas, como las que usaban los telares de Jacquard para tejer dibujos.",
+      "visual_query": "La máquina analítica",
+      "card": {
+        "layout": "steps",
+        "heading": "La máquina analítica",
+        "items": [
+          "Instrucciones en tarjetas perforadas",
+          "Una memoria para guardar números",
+          "Un «molino» para calcular"
+        ],
+        "icon": "🧮"
+      },
+      "photo": "Analytical Engine Babbage Science Museum",
+      "photo_caption": "Parte de la máquina analítica (Science Museum, Londres)"
+    },
+    {
+      "section": "La máquina analítica",
+      "narration": "Tenía una memoria, a la que Babbage llamaba almacén, y una unidad de cálculo, el molino. Es decir, las mismas piezas básicas que tiene cualquier ordenador actual. Diseñada en el siglo diecinueve.",
+      "visual_query": "Las piezas de un ordenador… en 1837",
+      "card": {
+        "layout": "bullets",
+        "heading": "Las piezas de un ordenador… en 1837",
+        "items": [
+          "Almacén → memoria",
+          "Molino → procesador",
+          "Tarjetas → programa"
+        ],
+        "icon": "🏛️"
+      }
+    },
+    {
+      "section": "La máquina analítica",
+      "narration": "El problema es que era tan compleja y tan cara que nunca llegó a construirse completa. Existía solo en planos. Y aun así, Ada iba a escribir un programa para ella.",
+      "visual_query": "Nunca se construyó. Pero Ada le escribió un programa.",
+      "card": {
+        "layout": "quote",
+        "heading": "Nunca se construyó. Pero Ada le escribió un programa.",
+        "items": [],
+        "icon": "📐"
+      }
+    },
+    {
+      "section": "Las notas",
+      "narration": "En mil ochocientos cuarenta y dos, un ingeniero italiano, Luigi Menabrea, publicó un artículo en francés sobre la máquina analítica. Ada lo tradujo al inglés. Pero no se limitó a traducirlo.",
+      "visual_query": "La traducción que lo cambió todo",
+      "card": {
+        "layout": "title",
+        "heading": "La traducción que lo cambió todo",
+        "items": [
+          "1842–1843"
+        ],
+        "icon": "✍️"
+      }
+    },
+    {
+      "section": "Las notas",
+      "narration": "Le añadió sus propias notas, de la A a la G. Y esas notas acabaron siendo unas tres veces más largas que el artículo original.",
+      "visual_query": "más largas que el artículo original: así eran sus notas",
+      "card": {
+        "layout": "number",
+        "heading": "más largas que el artículo original: así eran sus notas",
+        "items": [
+          "× 3"
+        ],
+        "icon": "📝"
+      }
+    },
+    {
+      "section": "Las notas",
+      "narration": "En la última, la Nota G, Ada describió paso a paso cómo la máquina podría calcular unos números matemáticos llamados números de Bernoulli. Era un algoritmo completo, pensado para ejecutarse en una máquina. Por eso se la considera la primera programadora de la historia.",
+      "visual_query": "La Nota G",
+      "card": {
+        "layout": "steps",
+        "heading": "La Nota G",
+        "items": [
+          "Un problema: los números de Bernoulli",
+          "Instrucciones paso a paso",
+          "Para ejecutarse en una máquina"
+        ],
+        "icon": "💻"
+      },
+      "photo": "Ada Lovelace note G",
+      "photo_caption": "Diagrama de la Nota G (1843)"
+    },
+    {
+      "section": "Las notas",
+      "narration": "Eso sí, hay historiadores que discuten cuánto de ese trabajo era suyo y cuánto de Babbage. Lo que nadie discute es lo siguiente, porque es lo que hace su obra realmente única.",
+      "visual_query": "Un debate histórico… y una idea indiscutible",
+      "card": {
+        "layout": "quote",
+        "heading": "Un debate histórico… y una idea indiscutible",
+        "items": [],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "La visión de Ada",
+      "narration": "Babbage veía su máquina como una calculadora gigante. Ada fue mucho más allá. Escribió que la máquina podía trabajar no solo con números, sino con cualquier cosa que pudiera representarse con símbolos.",
+      "visual_query": "No solo números: cualquier cosa representable con símbolos",
+      "card": {
+        "layout": "quote",
+        "heading": "No solo números: cualquier cosa representable con símbolos",
+        "items": [],
+        "icon": "🔣"
+      }
+    },
+    {
+      "section": "La visión de Ada",
+      "narration": "Por ejemplo, la música. Ada imaginó que una máquina así podría componer piezas musicales elaboradas, de cualquier complejidad. Estamos hablando de mil ochocientos cuarenta y tres.",
+      "visual_query": "Ada imaginó máquinas que…",
+      "card": {
+        "layout": "bullets",
+        "heading": "Ada imaginó máquinas que…",
+        "items": [
+          "Trabajan con símbolos, no solo números",
+          "Podrían componer música",
+          "Harían ciencia de nuevas formas"
+        ],
+        "icon": "🎼"
+      }
+    },
+    {
+      "section": "La visión de Ada",
+      "narration": "Pero también puso un límite. Escribió que la máquina no tenía pretensiones de originar nada: solo podía hacer lo que nosotros supiéramos ordenarle. Un siglo después, Alan Turing dedicó una parte de un famoso artículo a responder a esta objeción, que llamó la objeción de Lady Lovelace.",
+      "visual_query": "«La máquina no puede originar nada»",
+      "card": {
+        "layout": "quote",
+        "heading": "«La máquina no puede originar nada»",
+        "items": [
+          "Ada Lovelace, 1843 — Turing le respondió en 1950"
+        ],
+        "icon": "🤖"
+      }
+    },
+    {
+      "section": "Final",
+      "narration": "La vida de Ada fue corta. Enfermó de cáncer y murió en mil ochocientos cincuenta y dos, con solo treinta y seis años. La misma edad a la que había muerto su padre.",
+      "visual_query": "años tenía Ada al morir, como su padre",
+      "card": {
+        "layout": "number",
+        "heading": "años tenía Ada al morir, como su padre",
+        "items": [
+          "36"
+        ],
+        "icon": "🕯️"
+      }
+    },
+    {
+      "section": "Final",
+      "narration": "Durante casi un siglo, su trabajo quedó olvidado. Hasta que, en los años cincuenta del siglo veinte, con los primeros ordenadores ya funcionando, sus notas se redescubrieron y el mundo se dio cuenta de lo adelantada que había estado.",
+      "visual_query": "Olvidada un siglo, redescubierta con los primeros ordenadores",
+      "card": {
+        "layout": "quote",
+        "heading": "Olvidada un siglo, redescubierta con los primeros ordenadores",
+        "items": [],
+        "icon": "🔎"
+      }
+    },
+    {
+      "section": "Legado",
+      "narration": "Hoy su nombre está en todas partes. En mil novecientos ochenta, el Departamento de Defensa de Estados Unidos llamó Ada a un lenguaje de programación en su honor. Y cada segundo martes de octubre se celebra el Día de Ada Lovelace, para dar visibilidad a las mujeres en la ciencia y la tecnología.",
+      "visual_query": "Su legado",
+      "card": {
+        "layout": "bullets",
+        "heading": "Su legado",
+        "items": [
+          "Lenguaje de programación Ada (1980)",
+          "Día de Ada Lovelace: 2.º martes de octubre",
+          "Símbolo de las mujeres en la tecnología"
+        ],
+        "icon": "🏅"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Ada Lovelace nunca vio un ordenador. Pero supo ver lo que uno podría llegar a ser. A veces, inventar el futuro no requiere construirlo: requiere imaginarlo antes que nadie.",
+      "visual_query": "Nunca vio un ordenador. Pero lo imaginó.",
+      "card": {
+        "layout": "quote",
+        "heading": "Nunca vio un ordenador. Pero lo imaginó.",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

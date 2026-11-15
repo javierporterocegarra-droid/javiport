@@ -1,0 +1,282 @@
+{
+  "topic": "ENIAC, el primer ordenador electrónico, y sus programadoras olvidadas",
+  "title": "ENIAC: el primer ordenador gigante y las 6 mujeres que nadie mencionó",
+  "description": "En 1946 se presentó al mundo ENIAC, uno de los primeros ordenadores electrónicos de propósito general: 30 toneladas, unas 18.000 válvulas de vacío y una sala entera. La prensa habló de un «cerebro gigante». Pero casi nadie mencionó a las seis mujeres que lo programaron.\n\nEn este vídeo te cuento cómo nació ENIAC durante la Segunda Guerra Mundial, cómo se programaba con cables e interruptores, y la historia de Kathleen McNulty, Jean Jennings, Betty Snyder, Marlyn Wescoff, Frances Bilas y Ruth Lichterman, las pioneras olvidadas de la programación.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "ENIAC",
+    "primer ordenador",
+    "programadoras de ENIAC",
+    "historia de la informática",
+    "mujeres en la tecnología",
+    "válvulas de vacío",
+    "1946",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#ENIAC",
+    "#HistoriaDeLaInformática",
+    "#MujeresEnLaTecnología"
+  ],
+  "thumbnail_text": "EL CEREBRO GIGANTE",
+  "thumbnail_query": "ENIAC, el primer ordenador electrónico, y sus programadoras olvidadas",
+  "thumbnail_icon": "🖥️",
+  "thumbnail_photo": "ENIAC Penn",
+  "pinned_comment": "¿Conocías la historia de las programadoras de ENIAC? 👩‍💻 Durante décadas casi nadie supo sus nombres. 👇",
+  "sources": [
+    "https://www.computerhistory.org/revolution/birth-of-the-computer/4/78",
+    "https://www.seas.upenn.edu/about/history-heritage/eniac/",
+    "https://www.britannica.com/technology/ENIAC"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Febrero de mil novecientos cuarenta y seis. En la Universidad de Pensilvania, la prensa asiste a la presentación de una máquina que ocupa una sala entera. Los periódicos la llaman «el cerebro gigante».",
+      "visual_query": "ENIAC",
+      "card": {
+        "layout": "title",
+        "heading": "ENIAC",
+        "items": [
+          "El «cerebro gigante» de 1946"
+        ],
+        "icon": "🖥️"
+      },
+      "photo": "ENIAC Penn",
+      "photo_caption": "ENIAC, Universidad de Pensilvania"
+    },
+    {
+      "section": "Introducción",
+      "narration": "Se llamaba ENIAC, y fue uno de los primeros ordenadores electrónicos de propósito general de la historia. Pero en las fotos de aquel día faltaban las personas que habían conseguido que funcionara.",
+      "visual_query": "En la presentación faltaban sus programadoras",
+      "card": {
+        "layout": "quote",
+        "heading": "En la presentación faltaban sus programadoras",
+        "items": [],
+        "icon": "📸"
+      }
+    },
+    {
+      "section": "La guerra",
+      "narration": "La historia empieza en plena Segunda Guerra Mundial. El ejército de Estados Unidos necesitaba tablas de tiro para su artillería: largas listas de cálculos que indicaban cómo apuntar según la distancia, el viento o el tipo de proyectil.",
+      "visual_query": "El problema del ejército",
+      "card": {
+        "layout": "bullets",
+        "heading": "El problema del ejército",
+        "items": [
+          "Tablas de tiro para la artillería",
+          "Miles de cálculos por tabla",
+          "Se necesitaban rápido"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "La guerra",
+      "narration": "Esos cálculos los hacían a mano personas llamadas «computadoras». Sí, computadora era un oficio. Y la mayoría eran mujeres con formación en matemáticas.",
+      "visual_query": "«Computadora» era un oficio… de mujeres",
+      "card": {
+        "layout": "quote",
+        "heading": "«Computadora» era un oficio… de mujeres",
+        "items": [],
+        "icon": "👩‍🔬"
+      }
+    },
+    {
+      "section": "La guerra",
+      "narration": "Una sola trayectoria podía llevar horas de trabajo con calculadoras mecánicas. Era demasiado lento para una guerra.",
+      "visual_query": "Una trayectoria: horas de cálculo a mano",
+      "card": {
+        "layout": "quote",
+        "heading": "Una trayectoria: horas de cálculo a mano",
+        "items": [],
+        "icon": "⏳"
+      }
+    },
+    {
+      "section": "La máquina",
+      "narration": "En mil novecientos cuarenta y tres, el físico John Mauchly y el ingeniero John Presper Eckert convencieron al ejército para financiar una máquina electrónica que hiciera esos cálculos. El proyecto se llamó ENIAC.",
+      "visual_query": "Los creadores",
+      "card": {
+        "layout": "steps",
+        "heading": "Los creadores",
+        "items": [
+          "John Mauchly",
+          "J. Presper Eckert",
+          "Financiado por el ejército (1943)"
+        ],
+        "icon": "👨‍🔧"
+      }
+    },
+    {
+      "section": "La máquina",
+      "narration": "El resultado fue un monstruo. Pesaba unas treinta toneladas, ocupaba una sala de unos ciento sesenta metros cuadrados y usaba unas dieciocho mil válvulas de vacío, unos tubos de cristal parecidos a bombillas.",
+      "visual_query": "ENIAC en cifras",
+      "card": {
+        "layout": "bullets",
+        "heading": "ENIAC en cifras",
+        "items": [
+          "Unas 30 toneladas",
+          "Unos 160 metros cuadrados",
+          "Unas 18.000 válvulas de vacío"
+        ],
+        "icon": "🏭"
+      }
+    },
+    {
+      "section": "La máquina",
+      "narration": "Podía hacer unas cinco mil sumas por segundo. Hoy cualquier móvil hace miles de millones. Pero en mil novecientos cuarenta y seis, aquello era asombroso: lo que a una persona le llevaba horas, ENIAC lo hacía en segundos.",
+      "visual_query": "sumas por segundo: una velocidad asombrosa en 1946",
+      "card": {
+        "layout": "number",
+        "heading": "sumas por segundo: una velocidad asombrosa en 1946",
+        "items": [
+          "5.000"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "La máquina",
+      "narration": "Había un problema: las válvulas se fundían a menudo, como bombillas. Los técnicos tenían que localizar y cambiar las averiadas constantemente.",
+      "visual_query": "Las válvulas se fundían como bombillas",
+      "card": {
+        "layout": "quote",
+        "heading": "Las válvulas se fundían como bombillas",
+        "items": [],
+        "icon": "💥"
+      }
+    },
+    {
+      "section": "Las programadoras",
+      "narration": "Pero, ¿cómo se le decía a ENIAC lo que tenía que hacer? No tenía teclado ni pantalla. Se programaba conectando cables y girando cientos de interruptores, como en una antigua centralita telefónica.",
+      "visual_query": "Programar ENIAC",
+      "card": {
+        "layout": "steps",
+        "heading": "Programar ENIAC",
+        "items": [
+          "Conectar cables",
+          "Girar interruptores",
+          "Días o semanas por problema"
+        ],
+        "icon": "🔌"
+      },
+      "photo": "Two women operating ENIAC",
+      "photo_caption": "Programadoras trabajando con ENIAC"
+    },
+    {
+      "section": "Las programadoras",
+      "narration": "Para ese trabajo se eligió a seis mujeres de entre aquellas computadoras humanas: Kathleen McNulty, Jean Jennings, Betty Snyder, Marlyn Wescoff, Frances Bilas y Ruth Lichterman.",
+      "visual_query": "Las seis programadoras",
+      "card": {
+        "layout": "bullets",
+        "heading": "Las seis programadoras",
+        "items": [
+          "Kathleen McNulty · Jean Jennings",
+          "Betty Snyder · Marlyn Wescoff",
+          "Frances Bilas · Ruth Lichterman"
+        ],
+        "icon": "👩‍💻"
+      }
+    },
+    {
+      "section": "Las programadoras",
+      "narration": "No había manuales ni lenguajes de programación. Aprendieron estudiando los planos de la máquina y hablando con los ingenieros. Tuvieron que inventarse la forma de programar sobre la marcha.",
+      "visual_query": "Sin manuales: aprendieron con los planos",
+      "card": {
+        "layout": "quote",
+        "heading": "Sin manuales: aprendieron con los planos",
+        "items": [],
+        "icon": "📐"
+      }
+    },
+    {
+      "section": "Las programadoras",
+      "narration": "Para la presentación de mil novecientos cuarenta y seis, prepararon el cálculo de una trayectoria balística. Funcionó a la perfección y dejó a los asistentes boquiabiertos.",
+      "visual_query": "Su programa fue la estrella de la presentación",
+      "card": {
+        "layout": "quote",
+        "heading": "Su programa fue la estrella de la presentación",
+        "items": [],
+        "icon": "🌟"
+      }
+    },
+    {
+      "section": "El olvido",
+      "narration": "Y sin embargo, las seis quedaron en la sombra. Según contaron después, ni siquiera las invitaron a la cena de celebración. Muchos de los que veían sus fotos pensaban que eran modelos posando junto a la máquina.",
+      "visual_query": "Muchos creían que eran modelos posando",
+      "card": {
+        "layout": "quote",
+        "heading": "Muchos creían que eran modelos posando",
+        "items": [],
+        "icon": "😶"
+      }
+    },
+    {
+      "section": "El olvido",
+      "narration": "Su historia empezó a recuperarse mucho después. En los años ochenta, una estudiante de derecho, Kathy Kleiman, encontró esas fotos e investigó quiénes eran aquellas mujeres. En mil novecientos noventa y siete, las seis entraron en el Salón de la Fama de las Mujeres en la Tecnología.",
+      "visual_query": "Su reconocimiento",
+      "card": {
+        "layout": "steps",
+        "heading": "Su reconocimiento",
+        "items": [
+          "Años 80: redescubiertas",
+          "1997: Salón de la Fama",
+          "Hoy: pioneras de la programación"
+        ],
+        "icon": "🏅"
+      }
+    },
+    {
+      "section": "Legado",
+      "narration": "Algunas siguieron haciendo historia. Betty Snyder, por ejemplo, trabajó después en el desarrollo de lenguajes de programación como COBOL. Y Jean Jennings participó en convertir ENIAC en una máquina que almacenara sus programas.",
+      "visual_query": "Después de ENIAC",
+      "card": {
+        "layout": "bullets",
+        "heading": "Después de ENIAC",
+        "items": [
+          "Betty Snyder: lenguajes como COBOL",
+          "Jean Jennings: programas almacenados",
+          "Carreras pioneras en la informática"
+        ],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "Legado",
+      "narration": "ENIAC estuvo funcionando hasta mil novecientos cincuenta y cinco. Hoy, partes de la máquina se conservan en museos de Estados Unidos.",
+      "visual_query": "ENIAC funcionó hasta 1955",
+      "card": {
+        "layout": "number",
+        "heading": "ENIAC funcionó hasta 1955",
+        "items": [
+          "1946–1955"
+        ],
+        "icon": "🏛️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "La historia de ENIAC nos recuerda que detrás de cada máquina hay personas. Y que la programación, desde su origen, también tuvo nombres de mujer.",
+      "visual_query": "La programación nació también con nombres de mujer",
+      "card": {
+        "layout": "quote",
+        "heading": "La programación nació también con nombres de mujer",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

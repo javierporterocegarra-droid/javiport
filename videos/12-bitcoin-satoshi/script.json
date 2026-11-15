@@ -1,0 +1,277 @@
+{
+  "topic": "Bitcoin y el misterio de Satoshi Nakamoto",
+  "title": "Satoshi Nakamoto: el creador de Bitcoin que desapareció",
+  "description": "En 2008, en plena crisis financiera, alguien que firmaba como Satoshi Nakamoto publicó un documento de nueve páginas que proponía un «dinero electrónico entre pares». Así nació Bitcoin. Unos años después, su creador desapareció sin dejar rastro, y todavía hoy nadie sabe con certeza quién es.\n\nEn este vídeo te cuento la historia de Bitcoin desde un punto de vista tecnológico e histórico: el bloque génesis y su mensaje oculto, la famosa compra de dos pizzas por 10.000 bitcoins, cómo funciona la cadena de bloques explicada de forma sencilla y el gran misterio de Satoshi. (Este vídeo no es asesoramiento financiero.)\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "Bitcoin",
+    "Satoshi Nakamoto",
+    "historia de Bitcoin",
+    "blockchain",
+    "cadena de bloques",
+    "pizza bitcoin",
+    "criptomonedas",
+    "bloque génesis",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#Bitcoin",
+    "#SatoshiNakamoto",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "¿QUIÉN CREÓ BITCOIN?",
+  "thumbnail_query": "Bitcoin y el misterio de Satoshi Nakamoto",
+  "thumbnail_icon": "🕵️",
+  "thumbnail_photo": "",
+  "pinned_comment": "¿Quién crees que es Satoshi Nakamoto? 🕵️ Te leo en los comentarios 👇 (Recuerda: este vídeo es historia, no consejo financiero.)",
+  "sources": [
+    "https://bitcoin.org/bitcoin.pdf",
+    "https://www.britannica.com/money/Bitcoin",
+    "https://bitcointalk.org/index.php?topic=137.0"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Treinta y uno de octubre de dos mil ocho. El mundo está en plena crisis financiera. Los bancos quiebran y los gobiernos los rescatan con dinero público. Y en una lista de correo sobre criptografía, alguien publica un documento de nueve páginas.",
+      "visual_query": "Se publica el documento de Bitcoin",
+      "card": {
+        "layout": "number",
+        "heading": "Se publica el documento de Bitcoin",
+        "items": [
+          "31 oct. 2008"
+        ],
+        "icon": "📄"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Su título: «Bitcoin: un sistema de dinero electrónico entre pares». Lo firmaba un tal Satoshi Nakamoto. Nadie sabía quién era. Y hoy, más de quince años después, seguimos sin saberlo con certeza.",
+      "visual_query": "Satoshi Nakamoto",
+      "card": {
+        "layout": "title",
+        "heading": "Satoshi Nakamoto",
+        "items": [
+          "El creador desconocido de Bitcoin"
+        ],
+        "icon": "🕵️"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Antes de empezar, una aclaración importante: este vídeo es de historia de la tecnología. No es un consejo para invertir.",
+      "visual_query": "Esto es historia, no consejo financiero",
+      "card": {
+        "layout": "quote",
+        "heading": "Esto es historia, no consejo financiero",
+        "items": [],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "La idea de dinero digital no era nueva. Pero tenía un problema muy difícil de resolver: el doble gasto. Un archivo digital se puede copiar. ¿Cómo evitas que alguien gaste la misma moneda dos veces sin un banco que lo controle?",
+      "visual_query": "El gran problema: gastar dos veces la misma moneda",
+      "card": {
+        "layout": "quote",
+        "heading": "El gran problema: gastar dos veces la misma moneda",
+        "items": [],
+        "icon": "🧩"
+      }
+    },
+    {
+      "section": "La solución",
+      "narration": "La solución de Satoshi fue la cadena de bloques. Imagina un libro de cuentas público, del que miles de ordenadores de todo el mundo guardan una copia idéntica.",
+      "visual_query": "Un libro de cuentas público, copiado en miles de ordenadores",
+      "card": {
+        "layout": "quote",
+        "heading": "Un libro de cuentas público, copiado en miles de ordenadores",
+        "items": [],
+        "icon": "📒"
+      }
+    },
+    {
+      "section": "La solución",
+      "narration": "Las operaciones se agrupan en bloques. Cada bloque se encadena al anterior mediante una especie de huella matemática. Si alguien intentara cambiar una operación antigua, la huella dejaría de encajar y todo el mundo lo notaría.",
+      "visual_query": "La cadena de bloques",
+      "card": {
+        "layout": "steps",
+        "heading": "La cadena de bloques",
+        "items": [
+          "Las operaciones se agrupan en bloques",
+          "Cada bloque se une al anterior",
+          "Cambiar el pasado rompe la cadena"
+        ],
+        "icon": "⛓️"
+      }
+    },
+    {
+      "section": "La solución",
+      "narration": "¿Y quién añade los bloques? Ordenadores llamados mineros, que compiten resolviendo un problema matemático muy costoso. El que lo resuelve primero añade el bloque y recibe bitcoins nuevos como recompensa.",
+      "visual_query": "La minería",
+      "card": {
+        "layout": "steps",
+        "heading": "La minería",
+        "items": [
+          "Los mineros compiten",
+          "Resuelven un problema costoso",
+          "El ganador recibe bitcoins"
+        ],
+        "icon": "⛏️"
+      }
+    },
+    {
+      "section": "La solución",
+      "narration": "Además, Satoshi fijó un límite: nunca existirán más de veintiún millones de bitcoins. Y la recompensa de los mineros se reduce a la mitad cada cierto tiempo.",
+      "visual_query": "bitcoins como máximo, para siempre",
+      "card": {
+        "layout": "number",
+        "heading": "bitcoins como máximo, para siempre",
+        "items": [
+          "21 millones"
+        ],
+        "icon": "🔒"
+      }
+    },
+    {
+      "section": "El bloque génesis",
+      "narration": "El tres de enero de dos mil nueve, Satoshi creó el primer bloque, el bloque génesis. Y dentro escondió un mensaje: el titular de ese día del periódico británico The Times, que hablaba de un segundo rescate a los bancos.",
+      "visual_query": "Satoshi crea el bloque génesis",
+      "card": {
+        "layout": "number",
+        "heading": "Satoshi crea el bloque génesis",
+        "items": [
+          "3 ene. 2009"
+        ],
+        "icon": "🧱"
+      }
+    },
+    {
+      "section": "El bloque génesis",
+      "narration": "Para muchos, era una declaración de intenciones: Bitcoin nacía como respuesta a un sistema financiero en crisis.",
+      "visual_query": "Un mensaje oculto en el primer bloque",
+      "card": {
+        "layout": "quote",
+        "heading": "Un mensaje oculto en el primer bloque",
+        "items": [
+          "Un titular sobre el rescate a los bancos"
+        ],
+        "icon": "📰"
+      }
+    },
+    {
+      "section": "Los primeros días",
+      "narration": "Al principio, apenas unas pocas personas usaban Bitcoin. Una de ellas era el programador Hal Finney, que recibió la primera transacción de la historia, enviada por el propio Satoshi, en enero de dos mil nueve.",
+      "visual_query": "Hal Finney recibió la primera transacción",
+      "card": {
+        "layout": "quote",
+        "heading": "Hal Finney recibió la primera transacción",
+        "items": [
+          "Enero de 2009"
+        ],
+        "icon": "👨‍💻"
+      }
+    },
+    {
+      "section": "Las pizzas",
+      "narration": "Durante más de un año, los bitcoins casi no tenían valor. Hasta que, el veintidós de mayo de dos mil diez, un programador de Florida, Laszlo Hanyecz, pagó diez mil bitcoins por dos pizzas.",
+      "visual_query": "bitcoins por dos pizzas, 22 de mayo de 2010",
+      "card": {
+        "layout": "number",
+        "heading": "bitcoins por dos pizzas, 22 de mayo de 2010",
+        "items": [
+          "10.000"
+        ],
+        "icon": "🍕"
+      }
+    },
+    {
+      "section": "Las pizzas",
+      "narration": "Fue una de las primeras compras de algo físico con bitcoins. Con el tiempo, esos diez mil bitcoins llegaron a valer cientos de millones de dólares. Hoy, cada veintidós de mayo se celebra el Bitcoin Pizza Day.",
+      "visual_query": "Las pizzas más caras de la historia",
+      "card": {
+        "layout": "quote",
+        "heading": "Las pizzas más caras de la historia",
+        "items": [
+          "22 de mayo: Bitcoin Pizza Day"
+        ],
+        "icon": "🎉"
+      }
+    },
+    {
+      "section": "La desaparición",
+      "narration": "Mientras tanto, Satoshi seguía participando en foros y correos, siempre anónimo. Pero hacia dos mil once empezó a retirarse. En uno de sus últimos mensajes conocidos, dijo que se había pasado a otras cosas.",
+      "visual_query": "«Me he pasado a otras cosas»",
+      "card": {
+        "layout": "quote",
+        "heading": "«Me he pasado a otras cosas»",
+        "items": [
+          "Uno de sus últimos mensajes, 2011"
+        ],
+        "icon": "👋"
+      }
+    },
+    {
+      "section": "La desaparición",
+      "narration": "Y desapareció. Se estima que Satoshi minó en los primeros tiempos alrededor de un millón de bitcoins. Según los análisis de la cadena, nunca se han movido.",
+      "visual_query": "bitcoins que se atribuyen a Satoshi, intactos",
+      "card": {
+        "layout": "number",
+        "heading": "bitcoins que se atribuyen a Satoshi, intactos",
+        "items": [
+          "≈ 1 millón"
+        ],
+        "icon": "💰"
+      }
+    },
+    {
+      "section": "El misterio",
+      "narration": "¿Quién es Satoshi? Se han propuesto muchos nombres: criptógrafos, programadores, incluso grupos de personas. Varios han sido señalados por la prensa, y algunos han negado serlo. Pero nadie lo ha demostrado de forma convincente.",
+      "visual_query": "El gran misterio",
+      "card": {
+        "layout": "bullets",
+        "heading": "El gran misterio",
+        "items": [
+          "¿Una persona o un grupo?",
+          "Muchos sospechosos",
+          "Ninguna prueba definitiva"
+        ],
+        "icon": "❓"
+      }
+    },
+    {
+      "section": "Legado",
+      "narration": "Más allá de las criptomonedas y de su enorme volatilidad, la idea de la cadena de bloques inspiró a miles de proyectos. Y Bitcoin se convirtió en uno de los inventos tecnológicos más debatidos del siglo veintiuno.",
+      "visual_query": "Uno de los inventos más debatidos del siglo XXI",
+      "card": {
+        "layout": "quote",
+        "heading": "Uno de los inventos más debatidos del siglo XXI",
+        "items": [],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Quizá nunca sepamos quién fue Satoshi Nakamoto. Pero es una de las pocas personas que cambiaron la tecnología mundial… y luego eligieron desaparecer.",
+      "visual_query": "Cambió el mundo… y eligió desaparecer",
+      "card": {
+        "layout": "quote",
+        "heading": "Cambió el mundo… y eligió desaparecer",
+        "items": [],
+        "icon": "🌫️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

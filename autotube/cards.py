@@ -100,7 +100,11 @@ def _fit(draw, text, path, max_w, max_h, start, min_size=28, line_h=1.18):
 def _paste_icon(img, char, size, center):
     e = emoji(char, size)
     if e:
-        img.paste(e, (int(center[0] - e.width / 2), int(center[1] - e.height / 2)), e)
+        pos = (int(center[0] - e.width / 2), int(center[1] - e.height / 2))
+        if img.mode == "RGBA":
+            img.alpha_composite(e, (max(0, pos[0]), max(0, pos[1])))
+        else:
+            img.paste(e, pos, e)
 
 
 def _pill(d, xy, accent):
@@ -109,12 +113,13 @@ def _pill(d, xy, accent):
 
 
 def render_card(card: dict, size: tuple[int, int], accent_hex: str, reveal: int | None = None,
-                seed: int = 0) -> Image.Image:
+                seed: int = 0, transparent: bool = False) -> Image.Image:
+    """transparent=True: solo el contenido (RGBA), para superponerlo a un fondo animado."""
     accent = hex_rgb(accent_hex)
     w, h = size
     vertical = h > w
     s = min(w, h) / 1080  # escala
-    img = background(size, accent, seed).copy()
+    img = Image.new("RGBA", size, (0, 0, 0, 0)) if transparent else background(size, accent, seed).copy()
     d = ImageDraw.Draw(img)
     layout = card.get("layout", "title")
     heading = card.get("heading", "").strip()
@@ -225,18 +230,72 @@ def render_card(card: dict, size: tuple[int, int], accent_hex: str, reveal: int 
     return img
 
 
-def card_frames(card: dict, size, accent: str, out_prefix: Path, seed: int = 0) -> list[Path]:
+def card_frames(card: dict, size, accent: str, out_prefix: Path, seed: int = 0,
+                transparent: bool = False) -> list[Path]:
     """Genera las imágenes de la tarjeta (varias si los elementos aparecen uno a uno)."""
     items = [i for i in card.get("items", []) if i.strip()]
     paths = []
     if card.get("layout") in ("bullets", "steps") and len(items) > 1:
         for k in range(1, len(items) + 1):
             p = out_prefix.with_name(f"{out_prefix.name}_{k}.png")
-            render_card(card, size, accent, reveal=k, seed=seed).save(p)
+            render_card(card, size, accent, reveal=k, seed=seed, transparent=transparent).save(p)
             paths.append(p)
     else:
         p = out_prefix.with_suffix(".png")
-        render_card(card, size, accent, seed=seed).save(p)
+        render_card(card, size, accent, seed=seed, transparent=transparent).save(p)
         paths.append(p)
     return paths
+
+
+def wide_background(size: tuple[int, int], accent_hex: str, seed: int = 0, factor: float = 1.3) -> Image.Image:
+    """Fondo más grande que el vídeo, para desplazarlo suavemente (fondo animado)."""
+    w, h = size
+    big = (int(w * factor) // 2 * 2, int(h * factor) // 2 * 2)
+    accent = hex_rgb(accent_hex)
+    img = background(big, accent, seed).copy()
+    rnd = random.Random(seed + 99)
+    glow = Image.new("RGB", big, (0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    for _ in range(3):  # más manchas de luz para que el movimiento se note
+        r = rnd.randint(big[1] // 5, big[1] // 3)
+        cx, cy = rnd.randint(0, big[0]), rnd.randint(0, big[1])
+        gd.ellipse([cx - r, cy - r, cx + r, cy + r], fill=tuple(int(c * 0.28) for c in accent))
+    glow = glow.filter(ImageFilter.GaussianBlur(big[1] // 8))
+    return Image.blend(img, Image.composite(glow, img, glow.convert("L")), 0.5)
+
+
+def photo_frame(photo_path: Path, caption: str, size: tuple[int, int], accent_hex: str) -> Image.Image:
+    """Foto histórica enmarcada sobre su propia versión desenfocada, con rótulo arriba a la izquierda."""
+    w, h = size
+    s = min(w, h) / 1080
+    accent = hex_rgb(accent_hex)
+    photo = Image.open(photo_path).convert("RGB")
+    # fondo: la propia foto, a pantalla completa, desenfocada y oscurecida
+    scale = max(w / photo.width, h / photo.height)
+    bg = photo.resize((int(photo.width * scale) + 2, int(photo.height * scale) + 2), Image.LANCZOS)
+    bg = bg.crop(((bg.width - w) // 2, (bg.height - h) // 2, (bg.width - w) // 2 + w, (bg.height - h) // 2 + h))
+    bg = bg.filter(ImageFilter.GaussianBlur(int(40 * s)))
+    bg = Image.blend(bg, Image.new("RGB", size, BG_TOP), 0.55)
+    # foto nítida, ajustada al área central
+    max_w, max_h = w * 0.86, h * 0.68
+    k = min(max_w / photo.width, max_h / photo.height)
+    pw, ph = int(photo.width * k), int(photo.height * k)
+    fg = photo.resize((pw, ph), Image.LANCZOS)
+    x, y = (w - pw) // 2, int(h * 0.15)
+    shadow = Image.new("RGBA", size, (0, 0, 0, 0))
+    ImageDraw.Draw(shadow).rectangle([x + 10 * s, y + 14 * s, x + pw + 10 * s, y + ph + 14 * s], fill=(0, 0, 0, 170))
+    bg = Image.alpha_composite(bg.convert("RGBA"), shadow.filter(ImageFilter.GaussianBlur(int(14 * s)))).convert("RGB")
+    d = ImageDraw.Draw(bg)
+    border = int(6 * s)
+    d.rectangle([x - border, y - border, x + pw + border - 1, y + ph + border - 1], fill=(235, 230, 220))
+    bg.paste(fg, (x, y))
+    if caption:
+        f, lines = _fit(d, caption, BOLD, w * 0.8, 60 * s, int(46 * s), min_size=26)
+        text = lines[0] if len(lines) == 1 else caption
+        f = f if len(lines) == 1 else _fit(d, caption, BOLD, w * 0.8, 200 * s, int(40 * s), min_size=22)[0]
+        tw = d.textlength(text, font=f)
+        bx, by = int(60 * s), int(40 * s)
+        d.rounded_rectangle([bx, by, bx + tw + 44 * s, by + f.size * 1.5], radius=int(12 * s), fill=accent)
+        d.text((bx + 22 * s, by + f.size * 0.25), text, font=f, fill=BG_TOP)
+    return bg
 

@@ -1,0 +1,254 @@
+{
+  "topic": "El efecto 2000 (Y2K), el fallo informático que iba a acabar con el mundo",
+  "title": "Efecto 2000: el fallo que iba a apagar el mundo (y por qué no pasó nada)",
+  "description": "El 31 de diciembre de 1999, millones de personas temían que, al llegar la medianoche, los ordenadores del mundo fallaran: aviones, bancos, centrales eléctricas… Era el famoso efecto 2000. Llegó el 1 de enero y casi no pasó nada. ¿Fue todo una exageración?\n\nEn este vídeo te cuento el origen del problema (dos simples dígitos), el enorme esfuerzo mundial para arreglarlo, los pocos fallos que sí ocurrieron y por qué ya se habla del próximo: el problema del año 2038.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "efecto 2000",
+    "Y2K",
+    "error del milenio",
+    "año 2000",
+    "historia de la informática",
+    "problema del año 2038",
+    "fallos informáticos",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#Efecto2000",
+    "#Y2K",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "EL FIN DEL MUNDO QUE NO LLEGÓ",
+  "thumbnail_query": "El efecto 2000 (Y2K), el fallo informático que iba a acabar con el mundo",
+  "thumbnail_icon": "💣",
+  "thumbnail_photo": "",
+  "pinned_comment": "¿Recuerdas la Nochevieja de 1999? 🎆 ¿Te preocupaba el efecto 2000? Cuéntamelo 👇",
+  "sources": [
+    "https://www.britannica.com/technology/Y2K-bug",
+    "https://education.nationalgeographic.org/resource/Y2K-bug/",
+    "https://www.history.com/news/y2k-bug-fear"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Treinta y uno de diciembre de mil novecientos noventa y nueve. Mientras el mundo se prepara para celebrar el nuevo milenio, miles de técnicos informáticos están en sus puestos de trabajo, con café y nervios, mirando el reloj.",
+      "visual_query": "31 de diciembre de 1999",
+      "card": {
+        "layout": "title",
+        "heading": "31 de diciembre de 1999",
+        "items": [
+          "La Nochevieja más tensa de la informática"
+        ],
+        "icon": "🎆"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Había gente que había comprado agua, comida y generadores. Se hablaba de aviones que caerían, bancos que perderían el dinero, centrales eléctricas que se apagarían. Todo por culpa de dos simples dígitos.",
+      "visual_query": "Lo que se temía",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que se temía",
+        "items": [
+          "Fallos en bancos",
+          "Apagones",
+          "Problemas en transportes"
+        ],
+        "icon": "😱"
+      }
+    },
+    {
+      "section": "El origen",
+      "narration": "El problema venía de los años sesenta y setenta. La memoria de los ordenadores era carísima, así que los programadores ahorraban espacio guardando los años con solo dos cifras. Mil novecientos setenta y cinco se guardaba como setenta y cinco.",
+      "visual_query": "El origen del problema",
+      "card": {
+        "layout": "steps",
+        "heading": "El origen del problema",
+        "items": [
+          "La memoria era carísima",
+          "Se guardaban 2 cifras del año",
+          "1975 → «75»"
+        ],
+        "icon": "💾"
+      }
+    },
+    {
+      "section": "El origen",
+      "narration": "Funcionaba bien… hasta que llegara el año dos mil. Porque entonces se guardaría como cero cero. Y muchos programas podrían interpretar que era mil novecientos.",
+      "visual_query": "«00»: ¿2000… o 1900?",
+      "card": {
+        "layout": "quote",
+        "heading": "«00»: ¿2000… o 1900?",
+        "items": [],
+        "icon": "🤔"
+      }
+    },
+    {
+      "section": "El origen",
+      "narration": "Imagina las consecuencias: cálculos de intereses con cien años negativos, personas que aparecen con menos de cero años, contratos que caducan un siglo antes, o sistemas que se bloquean al encontrar una fecha imposible.",
+      "visual_query": "Posibles consecuencias",
+      "card": {
+        "layout": "bullets",
+        "heading": "Posibles consecuencias",
+        "items": [
+          "Intereses mal calculados",
+          "Edades negativas",
+          "Sistemas que se bloquean"
+        ],
+        "icon": "🧮"
+      }
+    },
+    {
+      "section": "El origen",
+      "narration": "Y lo más grave: nadie sabía con certeza cuántos sistemas estaban afectados. El código antiguo estaba en todas partes: en bancos, gobiernos, fábricas y equipos que llevaban décadas funcionando.",
+      "visual_query": "Nadie sabía cuántos sistemas estaban afectados",
+      "card": {
+        "layout": "quote",
+        "heading": "Nadie sabía cuántos sistemas estaban afectados",
+        "items": [],
+        "icon": "❓"
+      }
+    },
+    {
+      "section": "La gran reparación",
+      "narration": "Así que, durante los años noventa, empresas y gobiernos de todo el mundo emprendieron una de las mayores operaciones informáticas de la historia: revisar millones de líneas de código, una a una.",
+      "visual_query": "Revisar millones de líneas de código, una a una",
+      "card": {
+        "layout": "quote",
+        "heading": "Revisar millones de líneas de código, una a una",
+        "items": [],
+        "icon": "🔍"
+      }
+    },
+    {
+      "section": "La gran reparación",
+      "narration": "Hubo que rescatar a programadores jubilados que conocían lenguajes antiguos como COBOL. Se crearon equipos de crisis y se hicieron simulacros adelantando los relojes de los ordenadores.",
+      "visual_query": "Cómo se preparó el mundo",
+      "card": {
+        "layout": "bullets",
+        "heading": "Cómo se preparó el mundo",
+        "items": [
+          "Programadores jubilados de vuelta",
+          "Equipos de crisis",
+          "Simulacros con relojes adelantados"
+        ],
+        "icon": "👴"
+      }
+    },
+    {
+      "section": "La gran reparación",
+      "narration": "El coste fue enorme. Las estimaciones más citadas hablan de cientos de miles de millones de dólares en todo el mundo, de los que Estados Unidos habría gastado alrededor de cien mil millones.",
+      "visual_query": "en todo el mundo, según las estimaciones más citadas",
+      "card": {
+        "layout": "number",
+        "heading": "en todo el mundo, según las estimaciones más citadas",
+        "items": [
+          "Cientos de miles de millones $"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "La medianoche",
+      "narration": "Y llegó la medianoche. Primero en el Pacífico, luego en Asia, en Europa, en América. Los técnicos miraban sus pantallas… y casi nada pasó.",
+      "visual_query": "Llegó la medianoche… y casi nada pasó",
+      "card": {
+        "layout": "quote",
+        "heading": "Llegó la medianoche… y casi nada pasó",
+        "items": [],
+        "icon": "🕛"
+      }
+    },
+    {
+      "section": "La medianoche",
+      "narration": "Hubo algunos fallos menores: sistemas que mostraban la fecha como mil novecientos, problemas puntuales en máquinas de billetes o en algunos sistemas de control y vigilancia que se resolvieron rápidamente. Pero nada parecido al desastre que se temía.",
+      "visual_query": "Los fallos que sí hubo",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los fallos que sí hubo",
+        "items": [
+          "Fechas que mostraban 1900",
+          "Algunas máquinas de billetes",
+          "Problemas puntuales, resueltos pronto"
+        ],
+        "icon": "🩹"
+      }
+    },
+    {
+      "section": "¿Exageración?",
+      "narration": "Entonces, ¿fue todo una exageración? Muchos lo pensaron. Pero la mayoría de los expertos creen lo contrario: no pasó casi nada precisamente porque se trabajó durante años para evitarlo.",
+      "visual_query": "No pasó nada… porque se arregló a tiempo",
+      "card": {
+        "layout": "quote",
+        "heading": "No pasó nada… porque se arregló a tiempo",
+        "items": [],
+        "icon": "🛡️"
+      }
+    },
+    {
+      "section": "¿Exageración?",
+      "narration": "Es lo que a veces se llama la paradoja de la prevención: cuando algo se evita con éxito, parece que nunca fue un problema real.",
+      "visual_query": "La paradoja de la prevención",
+      "card": {
+        "layout": "quote",
+        "heading": "La paradoja de la prevención",
+        "items": [
+          "Si se evita bien, parece que nunca existió"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "El próximo",
+      "narration": "Y la historia tiene secuela. Muchos sistemas informáticos cuentan el tiempo como los segundos transcurridos desde el uno de enero de mil novecientos setenta. En los sistemas que usan un número de treinta y dos bits, ese contador se desbordará el diecinueve de enero de dos mil treinta y ocho.",
+      "visual_query": "El próximo gran fallo de fechas",
+      "card": {
+        "layout": "number",
+        "heading": "El próximo gran fallo de fechas",
+        "items": [
+          "19 ene. 2038"
+        ],
+        "icon": "⏰"
+      }
+    },
+    {
+      "section": "El próximo",
+      "narration": "La buena noticia es que la mayoría de los sistemas modernos ya usan sesenta y cuatro bits, lo que alarga ese límite cientos de miles de millones de años. El reto está en los sistemas antiguos que siguen funcionando.",
+      "visual_query": "El problema de 2038",
+      "card": {
+        "layout": "steps",
+        "heading": "El problema de 2038",
+        "items": [
+          "Contador de 32 bits: se desborda en 2038",
+          "Contador de 64 bits: sin problema",
+          "El reto: sistemas antiguos"
+        ],
+        "icon": "🔧"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "El efecto dos mil nos dejó una gran lección: las pequeñas decisiones técnicas de hoy pueden convertirse en grandes problemas dentro de décadas. Y cuando la prevención funciona, nadie se entera.",
+      "visual_query": "Las decisiones de hoy son los problemas de mañana",
+      "card": {
+        "layout": "quote",
+        "heading": "Las decisiones de hoy son los problemas de mañana",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

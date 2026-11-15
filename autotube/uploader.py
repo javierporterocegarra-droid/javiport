@@ -29,7 +29,8 @@ def _tags(tags: list[str]) -> list[str]:
     return out
 
 
-def upload(cfg: dict, video_path, thumb_path, meta: dict) -> dict:
+def upload(cfg: dict, video_path, thumb_path, meta: dict, publish_at: str | None = None) -> dict:
+    """publish_at: fecha ISO 8601 en UTC (p. ej. 2026-11-16T16:00:00Z) para programar la publicación."""
     up = cfg["upload"]
     yt = youtube_oauth(cfg)
     status = {
@@ -37,8 +38,9 @@ def upload(cfg: dict, video_path, thumb_path, meta: dict) -> dict:
         "selfDeclaredMadeForKids": up["made_for_kids"],
         "containsSyntheticMedia": up.get("contains_synthetic_media", True),
     }
-    publish_at = None
-    if up.get("schedule_hours_ahead", 0) > 0:
+    if publish_at:
+        status.update(privacyStatus="private", publishAt=publish_at)
+    elif up.get("schedule_hours_ahead", 0) > 0:
         publish_at = (datetime.now(timezone.utc) + timedelta(hours=up["schedule_hours_ahead"])) \
             .replace(microsecond=0).isoformat().replace("+00:00", "Z")
         status.update(privacyStatus="private", publishAt=publish_at)

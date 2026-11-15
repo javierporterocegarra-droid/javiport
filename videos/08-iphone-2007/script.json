@@ -1,0 +1,296 @@
+{
+  "topic": "La presentación del primer iPhone en 2007",
+  "title": "El día que Steve Jobs presentó el iPhone (y casi sale fatal)",
+  "description": "El 9 de enero de 2007, Steve Jobs subió al escenario de la Macworld de San Francisco y anunció «un iPod, un teléfono y un comunicador de internet»… que en realidad eran un solo aparato. Era el primer iPhone, y cambió para siempre la forma en que usamos la tecnología.\n\nEn este vídeo te cuento la historia secreta del iPhone: el Proyecto Púrpura, la decisión de quitar el teclado físico, la demostración en directo con un prototipo que fallaba constantemente, las burlas de la competencia y cómo, un año después, la App Store lo cambió todo.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "iPhone",
+    "primer iPhone",
+    "Steve Jobs",
+    "historia del iPhone",
+    "Apple",
+    "Macworld 2007",
+    "smartphone",
+    "historia de los móviles",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#iPhone",
+    "#SteveJobs",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "EL DÍA QUE CAMBIÓ EL MÓVIL",
+  "thumbnail_query": "La presentación del primer iPhone en 2007",
+  "thumbnail_icon": "📱",
+  "thumbnail_photo": "Steve Jobs Macworld 2007 iPhone",
+  "pinned_comment": "¿Cuál fue tu primer smartphone? 📱 Yo leo todos los comentarios 👇",
+  "sources": [
+    "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+    "https://www.britannica.com/technology/iPhone",
+    "https://www.nytimes.com/2013/10/06/magazine/and-then-steve-said-let-there-be-an-iphone.html"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Nueve de enero de dos mil siete. San Francisco. Steve Jobs sale al escenario y dice que hoy va a presentar tres productos revolucionarios: un iPod con pantalla táctil, un teléfono móvil y un comunicador de internet.",
+      "visual_query": "Tres productos revolucionarios",
+      "card": {
+        "layout": "steps",
+        "heading": "Tres productos revolucionarios",
+        "items": [
+          "Un iPod táctil",
+          "Un teléfono",
+          "Un comunicador de internet"
+        ],
+        "icon": "🎤"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Lo repite varias veces, hasta que el público entiende la broma: no son tres aparatos. Es uno solo. Y lo llama iPhone.",
+      "visual_query": "iPhone",
+      "card": {
+        "layout": "title",
+        "heading": "iPhone",
+        "items": [
+          "9 de enero de 2007"
+        ],
+        "icon": "📱"
+      },
+      "photo": "Steve Jobs Macworld 2007 iPhone",
+      "photo_caption": "Steve Jobs presenta el iPhone (2007)"
+    },
+    {
+      "section": "Introducción",
+      "narration": "Lo que casi nadie sabía es que aquella demostración estaba a punto de salir fatal. Hoy te cuento la historia del aparato que cambió el mundo… y lo cerca que estuvo de fracasar en directo.",
+      "visual_query": "La demo estuvo a punto de salir fatal",
+      "card": {
+        "layout": "quote",
+        "heading": "La demo estuvo a punto de salir fatal",
+        "items": [],
+        "icon": "😬"
+      }
+    },
+    {
+      "section": "Antes del iPhone",
+      "narration": "Pongámonos en contexto. En dos mil seis, los móviles más avanzados tenían teclados físicos diminutos, como las BlackBerry. Navegar por internet en el móvil era lento y frustrante.",
+      "visual_query": "Los móviles en 2006",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los móviles en 2006",
+        "items": [
+          "Teclados físicos diminutos",
+          "Pantallas pequeñas",
+          "Internet lento y frustrante"
+        ],
+        "icon": "☎️"
+      }
+    },
+    {
+      "section": "Antes del iPhone",
+      "narration": "Apple, por su parte, triunfaba con el iPod. Pero Jobs tenía un miedo: que los teléfonos acabaran incluyendo música y dejaran el iPod obsoleto. Así que decidió adelantarse.",
+      "visual_query": "Jobs temía que el móvil se comiera al iPod",
+      "card": {
+        "layout": "quote",
+        "heading": "Jobs temía que el móvil se comiera al iPod",
+        "items": [],
+        "icon": "🎵"
+      }
+    },
+    {
+      "section": "Proyecto Púrpura",
+      "narration": "El proyecto secreto se llamó Proyecto Púrpura. Los equipos trabajaban aislados, en zonas cerradas con tarjetas de acceso, y muchos ingenieros no sabían en qué estaban trabajando realmente sus compañeros.",
+      "visual_query": "Proyecto Púrpura",
+      "card": {
+        "layout": "bullets",
+        "heading": "Proyecto Púrpura",
+        "items": [
+          "Máximo secreto",
+          "Zonas con acceso restringido",
+          "Equipos aislados entre sí"
+        ],
+        "icon": "🟣"
+      }
+    },
+    {
+      "section": "Proyecto Púrpura",
+      "narration": "La decisión más arriesgada fue eliminar el teclado. Toda la parte frontal sería una pantalla táctil que se manejaría con los dedos, sin lápiz. Con un gesto que hoy hacemos sin pensar: deslizar y pellizcar.",
+      "visual_query": "Una apuesta arriesgada",
+      "card": {
+        "layout": "steps",
+        "heading": "Una apuesta arriesgada",
+        "items": [
+          "Sin teclado físico",
+          "Pantalla táctil multitáctil",
+          "Se usa con los dedos"
+        ],
+        "icon": "👆"
+      }
+    },
+    {
+      "section": "Proyecto Púrpura",
+      "narration": "Y hubo un cambio de última hora: la pantalla iba a ser de plástico. Pero tras ver lo fácil que se rayaba, Jobs exigió una pantalla de cristal resistente pocos meses antes del lanzamiento.",
+      "visual_query": "Pantalla de plástico rayada → cristal a última hora",
+      "card": {
+        "layout": "quote",
+        "heading": "Pantalla de plástico rayada → cristal a última hora",
+        "items": [],
+        "icon": "🪟"
+      }
+    },
+    {
+      "section": "La demo",
+      "narration": "Y ahora, la presentación. Los prototipos del iPhone fallaban constantemente. Según contaron después varios ingenieros, el teléfono podía colgarse si las cosas no se hacían en un orden muy concreto.",
+      "visual_query": "Los prototipos fallaban constantemente",
+      "card": {
+        "layout": "quote",
+        "heading": "Los prototipos fallaban constantemente",
+        "items": [],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "La demo",
+      "narration": "Así que el equipo diseñó lo que llamaban «el camino dorado»: una secuencia exacta de acciones que Jobs debía seguir para que nada se rompiera. Ensayaron una y otra vez.",
+      "visual_query": "El «camino dorado»",
+      "card": {
+        "layout": "steps",
+        "heading": "El «camino dorado»",
+        "items": [
+          "Una secuencia exacta de pasos",
+          "Ensayada una y otra vez",
+          "Sin margen de error"
+        ],
+        "icon": "🛤️"
+      }
+    },
+    {
+      "section": "La demo",
+      "narration": "Incluso la señal de cobertura estaba trucada para que mostrara siempre las barras al máximo. Mientras Jobs hablaba, algunos ingenieros entre el público iban tomando tragos cada vez que una parte de la demo salía bien.",
+      "visual_query": "Tensión entre bastidores",
+      "card": {
+        "layout": "bullets",
+        "heading": "Tensión entre bastidores",
+        "items": [
+          "Cobertura «al máximo» siempre",
+          "Ingenieros nerviosos entre el público",
+          "Cada paso, un pequeño milagro"
+        ],
+        "icon": "🥃"
+      }
+    },
+    {
+      "section": "La demo",
+      "narration": "Y salió perfecta. Jobs hizo scroll en la lista de música, amplió fotos con dos dedos, navegó por la web y llamó por teléfono. El público estaba entusiasmado.",
+      "visual_query": "Salió perfecta",
+      "card": {
+        "layout": "quote",
+        "heading": "Salió perfecta",
+        "items": [
+          "Y el público enloqueció"
+        ],
+        "icon": "👏"
+      }
+    },
+    {
+      "section": "Las críticas",
+      "narration": "No todo el mundo estaba impresionado. El entonces director de Microsoft, Steve Ballmer, se rió en una entrevista del precio y de que no tuviera teclado, y dijo que no atraería a los usuarios de empresa.",
+      "visual_query": "La competencia se rió del iPhone",
+      "card": {
+        "layout": "quote",
+        "heading": "La competencia se rió del iPhone",
+        "items": [],
+        "icon": "😂"
+      }
+    },
+    {
+      "section": "Las críticas",
+      "narration": "Y razones para dudar había: costaba entre quinientos y seiscientos dólares con contrato, no tenía 3G, no grababa vídeo y no se podían instalar aplicaciones de otros.",
+      "visual_query": "El primer iPhone no tenía…",
+      "card": {
+        "layout": "bullets",
+        "heading": "El primer iPhone no tenía…",
+        "items": [
+          "3G",
+          "Grabación de vídeo",
+          "Tienda de aplicaciones"
+        ],
+        "icon": "🚫"
+      }
+    },
+    {
+      "section": "El lanzamiento",
+      "narration": "Salió a la venta en Estados Unidos el veintinueve de junio de dos mil siete. Hubo colas de días en las tiendas.",
+      "visual_query": "Sale a la venta en Estados Unidos",
+      "card": {
+        "layout": "number",
+        "heading": "Sale a la venta en Estados Unidos",
+        "items": [
+          "29 junio 2007"
+        ],
+        "icon": "🛍️"
+      }
+    },
+    {
+      "section": "La App Store",
+      "narration": "Pero el verdadero cambio llegó un año después. En julio de dos mil ocho, Apple abrió la App Store. De repente, cualquier programador podía crear aplicaciones para el iPhone. Y el móvil se convirtió en una plataforma para todo.",
+      "visual_query": "Abre la App Store: el móvil se convierte en plataforma",
+      "card": {
+        "layout": "number",
+        "heading": "Abre la App Store: el móvil se convierte en plataforma",
+        "items": [
+          "2008"
+        ],
+        "icon": "🏪"
+      }
+    },
+    {
+      "section": "Legado",
+      "narration": "Lo que vino después ya lo conoces. Redes sociales, mapas, vídeos, bancos, taxis… todo pasó al bolsillo. Y en dos mil dieciséis, Apple anunció que ya había vendido mil millones de iPhone.",
+      "visual_query": "iPhone vendidos en 2016, según Apple",
+      "card": {
+        "layout": "number",
+        "heading": "iPhone vendidos en 2016, según Apple",
+        "items": [
+          "1.000 millones"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "Legado",
+      "narration": "Y no solo Apple: casi todos los smartphones actuales, de cualquier marca, siguen la misma idea de aquel aparato. Una pantalla táctil que lo ocupa todo.",
+      "visual_query": "Casi todos los móviles siguen aquella idea",
+      "card": {
+        "layout": "quote",
+        "heading": "Casi todos los móviles siguen aquella idea",
+        "items": [],
+        "icon": "📲"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "La historia del iPhone nos enseña que, a veces, la innovación no consiste en añadir cosas, sino en quitarlas. Jobs quitó el teclado… y cambió el mundo.",
+      "visual_query": "Innovar a veces es quitar, no añadir",
+      "card": {
+        "layout": "quote",
+        "heading": "Innovar a veces es quitar, no añadir",
+        "items": [],
+        "icon": "✂️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

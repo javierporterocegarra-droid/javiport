@@ -15,7 +15,8 @@ def _cover(img: Image.Image, size=(W, H)) -> Image.Image:
     img = img.convert("RGB")
     scale = max(size[0] / img.width, size[1] / img.height)
     img = img.resize((int(img.width * scale) + 1, int(img.height * scale) + 1), Image.LANCZOS)
-    left, top = (img.width - size[0]) // 2, (img.height - size[1]) // 2
+    left = (img.width - size[0]) // 2
+    top = int((img.height - size[1]) * 0.18)  # en retratos, priorizar la parte de arriba (la cara)
     return img.crop((left, top, left + size[0], top + size[1]))
 
 
@@ -37,13 +38,14 @@ def _fit_font(draw, lines, font_path, max_w, max_h):
 
 
 def make_thumbnail(cfg: dict, text: str, query: str, workdir: Path, fallback_media: list[Path],
-                   icon: str = "") -> Path:
+                   icon: str = "", photo: Path | None = None) -> Path:
     out = workdir / "thumbnail.jpg"
-    bg_path = None
-    try:
-        bg_path = media.pexels_photo(query, workdir / "thumb_bg", "landscape")
-    except Exception:
-        pass
+    bg_path = photo
+    if not bg_path:
+        try:
+            bg_path = media.pexels_photo(query, workdir / "thumb_bg", "landscape")
+        except Exception:
+            pass
     if not bg_path:
         for m in fallback_media:
             bg_path = _frame_from_video(m, workdir / "thumb_bg.png") if m.suffix == ".mp4" else m
@@ -60,7 +62,7 @@ def make_thumbnail(cfg: dict, text: str, query: str, workdir: Path, fallback_med
         ImageDraw.Draw(glow).ellipse([W - 560, 80, W - 20, 620], fill=theme)
         glow = glow.filter(ImageFilter.GaussianBlur(90))
         bg = Image.composite(glow, bg, glow.convert("L").point(lambda v: int(v * 0.55)))
-    e = cards.emoji(icon, 430) if icon else None
+    e = cards.emoji(icon, 430) if icon and not photo else None
     if e:
         bg.paste(e, (W - e.width - 50, (H - e.height) // 2), e)
 

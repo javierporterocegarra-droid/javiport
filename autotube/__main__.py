@@ -32,6 +32,12 @@ def main(argv=None) -> int:
     r.add_argument("workdir")
     u = sub.add_parser("upload")
     u.add_argument("workdir")
+    sc = sub.add_parser("schedule", help="sube varios vídeos y programa uno al día")
+    sc.add_argument("workdirs", nargs="+")
+    sc.add_argument("--start", required=True, help="fecha del primero, AAAA-MM-DD")
+    sc.add_argument("--time", default="17:00", help="hora local de publicación, HH:MM")
+    sc.add_argument("--tz", default="Europe/Madrid", help="zona horaria")
+    sc.add_argument("--every-days", type=int, default=1)
     sub.add_parser("manage")
     sub.add_parser("report")
     a = sub.add_parser("autopilot")
@@ -86,6 +92,17 @@ def main(argv=None) -> int:
     if args.cmd == "upload":
         res = pipeline.upload_dir(cfg, db, Path(args.workdir))
         print(f"Subido: https://youtu.be/{res['youtube_id']}")
+        return 0
+    if args.cmd == "schedule":
+        from datetime import datetime, timedelta, timezone
+        from zoneinfo import ZoneInfo
+        first = datetime.fromisoformat(f"{args.start}T{args.time}").replace(tzinfo=ZoneInfo(args.tz))
+        for k, wd in enumerate(args.workdirs):
+            when = (first + timedelta(days=k * args.every_days)).astimezone(timezone.utc)
+            iso = when.strftime("%Y-%m-%dT%H:%M:%SZ")
+            res = pipeline.upload_dir(cfg, db, Path(wd), publish_at=iso)
+            local = when.astimezone(ZoneInfo(args.tz)).strftime("%d/%m/%Y %H:%M")
+            print(f"{local} ({args.tz}) -> https://youtu.be/{res['youtube_id']}  [{Path(wd).name}]", flush=True)
         return 0
     if args.cmd == "manage":
         manager.sync_stats(cfg, db)

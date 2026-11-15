@@ -1,0 +1,268 @@
+{
+  "topic": "Leonardo Torres Quevedo, el genio español de la tecnología",
+  "title": "Torres Quevedo: el genio español que inventó el mando a distancia",
+  "description": "Leonardo Torres Quevedo fue uno de los mayores inventores de su tiempo… y en España casi nadie conoce su historia. Ingeniero cántabro, creó el Telekino, uno de los primeros mandos a distancia por radio del mundo; construyó El Ajedrecista, una máquina que jugaba finales de ajedrez sola en 1912; diseñó el Spanish Aero Car que todavía hoy cruza sobre el río Niágara, y adelantó ideas clave de la informática.\n\nEn este vídeo te cuento la historia del genio español que se adelantó a su tiempo.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "Torres Quevedo",
+    "Leonardo Torres Quevedo",
+    "Telekino",
+    "El Ajedrecista",
+    "inventores españoles",
+    "Spanish Aero Car",
+    "historia de la tecnología en España",
+    "Cantabria",
+    "historia de la tecnología",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#TorresQuevedo",
+    "#InventoresEspañoles",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "EL GENIO ESPAÑOL OLVIDADO",
+  "thumbnail_query": "Leonardo Torres Quevedo, el genio español de la tecnología",
+  "thumbnail_icon": "🇪🇸",
+  "thumbnail_photo": "Leonardo Torres Quevedo",
+  "pinned_comment": "¿Conocías a Torres Quevedo? 🇪🇸 ¿Qué otro inventor español o latinoamericano quieres que contemos? 👇",
+  "sources": [
+    "https://ethw.org/Milestones:Early_Developments_in_Remote-Control,_1901",
+    "https://www.britannica.com/biography/Leonardo-Torres-y-Quevedo",
+    "https://www.niagaraparks.com/visit/attractions/whirlpool-aero-car/"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Si te pregunto por grandes inventores, seguramente pienses en Edison, en Tesla o en Graham Bell. Pero hay un genio español que estuvo a su altura y que casi nadie conoce: Leonardo Torres Quevedo.",
+      "visual_query": "Leonardo Torres Quevedo",
+      "card": {
+        "layout": "title",
+        "heading": "Leonardo Torres Quevedo",
+        "items": [
+          "El genio español olvidado"
+        ],
+        "icon": "🇪🇸"
+      },
+      "photo": "Leonardo Torres Quevedo",
+      "photo_caption": "Leonardo Torres Quevedo"
+    },
+    {
+      "section": "Introducción",
+      "narration": "Inventó uno de los primeros mandos a distancia del mundo, construyó una máquina que jugaba al ajedrez sola en mil novecientos doce, y uno de sus diseños todavía lleva turistas sobre las cataratas del Niágara.",
+      "visual_query": "Algunos de sus logros",
+      "card": {
+        "layout": "bullets",
+        "heading": "Algunos de sus logros",
+        "items": [
+          "Uno de los primeros mandos a distancia",
+          "Una máquina que jugaba al ajedrez",
+          "Un teleférico que aún funciona en Niágara"
+        ],
+        "icon": "🏆"
+      }
+    },
+    {
+      "section": "Orígenes",
+      "narration": "Nació en mil ochocientos cincuenta y dos en Santa Cruz de Iguña, en Cantabria. Estudió ingeniería de caminos en Madrid, pero tras trabajar poco tiempo en el ferrocarril, decidió dedicarse a lo que de verdad le apasionaba: pensar e inventar.",
+      "visual_query": "Sus orígenes",
+      "card": {
+        "layout": "bullets",
+        "heading": "Sus orígenes",
+        "items": [
+          "Cantabria, 1852",
+          "Ingeniero de caminos",
+          "Decidió dedicarse a inventar"
+        ],
+        "icon": "🏔️"
+      }
+    },
+    {
+      "section": "Los transbordadores",
+      "narration": "Uno de sus primeros grandes inventos fueron los transbordadores aéreos, lo que hoy llamaríamos teleféricos. Diseñó un sistema de cables muy seguro, en el que la rotura de uno no hacía caer la cabina.",
+      "visual_query": "Teleféricos seguros: si un cable fallaba, no caían",
+      "card": {
+        "layout": "quote",
+        "heading": "Teleféricos seguros: si un cable fallaba, no caían",
+        "items": [],
+        "icon": "🚡"
+      }
+    },
+    {
+      "section": "Los transbordadores",
+      "narration": "En mil novecientos siete inauguró uno en el monte Ulía, en San Sebastián. Y en mil novecientos dieciséis, se abrió en Canadá, sobre un remolino del río Niágara, el llamado Spanish Aero Car.",
+      "visual_query": "Sus transbordadores",
+      "card": {
+        "layout": "steps",
+        "heading": "Sus transbordadores",
+        "items": [
+          "1907: monte Ulía (San Sebastián)",
+          "1916: río Niágara (Canadá)"
+        ],
+        "icon": "🇨🇦"
+      },
+      "photo": "Spanish Aero Car Niagara",
+      "photo_caption": "Spanish Aero Car, Niágara (Canadá)"
+    },
+    {
+      "section": "Los transbordadores",
+      "narration": "Lo increíble es que, más de cien años después, el Spanish Aero Car sigue funcionando y llevando turistas sobre el río. Y todavía luce la bandera de España.",
+      "visual_query": "Más de 100 años después, sigue funcionando",
+      "card": {
+        "layout": "quote",
+        "heading": "Más de 100 años después, sigue funcionando",
+        "items": [
+          "Con la bandera de España"
+        ],
+        "icon": "🎌"
+      }
+    },
+    {
+      "section": "El Telekino",
+      "narration": "Pero su invento más adelantado fue el Telekino. En mil novecientos tres lo patentó: un sistema para controlar máquinas a distancia mediante ondas de radio.",
+      "visual_query": "Patenta el Telekino, control a distancia por radio",
+      "card": {
+        "layout": "number",
+        "heading": "Patenta el Telekino, control a distancia por radio",
+        "items": [
+          "1903"
+        ],
+        "icon": "📡"
+      }
+    },
+    {
+      "section": "El Telekino",
+      "narration": "Su idea era usarlo para dirigir globos dirigibles sin poner en peligro a ningún piloto. En mil novecientos seis hizo una demostración pública en el puerto de Bilbao: desde tierra, manejó un bote con pasajeros a distancia.",
+      "visual_query": "Bilbao, 1906",
+      "card": {
+        "layout": "steps",
+        "heading": "Bilbao, 1906",
+        "items": [
+          "Un bote en el puerto",
+          "Controlado desde tierra",
+          "Por ondas de radio"
+        ],
+        "icon": "🚤"
+      }
+    },
+    {
+      "section": "El Telekino",
+      "narration": "El Telekino no se limitaba a encender o apagar algo: podía enviar distintas órdenes y ejecutar varias acciones. Hoy se considera uno de los precursores del mando a distancia, y el Instituto de Ingenieros Eléctricos y Electrónicos le dedicó en dos mil siete uno de sus hitos históricos.",
+      "visual_query": "Un precursor de…",
+      "card": {
+        "layout": "bullets",
+        "heading": "Un precursor de…",
+        "items": [
+          "El mando a distancia",
+          "Los drones",
+          "El control remoto por radio"
+        ],
+        "icon": "🎮"
+      }
+    },
+    {
+      "section": "El Ajedrecista",
+      "narration": "Y luego está su invento más sorprendente. En mil novecientos doce construyó El Ajedrecista, una máquina que jugaba sola un final de ajedrez: rey y torre contra rey. Y siempre ganaba.",
+      "visual_query": "El Ajedrecista",
+      "card": {
+        "layout": "title",
+        "heading": "El Ajedrecista",
+        "items": [
+          "1912: una máquina que jugaba al ajedrez"
+        ],
+        "icon": "♟️"
+      },
+      "photo": "El Ajedrecista Torres Quevedo",
+      "photo_caption": "El Ajedrecista"
+    },
+    {
+      "section": "El Ajedrecista",
+      "narration": "Un humano movía el rey contrario, y la máquina detectaba la posición mediante contactos eléctricos y respondía moviendo sus piezas con un brazo mecánico. Si el humano hacía un movimiento ilegal, la máquina lo indicaba.",
+      "visual_query": "Cómo funcionaba",
+      "card": {
+        "layout": "steps",
+        "heading": "Cómo funcionaba",
+        "items": [
+          "El humano mueve su rey",
+          "La máquina detecta la posición",
+          "Responde con un brazo mecánico"
+        ],
+        "icon": "🦾"
+      }
+    },
+    {
+      "section": "El Ajedrecista",
+      "narration": "Muchos lo consideran uno de los primeros juegos de ordenador de la historia, y un antepasado de la inteligencia artificial. Fue en mil novecientos doce, décadas antes del primer ordenador electrónico.",
+      "visual_query": "Un antepasado de la inteligencia artificial… en 1912",
+      "card": {
+        "layout": "quote",
+        "heading": "Un antepasado de la inteligencia artificial… en 1912",
+        "items": [],
+        "icon": "🤖"
+      }
+    },
+    {
+      "section": "El visionario",
+      "narration": "Torres Quevedo también pensó en las máquinas de calcular. En mil novecientos catorce publicó un ensayo sobre automática en el que imaginaba máquinas capaces de tomar decisiones, y propuso una forma de representar los números que se parece a la que usan los ordenadores actuales.",
+      "visual_query": "Imaginó máquinas que toman decisiones",
+      "card": {
+        "layout": "quote",
+        "heading": "Imaginó máquinas que toman decisiones",
+        "items": [
+          "Ensayos sobre automática, 1914"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "El visionario",
+      "narration": "En mil novecientos veinte presentó en París un aritmómetro electromecánico: una calculadora conectada a una máquina de escribir, en la que se tecleaban las operaciones y la máquina escribía el resultado.",
+      "visual_query": "Presenta en París su aritmómetro electromecánico",
+      "card": {
+        "layout": "number",
+        "heading": "Presenta en París su aritmómetro electromecánico",
+        "items": [
+          "1920"
+        ],
+        "icon": "🧮"
+      }
+    },
+    {
+      "section": "Reconocimiento",
+      "narration": "En vida fue muy respetado: fue académico, recibió honores internacionales y en Francia lo consideraban uno de los grandes inventores de su tiempo. Murió en Madrid en mil novecientos treinta y seis.",
+      "visual_query": "Su reconocimiento",
+      "card": {
+        "layout": "bullets",
+        "heading": "Su reconocimiento",
+        "items": [
+          "Respetado en toda Europa",
+          "Académico y premiado",
+          "Murió en Madrid en 1936"
+        ],
+        "icon": "🎖️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Y sin embargo, hoy su nombre es poco conocido, incluso en España. Por eso merece la pena recordarlo: un ingeniero cántabro que imaginó el control remoto, los juegos de máquina y la automatización cuando casi nadie podía siquiera soñarlos.",
+      "visual_query": "Un genio que merece ser recordado",
+      "card": {
+        "layout": "quote",
+        "heading": "Un genio que merece ser recordado",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ]
+}

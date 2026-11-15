@@ -58,6 +58,57 @@ def render_scene(cfg: dict, media: Path | list[Path], audio: Path, duration: flo
     return total
 
 
+def render_segment(cfg: dict, kind: str, assets, audio: Path, duration: float, out: Path,
+                   offset: float, total_video: float, bg_wide: Path | None, accent: str) -> float:
+    """Escena con fondo animado continuo, fundido de entrada y barra de progreso.
+
+    kind: "card" (PNG transparentes sobre fondo en movimiento), "photo" (imagen compuesta con
+    zoom lento) o "stock" (vídeo/imagen de archivo).
+    """
+    if kind == "stock":
+        return render_scene(cfg, assets, audio, duration, out)
+    w, h = dims(cfg)
+    fps = cfg["video"]["fps"]
+    total = duration + SCENE_GAP
+    frames = int(total * fps) + 1
+    off, tot = f"{offset:.3f}", f"{max(total_video, 1):.3f}"
+    bar_h = max(4, h // 180)
+    color = "0x" + accent.lstrip("#")
+    if kind == "card":
+        assets = assets if isinstance(assets, list) else [assets]
+        if len(assets) == 1:
+            fg_in = ["-loop", "1", "-framerate", str(fps), "-i", str(assets[0])]
+        else:
+            lead = min(1.2, total * 0.25)
+            per = (total - lead) / len(assets)
+            lst = out.with_suffix(".txt")
+            lst.write_text("".join(f"file '{p.resolve()}'\nduration {lead + per if i == 0 else per:.3f}\n"
+                                   for i, p in enumerate(assets)) + f"file '{assets[-1].resolve()}'\n",
+                           encoding="utf-8")
+            fg_in = ["-f", "concat", "-safe", "0", "-i", str(lst)]
+        inputs = ["-loop", "1", "-framerate", str(fps), "-i", str(bg_wide), *fg_in]
+        vgraph = (f"[0:v]crop={w}:{h}:x='(iw-ow)/2*(1+sin(({off}+t)/9))':y='(ih-oh)/2*(1+cos(({off}+t)/13))'[bg];"
+                  f"[1:v]fps={fps},format=rgba,fade=t=in:st=0:d=0.4:alpha=1[fg];"
+                  f"[bg][fg]overlay=0:0[v1]")
+    else:  # photo
+        inputs = ["-loop", "1", "-framerate", str(fps), "-i", str(assets)]
+        vgraph = (f"[0:v]scale={w * 2}:{h * 2},zoompan=z='1+0.07*on/{frames}':d=1:x='iw/2-(iw/zoom/2)':"
+                  f"y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps},fade=t=in:st=0:d=0.35[v1]")
+        fg_in = []
+    n_v = 2 if kind == "card" else 1
+    run([
+        "ffmpeg", "-y", *inputs, "-i", str(audio),
+        "-f", "lavfi", "-i", f"color=c={color}:s={w}x{bar_h}:r={fps}",
+        "-filter_complex",
+        f"{vgraph};[v1][{n_v + 1}:v]overlay=x='-w+W*({off}+t)/{tot}':y=0:eval=frame,setsar=1,format=yuv420p[v];"
+        f"[{n_v}:a]aresample=48000,apad[a]",
+        "-map", "[v]", "-map", "[a]", "-t", f"{total:.3f}",
+        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-r", str(fps),
+        "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-ar", "48000", str(out),
+    ])
+    return total
+
+
 def _ts(t: float) -> str:
     h, rem = divmod(t, 3600)
     m, s = divmod(rem, 60)
@@ -96,7 +147,8 @@ def build_ass(cfg: dict, scenes: list[dict], out: Path) -> None:
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def assemble(cfg: dict, workdir: Path, segments: list[Path], subs: Path | None, out: Path) -> None:
+def assemble(cfg: dict, workdir: Path, segments: list[Path], subs: Path | None, out: Path,
+             music: Path | None = None) -> None:
     concat_list = workdir / "segments.txt"
     concat_list.write_text("".join(f"file '{s.name}'\n" for s in segments), encoding="utf-8")
     joined = workdir / "joined.mp4"
@@ -107,11 +159,14 @@ def assemble(cfg: dict, workdir: Path, segments: list[Path], subs: Path | None, 
         if music_dir.exists() else []
     inputs = ["-i", joined.name]
     vchain = f"[0:v]subtitles={subs.name}[v]" if subs else "[0:v]null[v]"
-    if tracks:
-        inputs += ["-stream_loop", "-1", "-i", str(random.choice(tracks))]
+    track = str(random.choice(tracks).resolve()) if tracks else (str(Path(music).resolve()) if music else None)
+    if track:
+        inputs += ["-stream_loop", "-1", "-i", track]
         vol = cfg["video"].get("music_volume", 0.08)
-        achain = (f"[1:a]volume={vol},aresample=48000[m];"
-                  f"[0:a][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
+        # la música baja automáticamente cuando habla la voz (ducking)
+        achain = (f"[0:a]asplit=2[voz][key];[1:a]volume={vol},aresample=48000[m0];"
+                  f"[m0][key]sidechaincompress=threshold=0.02:ratio=5:attack=40:release=700[m];"
+                  f"[voz][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
     else:
         achain = "[0:a]loudnorm=I=-14:TP=-1.5:LRA=11[a]"
     run([

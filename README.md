@@ -9,8 +9,8 @@ Sistema que gestiona un canal de YouTube de principio a fin:
 | 3. Investigación | Busca en la web y crea un dossier con datos verificados y fuentes | Claude + búsqueda web |
 | 4. Guion | Guion por escenas pensado para retención, título SEO, descripción, etiquetas, hashtags, texto de miniatura y comentario | Claude |
 | 5. Voz | Narración en español con voz neuronal, con diccionario de pronunciación para palabras en inglés | Kokoro (gratis, local), edge-tts (gratis) o ElevenLabs |
-| 6. Imágenes | Vídeo de stock para cada escena, o gráficos animados generados (titulares, cifras, listas que aparecen una a una, pasos) | Pexels (gratis) o generador propio |
-| 7. Vídeo | Montaje, subtítulos quemados, música de fondo, normalización de volumen a -14 LUFS, capítulos automáticos | ffmpeg |
+| 6. Imágenes | Fotos históricas reales de Wikimedia Commons (solo licencias libres, con créditos automáticos), gráficos animados (titulares, cifras, listas que aparecen una a una, pasos) o vídeo de stock | Wikimedia Commons, generador propio, Pexels |
+| 7. Vídeo | Fondo animado continuo, fundidos, barra de progreso, subtítulos, música ambiental generada (sin derechos) que baja sola cuando habla la voz, volumen a -14 LUFS, capítulos automáticos | ffmpeg + numpy |
 | 8. Miniatura | 1280×720, foto llamativa, texto grande con contorno y color de acento | Pillow |
 | 9. Subida | Título, descripción, etiquetas, miniatura, playlist, programación, declaración de contenido sintético, comentario del canal | YouTube Data API |
 | 10. Gestión | Sincroniza estadísticas y retención, responde comentarios, manda spam a revisión y genera un informe de aprendizajes que alimenta la elección del siguiente tema | YouTube Data + Analytics API + Claude |
@@ -62,6 +62,7 @@ python -m autotube create --no-upload         # genera un vídeo completo sin su
 python -m autotube create --topic "Por qué el cielo es azul"
 python -m autotube render output/mi-video      # renderiza a partir de un script.json escrito/editado a mano
 python -m autotube upload output/20261115-1500-mi-video
+python -m autotube schedule output/a output/b output/c --start 2026-11-16 --time 17:00   # uno al día
 python -m autotube manage                     # estadísticas + responder comentarios
 python -m autotube report                     # informe de qué funciona (se guarda en data/feedback.md)
 python -m autotube autopilot                  # gestionar + crear + subir (para ejecutar a diario)
