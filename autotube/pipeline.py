@@ -185,6 +185,17 @@ def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = ""
 
         thumb_photo = None
         if use_photos and sc.get("thumbnail_photo"):
+            for j, scene in enumerate(sc["scenes"]):  # reutilizar si ya se descargó para una escena
+                pj = workdir / f"photo_{j:03d}.json"
+                if scene.get("photo") == sc["thumbnail_photo"] and pj.exists():
+                    cached = json.loads(pj.read_text(encoding="utf-8"))
+                    if cached.get("credit"):
+                        raw = next((p for p in workdir.glob(f"photo_{j:03d}.*") if p.suffix in (".jpg", ".png")
+                                    and not p.name.endswith("_frame.png")), None)
+                        if raw:
+                            thumb_photo = raw
+                            break
+        if use_photos and sc.get("thumbnail_photo") and not thumb_photo:
             try:
                 found = media.wikimedia_photo(sc["thumbnail_photo"], workdir / "thumb_photo", set())
                 if found:
