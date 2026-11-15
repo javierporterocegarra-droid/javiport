@@ -104,17 +104,20 @@ Alternativa local: `crontab -e` → `17 15 * * * cd /ruta/javiport && .venv/bin/
 
 ## Vídeos ya preparados
 
-En `videos/` hay 3 guiones completos del canal **Tecnología Sin Humo** (nicho: IA y ciberseguridad
-para el día a día), con título, descripción, etiquetas, fuentes y miniatura:
+Canal **Crónica Tech** — nicho: *historia de la tecnología* (los inventos, las personas y los momentos
+que cambiaron el mundo), en español. En `videos/` hay 3 guiones completos con título, descripción,
+etiquetas, fuentes verificadas y miniatura:
 
-1. `01-como-funciona-chatgpt` — Cómo funciona ChatGPT por dentro (explicado sin fórmulas)
-2. `02-estafas-con-ia` — Estafas con IA: voces clonadas y videollamadas falsas (y cómo protegerte)
-3. `03-passkeys-adios-contrasenas` — Passkeys: por qué las contraseñas van a desaparecer
+1. `01-enigma` — Enigma: cómo se descifró la máquina «indescifrable» de los nazis
+2. `02-apolo-11-ordenador` — El ordenador que casi aborta la llegada a la Luna (Apolo 11)
+3. `03-historia-de-internet` — Internet empezó con un error: la historia de cómo nació la red
+
+(`videos/_otros-nichos/` guarda 3 guiones de IA y ciberseguridad de una prueba anterior.)
 
 Para regenerarlos (por ejemplo, con otra voz o tras editar el guion):
 
 ```bash
-mkdir -p output/01 && cp videos/01-como-funciona-chatgpt/script.json output/01/
+mkdir -p output/01 && cp videos/01-enigma/script.json output/01/
 python -m autotube render output/01
 python -m autotube upload output/01
 ```

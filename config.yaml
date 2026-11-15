@@ -3,19 +3,19 @@
 # ==========================================================
 
 channel:
-  name: "Tecnología Sin Humo"
+  name: "Crónica Tech"
   # Nicho del canal: cuanto más concreto, mejor rendimiento y más coherencia.
-  niche: "IA y ciberseguridad explicadas para el día a día: cómo funciona la tecnología que usas y cómo protegerte"
+  niche: "historia de la tecnología: los inventos, las personas y los momentos que cambiaron el mundo, contados como una historia"
   language: es            # idioma de los guiones y metadatos
   region: ES              # país para tendencias de YouTube (ES, MX, AR, US...)
-  audience: "hispanohablantes de 18 a 55 años que usan tecnología a diario pero no son expertos"
-  tone: "cercano, entusiasta, riguroso, sin clickbait engañoso"
+  audience: "hispanohablantes de 18 a 60 años curiosos por la historia y la tecnología"
+  tone: "narrativo y con suspense, como un buen documental; riguroso con las fechas y los datos"
   # Palabras clave semilla para buscar lo que funciona en tu nicho
   keywords:
-    - "cómo funciona la inteligencia artificial"
-    - "estafas con inteligencia artificial"
-    - "ciberseguridad para principiantes"
-    - "privacidad en el móvil"
+    - "historia de la tecnología"
+    - "historia de la informática"
+    - "inventos que cambiaron el mundo"
+    - "historia de internet"
   # Temas que NUNCA debe tratar
   banned_topics:
     - política partidista
@@ -30,7 +30,7 @@ video:
   music_volume: 0.08
   # stock = vídeos de Pexels | cards = gráficos animados | auto = Pexels si hay clave, si no gráficos
   visuals: auto
-  theme_color: "#22D3EE"
+  theme_color: "#F5B942"
 
 tts:
   engine: kokoro          # kokoro (gratis, local) | edge (gratis, online) | elevenlabs (de pago, la mejor)
@@ -75,6 +75,59 @@ tts:
     Windows: "uíndous"
     iPad: "aipad"
     CEO: "ceo"
+    Turing: "Tiúring"
+    Bletchley Park: "Blechli Park"
+    Bletchley: "Blechli"
+    Rejewski: "Reyéfski"
+    Marian: "Márian"
+    Margaret Hamilton: "Márgaret Jámilton"
+    Hamilton: "Jámilton"
+    Armstrong: "Ármstrong"
+    Neil: "Nil"
+    Buzz Aldrin: "Bas Áldrin"
+    MIT: "eme i te"
+    Raytheon: "Réizeon"
+    Houston: "Jiúston"
+    Steve Bales: "Stiv Beils"
+    Charlie Duke: "Charli Diuk"
+    ARPANET: "árpanet"
+    UCLA: "u ce ele a"
+    Stanford: "Stánford"
+    Vint Cerf: "Vint Serf"
+    Bob Kahn: "Bob Kan"
+    TCP/IP: "te ce pe i pe"
+    Tim Berners-Lee: "Tim Bérners Li"
+    Berners-Lee: "Bérners Li"
+    World Wide Web: "uorld uaid ueb"
+    web: "ueb"
+    webs: "uebs"
+    LOGIN: "lóguin"
+    Charley Kline: "Charli Klain"
+    Leonard Kleinrock: "Léonard Kláinrok"
+    Mike Sendall: "Maik Séndal"
+    Wetter: "Véter"
+    Eagle: "Ígol"
+    Różycki: "Rushítski"
+    Zygalski: "Sigálski"
+    Jerzy: "Yéshi"
+    Henryk: "Jénrik"
+    Cambridge: "Kéimbridch"
+    Gordon Welchman: "Górdon Uélchman"
+    Harry Hinsley: "Jári Jínsli"
+    Apollo Guidance Computer: "Apolo Gáidans Compiúter"
+    kilobytes: "kilobaits"
+    Enter: "Énter"
+    Jack Garman: "Yac Gárman"
+    Massachusetts: "Masachúsets"
+    Ray Tomlinson: "Rei Tómlinson"
+    Paul Baran: "Pol Báran"
+    Donald Davies: "Dónald Déivis"
+    Mosaic: "Mosáic"
+    NeXT: "Next"
+    HTML: "hache te eme ele"
+    HTTP: "hache te te pe"
+    URL: "u erre ele"
+    Sputnik: "Spútnik"
 
 thumbnail:
   font: /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
@@ -85,7 +138,7 @@ upload:
   privacy: private        # private | unlisted | public
   # Si > 0, el vídeo se sube privado y se programa para publicarse N horas después
   schedule_hours_ahead: 0
-  category_id: "28"       # 28 = Ciencia y tecnología, 27 = Educación, 24 = Entretenimiento
+  category_id: "27"       # 28 = Ciencia y tecnología, 27 = Educación, 24 = Entretenimiento
   made_for_kids: false
   # Política de YouTube: declarar contenido sintético/alterado realista
   contains_synthetic_media: true
