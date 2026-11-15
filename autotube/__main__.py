@@ -44,6 +44,7 @@ def main(argv=None) -> int:
     pr.add_argument("--time", default="17:00")
     pr.add_argument("--tz", default="Europe/Madrid")
     pr.add_argument("--no-upload", action="store_true")
+    pr.add_argument("--reuse", action="store_true", help="no volver a renderizar si ya existe el vídeo")
     sub.add_parser("manage")
     sub.add_parser("report")
     a = sub.add_parser("autopilot")
@@ -128,7 +129,8 @@ def main(argv=None) -> int:
                 print(f"[{src.name}] ya subido, se omite", flush=True)
                 continue
             try:
-                pipeline.render_from_script(cfg, db, wd, sc)
+                if not (args.reuse and (wd / "video.mp4").exists() and (wd / "metadata.json").exists()):
+                    pipeline.render_from_script(cfg, db, wd, sc)
             except Exception as e:
                 print(f"[{src.name}] ERROR al renderizar: {e}", flush=True)
                 continue
