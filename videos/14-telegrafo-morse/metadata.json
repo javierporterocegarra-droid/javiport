@@ -1,0 +1,281 @@
+{
+  "topic": "El telégrafo y el código Morse, el primer internet",
+  "title": "Código Morse y telégrafo: así nació el primer «internet»",
+  "description": "Antes del teléfono, la radio o internet, hubo una tecnología que permitió por primera vez enviar mensajes casi instantáneos a cientos de kilómetros: el telégrafo eléctrico. Y detrás de él hay una historia personal: la de Samuel Morse, un pintor que llegó tarde al entierro de su esposa porque la noticia viajaba a caballo.\n\nEn este vídeo te cuento cómo nació el telégrafo, cómo funciona el código Morse, el primer mensaje de 1844, la aventura del primer cable bajo el océano Atlántico y por qué muchos lo llaman el internet de la época victoriana.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "codigo morse",
+    "telegrafo como funciona",
+    "historia del telegrafo",
+    "telegrafo morse",
+    "telégrafo",
+    "código Morse",
+    "Samuel Morse",
+    "historia de las telecomunicaciones",
+    "cable transatlántico",
+    "SOS",
+    "historia de la tecnología",
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
+  ],
+  "hashtags": [
+    "#Telégrafo",
+    "#CódigoMorse",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "El primer internet",
+  "thumbnail_query": "El telégrafo y el código Morse, el primer internet",
+  "thumbnail_icon": "📡",
+  "thumbnail_photo": "Samuel Morse Brady",
+  "pinned_comment": "···· −−− ·−·· ·−   👀 ¿Sabes qué pone en código Morse? Escribe la respuesta en los comentarios 👇",
+  "sources": [
+    "https://www.loc.gov/collections/samuel-morse-papers/articles-and-essays/invention-of-the-telegraph/",
+    "https://www.britannica.com/technology/telegraph",
+    "https://atlantic-cable.com/"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Mil ochocientos veinticinco. Un pintor estadounidense llamado Samuel Morse trabaja en un retrato en Washington, lejos de casa. Recibe una carta de su padre: su esposa está gravemente enferma.",
+      "visual_query": "Samuel Morse",
+      "card": {
+        "layout": "title",
+        "heading": "Samuel Morse",
+        "items": [
+          "Washington, 1825"
+        ],
+        "icon": "🎨"
+      },
+      "photo": "Samuel Morse Brady",
+      "photo_caption": "Samuel Morse"
+    },
+    {
+      "section": "Introducción",
+      "narration": "Viaja tan rápido como puede. Pero cuando llega, su esposa ya ha muerto y ha sido enterrada. Las noticias viajaban a la velocidad de un caballo. Según se cuenta, esa tragedia lo empujó a buscar una forma de comunicarse más rápido.",
+      "visual_query": "Las noticias viajaban a la velocidad de un caballo",
+      "card": {
+        "layout": "quote",
+        "heading": "Las noticias viajaban a la velocidad de un caballo",
+        "items": [],
+        "icon": "🐎"
+      }
+    },
+    {
+      "section": "La idea",
+      "narration": "Años después, en un viaje en barco en mil ochocientos treinta y dos, Morse escuchó una conversación sobre los nuevos experimentos con electricidad e imanes. Y se le ocurrió una idea: si la electricidad podía viajar por un cable casi al instante, ¿por qué no podía llevar mensajes?",
+      "visual_query": "¿Y si la electricidad pudiera llevar mensajes?",
+      "card": {
+        "layout": "quote",
+        "heading": "¿Y si la electricidad pudiera llevar mensajes?",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "La idea",
+      "narration": "No fue el único que lo pensó. En Gran Bretaña, Cooke y Wheatstone desarrollaron su propio telégrafo, con agujas que señalaban letras. Pero el sistema de Morse acabaría imponiéndose por su sencillez.",
+      "visual_query": "No fue el único",
+      "card": {
+        "layout": "bullets",
+        "heading": "No fue el único",
+        "items": [
+          "Reino Unido: Cooke y Wheatstone",
+          "Telégrafo de agujas",
+          "Morse ganó por su sencillez"
+        ],
+        "icon": "🏁"
+      }
+    },
+    {
+      "section": "El código",
+      "narration": "La clave era el código. Junto a su colaborador Alfred Vail, Morse creó un sistema que convertía cada letra en una combinación de pulsos cortos y largos: puntos y rayas.",
+      "visual_query": "El código Morse",
+      "card": {
+        "layout": "steps",
+        "heading": "El código Morse",
+        "items": [
+          "Puntos: pulsos cortos",
+          "Rayas: pulsos largos",
+          "Cada letra, una combinación"
+        ],
+        "icon": "📟"
+      }
+    },
+    {
+      "section": "El código",
+      "narration": "Y hay un detalle genial. Las letras más usadas en inglés tenían los códigos más cortos. La E, la más frecuente, es un solo punto. La T, una sola raya. Así se ahorraba tiempo.",
+      "visual_query": "Un diseño inteligente",
+      "card": {
+        "layout": "bullets",
+        "heading": "Un diseño inteligente",
+        "items": [
+          "E = un punto",
+          "T = una raya",
+          "Las letras frecuentes, más cortas"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "El primer mensaje",
+      "narration": "En mil ochocientos cuarenta y tres, el Congreso de Estados Unidos financió una línea de prueba entre Washington y Baltimore, unos sesenta kilómetros.",
+      "visual_query": "kilómetros de cable entre Washington y Baltimore",
+      "card": {
+        "layout": "number",
+        "heading": "kilómetros de cable entre Washington y Baltimore",
+        "items": [
+          "≈ 60"
+        ],
+        "icon": "🧵"
+      }
+    },
+    {
+      "section": "El primer mensaje",
+      "narration": "El veinticuatro de mayo de mil ochocientos cuarenta y cuatro, Morse envió el primer mensaje oficial. Era una frase de la Biblia: «¿Qué ha hecho Dios?». La respuesta llegó en cuestión de segundos.",
+      "visual_query": "«¿Qué ha hecho Dios?»",
+      "card": {
+        "layout": "quote",
+        "heading": "«¿Qué ha hecho Dios?»",
+        "items": [
+          "Primer mensaje, 24 de mayo de 1844"
+        ],
+        "icon": "📨"
+      }
+    },
+    {
+      "section": "La expansión",
+      "narration": "A partir de ahí, el telégrafo se extendió como la pólvora. En pocos años, miles de kilómetros de cables cruzaban países enteros, siguiendo las vías del tren.",
+      "visual_query": "Se extendió siguiendo las vías del tren",
+      "card": {
+        "layout": "quote",
+        "heading": "Se extendió siguiendo las vías del tren",
+        "items": [],
+        "icon": "🚂"
+      }
+    },
+    {
+      "section": "La expansión",
+      "narration": "Cambió la forma de hacer negocios, el periodismo y la política. Las noticias de la bolsa, los resultados de las elecciones o las noticias de guerra llegaban el mismo día.",
+      "visual_query": "Lo que cambió",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que cambió",
+        "items": [
+          "Los negocios y la bolsa",
+          "Los periódicos",
+          "La política y la guerra"
+        ],
+        "icon": "📰"
+      }
+    },
+    {
+      "section": "El Atlántico",
+      "narration": "Pero quedaba el gran reto: cruzar el océano Atlántico. En mil ochocientos cincuenta y ocho se tendió el primer cable entre Irlanda y Terranova. La reina Victoria envió un mensaje de felicitación al presidente de Estados Unidos.",
+      "visual_query": "Primer cable telegráfico bajo el Atlántico",
+      "card": {
+        "layout": "number",
+        "heading": "Primer cable telegráfico bajo el Atlántico",
+        "items": [
+          "1858"
+        ],
+        "icon": "🌊"
+      },
+      "photo": "Atlantic cable 1858",
+      "photo_caption": "El cable transatlántico (1858)"
+    },
+    {
+      "section": "El Atlántico",
+      "narration": "El mensaje de la reina, de unas cien palabras, tardó unas dieciséis horas en transmitirse. Y pocas semanas después, el cable dejó de funcionar.",
+      "visual_query": "Un mensaje de unas 100 palabras: unas 16 horas",
+      "card": {
+        "layout": "quote",
+        "heading": "Un mensaje de unas 100 palabras: unas 16 horas",
+        "items": [
+          "Y el cable falló semanas después"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "El Atlántico",
+      "narration": "Hubo que esperar hasta mil ochocientos sesenta y seis. El enorme barco Great Eastern tendió un nuevo cable, mucho mejor, que funcionó de forma estable. Europa y América quedaban conectadas.",
+      "visual_query": "Conexión estable entre Europa y América",
+      "card": {
+        "layout": "number",
+        "heading": "Conexión estable entre Europa y América",
+        "items": [
+          "1866"
+        ],
+        "icon": "🚢"
+      },
+      "photo": "Great Eastern ship 1866",
+      "photo_caption": "El Great Eastern"
+    },
+    {
+      "section": "El internet victoriano",
+      "narration": "Por eso muchos historiadores llaman al telégrafo «el internet victoriano». Tenía operadores que se comunicaban entre sí durante horas, sus propias abreviaturas, sus estafas… e incluso historias de amor entre telegrafistas que nunca se habían visto.",
+      "visual_query": "El «internet victoriano»",
+      "card": {
+        "layout": "bullets",
+        "heading": "El «internet victoriano»",
+        "items": [
+          "Abreviaturas propias",
+          "Estafas y fraudes",
+          "Amores entre telegrafistas"
+        ],
+        "icon": "💌"
+      }
+    },
+    {
+      "section": "SOS",
+      "narration": "El código Morse también dio lugar a una de las señales más famosas del mundo: SOS. Tres puntos, tres rayas, tres puntos. Fácil de reconocer incluso con mucho ruido. Se adoptó como señal internacional de socorro a principios del siglo veinte.",
+      "visual_query": "SOS",
+      "card": {
+        "layout": "steps",
+        "heading": "SOS",
+        "items": [
+          "· · ·",
+          "— — —",
+          "· · ·"
+        ],
+        "icon": "🆘"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Hoy el telégrafo ha desaparecido, pero su idea sigue viva: convertir la información en señales eléctricas y enviarla al instante a cualquier lugar. Eso es exactamente lo que hace internet. Todo empezó con puntos y rayas.",
+      "visual_query": "Internet empezó con puntos y rayas",
+      "card": {
+        "layout": "quote",
+        "heading": "Internet empezó con puntos y rayas",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "thumbnail_badge": "1844",
+  "full_description": "Antes del teléfono, la radio o internet, hubo una tecnología que permitió por primera vez enviar mensajes casi instantáneos a cientos de kilómetros: el telégrafo eléctrico. Y detrás de él hay una historia personal: la de Samuel Morse, un pintor que llegó tarde al entierro de su esposa porque la noticia viajaba a caballo.\n\nEn este vídeo te cuento cómo nació el telégrafo, cómo funciona el código Morse, el primer mensaje de 1844, la aventura del primer cable bajo el océano Atlántico y por qué muchos lo llaman el internet de la época victoriana.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.\n\nCapítulos:\n0:00 Introducción\n0:29 La idea\n1:00 El código\n1:27 El primer mensaje\n1:49 La expansión\n2:11 El Atlántico\n2:49 El internet victoriano\n3:04 SOS\n3:22 Conclusión\n\nFuentes:\nhttps://www.loc.gov/collections/samuel-morse-papers/articles-and-essays/invention-of-the-telegraph/\nhttps://www.britannica.com/technology/telegraph\nhttps://atlantic-cable.com/\n\nImágenes: Wikimedia Commons\n- Brady, Mathew B. - Samuel Finley Breese Morse (Zeno Fotografie).jpg — Mathew Benjamin Brady (Public domain)\n\n#Telégrafo #CódigoMorse #HistoriaDeLaTecnología",
+  "duration_s": 228.60200000000006,
+  "image_credits": [
+    {
+      "title": "Brady, Mathew B. - Samuel Finley Breese Morse (Zeno Fotografie).jpg",
+      "author": "Mathew Benjamin Brady",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Brady,_Mathew_B._-_Samuel_Finley_Breese_Morse_(Zeno_Fotografie).jpg"
+    }
+  ]
+}
