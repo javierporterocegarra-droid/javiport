@@ -193,9 +193,9 @@ def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = ""
                         credits.append(found[1])
             except Exception as e:
                 log.warning("Foto de miniatura no disponible: %s", e)
-        thumb = thumbnail.make_thumbnail(cfg, sc["thumbnail_text"], sc["thumbnail_query"], workdir,
+        thumb = thumbnail.make_thumbnail(cfg, sc["thumbnail_text"], "" if use_cards else sc["thumbnail_query"], workdir,
                                          [] if use_cards else media_files, icon=sc.get("thumbnail_icon", ""),
-                                         photo=thumb_photo)
+                                         photo=thumb_photo, badge=sc.get("thumbnail_badge", ""))
 
         chap = video.chapters(starts, offset) if cfg["video"]["format"] == "long" else ""
         desc = sc["description"].strip()

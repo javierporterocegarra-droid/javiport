@@ -1,25 +1,31 @@
 {
   "topic": "Bitcoin y el misterio de Satoshi Nakamoto",
-  "title": "Satoshi Nakamoto: el creador de Bitcoin que desapareció",
+  "title": "¿Quién es Satoshi Nakamoto? El misterio del creador de Bitcoin",
   "description": "En 2008, en plena crisis financiera, alguien que firmaba como Satoshi Nakamoto publicó un documento de nueve páginas que proponía un «dinero electrónico entre pares». Así nació Bitcoin. Unos años después, su creador desapareció sin dejar rastro, y todavía hoy nadie sabe con certeza quién es.\n\nEn este vídeo te cuento la historia de Bitcoin desde un punto de vista tecnológico e histórico: el bloque génesis y su mensaje oculto, la famosa compra de dos pizzas por 10.000 bitcoins, cómo funciona la cadena de bloques explicada de forma sencilla y el gran misterio de Satoshi. (Este vídeo no es asesoramiento financiero.)\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "satoshi nakamoto quien es",
+    "quien creo bitcoin",
+    "historia de bitcoin",
+    "satoshi nakamoto documental",
     "Bitcoin",
     "Satoshi Nakamoto",
-    "historia de Bitcoin",
     "blockchain",
     "cadena de bloques",
     "pizza bitcoin",
     "criptomonedas",
     "bloque génesis",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Bitcoin",
     "#SatoshiNakamoto",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "¿QUIÉN CREÓ BITCOIN?",
+  "thumbnail_text": "¿Quién creó Bitcoin?",
   "thumbnail_query": "Bitcoin y el misterio de Satoshi Nakamoto",
   "thumbnail_icon": "🕵️",
   "thumbnail_photo": "",
@@ -273,5 +279,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "2008"
 }

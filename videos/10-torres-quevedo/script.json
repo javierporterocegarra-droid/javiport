@@ -1,25 +1,29 @@
 {
   "topic": "Leonardo Torres Quevedo, el genio español de la tecnología",
-  "title": "Torres Quevedo: el genio español que inventó el mando a distancia",
-  "description": "Leonardo Torres Quevedo fue uno de los mayores inventores de su tiempo… y en España casi nadie conoce su historia. Ingeniero cántabro, creó el Telekino, uno de los primeros mandos a distancia por radio del mundo; construyó El Ajedrecista, una máquina que jugaba finales de ajedrez sola en 1912; diseñó el Spanish Aero Car que todavía hoy cruza sobre el río Niágara, y adelantó ideas clave de la informática.\n\nEn este vídeo te cuento la historia del genio español que se adelantó a su tiempo.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "title": "Torres Quevedo: el genio español pionero del mando a distancia",
+  "description": "Leonardo Torres Quevedo fue uno de los mayores inventores de su tiempo… y en España casi nadie conoce su historia. Ingeniero cántabro, creó el Telekino, uno de los primeros sistemas de control remoto por radio del mundo; construyó El Ajedrecista, una máquina que jugaba finales de ajedrez sola en 1912; diseñó el Spanish Aero Car que todavía hoy cruza sobre el río Niágara, y adelantó ideas clave de la informática.\n\nEn este vídeo te cuento la historia del genio español que se adelantó a su tiempo.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
-    "Torres Quevedo",
-    "Leonardo Torres Quevedo",
-    "Telekino",
-    "El Ajedrecista",
+    "leonardo torres quevedo",
     "inventores españoles",
+    "inventos españoles",
+    "telekino",
+    "Torres Quevedo",
+    "El Ajedrecista",
     "Spanish Aero Car",
     "historia de la tecnología en España",
     "Cantabria",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#TorresQuevedo",
     "#InventoresEspañoles",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "EL GENIO ESPAÑOL OLVIDADO",
+  "thumbnail_text": "El genio olvidado",
   "thumbnail_query": "Leonardo Torres Quevedo, el genio español de la tecnología",
   "thumbnail_icon": "🇪🇸",
   "thumbnail_photo": "Leonardo Torres Quevedo",
@@ -264,5 +268,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1903"
 }

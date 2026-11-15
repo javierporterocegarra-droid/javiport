@@ -1,8 +1,11 @@
 {
   "topic": "La guerra de las corrientes: Tesla y Westinghouse contra Edison",
-  "title": "Tesla contra Edison: la guerra que decidió cómo llega la luz a tu casa",
+  "title": "Tesla vs Edison: la guerra de las corrientes que decidió el mundo",
   "description": "A finales del siglo XIX, dos sistemas eléctricos lucharon por iluminar el mundo: la corriente continua de Thomas Edison y la corriente alterna de Nikola Tesla y George Westinghouse. Fue una batalla de patentes, de negocios y de propaganda, con animales electrocutados y hasta una silla eléctrica de por medio.\n\nEn este vídeo te cuento la guerra de las corrientes: quién tenía razón, cómo la Exposición de Chicago de 1893 y las cataratas del Niágara decidieron el ganador, y por qué hoy en día ambas corrientes siguen vivas.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "tesla vs edison la guerra de las corrientes",
+    "tesla vs edison documental",
+    "tesla y edison historia",
     "Tesla vs Edison",
     "guerra de las corrientes",
     "Nikola Tesla",
@@ -12,14 +15,17 @@
     "George Westinghouse",
     "historia de la electricidad",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Tesla",
     "#Edison",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "TESLA VS EDISON",
+  "thumbnail_text": "Tesla vs Edison",
   "thumbnail_query": "La guerra de las corrientes: Tesla y Westinghouse contra Edison",
   "thumbnail_icon": "⚡",
   "thumbnail_photo": "Nikola Tesla 1890 Napoleon Sarony",
@@ -290,5 +296,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1888"
 }

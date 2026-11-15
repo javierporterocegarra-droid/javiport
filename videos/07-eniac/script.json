@@ -1,24 +1,30 @@
 {
   "topic": "ENIAC, el primer ordenador electrónico, y sus programadoras olvidadas",
-  "title": "ENIAC: el primer ordenador gigante y las 6 mujeres que nadie mencionó",
+  "title": "ENIAC: la primera computadora de la historia y sus programadoras olvidadas",
   "description": "En 1946 se presentó al mundo ENIAC, uno de los primeros ordenadores electrónicos de propósito general: 30 toneladas, unas 18.000 válvulas de vacío y una sala entera. La prensa habló de un «cerebro gigante». Pero casi nadie mencionó a las seis mujeres que lo programaron.\n\nEn este vídeo te cuento cómo nació ENIAC durante la Segunda Guerra Mundial, cómo se programaba con cables e interruptores, y la historia de Kathleen McNulty, Jean Jennings, Betty Snyder, Marlyn Wescoff, Frances Bilas y Ruth Lichterman, las pioneras olvidadas de la programación.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
-    "ENIAC",
+    "primera computadora de la historia",
+    "primera computadora del mundo",
     "primer ordenador",
+    "eniac español",
+    "ENIAC",
     "programadoras de ENIAC",
     "historia de la informática",
     "mujeres en la tecnología",
     "válvulas de vacío",
     "1946",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#ENIAC",
     "#HistoriaDeLaInformática",
     "#MujeresEnLaTecnología"
   ],
-  "thumbnail_text": "EL CEREBRO GIGANTE",
+  "thumbnail_text": "La primera computadora",
   "thumbnail_query": "ENIAC, el primer ordenador electrónico, y sus programadoras olvidadas",
   "thumbnail_icon": "🖥️",
   "thumbnail_photo": "ENIAC Penn",
@@ -278,5 +284,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1946"
 }

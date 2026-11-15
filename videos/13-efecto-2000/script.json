@@ -1,24 +1,29 @@
 {
   "topic": "El efecto 2000 (Y2K), el fallo informático que iba a acabar con el mundo",
-  "title": "Efecto 2000: el fallo que iba a apagar el mundo (y por qué no pasó nada)",
+  "title": "Efecto 2000 (Y2K): el error informático que iba a apagar el mundo",
   "description": "El 31 de diciembre de 1999, millones de personas temían que, al llegar la medianoche, los ordenadores del mundo fallaran: aviones, bancos, centrales eléctricas… Era el famoso efecto 2000. Llegó el 1 de enero y casi no pasó nada. ¿Fue todo una exageración?\n\nEn este vídeo te cuento el origen del problema (dos simples dígitos), el enorme esfuerzo mundial para arreglarlo, los pocos fallos que sí ocurrieron y por qué ya se habla del próximo: el problema del año 2038.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
-    "efecto 2000",
-    "Y2K",
+    "y2k",
     "error del milenio",
+    "problema del año 2000",
+    "efecto 2000 explicado",
+    "efecto 2000",
     "año 2000",
     "historia de la informática",
     "problema del año 2038",
     "fallos informáticos",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Efecto2000",
     "#Y2K",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "EL FIN DEL MUNDO QUE NO LLEGÓ",
+  "thumbnail_text": "El error del año 2000",
   "thumbnail_query": "El efecto 2000 (Y2K), el fallo informático que iba a acabar con el mundo",
   "thumbnail_icon": "💣",
   "thumbnail_photo": "",
@@ -250,5 +255,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "Y2K"
 }

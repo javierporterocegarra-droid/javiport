@@ -1,10 +1,13 @@
 {
   "topic": "Los orígenes de Google: de Stanford a un garaje",
-  "title": "Google empezó en un garaje (y casi lo venden por menos de un millón)",
+  "title": "Cómo nació Google: de un garaje a gigante (y casi lo venden barato)",
   "description": "En 1998, dos estudiantes de doctorado de Stanford, Larry Page y Sergey Brin, fundaron una pequeña empresa en un garaje alquilado de Menlo Park, California. Su idea era ordenar la información del mundo con un algoritmo llamado PageRank. Hoy Google es una de las empresas más grandes del planeta.\n\nEn este vídeo te cuento cómo se conocieron (no se cayeron bien), qué era BackRub, de dónde viene el nombre «Google», el cheque de 100.000 dólares firmado a una empresa que aún no existía y la venta que casi hacen por menos de un millón de dólares.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "historia de google",
+    "como nacio google",
+    "larry page y sergey brin",
+    "historia de google documental",
     "Google",
-    "historia de Google",
     "Larry Page",
     "Sergey Brin",
     "PageRank",
@@ -12,14 +15,17 @@
     "buscador",
     "Silicon Valley",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Google",
     "#SiliconValley",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "EMPEZÓ EN UN GARAJE",
+  "thumbnail_text": "Empezó en un garaje",
   "thumbnail_query": "Los orígenes de Google: de Stanford a un garaje",
   "thumbnail_icon": "🔍",
   "thumbnail_photo": "Google garage Menlo Park",
@@ -246,5 +252,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1998"
 }

@@ -36,14 +36,30 @@ video:
   theme_color: "#F5B942"
 
 tts:
-  engine: kokoro          # kokoro (gratis, local) | edge (gratis, online) | elevenlabs (de pago, la mejor)
+  engine: edge            # edge (voces neuronales de Microsoft, gratis) | kokoro (local, más robótica) | elevenlabs (de pago)
   kokoro_voice: em_alex   # em_alex / em_santa (hombre), ef_dora (mujer)
   kokoro_speed: 1.05
-  voice: es-ES-AlvaroNeural   # para edge: es-MX-JorgeNeural, es-ES-ElviraNeural, es-MX-DaliaNeural
-  rate: "+6%"
+  voice: es-ES-AlvaroNeural   # edge: es-MX-JorgeNeural, es-ES-XimenaNeural, es-US-AlonsoNeural...
+  rate: "+4%"
   elevenlabs_voice_id: ""
-  # Cómo debe pronunciar la voz palabras en inglés o siglas (solo afecta al audio)
+  # Pronunciación para la voz edge (solo afecta al audio): basta con algunas siglas
   pronunciations:
+    TecnoHistoria: "Tecno Historia"
+    ENIAC: "Éniac"
+    MIT: "eme i te"
+    UCLA: "u ce ele a"
+    CQD: "ce cu de"
+    AT&T: "a te y te"
+    TCP/IP: "te ce pe i pe"
+    HTML: "hache te eme ele"
+    HTTP: "hache te te pe"
+    URL: "u erre ele"
+    SMS: "ese eme ese"
+    FBI: "efe be i"
+    IA: "i a"
+    COBOL: "cóbol"
+  # Pronunciación para la voz kokoro (necesita más ayuda con nombres extranjeros)
+  kokoro_pronunciations:
     ChatGPT: "chat yi pi ti"
     GPT: "yi pi ti"
     OpenAI: "open ei ai"

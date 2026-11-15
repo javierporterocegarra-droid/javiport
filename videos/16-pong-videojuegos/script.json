@@ -1,10 +1,13 @@
 {
   "topic": "Pong y el nacimiento de la industria del videojuego",
-  "title": "Pong: el videojuego que se rompió por tener demasiadas monedas",
+  "title": "Pong: la máquina que se atascó de monedas y creó los videojuegos",
   "description": "En 1972, en un bar de California, una máquina recreativa dejó de funcionar a los pocos días de instalarse. Cuando el técnico la abrió, descubrió el motivo: estaba tan llena de monedas que se había atascado. Era Pong, y con él nació la industria de los videojuegos.\n\nEn este vídeo te cuento la historia de Pong y de Atari: los primeros juegos de laboratorio, Nolan Bushnell, el ingeniero Allan Alcorn y su «ejercicio de práctica», la famosa avería del bar Andy Capp's, el pleito con la primera consola doméstica y cómo un juego de tenis con dos rayas y un punto cambió el entretenimiento.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
-    "Pong",
     "historia de los videojuegos",
+    "pong atari",
+    "primer videojuego de la historia",
+    "atari historia",
+    "Pong",
     "Atari",
     "Nolan Bushnell",
     "primer videojuego",
@@ -12,14 +15,17 @@
     "retro",
     "arcade",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Pong",
     "#Atari",
     "#HistoriaDeLosVideojuegos"
   ],
-  "thumbnail_text": "DEMASIADAS MONEDAS",
+  "thumbnail_text": "Atascada de monedas",
   "thumbnail_query": "Pong y el nacimiento de la industria del videojuego",
   "thumbnail_icon": "🕹️",
   "thumbnail_photo": "Pong arcade cabinet",
@@ -238,5 +244,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1972"
 }

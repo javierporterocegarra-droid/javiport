@@ -38,6 +38,12 @@ def main(argv=None) -> int:
     sc.add_argument("--time", default="17:00", help="hora local de publicación, HH:MM")
     sc.add_argument("--tz", default="Europe/Madrid", help="zona horaria")
     sc.add_argument("--every-days", type=int, default=1)
+    pr = sub.add_parser("produce", help="renderiza guiones (videos/NN-*) y los sube programados, uno por día")
+    pr.add_argument("scripts", nargs="+", help="carpetas con script.json")
+    pr.add_argument("--start", required=True, help="fecha de publicación del primero, AAAA-MM-DD")
+    pr.add_argument("--time", default="17:00")
+    pr.add_argument("--tz", default="Europe/Madrid")
+    pr.add_argument("--no-upload", action="store_true")
     sub.add_parser("manage")
     sub.add_parser("report")
     a = sub.add_parser("autopilot")
@@ -103,6 +109,49 @@ def main(argv=None) -> int:
             res = pipeline.upload_dir(cfg, db, Path(wd), publish_at=iso)
             local = when.astimezone(ZoneInfo(args.tz)).strftime("%d/%m/%Y %H:%M")
             print(f"{local} ({args.tz}) -> https://youtu.be/{res['youtube_id']}  [{Path(wd).name}]", flush=True)
+        return 0
+    if args.cmd == "produce":
+        import json as _json
+        import shutil
+        from datetime import datetime, timedelta, timezone
+        from zoneinfo import ZoneInfo
+        from googleapiclient.errors import HttpError
+        first = datetime.fromisoformat(f"{args.start}T{args.time}").replace(tzinfo=ZoneInfo(args.tz))
+        upload_ok = not args.no_upload
+        for k, src in enumerate(args.scripts):
+            src = Path(src)
+            wd = Path(cfg["paths"]["output"]) / src.name
+            wd.mkdir(parents=True, exist_ok=True)
+            shutil.copy(src / "script.json", wd / "script.json")
+            sc = _json.loads((wd / "script.json").read_text(encoding="utf-8"))
+            if (wd / "uploaded.json").exists():
+                print(f"[{src.name}] ya subido, se omite", flush=True)
+                continue
+            try:
+                pipeline.render_from_script(cfg, db, wd, sc)
+            except Exception as e:
+                print(f"[{src.name}] ERROR al renderizar: {e}", flush=True)
+                continue
+            for f in ("metadata.json", "thumbnail.jpg"):
+                shutil.copy(wd / f, src / f)
+            when = (first + timedelta(days=k)).astimezone(timezone.utc)
+            if not upload_ok:
+                print(f"[{src.name}] renderizado (sin subir)", flush=True)
+                continue
+            try:
+                res = pipeline.upload_dir(cfg, db, wd, publish_at=when.strftime("%Y-%m-%dT%H:%M:%SZ"))
+            except HttpError as e:
+                if "quota" in str(e).lower():
+                    upload_ok = False
+                    print(f"[{src.name}] CUOTA AGOTADA: se sigue renderizando y se suben más tarde", flush=True)
+                    continue
+                print(f"[{src.name}] ERROR al subir: {e}", flush=True)
+                continue
+            info = {**res, "publish_local": when.astimezone(ZoneInfo(args.tz)).strftime("%Y-%m-%d %H:%M"),
+                    "title": sc["title"]}
+            (wd / "uploaded.json").write_text(_json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
+            shutil.copy(wd / "uploaded.json", src / "uploaded.json")
+            print(f"[{src.name}] SUBIDO https://youtu.be/{res['youtube_id']} -> se publica {info['publish_local']} ({args.tz})", flush=True)
         return 0
     if args.cmd == "manage":
         manager.sync_stats(cfg, db)

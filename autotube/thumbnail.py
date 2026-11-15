@@ -1,7 +1,13 @@
-"""Generación de miniaturas 1280x720 llamativas."""
+"""Miniaturas 1280x720 pensadas para el CTR.
 
+Diseño: foto histórica nítida a la derecha (o emoji gigante sobre fondo tecnológico), panel oscuro en
+diagonal a la izquierda, 2-4 palabras en tipografía muy gruesa con la última línea resaltada como con
+rotulador, una etiqueta con el año y la marca del canal.
+"""
+
+import itertools
+import os
 import subprocess
-import textwrap
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
@@ -9,14 +15,26 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from . import cards, media
 
 W, H = 1280, 720
+HEAVY_FONTS = [
+    "/usr/share/fonts/opentype/montserrat/Montserrat-Black.otf",
+    "/usr/share/fonts/truetype/montserrat/Montserrat-Black.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+]
 
 
-def _cover(img: Image.Image, size=(W, H)) -> Image.Image:
+def _heavy_font(cfg: dict) -> str:
+    for p in [cfg["thumbnail"].get("font_heavy", ""), *HEAVY_FONTS]:
+        if p and os.path.exists(p):
+            return p
+    return cfg["thumbnail"]["font"]
+
+
+def _cover(img: Image.Image, size=(W, H), top_bias: float = 0.18) -> Image.Image:
     img = img.convert("RGB")
     scale = max(size[0] / img.width, size[1] / img.height)
     img = img.resize((int(img.width * scale) + 1, int(img.height * scale) + 1), Image.LANCZOS)
     left = (img.width - size[0]) // 2
-    top = int((img.height - size[1]) * 0.18)  # en retratos, priorizar la parte de arriba (la cara)
+    top = int((img.height - size[1]) * top_bias)  # en retratos, priorizar la cara
     return img.crop((left, top, left + size[0], top + size[1]))
 
 
@@ -26,67 +44,104 @@ def _frame_from_video(video: Path, out: Path, at: float = 3.0) -> Path | None:
     return out if proc.returncode == 0 and out.exists() else None
 
 
-def _fit_font(draw, lines, font_path, max_w, max_h):
-    size = 170
-    while size > 40:
-        font = ImageFont.truetype(font_path, size)
-        widths = [draw.textbbox((0, 0), l, font=font, stroke_width=size // 12)[2] for l in lines]
-        if max(widths) <= max_w and len(lines) * size * 1.08 <= max_h:
-            return font
-        size -= 6
-    return ImageFont.truetype(font_path, size)
+def _layout_text(draw, text: str, font_path: str, max_w: int, max_h: int):
+    """Reparte el texto en 1-3 líneas equilibradas con la letra más grande posible."""
+    words = text.upper().split()
+    n = len(words)
+    result = None
+    for lines_n in (1, 2, 3):
+        if lines_n > n:
+            break
+        best = None
+        for cuts in itertools.combinations(range(1, n), lines_n - 1):
+            parts = [" ".join(words[a:b]) for a, b in zip((0, *cuts), (*cuts, n))]
+            score = max(len(p) for p in parts)
+            if best is None or score < best[0]:
+                best = (score, parts)
+        lines = best[1]
+        size = 190
+        while size > 40:
+            f = ImageFont.truetype(font_path, size)
+            if max(draw.textlength(l, font=f) for l in lines) <= max_w and len(lines) * size * 1.05 <= max_h:
+                break
+            size -= 4
+        if result is None or size > result[0].size * 1.08:
+            result = (ImageFont.truetype(font_path, size), lines)
+    return result
 
 
 def make_thumbnail(cfg: dict, text: str, query: str, workdir: Path, fallback_media: list[Path],
-                   icon: str = "", photo: Path | None = None) -> Path:
+                   icon: str = "", photo: Path | None = None, badge: str = "") -> Path:
     out = workdir / "thumbnail.jpg"
+    accent_rgb = cards.hex_rgb(cfg["thumbnail"].get("accent_color", "#FFD400"))
+    theme = cards.hex_rgb(cfg["video"].get("theme_color", "#F5B942"))
     bg_path = photo
-    if not bg_path:
+    if not bg_path and query:
         try:
             bg_path = media.pexels_photo(query, workdir / "thumb_bg", "landscape")
         except Exception:
-            pass
+            bg_path = None
     if not bg_path:
         for m in fallback_media:
             bg_path = _frame_from_video(m, workdir / "thumb_bg.png") if m.suffix == ".mp4" else m
             if bg_path:
                 break
-    accent = cfg["thumbnail"].get("accent_color", "#FFD400")
+
+    split = int(W * 0.56)  # dónde empieza la imagen
+    canvas = cards.background((W, H), theme, seed=7).copy()
     if bg_path:
-        bg = _cover(Image.open(bg_path))
-        bg = ImageEnhance.Contrast(ImageEnhance.Color(bg).enhance(1.35)).enhance(1.15)
-    else:  # estilo gráfico: fondo tecnológico + emoji gigante
-        theme = cards.hex_rgb(cfg["video"].get("theme_color", "#22D3EE"))
-        bg = cards.background((W, H), theme, seed=7).copy()
+        src = Image.open(bg_path).convert("RGB")
+        portrait = src.height > src.width * 0.9
+        pic = _cover(src, (W - split + 120, H), top_bias=0.12 if portrait else 0.5)
+        pic = ImageEnhance.Contrast(ImageEnhance.Color(pic).enhance(1.25)).enhance(1.12)
+        pic = ImageEnhance.Sharpness(pic).enhance(1.4)
+        canvas.paste(pic, (split - 120, 0))
+    else:
         glow = Image.new("RGB", (W, H))
-        ImageDraw.Draw(glow).ellipse([W - 560, 80, W - 20, 620], fill=theme)
+        ImageDraw.Draw(glow).ellipse([W - 600, 60, W - 20, 640], fill=theme)
         glow = glow.filter(ImageFilter.GaussianBlur(90))
-        bg = Image.composite(glow, bg, glow.convert("L").point(lambda v: int(v * 0.55)))
-    e = cards.emoji(icon, 430) if icon and not photo else None
-    if e:
-        bg.paste(e, (W - e.width - 50, (H - e.height) // 2), e)
+        canvas = Image.composite(glow, canvas, glow.convert("L").point(lambda v: int(v * 0.6)))
+        e = cards.emoji(icon, 440) if icon else None
+        if e:
+            canvas.paste(e, (W - e.width - 60, (H - e.height) // 2), e)
 
-    # degradado oscuro a la izquierda para que el texto se lea
-    shade = Image.new("L", (W, H))
-    sd = ImageDraw.Draw(shade)
-    for x in range(W):
-        sd.line([(x, 0), (x, H)], fill=int(215 * max(0.0, 1 - x / (W * 0.75))))
-    bg = Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), bg, shade.filter(ImageFilter.GaussianBlur(20)))
+    # panel oscuro en diagonal + filo de color
+    panel = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(panel).polygon([(0, 0), (split + 70, 0), (split - 70, H), (0, H)], fill=235)
+    panel = panel.filter(ImageFilter.GaussianBlur(6))
+    canvas = Image.composite(Image.new("RGB", (W, H), (10, 12, 22)), canvas, panel)
+    d = ImageDraw.Draw(canvas)
+    d.line([(split + 70, 0), (split - 70, H)], fill=accent_rgb, width=10)
 
-    draw = ImageDraw.Draw(bg)
-    words = text.upper().split()
-    lines = textwrap.wrap(" ".join(words), width=max(8, len(" ".join(words)) // 2 + 1))[:3]
-    font_path = cfg["thumbnail"]["font"]
-    font = _fit_font(draw, lines, font_path, int(W * 0.62), int(H * 0.78))
-    y = (H - len(lines) * font.size * 1.08) / 2
+    # texto: líneas blancas y la última resaltada con «rotulador»
+    font_path = _heavy_font(cfg)
+    f, lines = _layout_text(d, text, font_path, max_w=split - 70, max_h=int(H * 0.66))
+    line_h = f.size * 1.05
+    y = (H - len(lines) * line_h) / 2 + 10
     for i, line in enumerate(lines):
-        draw.text((50, y), line, font=font, fill=accent if i % 2 else "white",
-                  stroke_width=max(4, font.size // 12), stroke_fill="black")
-        y += font.size * 1.08
-    draw.rectangle([0, H - 14, W, H], fill=accent)
-    bg.save(out, "JPEG", quality=90, optimize=True)
+        tw = d.textlength(line, font=f)
+        if i == len(lines) - 1 and len(lines) > 1:
+            pad = f.size * 0.12
+            d.rectangle([40 - pad, y + f.size * 0.08, 40 + tw + pad, y + f.size * 1.02], fill=accent_rgb)
+            d.text((40, y), line, font=f, fill=(15, 15, 20))
+        else:
+            d.text((40, y), line, font=f, fill="white", stroke_width=max(3, f.size // 22), stroke_fill=(0, 0, 0))
+        y += line_h
+
+    if badge:  # etiqueta con el año o un dato
+        bf = ImageFont.truetype(font_path, 54)
+        bw = d.textlength(badge, font=bf) + 44
+        bx, by = W - bw - 34, 30
+        d.rounded_rectangle([bx, by, bx + bw, by + 78], radius=16, fill=(220, 30, 40))
+        d.text((bx + 22, by + 8), badge, font=bf, fill="white")
+
+    brand = cfg["channel"].get("name", "").upper()
+    if brand:
+        d.text((40, H - 58), brand, font=ImageFont.truetype(font_path, 26), fill=accent_rgb)
+
+    canvas.save(out, "JPEG", quality=92, optimize=True)
     q = 85
     while out.stat().st_size > 2_000_000 and q > 40:  # límite de YouTube: 2 MB
-        bg.save(out, "JPEG", quality=q, optimize=True)
+        canvas.save(out, "JPEG", quality=q, optimize=True)
         q -= 10
     return out

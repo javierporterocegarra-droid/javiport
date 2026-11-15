@@ -1,8 +1,12 @@
 {
   "topic": "El ratón, la madre de todas las demos y Xerox PARC",
-  "title": "El invento que Apple y Microsoft «copiaron»: el ratón y las ventanas",
+  "title": "Xerox PARC: lo que Steve Jobs y Bill Gates «copiaron»",
   "description": "En 1968, Douglas Engelbart hizo una demostración que dejó al público boquiabierto: un ratón, ventanas, enlaces, edición de texto en pantalla y hasta videoconferencia. Años después, en el centro de investigación Xerox PARC, estas ideas se convirtieron en el primer ordenador con interfaz gráfica moderna. Y en 1979, Steve Jobs fue de visita.\n\nEn este vídeo te cuento la historia del ratón y de la interfaz gráfica: la «madre de todas las demos», el Xerox Alto, la visita de Jobs a Xerox PARC, el Macintosh, Windows y la famosa respuesta de Bill Gates sobre un «vecino rico llamado Xerox».\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "xerox parc steve jobs",
+    "steve jobs bill gates",
+    "historia del raton de ordenador",
+    "historia de la interfaz grafica",
     "ratón",
     "historia del ratón",
     "Douglas Engelbart",
@@ -14,14 +18,17 @@
     "Bill Gates",
     "Windows",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#XeroxPARC",
     "#SteveJobs",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "LO COPIARON TODO",
+  "thumbnail_text": "Lo copiaron todo",
   "thumbnail_query": "El ratón, la madre de todas las demos y Xerox PARC",
   "thumbnail_icon": "🖱️",
   "thumbnail_photo": "First computer mouse Engelbart",
@@ -268,5 +275,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1979"
 }

@@ -1,8 +1,11 @@
 {
   "topic": "El transistor, el invento más importante del siglo XX",
-  "title": "El invento más fabricado de la historia (y casi nadie sabe cuál es)",
+  "title": "El transistor: el invento más fabricado de la historia",
   "description": "Está en tu móvil, en tu ordenador, en tu coche y en tu lavadora. Se fabrica en cantidades tan enormes que se considera el objeto más fabricado de la historia de la humanidad. Es el transistor, y fue inventado en diciembre de 1947 en los Laboratorios Bell.\n\nEn este vídeo te cuento la historia del transistor: el problema de las válvulas de vacío, los tres científicos que lo inventaron y ganaron el Nobel, la radio de bolsillo que lo hizo popular, el circuito integrado, la ley de Moore y cómo llegamos a chips con decenas de miles de millones de transistores.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "historia del transistor",
+    "que es un transistor",
+    "inventos que cambiaron el mundo",
     "transistor",
     "invención del transistor",
     "Bell Labs",
@@ -14,14 +17,16 @@
     "ley de Moore",
     "historia de la electrónica",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Transistor",
     "#Chips",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "EL INVENTO MÁS FABRICADO",
+  "thumbnail_text": "El invento más fabricado",
   "thumbnail_query": "El transistor, el invento más importante del siglo XX",
   "thumbnail_icon": "🔬",
   "thumbnail_photo": "Replica of first transistor",
@@ -268,5 +273,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1947"
 }

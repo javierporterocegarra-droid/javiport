@@ -1,8 +1,11 @@
 {
   "topic": "Los hermanos Wright y el primer vuelo a motor",
-  "title": "12 segundos que cambiaron el mundo: el primer vuelo de los hermanos Wright",
+  "title": "Hermanos Wright: el primer vuelo de la historia duró 12 segundos",
   "description": "El 17 de diciembre de 1903, en una playa ventosa de Carolina del Norte, un avión fabricado por dos hermanos que tenían una tienda de bicicletas despegó, voló 12 segundos y recorrió unos 37 metros. Era el primer vuelo controlado de un avión a motor de la historia.\n\nEn este vídeo te cuento cómo Wilbur y Orville Wright lo consiguieron sin estudios universitarios ni grandes fondos: sus experimentos con planeadores, el túnel de viento casero, el secreto del control y aquel día histórico en Kitty Hawk.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "hermanos wright primer vuelo",
+    "primer avion de la historia",
+    "hermanos wright documental",
     "hermanos Wright",
     "primer vuelo",
     "historia de la aviación",
@@ -12,14 +15,17 @@
     "Wilbur Wright",
     "1903",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#HermanosWright",
     "#Aviación",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "12 SEGUNDOS",
+  "thumbnail_text": "Solo 12 segundos",
   "thumbnail_query": "Los hermanos Wright y el primer vuelo a motor",
   "thumbnail_icon": "✈️",
   "thumbnail_photo": "First flight 1903 Wright",
@@ -313,5 +319,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1903"
 }

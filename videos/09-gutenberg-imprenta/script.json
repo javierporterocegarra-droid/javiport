@@ -1,8 +1,12 @@
 {
   "topic": "Gutenberg y la invención de la imprenta",
-  "title": "Gutenberg: el invento que cambió el mundo más que internet",
+  "title": "La imprenta de Gutenberg: el invento que cambió la historia",
   "description": "Hacia 1450, en la ciudad alemana de Maguncia, un orfebre llamado Johannes Gutenberg combinó tipos móviles de metal, una tinta especial y una prensa inspirada en las de vino. El resultado, la imprenta, cambió el mundo: en pocas décadas los libros pasaron de ser joyas al alcance de unos pocos a circular por millones.\n\nEn este vídeo te cuento cómo funcionaba la imprenta, la historia de la famosa Biblia de Gutenberg, por qué su inventor acabó perdiendo su taller, cómo llegó la imprenta a España y por qué muchos historiadores la consideran la mayor revolución de la información antes de internet.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "imprenta de gutenberg",
+    "gutenberg y la imprenta",
+    "invencion de la imprenta",
+    "inventos que cambiaron la historia",
     "Gutenberg",
     "imprenta",
     "historia de la imprenta",
@@ -12,14 +16,17 @@
     "Renacimiento",
     "historia de los libros",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Gutenberg",
     "#Imprenta",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "EL PRIMER INTERNET",
+  "thumbnail_text": "El invento que lo cambió todo",
   "thumbnail_query": "Gutenberg y la invención de la imprenta",
   "thumbnail_icon": "📖",
   "thumbnail_photo": "Gutenberg Bible",
@@ -289,5 +296,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1450"
 }

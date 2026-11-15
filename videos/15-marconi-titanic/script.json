@@ -1,10 +1,13 @@
 {
   "topic": "Marconi, la radio y el naufragio del Titanic",
-  "title": "La radio que salvó a 700 personas del Titanic",
+  "title": "Los mensajes de radio del Titanic: la llamada que salvó a 700 personas",
   "description": "En 1901, el joven italiano Guglielmo Marconi logró algo que muchos científicos creían imposible: enviar una señal de radio a través del océano Atlántico. Once años después, la radio del Titanic permitió salvar a unas 700 personas… y su naufragio cambió para siempre las normas de seguridad en el mar.\n\nEn este vídeo te cuento la historia de Marconi, la letra «S» que cruzó el océano, el papel de los radiotelegrafistas del Titanic, el barco que estaba cerca pero no escuchó, y cómo aquella tragedia transformó las comunicaciones.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
-    "Marconi",
+    "titanic radio",
+    "mensajes del titanic",
+    "marconi radio",
     "historia de la radio",
+    "Marconi",
     "Titanic",
     "radio del Titanic",
     "telegrafía sin hilos",
@@ -12,14 +15,17 @@
     "SOS",
     "Guglielmo Marconi",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Titanic",
     "#Marconi",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "LA RADIO DEL TITANIC",
+  "thumbnail_text": "La llamada del Titanic",
   "thumbnail_query": "Marconi, la radio y el naufragio del Titanic",
   "thumbnail_icon": "🚢",
   "thumbnail_photo": "Titanic Southampton 1912",
@@ -268,5 +274,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "SOS"
 }

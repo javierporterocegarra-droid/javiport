@@ -1,8 +1,12 @@
 {
   "topic": "Ada Lovelace, la primera programadora de la historia",
-  "title": "Ada Lovelace: la primera programadora… un siglo antes del ordenador",
+  "title": "Ada Lovelace: la primera programadora de la historia (en 1843)",
   "description": "En 1843, cien años antes de que existiera el primer ordenador electrónico, una joven matemática británica escribió lo que muchos consideran el primer programa informático de la historia. Se llamaba Ada Lovelace, era hija del poeta Lord Byron, y fue capaz de imaginar que una máquina de calcular podría algún día componer música.\n\nEn este vídeo te cuento su historia: su infancia entre la poesía y las matemáticas, su encuentro con Charles Babbage y su máquina analítica, la famosa Nota G y por qué su visión sigue sorprendiendo hoy.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "ada lovelace biografia",
+    "ada lovelace documental",
+    "la primera programadora de la historia",
+    "inventos que cambiaron el mundo",
     "Ada Lovelace",
     "primera programadora",
     "Charles Babbage",
@@ -11,14 +15,16 @@
     "mujeres en la ciencia",
     "Lord Byron",
     "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#AdaLovelace",
     "#HistoriaDeLaTecnología",
     "#MujeresEnLaCiencia"
   ],
-  "thumbnail_text": "LA PRIMERA PROGRAMADORA",
+  "thumbnail_text": "Primera programadora",
   "thumbnail_query": "Ada Lovelace, la primera programadora de la historia",
   "thumbnail_icon": "💡",
   "thumbnail_photo": "Ada Lovelace portrait",
@@ -340,5 +346,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1843"
 }

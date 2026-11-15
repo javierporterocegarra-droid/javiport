@@ -1,8 +1,12 @@
 {
   "topic": "El telégrafo y el código Morse, el primer internet",
-  "title": "El telégrafo: así nació el primer «internet» del mundo",
+  "title": "Código Morse y telégrafo: así nació el primer «internet»",
   "description": "Antes del teléfono, la radio o internet, hubo una tecnología que permitió por primera vez enviar mensajes casi instantáneos a cientos de kilómetros: el telégrafo eléctrico. Y detrás de él hay una historia personal: la de Samuel Morse, un pintor que llegó tarde al entierro de su esposa porque la noticia viajaba a caballo.\n\nEn este vídeo te cuento cómo nació el telégrafo, cómo funciona el código Morse, el primer mensaje de 1844, la aventura del primer cable bajo el océano Atlántico y por qué muchos lo llaman el internet de la época victoriana.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
   "tags": [
+    "codigo morse",
+    "telegrafo como funciona",
+    "historia del telegrafo",
+    "telegrafo morse",
     "telégrafo",
     "código Morse",
     "Samuel Morse",
@@ -10,15 +14,17 @@
     "cable transatlántico",
     "SOS",
     "historia de la tecnología",
-    "historia de la tecnología",
-    "tecnohistoria"
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
   ],
   "hashtags": [
     "#Telégrafo",
     "#CódigoMorse",
     "#HistoriaDeLaTecnología"
   ],
-  "thumbnail_text": "EL PRIMER INTERNET",
+  "thumbnail_text": "El primer internet",
   "thumbnail_query": "El telégrafo y el código Morse, el primer internet",
   "thumbnail_icon": "📡",
   "thumbnail_photo": "Samuel Morse Brady",
@@ -260,5 +266,6 @@
         "icon": "🔔"
       }
     }
-  ]
+  ],
+  "thumbnail_badge": "1844"
 }

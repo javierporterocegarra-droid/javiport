@@ -20,9 +20,18 @@ def audio_duration(path: str | Path) -> float:
 
 
 async def _edge(text: str, voice: str, rate: str, out: Path) -> list[dict]:
-    import edge_tts
+    import os
+    import ssl
 
-    comm = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary")
+    import edge_tts
+    import edge_tts.communicate as _c
+
+    # detrás de un proxy corporativo/sandbox: usar su proxy y su certificado
+    ca = os.environ.get("SSL_CERT_FILE") or os.environ.get("REQUESTS_CA_BUNDLE")
+    if ca and os.path.exists(ca):
+        _c._SSL_CTX = ssl.create_default_context(cafile=ca)
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
+    comm = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary", proxy=proxy)
     words = []
     with open(out, "wb") as f:
         async for chunk in comm.stream():
@@ -93,8 +102,10 @@ def _kokoro_tts(cfg: dict, text: str, out: Path) -> None:
 
 
 def spoken(cfg: dict, text: str) -> str:
-    """Aplica el diccionario de pronunciación (solo al audio, no a los subtítulos)."""
-    for word, say in sorted(cfg["tts"].get("pronunciations", {}).items(), key=lambda kv: -len(kv[0])):
+    """Aplica el diccionario de pronunciación del motor de voz (solo al audio, no a los subtítulos)."""
+    t = cfg["tts"]
+    table = t.get("kokoro_pronunciations" if t["engine"] == "kokoro" else "pronunciations", {}) or {}
+    for word, say in sorted(table.items(), key=lambda kv: -len(kv[0])):
         text = re.sub(rf"(?<!\w){re.escape(word)}(?!\w)", say, text)
     return text
 
@@ -109,7 +120,16 @@ def synthesize(cfg: dict, text: str, out: Path) -> tuple[float, list[dict]]:
     elif tts["engine"] == "kokoro":
         _kokoro_tts(cfg, say, out)
     else:
-        words = asyncio.run(_edge(say, tts["voice"], tts.get("rate", "+0%"), out))
+        import time
+        for attempt in range(5):
+            try:
+                words = asyncio.run(_edge(say, tts["voice"], tts.get("rate", "+0%"), out))
+                if out.exists() and out.stat().st_size > 1000:
+                    break
+            except Exception:
+                if attempt == 4:
+                    raise
+            time.sleep(3 * (attempt + 1))
         if say != text:
             words = []  # los tiempos de palabra no coinciden con el texto mostrado
     duration = audio_duration(out)
