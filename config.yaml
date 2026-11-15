@@ -1,0 +1,68 @@
+# ==========================================================
+#  AutoTube - configuración del canal automatizado
+# ==========================================================
+
+channel:
+  name: "Mi Canal"
+  # Nicho del canal: cuanto más concreto, mejor rendimiento y más coherencia.
+  niche: "curiosidades de ciencia, tecnología y el universo explicadas de forma sencilla"
+  language: es            # idioma de los guiones y metadatos
+  region: ES              # país para tendencias de YouTube (ES, MX, AR, US...)
+  audience: "hispanohablantes de 18 a 40 años curiosos por la ciencia"
+  tone: "cercano, entusiasta, riguroso, sin clickbait engañoso"
+  # Palabras clave semilla para buscar lo que funciona en tu nicho
+  keywords:
+    - "curiosidades ciencia"
+    - "universo explicado"
+    - "tecnología futuro"
+  # Temas que NUNCA debe tratar
+  banned_topics:
+    - política partidista
+    - consejos médicos o financieros personalizados
+
+video:
+  format: long            # long (16:9, varios minutos) | short (9:16, <60 s)
+  target_minutes: 8       # solo para format: long
+  fps: 30
+  subtitles: true
+  music_dir: assets/music # pon aquí .mp3 libres de derechos; se elige uno al azar
+  music_volume: 0.08
+
+tts:
+  engine: edge            # edge (gratis) | elevenlabs
+  voice: es-ES-AlvaroNeural   # otras: es-MX-JorgeNeural, es-ES-ElviraNeural, es-MX-DaliaNeural
+  rate: "+6%"
+  elevenlabs_voice_id: ""
+
+thumbnail:
+  font: /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+  accent_color: "#FFD400"
+
+upload:
+  enabled: true
+  privacy: private        # private | unlisted | public
+  # Si > 0, el vídeo se sube privado y se programa para publicarse N horas después
+  schedule_hours_ahead: 0
+  category_id: "28"       # 28 = Ciencia y tecnología, 27 = Educación, 24 = Entretenimiento
+  made_for_kids: false
+  # Política de YouTube: declarar contenido sintético/alterado realista
+  contains_synthetic_media: true
+  playlist_id: ""
+  post_comment: true      # publica un comentario del canal (para fijarlo a mano)
+
+manage:
+  reply_to_comments: true
+  max_replies_per_run: 25
+  hold_spam_for_review: true
+  report_days: 28
+
+claude:
+  model: claude-opus-5-5
+  effort: high
+
+paths:
+  output: output
+  database: data/autotube.db
+  feedback: data/feedback.md
+  client_secret: secrets/client_secret.json
+  token: secrets/token.json
