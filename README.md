@@ -104,7 +104,7 @@ Alternativa local: `crontab -e` → `17 15 * * * cd /ruta/javiport && .venv/bin/
 
 ## Vídeos ya preparados
 
-Canal **Crónica Tech** — nicho: *historia de la tecnología* (los inventos, las personas y los momentos
+Canal **TecnoHistoria** — nicho: *historia de la tecnología* (los inventos, las personas y los momentos
 que cambiaron el mundo), en español. En `videos/` hay 3 guiones completos con título, descripción,
 etiquetas, fuentes verificadas y miniatura:
 

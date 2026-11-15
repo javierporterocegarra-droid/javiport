@@ -59,12 +59,24 @@ def create_video(cfg: dict, llm, db, topic_override: str | None = None) -> Path:
 
 def _cached_tts(cfg: dict, text: str, audio: Path):
     """Reutiliza el audio si la narración y la voz no han cambiado (re-render rápido)."""
-    key = json.dumps([text, tts.spoken(cfg, text), cfg["tts"]], ensure_ascii=False, sort_keys=True)
+    t = cfg["tts"]
+    voice = [t.get("engine"), t.get("kokoro_voice"), t.get("kokoro_speed"), t.get("voice"), t.get("rate"),
+             t.get("elevenlabs_voice_id")]
+    key = json.dumps([text, tts.spoken(cfg, text), voice], ensure_ascii=False)
     meta = audio.with_suffix(".json")
     if audio.exists() and meta.exists():
         cached = json.loads(meta.read_text(encoding="utf-8"))
         if cached.get("key") == key:
             return cached["duration"], cached["words"]
+        try:  # formato antiguo: [texto, texto_hablado, config_tts_completa]
+            old = json.loads(cached.get("key", "[]"))
+            if (isinstance(old, list) and len(old) == 3 and isinstance(old[2], dict) and old[:2] == [text, tts.spoken(cfg, text)]
+                    and [old[2].get(k) for k in ("engine", "kokoro_voice", "kokoro_speed", "voice", "rate",
+                                                  "elevenlabs_voice_id")] == voice):
+                _save(meta, {**cached, "key": key})
+                return cached["duration"], cached["words"]
+        except (ValueError, TypeError):
+            pass
     dur, words = tts.synthesize(cfg, text, audio)
     _save(meta, {"key": key, "duration": dur, "words": words})
     return dur, words

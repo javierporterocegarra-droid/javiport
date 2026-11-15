@@ -3,7 +3,7 @@
 # ==========================================================
 
 channel:
-  name: "Crónica Tech"
+  name: "TecnoHistoria"
   # Nicho del canal: cuanto más concreto, mejor rendimiento y más coherencia.
   niche: "historia de la tecnología: los inventos, las personas y los momentos que cambiaron el mundo, contados como una historia"
   language: es            # idioma de los guiones y metadatos
@@ -128,6 +128,7 @@ tts:
     HTTP: "hache te te pe"
     URL: "u erre ele"
     Sputnik: "Spútnik"
+    TecnoHistoria: "Tecno Historia"
 
 thumbnail:
   font: /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
