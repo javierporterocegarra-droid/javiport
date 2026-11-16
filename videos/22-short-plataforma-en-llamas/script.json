@@ -1,0 +1,78 @@
+{
+  "topic": "El correo que hundió a Nokia",
+  "format": "short",
+  "publish_at": "2026-11-19T13:00:00",
+  "title": "El correo que hundió a Nokia",
+  "description": "El correo que hundió a Nokia.\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.",
+  "tags": [
+    "shorts",
+    "tecnología",
+    "historia de la tecnología",
+    "curiosidades"
+  ],
+  "hashtags": [
+    "#Nokia",
+    "#Tecnología",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "",
+  "sources": [],
+  "scenes": [
+    {
+      "section": "a",
+      "narration": "En febrero de dos mil once, el director de Nokia envió a la plantilla un correo que se hizo famoso.",
+      "visual_query": "El correo de la «plataforma en llamas»",
+      "card": {
+        "layout": "number",
+        "heading": "El correo de la «plataforma en llamas»",
+        "items": [
+          "2011"
+        ],
+        "icon": "📧"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Comparó a Nokia con un hombre en una plataforma petrolífera en llamas, obligado a saltar al mar helado.",
+      "visual_query": "«Estamos en una plataforma en llamas»",
+      "card": {
+        "layout": "quote",
+        "heading": "«Estamos en una plataforma en llamas»",
+        "items": [],
+        "icon": "🔥"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Nokia saltó: dejó su sistema y apostó por Windows Phone. Llegaba tarde, y las ventas se hundieron.",
+      "visual_query": "El salto",
+      "card": {
+        "layout": "steps",
+        "heading": "El salto",
+        "items": [
+          "Adiós a Symbian",
+          "Hola, Windows Phone",
+          "Las ventas se hunden"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Por qué Nokia cayó de verdad, en el documental del canal.",
+      "visual_query": "El documental completo, en el canal",
+      "card": {
+        "layout": "quote",
+        "heading": "El documental completo, en el canal",
+        "items": [],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "tz": "Europe/Madrid"
+}

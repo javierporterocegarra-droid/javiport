@@ -1,0 +1,277 @@
+{
+  "topic": "Usos prácticos de la IA para ahorrar tiempo",
+  "format": "long",
+  "publish_at": "2026-11-21T18:00:00",
+  "title": "10 usos de la IA que te ahorran una hora al día (2026)",
+  "description": "La inteligencia artificial ya no es solo para programadores: bien usada, puede ahorrarte una hora al día en tareas que haces cada semana. En esta guía práctica te enseño 10 usos concretos que funcionan con los asistentes gratuitos más conocidos (ChatGPT, Claude, Gemini o Copilot), con ejemplos de qué pedirles exactamente y los errores que debes evitar: comprobar los datos importantes y no compartir información privada.\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.",
+  "tags": [
+    "inteligencia artificial",
+    "como usar la inteligencia artificial",
+    "ia para trabajar",
+    "productividad con ia",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "trucos de ia",
+    "herramientas de ia gratis",
+    "ahorrar tiempo",
+    "guía ia 2026"
+  ],
+  "hashtags": [
+    "#InteligenciaArtificial",
+    "#Productividad",
+    "#IA"
+  ],
+  "thumbnail_text": "1 hora menos al día",
+  "thumbnail_badge": "IA",
+  "thumbnail_icon": "⏱️",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuál de estos 10 usos vas a probar primero? Y si ya usas la IA para algo que no he contado, cuéntalo aquí 👇",
+  "sources": [
+    "https://openai.com/chatgpt/",
+    "https://claude.ai/",
+    "https://gemini.google.com/",
+    "https://copilot.microsoft.com/"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Este informe de cincuenta páginas lo he resumido en veinte segundos, con las cifras clave y las tres decisiones que tengo que tomar. Y no es magia: es saber qué pedirle a la inteligencia artificial.",
+      "visual_query": "segundos para resumir 50 páginas",
+      "card": {
+        "layout": "number",
+        "heading": "segundos para resumir 50 páginas",
+        "items": [
+          "20"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Hoy te enseño diez usos concretos que pueden ahorrarte una hora al día. Funcionan con los asistentes gratuitos más conocidos, como ChatGPT, Claude, Gemini o Copilot. Y al final, los dos errores que no debes cometer.",
+      "visual_query": "Lo que vas a aprender",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que vas a aprender",
+        "items": [
+          "10 usos prácticos",
+          "Qué pedir exactamente",
+          "2 errores que evitar"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "1. Resumir",
+      "narration": "Uno: resumir documentos largos. Sube el PDF o pega el texto y pide algo concreto: resume en diez puntos, con las cifras importantes y lo que tengo que decidir. Cuanto más concreto seas, mejor resultado.",
+      "visual_query": "1. Resumir documentos",
+      "card": {
+        "layout": "steps",
+        "heading": "1. Resumir documentos",
+        "items": [
+          "Sube el PDF o pega el texto",
+          "Pide 10 puntos con cifras",
+          "Pregunta qué debes decidir"
+        ],
+        "icon": "📄"
+      }
+    },
+    {
+      "section": "2. Correos",
+      "narration": "Dos: escribir correos difíciles. Cuéntale la situación y el tono que quieres: amable pero firme, breve, formal. Te da un borrador en segundos y tú solo lo ajustas.",
+      "visual_query": "«Escribe un correo amable pero firme para…»",
+      "card": {
+        "layout": "quote",
+        "heading": "«Escribe un correo amable pero firme para…»",
+        "items": [
+          "Tú decides el tono; la IA hace el borrador"
+        ],
+        "icon": "✉️"
+      }
+    },
+    {
+      "section": "3. Reuniones",
+      "narration": "Tres: preparar y cerrar reuniones. Antes, pídele un orden del día a partir de tus notas. Después, pégale los apuntes desordenados y te devuelve un acta con tareas, responsables y fechas.",
+      "visual_query": "3. Reuniones",
+      "card": {
+        "layout": "steps",
+        "heading": "3. Reuniones",
+        "items": [
+          "Antes: orden del día",
+          "Después: acta ordenada",
+          "Tareas con responsable y fecha"
+        ],
+        "icon": "🗓️"
+      }
+    },
+    {
+      "section": "4. Traducir",
+      "narration": "Cuatro: traducir con contexto. A diferencia de un traductor clásico, puedes decirle para quién es el texto y en qué tono, y pedirle que te explique las expresiones que no entiendas.",
+      "visual_query": "4. Traducir con contexto",
+      "card": {
+        "layout": "bullets",
+        "heading": "4. Traducir con contexto",
+        "items": [
+          "Indica el público y el tono",
+          "Pide que adapte expresiones",
+          "Pregunta lo que no entiendas"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "5. Organizar",
+      "narration": "Cinco: organizar tu semana. Escríbele todo lo que tienes pendiente, tal cual te salga, y pídele que lo ordene por urgencia e importancia y que te proponga un plan día a día.",
+      "visual_query": "Vuelca todo lo pendiente y pide un plan",
+      "card": {
+        "layout": "quote",
+        "heading": "Vuelca todo lo pendiente y pide un plan",
+        "items": [
+          "Ordenado por urgencia e importancia"
+        ],
+        "icon": "✅"
+      }
+    },
+    {
+      "section": "6. Presentaciones",
+      "narration": "Seis: preparar presentaciones. Pídele la estructura de la presentación diapositiva por diapositiva, con el mensaje de cada una. Luego solo tienes que darle forma en tu programa favorito.",
+      "visual_query": "6. Presentaciones",
+      "card": {
+        "layout": "steps",
+        "heading": "6. Presentaciones",
+        "items": [
+          "Estructura por diapositiva",
+          "Un mensaje por diapositiva",
+          "Tú le das el diseño"
+        ],
+        "icon": "📊"
+      }
+    },
+    {
+      "section": "7. Hojas de cálculo",
+      "narration": "Siete: hojas de cálculo. Si no recuerdas una fórmula, descríbele lo que quieres conseguir con palabras normales y te escribirá la fórmula y te explicará cómo funciona.",
+      "visual_query": "Describe lo que quieres: la IA escribe la fórmula",
+      "card": {
+        "layout": "quote",
+        "heading": "Describe lo que quieres: la IA escribe la fórmula",
+        "items": [
+          "Y te explica cómo funciona"
+        ],
+        "icon": "🧮"
+      }
+    },
+    {
+      "section": "8. Aprender",
+      "narration": "Ocho: aprender algo nuevo. Pídele que te explique un tema como si tuvieras doce años, y luego que te haga cinco preguntas para comprobar si lo has entendido. Es como tener un profesor particular.",
+      "visual_query": "8. Un profesor particular",
+      "card": {
+        "layout": "steps",
+        "heading": "8. Un profesor particular",
+        "items": [
+          "Explícamelo como si tuviera 12 años",
+          "Hazme 5 preguntas",
+          "Corrige mis respuestas"
+        ],
+        "icon": "🎓"
+      }
+    },
+    {
+      "section": "9. Revisar textos",
+      "narration": "Nueve: revisar lo que escribes. Pídele que corrija la ortografía y que te diga qué partes se entienden peor, pero que no cambie tu estilo. Así el texto sigue siendo tuyo.",
+      "visual_query": "9. Revisar textos",
+      "card": {
+        "layout": "bullets",
+        "heading": "9. Revisar textos",
+        "items": [
+          "Ortografía y gramática",
+          "Partes poco claras",
+          "Sin cambiar tu estilo"
+        ],
+        "icon": "📝"
+      }
+    },
+    {
+      "section": "10. Casa",
+      "narration": "Y diez: la vida diaria. Dile lo que tienes en la nevera y te propone menús para la semana con su lista de la compra. O pídele ideas para un regalo con un presupuesto concreto.",
+      "visual_query": "10. La vida diaria",
+      "card": {
+        "layout": "bullets",
+        "heading": "10. La vida diaria",
+        "items": [
+          "Menús con lo que tienes",
+          "Lista de la compra",
+          "Ideas de regalo con presupuesto"
+        ],
+        "icon": "🛒"
+      }
+    },
+    {
+      "section": "Errores",
+      "narration": "Ahora, los dos errores que no debes cometer. El primero: fiarte a ciegas. La IA puede equivocarse con total seguridad, sobre todo con cifras, fechas y citas. Lo importante, compruébalo siempre.",
+      "visual_query": "Error 1: fiarte a ciegas",
+      "card": {
+        "layout": "quote",
+        "heading": "Error 1: fiarte a ciegas",
+        "items": [
+          "Comprueba cifras, fechas y citas"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Errores",
+      "narration": "El segundo: compartir información privada. No pegues contraseñas, datos de clientes ni documentos confidenciales de tu empresa, salvo que tu empresa use una versión aprobada para eso.",
+      "visual_query": "Error 2: compartir datos privados",
+      "card": {
+        "layout": "quote",
+        "heading": "Error 2: compartir datos privados",
+        "items": [
+          "Nada de contraseñas ni datos de clientes"
+        ],
+        "icon": "🔒"
+      }
+    },
+    {
+      "section": "El truco",
+      "narration": "Y un último truco que lo cambia todo: dale contexto. No es lo mismo pedir «escribe un correo» que «soy el encargado de una tienda y quiero pedir a un proveedor que adelante un pedido sin sonar exigente». El contexto multiplica la calidad.",
+      "visual_query": "La fórmula de una buena petición",
+      "card": {
+        "layout": "steps",
+        "heading": "La fórmula de una buena petición",
+        "items": [
+          "Quién eres",
+          "Qué quieres conseguir",
+          "Para quién y en qué tono"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Con estos diez usos, una hora al día es un ahorro realista para mucha gente. Empieza por uno o dos y conviértelos en costumbre.",
+      "visual_query": "Empieza por uno o dos usos y conviértelos en costumbre",
+      "card": {
+        "layout": "quote",
+        "heading": "Empieza por uno o dos usos y conviértelos en costumbre",
+        "items": [],
+        "icon": "⏱️"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Y si quieres saber de dónde viene todo esto, en el canal tienes la historia de cómo una máquina de 1843 imaginó la inteligencia artificial. Suscríbete a TecnoHistoria: cada semana, tecnología explicada y cómo sacarle partido.",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "Tecnología explicada y cómo aprovecharla"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "tz": "Europe/Madrid"
+}
