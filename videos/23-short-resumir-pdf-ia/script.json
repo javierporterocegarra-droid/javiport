@@ -1,0 +1,78 @@
+{
+  "topic": "Resume un PDF de 50 páginas en 20 segundos con IA",
+  "format": "short",
+  "publish_at": "2026-11-20T13:00:00",
+  "title": "Resume un PDF de 50 páginas en 20 segundos con IA",
+  "description": "Resume un PDF de 50 páginas en 20 segundos con IA.\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.",
+  "tags": [
+    "shorts",
+    "tecnología",
+    "historia de la tecnología",
+    "curiosidades"
+  ],
+  "hashtags": [
+    "#IA",
+    "#Productividad",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "",
+  "sources": [],
+  "scenes": [
+    {
+      "section": "a",
+      "narration": "Este truco te ahorra horas: resumir un documento largo en veinte segundos.",
+      "visual_query": "segundos para resumir 50 páginas",
+      "card": {
+        "layout": "number",
+        "heading": "segundos para resumir 50 páginas",
+        "items": [
+          "20"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Sube el PDF a un asistente de inteligencia artificial como ChatGPT, Claude o Gemini.",
+      "visual_query": "Paso 1",
+      "card": {
+        "layout": "steps",
+        "heading": "Paso 1",
+        "items": [
+          "Sube el PDF al asistente"
+        ],
+        "icon": "📄"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Y pide algo concreto: resume en diez puntos, con las cifras clave y lo que tengo que decidir.",
+      "visual_query": "«10 puntos, cifras clave y lo que debo decidir»",
+      "card": {
+        "layout": "quote",
+        "heading": "«10 puntos, cifras clave y lo que debo decidir»",
+        "items": [],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Eso sí: comprueba siempre las cifras importantes. Diez usos más, en la guía del canal.",
+      "visual_query": "10 usos más, en la guía del canal",
+      "card": {
+        "layout": "quote",
+        "heading": "10 usos más, en la guía del canal",
+        "items": [
+          "Comprueba siempre las cifras"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "tz": "Europe/Madrid"
+}

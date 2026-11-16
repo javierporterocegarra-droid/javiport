@@ -1,0 +1,83 @@
+{
+  "topic": "Nokia empezó fabricando papel (y botas de goma)",
+  "format": "short",
+  "publish_at": "2026-11-18T13:00:00",
+  "title": "Nokia empezó fabricando papel (y botas de goma)",
+  "description": "Nokia empezó fabricando papel (y botas de goma).\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.",
+  "tags": [
+    "shorts",
+    "tecnología",
+    "historia de la tecnología",
+    "curiosidades"
+  ],
+  "hashtags": [
+    "#Nokia",
+    "#Historia",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "",
+  "sources": [],
+  "scenes": [
+    {
+      "section": "a",
+      "narration": "El mayor fabricante de móviles de la historia empezó fabricando papel.",
+      "visual_query": "Nokia empezó fabricando papel",
+      "card": {
+        "layout": "title",
+        "heading": "Nokia empezó fabricando papel",
+        "items": [
+          "1865"
+        ],
+        "icon": "🌲"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Nokia nació en mil ochocientos sesenta y cinco en Finlandia, como una fábrica de pasta de papel. Luego hizo botas de goma, neumáticos y cables.",
+      "visual_query": "Antes de los móviles",
+      "card": {
+        "layout": "steps",
+        "heading": "Antes de los móviles",
+        "items": [
+          "Papel",
+          "Botas de goma",
+          "Cables"
+        ],
+        "icon": "🥾"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "En los noventa lo apostó todo a los móviles, y en mil novecientos noventa y ocho ya era el número uno del mundo.",
+      "visual_query": "Nokia, número uno mundial de móviles",
+      "card": {
+        "layout": "number",
+        "heading": "Nokia, número uno mundial de móviles",
+        "items": [
+          "1998"
+        ],
+        "icon": "📱"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Y luego lo perdió todo. La historia completa, en el canal.",
+      "visual_query": "La historia completa, en el canal",
+      "card": {
+        "layout": "quote",
+        "heading": "La historia completa, en el canal",
+        "items": [],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "tz": "Europe/Madrid",
+  "full_description": "Nokia empezó fabricando papel (y botas de goma).\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.\n\n#Nokia #Historia #Shorts",
+  "duration_s": 27.352000000000004,
+  "image_credits": []
+}

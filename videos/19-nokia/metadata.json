@@ -1,0 +1,354 @@
+{
+  "topic": "La caída de Nokia",
+  "format": "long",
+  "publish_at": "2026-11-17T18:00:00",
+  "title": "Nokia: cómo el rey de los móviles lo perdió todo",
+  "description": "En 2007, casi cuatro de cada diez móviles del mundo eran Nokia. Seis años después, la empresa vendió su negocio de teléfonos a Microsoft. La respuesta fácil es el iPhone; la de verdad es mucho más interesante: Nokia vio venir el golpe y aun así no pudo esquivarlo.\n\nEn este documental repasamos cómo una fábrica de papel finlandesa se convirtió en el mayor fabricante de móviles del planeta, las tres decisiones que explican su caída (Symbian, medir el éxito en unidades y una cultura en la que dar malas noticias daba miedo), el famoso memorando de la «plataforma en llamas» y qué es Nokia hoy.\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.",
+  "tags": [
+    "Nokia",
+    "historia de Nokia",
+    "por qué desapareció Nokia",
+    "caída de Nokia",
+    "Nokia 3310",
+    "Symbian",
+    "Microsoft Nokia",
+    "Stephen Elop",
+    "historia de los móviles",
+    "documental tecnología",
+    "auge y caída",
+    "historia de empresas tecnológicas"
+  ],
+  "hashtags": [
+    "#Nokia",
+    "#HistoriaDeLaTecnología",
+    "#AugeYCaída"
+  ],
+  "thumbnail_text": "De 40 % a 0",
+  "thumbnail_badge": "2007",
+  "thumbnail_icon": "📱",
+  "thumbnail_photo": "Nokia 3310",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuál fue tu primer Nokia? 📱 ¿Y qué empresa quieres que analicemos en el próximo «Auge y caída»? 👇",
+  "sources": [
+    "https://knowledge.insead.edu/strategy/who-killed-nokia-nokia-did",
+    "https://www.engadget.com/2011/02/08/nokia-ceo-stephen-elop-rallies-troops-in-brutally-honest-burnin/",
+    "https://mobilemarketingmagazine.com/microsoft-to-buy-nokias-mobile-business-for-544bn/",
+    "https://www.computerworld.com/article/1535313/burning-memo-from-nokia-s-ceo-sets-stage-for-os-shake-up.html"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Enero de dos mil siete. En San Francisco, Steve Jobs saca del bolsillo un teléfono sin teclado. A nueve mil kilómetros, en Finlandia, la empresa que fabrica casi cuatro de cada diez móviles del planeta lo mira con calma.",
+      "visual_query": "de los móviles del mundo eran Nokia (2007)",
+      "card": {
+        "layout": "number",
+        "heading": "de los móviles del mundo eran Nokia (2007)",
+        "items": [
+          "≈ 40 %"
+        ],
+        "icon": "📱"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Tienen el móvil más vendido de la historia y son una de las empresas más valiosas de Europa. Seis años después, venden su negocio de móviles a Microsoft.",
+      "visual_query": "De la cima a la venta",
+      "card": {
+        "layout": "steps",
+        "heading": "De la cima a la venta",
+        "items": [
+          "2007: casi 4 de cada 10 móviles",
+          "2013: venta a Microsoft"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "¿Qué pasó? La respuesta fácil es el iPhone. La de verdad es más interesante: Nokia vio venir el golpe y aun así no pudo esquivarlo. Hoy vas a ver las tres decisiones que lo explican.",
+      "visual_query": "Nokia vio venir el golpe… y no pudo esquivarlo",
+      "card": {
+        "layout": "quote",
+        "heading": "Nokia vio venir el golpe… y no pudo esquivarlo",
+        "items": [
+          "Tres decisiones lo explican"
+        ],
+        "icon": "🧩"
+      }
+    },
+    {
+      "section": "Una fábrica de papel",
+      "narration": "Para entender la caída hay que entender lo improbable del ascenso. Nokia nació en mil ochocientos sesenta y cinco como una fábrica de pasta de papel junto a un río finlandés.",
+      "visual_query": "Nokia nace como fábrica de pasta de papel",
+      "card": {
+        "layout": "number",
+        "heading": "Nokia nace como fábrica de pasta de papel",
+        "items": [
+          "1865"
+        ],
+        "icon": "🌲"
+      },
+      "photo": "Nokia Finland river mill",
+      "photo_caption": "Nokia, Finlandia"
+    },
+    {
+      "section": "Una fábrica de papel",
+      "narration": "Durante un siglo hizo de todo: papel, botas de goma, neumáticos, cables. A principios de los noventa estaba en apuros, y su nuevo director, Jorma Ollila, tomó una decisión radical: apostarlo todo a los teléfonos móviles.",
+      "visual_query": "Antes de los móviles, Nokia fabricaba…",
+      "card": {
+        "layout": "bullets",
+        "heading": "Antes de los móviles, Nokia fabricaba…",
+        "items": [
+          "Papel",
+          "Botas de goma",
+          "Neumáticos y cables"
+        ],
+        "icon": "🥾"
+      }
+    },
+    {
+      "section": "Una fábrica de papel",
+      "narration": "Funcionó. En mil novecientos noventa y ocho, Nokia ya era el mayor fabricante de móviles del mundo. Y en dos mil lanzó el 3310: más de cien millones de unidades, la Serpiente y una batería que duraba días.",
+      "visual_query": "unidades vendidas del Nokia 3310",
+      "card": {
+        "layout": "number",
+        "heading": "unidades vendidas del Nokia 3310",
+        "items": [
+          "+100 millones"
+        ],
+        "icon": "🐍"
+      },
+      "photo": "Nokia 3310",
+      "photo_caption": "Nokia 3310 (2000)"
+    },
+    {
+      "section": "Una fábrica de papel",
+      "narration": "Si tuviste un móvil a principios de siglo, probablemente fue un Nokia. En TecnoHistoria contamos cada semana la historia de una empresa que cambió el mundo; si te gustan estas historias, suscríbete. La de hoy tiene un giro que casi nadie conoce.",
+      "visual_query": "Si tuviste un móvil en 2000, era un Nokia",
+      "card": {
+        "layout": "title",
+        "heading": "Si tuviste un móvil en 2000, era un Nokia",
+        "items": [],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "La cima",
+      "narration": "A mediados de los dos mil, Nokia no solo dominaba los móviles baratos. También los caros. Su sistema operativo, Symbian, movía la mayoría de los smartphones del mundo.",
+      "visual_query": "Nokia a mediados de los 2000",
+      "card": {
+        "layout": "bullets",
+        "heading": "Nokia a mediados de los 2000",
+        "items": [
+          "Líder en móviles baratos",
+          "Líder en smartphones",
+          "Symbian en la mayoría de ellos"
+        ],
+        "icon": "👑"
+      },
+      "photo": "Nokia N95",
+      "photo_caption": "Nokia N95 (2007)"
+    },
+    {
+      "section": "La cima",
+      "narration": "Ya tenían móviles con cámara, internet, GPS y hasta una tienda de aplicaciones. Sus ingenieros habían probado prototipos con pantalla táctil años antes del iPhone.",
+      "visual_query": "Nokia ya tenía…",
+      "card": {
+        "layout": "bullets",
+        "heading": "Nokia ya tenía…",
+        "items": [
+          "Cámara e internet",
+          "GPS y mapas",
+          "Prototipos táctiles"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "La cima",
+      "narration": "Nokia no se quedó atrás por falta de ideas. Tenía las ideas. El problema estaba en otro sitio.",
+      "visual_query": "No le faltaban ideas. El problema estaba en otro sitio.",
+      "card": {
+        "layout": "quote",
+        "heading": "No le faltaban ideas. El problema estaba en otro sitio.",
+        "items": [],
+        "icon": "🔍"
+      }
+    },
+    {
+      "section": "Tres decisiones",
+      "narration": "Primera decisión: seguir con Symbian. Era un sistema pensado para móviles con teclado. Adaptarlo a las pantallas táctiles era como reformar una casa vieja sin poder vaciarla. Cada modelo nuevo tardaba más y fallaba más.",
+      "visual_query": "Decisión 1: aferrarse a Symbian",
+      "card": {
+        "layout": "title",
+        "heading": "Decisión 1: aferrarse a Symbian",
+        "items": [
+          "Un sistema pensado para teclados"
+        ],
+        "icon": "1️⃣"
+      }
+    },
+    {
+      "section": "Tres decisiones",
+      "narration": "Segunda decisión: medir el éxito en unidades vendidas. Nokia seguía vendiendo muchísimos móviles baratos, y las cifras globales parecían excelentes. Mientras tanto, perdía los móviles caros, los que dejaban beneficio y marcaban el futuro.",
+      "visual_query": "Decisión 2: medir el éxito en unidades",
+      "card": {
+        "layout": "title",
+        "heading": "Decisión 2: medir el éxito en unidades",
+        "items": [
+          "Mientras se perdían los móviles caros"
+        ],
+        "icon": "2️⃣"
+      }
+    },
+    {
+      "section": "Tres decisiones",
+      "narration": "Y la tercera, la que casi nadie conoce: el miedo. Un estudio de la escuela de negocios INSEAD entrevistó a decenas de directivos e ingenieros de Nokia.",
+      "visual_query": "Decisión 3: una cultura del miedo",
+      "card": {
+        "layout": "title",
+        "heading": "Decisión 3: una cultura del miedo",
+        "items": [
+          "La que casi nadie conoce"
+        ],
+        "icon": "3️⃣"
+      }
+    },
+    {
+      "section": "Tres decisiones",
+      "narration": "Su conclusión: muchos mandos intermedios sabían que la tecnología no estaba lista, pero tenían miedo de decírselo a una dirección que exigía resultados inmediatos. Los problemas se maquillaban, y la cúpula decidía con una idea equivocada de lo que su empresa podía hacer.",
+      "visual_query": "Cómo el miedo frenó a Nokia",
+      "card": {
+        "layout": "steps",
+        "heading": "Cómo el miedo frenó a Nokia",
+        "items": [
+          "Los técnicos veían el problema",
+          "Nadie se atrevía a decirlo",
+          "La dirección decidía a ciegas"
+        ],
+        "icon": "😶"
+      }
+    },
+    {
+      "section": "La caída",
+      "narration": "En dos mil diez, Nokia fichó como director a Stephen Elop, que venía de Microsoft. En febrero de dos mil once envió a la plantilla un correo que se hizo famoso.",
+      "visual_query": "El memorando de la «plataforma en llamas»",
+      "card": {
+        "layout": "number",
+        "heading": "El memorando de la «plataforma en llamas»",
+        "items": [
+          "Feb. 2011"
+        ],
+        "icon": "📧"
+      },
+      "photo": "Stephen Elop",
+      "photo_caption": "Stephen Elop"
+    },
+    {
+      "section": "La caída",
+      "narration": "Comparó a Nokia con un hombre en una plataforma petrolífera en llamas, obligado a saltar al mar helado. Y saltó: abandonó Symbian y apostó por Windows Phone, de Microsoft.",
+      "visual_query": "«Estamos en una plataforma en llamas»",
+      "card": {
+        "layout": "quote",
+        "heading": "«Estamos en una plataforma en llamas»",
+        "items": [
+          "Nokia salta a Windows Phone"
+        ],
+        "icon": "🔥"
+      }
+    },
+    {
+      "section": "La caída",
+      "narration": "El problema es que Windows Phone llegaba tarde a una pelea que ya ganaban el iPhone y Android. Las ventas se hundieron.",
+      "visual_query": "Una pelea ya decidida",
+      "card": {
+        "layout": "bullets",
+        "heading": "Una pelea ya decidida",
+        "items": [
+          "iPhone: el más deseado",
+          "Android: en casi todas las marcas",
+          "Windows Phone: llegó tarde"
+        ],
+        "icon": "🥊"
+      }
+    },
+    {
+      "section": "La caída",
+      "narration": "En septiembre de dos mil trece, Microsoft compró la división de móviles de Nokia por unos cinco mil cuatrocientos millones de euros. Dos años después, Microsoft reconoció una pérdida de siete mil seiscientos millones de dólares por esa compra.",
+      "visual_query": "El final de los móviles Nokia",
+      "card": {
+        "layout": "steps",
+        "heading": "El final de los móviles Nokia",
+        "items": [
+          "2013: Microsoft compra por ≈ 5.440 M€",
+          "2015: pérdida de 7.600 M$"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Se suele decir que Nokia murió por no ver el futuro. Pero lo vio. Lo que le falló fue algo más humano: una empresa en la que dar malas noticias daba miedo. No es un problema de tecnología, es un problema de personas.",
+      "visual_query": "No fue un problema de tecnología, sino de personas",
+      "card": {
+        "layout": "quote",
+        "heading": "No fue un problema de tecnología, sino de personas",
+        "items": [
+          "La lección de Nokia"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Por cierto, Nokia no desapareció. Hoy es uno de los grandes fabricantes de equipos de redes del mundo. Es muy probable que tu móvil, sea de la marca que sea, se conecte a internet a través de una antena de Nokia.",
+      "visual_query": "Nokia hoy",
+      "card": {
+        "layout": "bullets",
+        "heading": "Nokia hoy",
+        "items": [
+          "Equipos de redes móviles",
+          "Antenas y 5G",
+          "La marca vive en móviles de otra empresa"
+        ],
+        "icon": "📡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si Nokia te parece una caída dura, la de BlackBerry fue todavía más rápida. Será uno de los próximos capítulos de «Auge y caída». Suscríbete y activa la campana para no perdértelo.",
+      "visual_query": "Próximamente: BlackBerry",
+      "card": {
+        "layout": "title",
+        "heading": "Próximamente: BlackBerry",
+        "items": [
+          "Auge y caída · TecnoHistoria"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "tz": "Europe/Madrid",
+  "full_description": "En 2007, casi cuatro de cada diez móviles del mundo eran Nokia. Seis años después, la empresa vendió su negocio de teléfonos a Microsoft. La respuesta fácil es el iPhone; la de verdad es mucho más interesante: Nokia vio venir el golpe y aun así no pudo esquivarlo.\n\nEn este documental repasamos cómo una fábrica de papel finlandesa se convirtió en el mayor fabricante de móviles del planeta, las tres decisiones que explican su caída (Symbian, medir el éxito en unidades y una cultura en la que dar malas noticias daba miedo), el famoso memorando de la «plataforma en llamas» y qué es Nokia hoy.\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.\n\nCapítulos:\n0:00 Introducción\n0:38 Una fábrica de papel\n1:36 La cima\n2:07 Tres decisiones\n3:06 La caída\n3:51 La lección\n4:20 Conclusión\n\nFuentes:\nhttps://knowledge.insead.edu/strategy/who-killed-nokia-nokia-did\nhttps://www.engadget.com/2011/02/08/nokia-ceo-stephen-elop-rallies-troops-in-brutally-honest-burnin/\nhttps://mobilemarketingmagazine.com/microsoft-to-buy-nokias-mobile-business-for-544bn/\nhttps://www.computerworld.com/article/1535313/burning-memo-from-nokia-s-ceo-sets-stage-for-os-shake-up.html\n\nImágenes: Wikimedia Commons\n- Nokianvirta 3.jpg — kallerna (CC BY-SA 4.0)\n- Nokia 3310 grey front (tidied and enhanced).jpg — Multicherry (CC BY-SA 4.0)\n- Stephen elop.jpg — luca.sartoni (CC BY-SA 2.0)\n\n#Nokia #HistoriaDeLaTecnología #AugeYCaída",
+  "duration_s": 273.594,
+  "image_credits": [
+    {
+      "title": "Nokianvirta 3.jpg",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Nokianvirta_3.jpg"
+    },
+    {
+      "title": "Nokia 3310 grey front (tidied and enhanced).jpg",
+      "author": "Multicherry",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Nokia_3310_grey_front_(tidied_and_enhanced).jpg"
+    },
+    {
+      "title": "Stephen elop.jpg",
+      "author": "luca.sartoni",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Stephen_elop.jpg"
+    }
+  ]
+}

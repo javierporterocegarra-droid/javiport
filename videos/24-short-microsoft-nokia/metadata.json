@@ -1,0 +1,81 @@
+{
+  "topic": "Microsoft perdió 7.600 millones con Nokia",
+  "format": "short",
+  "publish_at": "2026-11-22T13:00:00",
+  "title": "Microsoft perdió 7.600 millones con Nokia",
+  "description": "Microsoft perdió 7.600 millones con Nokia.\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.",
+  "tags": [
+    "shorts",
+    "tecnología",
+    "historia de la tecnología",
+    "curiosidades"
+  ],
+  "hashtags": [
+    "#Microsoft",
+    "#Nokia",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "",
+  "sources": [],
+  "scenes": [
+    {
+      "section": "a",
+      "narration": "En dos mil trece, Microsoft compró el negocio de móviles de Nokia.",
+      "visual_query": "Microsoft compra los móviles de Nokia",
+      "card": {
+        "layout": "number",
+        "heading": "Microsoft compra los móviles de Nokia",
+        "items": [
+          "2013"
+        ],
+        "icon": "🤝"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Pagó unos cinco mil cuatrocientos millones de euros. Quería competir con el iPhone y con Android.",
+      "visual_query": "pagó Microsoft por los móviles de Nokia",
+      "card": {
+        "layout": "number",
+        "heading": "pagó Microsoft por los móviles de Nokia",
+        "items": [
+          "≈ 5.440 M€"
+        ],
+        "icon": "💶"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Dos años después, reconoció una pérdida de siete mil seiscientos millones de dólares por esa compra.",
+      "visual_query": "de pérdida reconocida por Microsoft (2015)",
+      "card": {
+        "layout": "number",
+        "heading": "de pérdida reconocida por Microsoft (2015)",
+        "items": [
+          "7.600 M$"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "a",
+      "narration": "Cómo Nokia pasó de reina a vender su negocio, en el documental del canal.",
+      "visual_query": "El documental completo, en el canal",
+      "card": {
+        "layout": "quote",
+        "heading": "El documental completo, en el canal",
+        "items": [],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "tz": "Europe/Madrid",
+  "full_description": "Microsoft perdió 7.600 millones con Nokia.\n\nEn TecnoHistoria contamos de dónde viene la tecnología, hacia dónde va y cómo sacarle partido. Suscríbete para no perderte el próximo vídeo.\n\n#Microsoft #Nokia #Shorts",
+  "duration_s": 23.799999999999997,
+  "image_credits": []
+}

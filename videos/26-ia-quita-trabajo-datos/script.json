@@ -1,0 +1,419 @@
+{
+  "topic": "Explicador: qué dicen los datos sobre si la inteligencia artificial va a quitar empleos",
+  "title": "¿La IA te va a quitar el trabajo? Lo que dicen los datos",
+  "description": "¿La IA te va a quitar el trabajo? Repasamos lo que dicen de verdad los datos sobre inteligencia artificial y empleo, sin alarmismo y sin humo.\n\nSegún el FMI, casi el 40 % de los empleos del mundo están expuestos a la IA, pero «expuesto» no significa «eliminado». En este explicador vemos qué quiere decir esa palabra, cómo se calcula la exposición (el índice de la OIT y NASK analizó casi 30.000 tareas), qué profesiones están más expuestas y por qué esta vez afecta más a los trabajos de oficina.\n\nDespués separamos lo real de lo humo con los estudios más recientes: la previsión del Foro Económico Mundial de 170 millones de empleos creados y 92 millones destruidos hasta 2030, el análisis del Budget Lab de Yale, que no encontró una disrupción general del empleo, y el estudio de Stanford que detecta una caída del empleo entre los trabajadores de 22 a 25 años en las profesiones más expuestas.\n\nTerminamos con tres ideas prácticas para que el cambio te pille a favor: analizar tus propias tareas, aprender a trabajar con la IA y reforzar las capacidades que la IA hace peor.\n\nEste vídeo es informativo y no sustituye el asesoramiento profesional sobre tu carrera. Todas las cifras proceden de las fuentes enlazadas abajo.\n\nSuscríbete a TecnoHistoria para más tecnología explicada con datos.",
+  "tags": [
+    "inteligencia artificial",
+    "ia y empleo",
+    "la ia me va a quitar el trabajo",
+    "trabajos que reemplazará la ia",
+    "futuro del trabajo",
+    "fmi inteligencia artificial",
+    "oit ia generativa",
+    "foro económico mundial empleo",
+    "chatgpt empleo",
+    "ia datos",
+    "tecnohistoria",
+    "explicador ia"
+  ],
+  "hashtags": [
+    "#InteligenciaArtificial",
+    "#Empleo",
+    "#FuturoDelTrabajo"
+  ],
+  "thumbnail_text": "Lo que dicen los datos",
+  "thumbnail_badge": "40 %",
+  "thumbnail_icon": "🤖",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuánto ha cambiado ya la IA tu trabajo o tus estudios: nada, algo o mucho? 👇",
+  "sources": [
+    "https://www.cnbc.com/2024/01/15/imf-warns-ai-to-hit-almost-40percent-of-global-employment-worsen-inequality.html",
+    "https://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html",
+    "https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/",
+    "https://techrepublic.com/article/news-ai-job-market-impact-yale-study",
+    "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine",
+    "https://digitaleconomy.stanford.edu/app/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf",
+    "https://www.stlouisfed.org/open-vault/2025/oct/generative-ai-productivity-future-work"
+  ],
+  "publish_at": "2026-11-28T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "El dato",
+      "narration": "Según el Fondo Monetario Internacional, casi el 40 % de los empleos del mundo están expuestos a la inteligencia artificial. En los países ricos, alrededor del 60 %. Parece el anuncio de un desastre. Pero estar expuesto no significa lo que probablemente estás pensando.",
+      "visual_query": "office workers city crowd",
+      "card": {
+        "layout": "number",
+        "heading": "40 %",
+        "items": [
+          "de los empleos del mundo",
+          "expuestos a la IA (FMI)"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "El dato",
+      "narration": "En este vídeo vamos a ver qué dicen de verdad los datos: los informes del FMI, de la Organización Internacional del Trabajo y del Foro Económico Mundial, y los primeros estudios que miden qué está pasando ya con el empleo. Qué hay de real, qué hay de humo y qué significa para ti.",
+      "visual_query": "reports documents desk",
+      "card": {
+        "layout": "bullets",
+        "heading": "Las fuentes",
+        "items": [
+          "FMI",
+          "OIT",
+          "Foro Económico Mundial",
+          "Estudios de Stanford y Yale"
+        ],
+        "icon": "📚"
+      }
+    },
+    {
+      "section": "El dato",
+      "narration": "Y la pregunta no es teórica. Según las encuestas de la Reserva Federal de San Luis, en agosto de 2025 más de la mitad de los adultos estadounidenses de 18 a 64 años ya había usado alguna IA generativa. Es una de las tecnologías que más rápido se han extendido en la historia reciente.",
+      "visual_query": "people using smartphones street",
+      "card": {
+        "layout": "number",
+        "heading": "54,6 %",
+        "items": [
+          "de adultos de 18 a 64 años",
+          "ya la había usado (EE. UU.)"
+        ],
+        "icon": "📱"
+      }
+    },
+    {
+      "section": "Qué es estar expuesto",
+      "narration": "Primero, aclaremos la palabra clave. Que un empleo esté expuesto a la IA significa que una parte de sus tareas podría hacerla, o ayudar a hacerla, una inteligencia artificial. No que el puesto vaya a desaparecer.",
+      "visual_query": "magnifying glass document",
+      "card": {
+        "layout": "quote",
+        "heading": "Expuesto no es eliminado",
+        "items": [
+          "Algunas tareas pueden cambiar"
+        ],
+        "icon": "🔍"
+      }
+    },
+    {
+      "section": "Qué es estar expuesto",
+      "narration": "Piensa en una calculadora. Cuando llegó a las oficinas, el trabajo de un contable estaba muy expuesto: hacer cuentas a mano era una parte enorme de su día. Pero los contables no desaparecieron. Cambió lo que hacían con su tiempo.",
+      "visual_query": "calculator accountant vintage",
+      "card": {
+        "layout": "title",
+        "heading": "La analogía",
+        "items": [
+          "La calculadora y el contable"
+        ],
+        "icon": "🧮"
+      }
+    },
+    {
+      "section": "Qué es estar expuesto",
+      "narration": "El propio FMI lo dice así: de los empleos expuestos en los países avanzados, aproximadamente la mitad podría beneficiarse de la IA, porque les haría más productivos. La otra mitad sí corre el riesgo de que la IA haga tareas clave, y eso podría reducir la demanda de esos trabajadores. El FMI advierte además de otro riesgo: que, sin políticas adecuadas, la IA aumente la desigualdad, porque sus beneficios no se repartan por igual.",
+      "visual_query": "balance scale",
+      "card": {
+        "layout": "bullets",
+        "heading": "Empleos expuestos",
+        "items": [
+          "Mitad: la IA les ayuda",
+          "Mitad: la IA compite"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "¿Cómo se calcula todo esto? Los investigadores parten de listas enormes de tareas de cada profesión y analizan cuáles podría hacer una IA generativa. La Organización Internacional del Trabajo, con el instituto polaco NASK, analizó casi 30.000 tareas para su índice publicado en mayo de 2025.",
+      "visual_query": "data analysis spreadsheet",
+      "card": {
+        "layout": "number",
+        "heading": "30.000",
+        "items": [
+          "tareas analizadas",
+          "OIT y NASK, 2025"
+        ],
+        "icon": "🗂️"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "Su conclusión: uno de cada cuatro empleos del mundo está potencialmente expuesto a la IA generativa. Pero el grupo con mayor riesgo es pequeño, y los autores insisten en que muy pocos trabajos están formados por tareas que la IA actual pueda automatizar por completo.",
+      "visual_query": "workers diverse group",
+      "card": {
+        "layout": "number",
+        "heading": "1 de cada 4",
+        "items": [
+          "empleos expuestos"
+        ],
+        "icon": "👥"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "¿Qué trabajos están más expuestos? Según la OIT, los administrativos son los que más, seguidos de algunos empleos cognitivos de medios de comunicación, programación y finanzas. Fíjate en algo: es al revés de lo que pasó con los robots en las fábricas. Esta vez se ven más afectados los trabajos de oficina. La automatización clásica sustituía fuerza y movimientos repetitivos; la IA generativa trabaja con palabras, números e imágenes, que es la materia prima de millones de empleos de oficina.",
+      "visual_query": "office clerk computer",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los más expuestos",
+        "items": [
+          "Tareas administrativas",
+          "Medios y programación",
+          "Finanzas"
+        ],
+        "icon": "🏢"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "Y la OIT añade un matiz importante: lo más probable es que la IA transforme los empleos, no que los sustituya. Incluso en las tareas administrativas, automatizarlas en la práctica es más difícil de lo que sugiere la teoría.",
+      "visual_query": "person working with ai assistant",
+      "card": {
+        "layout": "quote",
+        "heading": "Transformar, no sustituir",
+        "items": [
+          "La conclusión de la OIT"
+        ],
+        "icon": "🔄"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "Vale, pero estas son previsiones. ¿Qué está pasando de verdad? Aquí los datos se ponen interesantes, porque no todos dicen lo mismo.",
+      "visual_query": "chart data screen",
+      "card": {
+        "layout": "title",
+        "heading": "¿Qué pasa de verdad?",
+        "items": [
+          "Los datos reales"
+        ],
+        "icon": "📊"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "El Foro Económico Mundial preguntó a más de mil grandes empresas. En su informe de enero de 2025 prevé que, de aquí a 2030, se crearán 170 millones de empleos y desaparecerán 92 millones. El saldo sería positivo: 78 millones de empleos más. El mismo informe calcula que los cambios afectarán, de una forma u otra, a un 22 % de los empleos actuales.",
+      "visual_query": "growth chart business",
+      "card": {
+        "layout": "bullets",
+        "heading": "Previsión hasta 2030",
+        "items": [
+          "170 M empleos nuevos",
+          "92 M desaparecen",
+          "Saldo: +78 millones"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "Pero ojo con ese dato: no habla solo de la IA. Incluye otros factores, como la transición ecológica, el envejecimiento de la población o las tensiones económicas. Y sobre todo: el trabajo que se crea no es el mismo que se destruye, ni está en el mismo lugar, ni lo hacen las mismas personas.",
+      "visual_query": "job fair people",
+      "card": {
+        "layout": "quote",
+        "heading": "No es el mismo trabajo",
+        "items": [
+          "Ni para las mismas personas"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "Segundo dato. En octubre de 2025, el Budget Lab de la Universidad de Yale analizó casi tres años de mercado laboral en Estados Unidos desde la llegada de ChatGPT. Su conclusión: no se veía una disrupción general. Los cambios en el tipo de empleos se parecían a los que trajeron en su día los ordenadores o internet.",
+      "visual_query": "university campus library",
+      "card": {
+        "layout": "title",
+        "heading": "Yale, octubre de 2025",
+        "items": [
+          "Sin disrupción general"
+        ],
+        "icon": "🎓"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "Pero hay una señal de alarma, y está en los más jóvenes. Un estudio de Stanford, con datos de nóminas de millones de trabajadores en Estados Unidos, encontró que los de 22 a 25 años en las profesiones más expuestas a la IA tenían menos empleo que antes, comparados con otros grupos.",
+      "visual_query": "young graduate job search",
+      "card": {
+        "layout": "title",
+        "heading": "Stanford, 2025",
+        "items": [
+          "La señal está en los jóvenes"
+        ],
+        "icon": "🐤"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "En la versión de agosto de 2025, esa caída relativa era del 13 %. En la actualización de noviembre, del 16 %. Mientras tanto, el empleo de los trabajadores con más experiencia en esas mismas profesiones se mantenía estable.",
+      "visual_query": "young people office",
+      "card": {
+        "layout": "bullets",
+        "heading": "Jóvenes de 22 a 25 años",
+        "items": [
+          "-13 % (agosto 2025)",
+          "-16 % (noviembre 2025)",
+          "Veteranos: estables"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "Los propios autores advierten que puede haber otras causas además de la IA. Pero tiene lógica: las tareas que la IA hace mejor son justo las que solían encargarse a los recién llegados. Resumir, redactar borradores, buscar información, ordenar datos.",
+      "visual_query": "intern office desk",
+      "card": {
+        "layout": "steps",
+        "heading": "Las tareas de entrada",
+        "items": [
+          "Resumir",
+          "Redactar borradores",
+          "Buscar y ordenar datos"
+        ],
+        "icon": "🪜"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "¿Por qué los datos parecen contradecirse? Porque miden cosas distintas. Unos son previsiones sobre lo que podría pasar; otros miden lo que ya ha pasado. Y los propios investigadores de Yale recuerdan que la adopción de la IA generativa está todavía en sus inicios: su análisis describe el presente, no predice el futuro.",
+      "visual_query": "puzzle pieces",
+      "card": {
+        "layout": "bullets",
+        "heading": "Por qué no coinciden",
+        "items": [
+          "Previsiones vs. datos reales",
+          "Adopción aún temprana",
+          "Efectos que tardan en verse"
+        ],
+        "icon": "🧩"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "Y hay un efecto que sí se está midiendo: el tiempo. En las encuestas de la Reserva Federal de San Luis, quienes usan IA generativa en el trabajo dicen ahorrar de media un 5,4 % de sus horas, unas dos horas a la semana en una jornada de 40. Por ahora, la IA está cambiando más cómo trabajamos que si trabajamos.",
+      "visual_query": "clock office work",
+      "card": {
+        "layout": "number",
+        "heading": "5,4 %",
+        "items": [
+          "de horas ahorradas",
+          "por quienes usan IA"
+        ],
+        "icon": "⏱️"
+      }
+    },
+    {
+      "section": "Real o humo",
+      "narration": "Así que, resumiendo lo real y lo humo. Humo: que la IA vaya a dejar sin trabajo a la mitad del mundo en dos años. Ningún dato serio dice eso. Real: que cambia las tareas de muchísimos empleos, y que los primeros efectos se notan en quienes empiezan su carrera.",
+      "visual_query": "fog clearing sunlight",
+      "card": {
+        "layout": "bullets",
+        "heading": "Real o humo",
+        "items": [
+          "Humo: paro masivo ya",
+          "Real: cambian las tareas",
+          "Real: afecta a quien empieza"
+        ],
+        "icon": "🧪"
+      }
+    },
+    {
+      "section": "Qué significa para ti",
+      "narration": "¿Y qué significa todo esto para ti? Te doy tres ideas prácticas, basadas en lo que dicen estos estudios. No son consejos mágicos, pero sirven para cualquier profesión.",
+      "visual_query": "person planning notebook",
+      "card": {
+        "layout": "title",
+        "heading": "Qué hacer",
+        "items": [
+          "Tres ideas prácticas"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Qué significa para ti",
+      "narration": "La primera: haz tu propia lista. Apunta las tareas que haces en una semana normal y marca cuáles podría hacer o acelerar una IA. Si son muchas, no es motivo de pánico, pero sí una señal para empezar a usarla tú antes que otros. Y fíjate también en las tareas que no has marcado: probablemente son las que más valor aportan y las que conviene que ocupen más parte de tu tiempo.",
+      "visual_query": "checklist notebook pen",
+      "card": {
+        "layout": "steps",
+        "heading": "Tu lista de tareas",
+        "items": [
+          "Apunta tus tareas",
+          "Marca las que hace la IA",
+          "Empieza a usarla tú"
+        ],
+        "icon": "📝"
+      }
+    },
+    {
+      "section": "Qué significa para ti",
+      "narration": "La segunda: aprende a trabajar con ella. El FMI habla de que la mitad de los empleos expuestos pueden salir ganando, y los estudios de productividad apuntan en la misma dirección: quien sabe usar bien estas herramientas suele trabajar más rápido. En el canal tienes una guía con diez usos para empezar.",
+      "visual_query": "person laptop ai",
+      "card": {
+        "layout": "quote",
+        "heading": "Trabaja con la IA",
+        "items": [
+          "No contra ella"
+        ],
+        "icon": "🤝"
+      }
+    },
+    {
+      "section": "Qué significa para ti",
+      "narration": "Y la tercera: refuerza lo que la IA hace peor. Tratar con personas, decidir con criterio cuando la información es incompleta, responsabilizarse de un resultado, conocer a fondo un sector. Ninguno de estos informes sitúa esas capacidades entre las más fáciles de automatizar. Son, además, las que más cuesta aprender en un curso rápido, y por eso valen más.",
+      "visual_query": "team meeting people talking",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que la IA hace peor",
+        "items": [
+          "Tratar con personas",
+          "Decidir con criterio",
+          "Responder del resultado"
+        ],
+        "icon": "🧑‍🤝‍🧑"
+      }
+    },
+    {
+      "section": "Qué significa para ti",
+      "narration": "Si estás estudiando o empezando, esto te toca más que a nadie. Las tareas sencillas con las que antes se aprendía el oficio pueden escasear. Busca prácticas y proyectos donde te dejen resolver problemas reales, no solo hacer lo que una IA ya hace en segundos. Y aprende a usar la IA como lo haría un profesional: comprobando lo que dice, citando fuentes y sabiendo explicar cada resultado.",
+      "visual_query": "students studying university",
+      "card": {
+        "layout": "quote",
+        "heading": "Si estás empezando",
+        "items": [
+          "Busca problemas reales"
+        ],
+        "icon": "🎓"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Mi conclusión: la IA no te va a quitar el trabajo mañana, pero probablemente va a cambiarlo. Igual que pasó con los ordenadores o con internet, habrá profesiones que crezcan, otras que encojan y muchas que, simplemente, se harán de otra manera. Y la mejor forma de que ese cambio te pille a favor es entender la herramienta antes de que te la impongan.",
+      "visual_query": "sunrise city future",
+      "card": {
+        "layout": "title",
+        "heading": "No te lo quita: te lo cambia",
+        "items": [
+          "Mejor entenderla antes"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Estos estudios se actualizan cada pocos meses, y aquí los seguiremos con datos, sin alarmismo y sin humo. Y si te interesa la historia de cómo hemos llegado hasta aquí, cada martes tienes un documental nuevo. Cuéntame en los comentarios: ¿cuánto crees que ha cambiado ya la IA tu trabajo o tus estudios? Nos vemos el martes en TecnoHistoria.",
+      "visual_query": "smartphone comments",
+      "card": {
+        "layout": "title",
+        "heading": "¿Te ha cambiado ya el trabajo?",
+        "items": [
+          "Cuéntamelo en los comentarios"
+        ],
+        "icon": "💬"
+      }
+    }
+  ]
+}
