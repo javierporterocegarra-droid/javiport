@@ -1,0 +1,106 @@
+{
+  "topic": "Nintendo nació en 1889 fabricando cartas hanafuda pintadas a mano en Kioto",
+  "title": "Nintendo nació en 1889 vendiendo cartas #Shorts",
+  "description": "Antes de Mario, Zelda y Pokémon, Nintendo fabricaba cartas japonesas pintadas a mano. Así empezó todo en Kioto, en 1889.\n\nLa historia completa de Nintendo, en el documental de TecnoHistoria. Suscríbete para más historias de la tecnología.",
+  "tags": [
+    "nintendo",
+    "historia de nintendo",
+    "hanafuda",
+    "origen de nintendo",
+    "curiosidades videojuegos",
+    "fusajiro yamauchi",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#Nintendo",
+    "#Videojuegos",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Sabías que Nintendo empezó haciendo cartas? ¿Qué otra empresa crees que tiene un origen sorprendente? 👇",
+  "sources": [
+    "https://moneyweek.com/349214/23-september-1889-nintendo-starts-making-playing-cards",
+    "https://en.wikipedia.org/wiki/History_of_Nintendo"
+  ],
+  "publish_at": "2026-11-23T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "Nintendo tiene más de 135 años. Y no nació haciendo videojuegos, sino cartas.",
+      "visual_query": "hanafuda cards",
+      "card": {
+        "layout": "number",
+        "heading": "1889",
+        "items": [
+          "Nace Nintendo"
+        ],
+        "icon": "🎴"
+      },
+      "photo": "Hanafuda",
+      "photo_caption": "Cartas hanafuda"
+    },
+    {
+      "section": "Kioto",
+      "narration": "El 23 de septiembre de 1889, Fusajiro Yamauchi abrió en Kioto un taller de hanafuda, unas cartas japonesas con flores y animales de cada mes del año. Cada carta se pintaba a mano.",
+      "visual_query": "Kyoto traditional street",
+      "card": {
+        "layout": "steps",
+        "heading": "Así empezó",
+        "items": [
+          "Kioto, 1889",
+          "Cartas hanafuda",
+          "Pintadas a mano"
+        ],
+        "icon": "🖌️"
+      }
+    },
+    {
+      "section": "Los 60",
+      "narration": "En los años sesenta probó negocios rarísimos: una compañía de taxis, comida instantánea y hasta un hotel por horas. Ninguno funcionó.",
+      "visual_query": "1960s Japan taxi",
+      "card": {
+        "layout": "bullets",
+        "heading": "Negocios fallidos",
+        "items": [
+          "Taxis",
+          "Comida instantánea",
+          "Un hotel por horas"
+        ],
+        "icon": "🚕"
+      }
+    },
+    {
+      "section": "El giro",
+      "narration": "La salvó un juguete: un brazo extensible inventado por un ingeniero de mantenimiento, Gunpei Yokoi. Después llegaron las recreativas, Donkey Kong y, por fin, Mario.",
+      "visual_query": "retro arcade",
+      "card": {
+        "layout": "title",
+        "heading": "De cartas a Mario",
+        "items": [
+          "Un giro de cien años"
+        ],
+        "icon": "🍄"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Y un detalle curioso: Nintendo todavía vende cartas hanafuda hoy en día. La historia completa, en el canal.",
+      "visual_query": "video game controller",
+      "card": {
+        "layout": "title",
+        "heading": "Nintendo",
+        "items": [
+          "Completa, en el canal"
+        ],
+        "icon": "🎮"
+      }
+    }
+  ]
+}
