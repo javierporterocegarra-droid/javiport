@@ -13,7 +13,7 @@ La estrategia completa está en el documento «TecnoHistoria: sistema completo d
 - **Nunca:** datos sin fuente, consejos médicos, legales o de inversión, política partidista,
   clickbait que el vídeo no cumple, imitar a personas reales con IA.
 
-## Calendario semanal (desde el 1 de diciembre de 2026, hora de Madrid)
+## Calendario semanal (desde el 23 de noviembre de 2026, hora de Madrid)
 
 | Día | Pieza | Hora | `format` | Duración | Palabras de narración |
 | --- | --- | --- | --- | --- | --- |
