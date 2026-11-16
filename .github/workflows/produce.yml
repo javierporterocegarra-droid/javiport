@@ -1,0 +1,84 @@
+name: TecnoHistoria · producir y programar
+
+# Cada día renderiza los guiones de videos/ cuya fecha de publicación (publish_at) cae en los
+# próximos 3 días, los sube a YouTube programados y guarda el registro en el repositorio.
+on:
+  schedule:
+    - cron: "17 5 * * *"   # 05:17 UTC (06:17 en España en invierno)
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Subir los vídeos que se publiquen en los próximos N días"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tecnohistoria-produce
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar ffmpeg y tipografías
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg fonts-dejavu-core fonts-noto-color-emoji fonts-montserrat
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Restaurar credenciales de YouTube
+        env:
+          YT_CLIENT_SECRET_JSON: ${{ secrets.YT_CLIENT_SECRET_JSON }}
+          YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+        run: |
+          if [ -z "$YT_CLIENT_SECRET_JSON" ] || [ -z "$YT_TOKEN_JSON" ]; then
+            echo "::error::Faltan los secretos YT_CLIENT_SECRET_JSON y/o YT_TOKEN_JSON (Settings > Secrets and variables > Actions)"
+            exit 1
+          fi
+          mkdir -p secrets
+          printf '%s' "$YT_CLIENT_SECRET_JSON" > secrets/client_secret.json
+          printf '%s' "$YT_TOKEN_JSON" > secrets/token.json
+
+      - name: Producir y programar los próximos vídeos
+        run: python -m autotube produce-due --days "${{ github.event.inputs.days || '3' }}" --max 4
+
+      - name: Sincronizar estadísticas del canal
+        if: always()
+        run: python -m autotube manage || true
+
+      - name: Guardar los vídeos como artefacto (3 días)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.run_id }}
+          path: |
+            output/*/video.mp4
+            output/*/thumbnail.jpg
+          retention-days: 3
+          if-no-files-found: ignore
+
+      - name: Guardar el registro en el repositorio
+        if: always()
+        run: |
+          git config user.name "tecnohistoria-bot"
+          git config user.email "tecnohistoria-bot@users.noreply.github.com"
+          git add videos/ data/ || true
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Vídeos programados y estadísticas [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

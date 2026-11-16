@@ -1,0 +1,301 @@
+{
+  "topic": "Gutenberg y la invención de la imprenta",
+  "title": "La imprenta de Gutenberg: el invento que cambió la historia",
+  "description": "Hacia 1450, en la ciudad alemana de Maguncia, un orfebre llamado Johannes Gutenberg combinó tipos móviles de metal, una tinta especial y una prensa inspirada en las de vino. El resultado, la imprenta, cambió el mundo: en pocas décadas los libros pasaron de ser joyas al alcance de unos pocos a circular por millones.\n\nEn este vídeo te cuento cómo funcionaba la imprenta, la historia de la famosa Biblia de Gutenberg, por qué su inventor acabó perdiendo su taller, cómo llegó la imprenta a España y por qué muchos historiadores la consideran la mayor revolución de la información antes de internet.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "imprenta de gutenberg",
+    "gutenberg y la imprenta",
+    "invencion de la imprenta",
+    "inventos que cambiaron la historia",
+    "Gutenberg",
+    "imprenta",
+    "historia de la imprenta",
+    "Biblia de Gutenberg",
+    "tipos móviles",
+    "Maguncia",
+    "Renacimiento",
+    "historia de los libros",
+    "historia de la tecnología",
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
+  ],
+  "hashtags": [
+    "#Gutenberg",
+    "#Imprenta",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "El invento que lo cambió todo",
+  "thumbnail_query": "Gutenberg y la invención de la imprenta",
+  "thumbnail_icon": "📖",
+  "thumbnail_photo": "Gutenberg Bible",
+  "pinned_comment": "¿Qué invento crees que cambió más el mundo: la imprenta o internet? 📖🌐 Te leo 👇",
+  "sources": [
+    "https://www.britannica.com/biography/Johannes-Gutenberg",
+    "https://www.loc.gov/item/2021666385/",
+    "https://www.bl.uk/treasures/gutenberg/basics.html"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Imagina un mundo en el que cada libro se copia a mano, letra a letra. Una sola Biblia podía llevar meses o años de trabajo a un copista. Los libros eran tan valiosos que en algunas bibliotecas se encadenaban a las mesas.",
+      "visual_query": "Antes de la imprenta",
+      "card": {
+        "layout": "bullets",
+        "heading": "Antes de la imprenta",
+        "items": [
+          "Cada libro se copiaba a mano",
+          "Meses o años por ejemplar",
+          "Libros encadenados a las mesas"
+        ],
+        "icon": "✍️"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Y entonces, hacia mil cuatrocientos cincuenta, un orfebre alemán cambió todo. Se llamaba Johannes Gutenberg, y su invento fue, para muchos historiadores, la mayor revolución de la información antes de internet.",
+      "visual_query": "Johannes Gutenberg",
+      "card": {
+        "layout": "title",
+        "heading": "Johannes Gutenberg",
+        "items": [
+          "La revolución de la imprenta"
+        ],
+        "icon": "📖"
+      },
+      "photo": "Johannes Gutenberg engraving",
+      "photo_caption": "Johannes Gutenberg (grabado posterior)"
+    },
+    {
+      "section": "Gutenberg",
+      "narration": "Gutenberg nació en Maguncia, en la actual Alemania, hacia el año mil cuatrocientos. Sabemos poco de su vida, pero sí que trabajó con metales y que tenía mucho talento para los negocios… aunque no tanta suerte.",
+      "visual_query": "¿Quién era?",
+      "card": {
+        "layout": "bullets",
+        "heading": "¿Quién era?",
+        "items": [
+          "Nació en Maguncia hacia 1400",
+          "Orfebre y trabajador del metal",
+          "Emprendedor con mala suerte"
+        ],
+        "icon": "⚒️"
+      }
+    },
+    {
+      "section": "El invento",
+      "narration": "La impresión no era nueva. En China y Corea ya se imprimía con bloques de madera, e incluso con tipos móviles, siglos antes. Lo que hizo Gutenberg fue crear un sistema completo que permitía imprimir mucho, rápido y con calidad.",
+      "visual_query": "No inventó imprimir: inventó un sistema completo",
+      "card": {
+        "layout": "quote",
+        "heading": "No inventó imprimir: inventó un sistema completo",
+        "items": [],
+        "icon": "🧩"
+      }
+    },
+    {
+      "section": "El invento",
+      "narration": "La primera pieza: los tipos móviles de metal. Cada letra era una pequeña pieza que se fundía en un molde. Se podían combinar para formar cualquier página, y después reutilizar para la siguiente.",
+      "visual_query": "Pieza 1: tipos móviles",
+      "card": {
+        "layout": "steps",
+        "heading": "Pieza 1: tipos móviles",
+        "items": [
+          "Letras de metal fundidas en moldes",
+          "Se combinan para formar la página",
+          "Se reutilizan una y otra vez"
+        ],
+        "icon": "🔤"
+      },
+      "photo": "Movable metal type",
+      "photo_caption": "Tipos móviles de metal"
+    },
+    {
+      "section": "El invento",
+      "narration": "La segunda: una tinta a base de aceite, que se adhería bien al metal. Y la tercera: una prensa de tornillo, inspirada en las que se usaban para prensar uvas y hacer vino.",
+      "visual_query": "Piezas 2 y 3",
+      "card": {
+        "layout": "bullets",
+        "heading": "Piezas 2 y 3",
+        "items": [
+          "Tinta a base de aceite",
+          "Prensa de tornillo",
+          "Inspirada en las prensas de vino"
+        ],
+        "icon": "🍇"
+      },
+      "photo": "Gutenberg press replica",
+      "photo_caption": "Réplica de una prensa de Gutenberg"
+    },
+    {
+      "section": "El invento",
+      "narration": "Con este sistema, un pequeño taller podía imprimir cientos de páginas al día. Lo que antes llevaba años, ahora llevaba semanas.",
+      "visual_query": "De años a semanas",
+      "card": {
+        "layout": "quote",
+        "heading": "De años a semanas",
+        "items": [],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "La Biblia",
+      "narration": "Su obra más famosa es la Biblia de Gutenberg, terminada hacia mil cuatrocientos cincuenta y cinco. Se imprimieron unos ciento ochenta ejemplares, en papel y en pergamino.",
+      "visual_query": "ejemplares de la Biblia de Gutenberg, hacia 1455",
+      "card": {
+        "layout": "number",
+        "heading": "ejemplares de la Biblia de Gutenberg, hacia 1455",
+        "items": [
+          "≈ 180"
+        ],
+        "icon": "📕"
+      },
+      "photo": "Gutenberg Bible",
+      "photo_caption": "Biblia de Gutenberg"
+    },
+    {
+      "section": "La Biblia",
+      "narration": "Hoy se conservan alrededor de cuarenta y nueve, repartidos entre bibliotecas y museos de todo el mundo. Y son tan bonitos que mucha gente creía que estaban escritos a mano.",
+      "visual_query": "ejemplares se conservan hoy, aproximadamente",
+      "card": {
+        "layout": "number",
+        "heading": "ejemplares se conservan hoy, aproximadamente",
+        "items": [
+          "≈ 49"
+        ],
+        "icon": "🏛️"
+      }
+    },
+    {
+      "section": "Mala suerte",
+      "narration": "Pero el proyecto costaba muchísimo dinero, y Gutenberg lo había pedido prestado a un socio, Johann Fust. En mil cuatrocientos cincuenta y cinco, Fust lo demandó para recuperar su inversión.",
+      "visual_query": "Su socio lo llevó a juicio",
+      "card": {
+        "layout": "quote",
+        "heading": "Su socio lo llevó a juicio",
+        "items": [
+          "1455"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Mala suerte",
+      "narration": "Gutenberg perdió el juicio, y con él buena parte de su taller y de su material. Fust siguió imprimiendo con éxito. Gutenberg murió en mil cuatrocientos sesenta y ocho sin hacerse rico con su invento.",
+      "visual_query": "Un final injusto",
+      "card": {
+        "layout": "steps",
+        "heading": "Un final injusto",
+        "items": [
+          "Pierde el juicio",
+          "Pierde gran parte del taller",
+          "Muere en 1468 sin fortuna"
+        ],
+        "icon": "😞"
+      }
+    },
+    {
+      "section": "La explosión",
+      "narration": "Pero la idea ya era imparable. En pocas décadas, la imprenta se extendió por toda Europa. Hacia el año mil quinientos ya había talleres de impresión en cientos de ciudades.",
+      "visual_query": "En 50 años, imprentas en cientos de ciudades",
+      "card": {
+        "layout": "quote",
+        "heading": "En 50 años, imprentas en cientos de ciudades",
+        "items": [],
+        "icon": "🗺️"
+      }
+    },
+    {
+      "section": "La explosión",
+      "narration": "Y llegó a España muy pronto. Se considera que el primer libro impreso en España fue el Sinodal de Aguilafuente, impreso en Segovia hacia mil cuatrocientos setenta y dos.",
+      "visual_query": "Primer libro impreso en España: Segovia",
+      "card": {
+        "layout": "number",
+        "heading": "Primer libro impreso en España: Segovia",
+        "items": [
+          "≈ 1472"
+        ],
+        "icon": "🇪🇸"
+      }
+    },
+    {
+      "section": "Consecuencias",
+      "narration": "Las consecuencias fueron enormes. Los libros se abarataron, más gente aprendió a leer y las ideas empezaron a viajar más rápido que nunca.",
+      "visual_query": "Lo que cambió",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que cambió",
+        "items": [
+          "Libros más baratos",
+          "Más gente aprendió a leer",
+          "Las ideas viajan más rápido"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "Consecuencias",
+      "narration": "La ciencia pudo compartir descubrimientos con exactitud. Copérnico o Galileo difundieron sus obras gracias a la imprenta. Y en mil quinientos diecisiete, las ideas de Lutero se extendieron por Europa en panfletos impresos a una velocidad nunca vista.",
+      "visual_query": "La imprenta impulsó…",
+      "card": {
+        "layout": "steps",
+        "heading": "La imprenta impulsó…",
+        "items": [
+          "La revolución científica",
+          "La Reforma protestante",
+          "El conocimiento compartido"
+        ],
+        "icon": "🔭"
+      }
+    },
+    {
+      "section": "Consecuencias",
+      "narration": "Hasta la propia lengua cambió: la imprenta ayudó a fijar la ortografía y a unificar los idiomas escritos.",
+      "visual_query": "La imprenta ayudó a fijar la ortografía",
+      "card": {
+        "layout": "quote",
+        "heading": "La imprenta ayudó a fijar la ortografía",
+        "items": [],
+        "icon": "🔠"
+      }
+    },
+    {
+      "section": "Hoy",
+      "narration": "Muchos expertos comparan la imprenta con internet. Ambos inventos hicieron lo mismo: multiplicar la información y ponerla al alcance de muchísima más gente. Con todo lo bueno, y también con los bulos, que ya circulaban en panfletos impresos hace quinientos años.",
+      "visual_query": "Imprenta e internet: multiplicar la información",
+      "card": {
+        "layout": "quote",
+        "heading": "Imprenta e internet: multiplicar la información",
+        "items": [
+          "Con lo bueno… y con los bulos"
+        ],
+        "icon": "📰"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Gutenberg no se hizo rico. Pero sin su invento, probablemente no existirían la ciencia moderna, la educación para todos… ni este vídeo.",
+      "visual_query": "Sin Gutenberg, quizá no existiría este vídeo",
+      "card": {
+        "layout": "quote",
+        "heading": "Sin Gutenberg, quizá no existiría este vídeo",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "thumbnail_badge": "1450"
+}

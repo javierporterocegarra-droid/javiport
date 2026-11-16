@@ -1,0 +1,289 @@
+{
+  "topic": "Marconi, la radio y el naufragio del Titanic",
+  "title": "Los mensajes de radio del Titanic: la llamada que salvó a 700 personas",
+  "description": "En 1901, el joven italiano Guglielmo Marconi logró algo que muchos científicos creían imposible: enviar una señal de radio a través del océano Atlántico. Once años después, la radio del Titanic permitió salvar a unas 700 personas… y su naufragio cambió para siempre las normas de seguridad en el mar.\n\nEn este vídeo te cuento la historia de Marconi, la letra «S» que cruzó el océano, el papel de los radiotelegrafistas del Titanic, el barco que estaba cerca pero no escuchó, y cómo aquella tragedia transformó las comunicaciones.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "titanic radio",
+    "mensajes del titanic",
+    "marconi radio",
+    "historia de la radio",
+    "Marconi",
+    "Titanic",
+    "radio del Titanic",
+    "telegrafía sin hilos",
+    "Carpathia",
+    "SOS",
+    "Guglielmo Marconi",
+    "historia de la tecnología",
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
+  ],
+  "hashtags": [
+    "#Titanic",
+    "#Marconi",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "La llamada del Titanic",
+  "thumbnail_query": "Marconi, la radio y el naufragio del Titanic",
+  "thumbnail_icon": "🚢",
+  "thumbnail_photo": "Titanic Southampton 1912",
+  "pinned_comment": "¿Sabías que el barco más cercano al Titanic tenía la radio apagada? 😔 ¿Qué otra historia quieres? 👇",
+  "sources": [
+    "https://www.nobelprize.org/prizes/physics/1909/marconi/biographical/",
+    "https://www.britannica.com/biography/Guglielmo-Marconi",
+    "https://www.britannica.com/topic/Titanic"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Catorce de abril de mil novecientos doce. Pasadas las once y media de la noche, el Titanic choca con un iceberg en el Atlántico Norte. En la sala de radio, el operador Jack Phillips empieza a enviar una señal de socorro.",
+      "visual_query": "14 de abril de 1912",
+      "card": {
+        "layout": "title",
+        "heading": "14 de abril de 1912",
+        "items": [
+          "El Titanic choca con un iceberg"
+        ],
+        "icon": "🧊"
+      },
+      "photo": "Titanic Southampton 1912",
+      "photo_caption": "El Titanic zarpa de Southampton (1912)"
+    },
+    {
+      "section": "Introducción",
+      "narration": "Esa radio salvaría la vida de unas setecientas personas. Y su historia empieza años antes, con un joven italiano obsesionado con enviar mensajes sin cables.",
+      "visual_query": "Una radio que salvó a unas 700 personas",
+      "card": {
+        "layout": "quote",
+        "heading": "Una radio que salvó a unas 700 personas",
+        "items": [],
+        "icon": "📻"
+      }
+    },
+    {
+      "section": "Marconi",
+      "narration": "Guglielmo Marconi nació en Bolonia en mil ochocientos setenta y cuatro. De joven leyó sobre las ondas electromagnéticas que había demostrado el físico Heinrich Hertz, y se preguntó: ¿se podrían usar para enviar mensajes?",
+      "visual_query": "Guglielmo Marconi",
+      "card": {
+        "layout": "title",
+        "heading": "Guglielmo Marconi",
+        "items": [
+          "Bolonia, 1874"
+        ],
+        "icon": "🇮🇹"
+      },
+      "photo": "Guglielmo Marconi 1908",
+      "photo_caption": "Guglielmo Marconi"
+    },
+    {
+      "section": "Marconi",
+      "narration": "Empezó a experimentar en la finca de su familia. Primero logró enviar señales a unos metros. Luego, a más de un kilómetro, al otro lado de una colina.",
+      "visual_query": "Sus primeros experimentos",
+      "card": {
+        "layout": "steps",
+        "heading": "Sus primeros experimentos",
+        "items": [
+          "Unos metros",
+          "Más de un kilómetro",
+          "Al otro lado de una colina"
+        ],
+        "icon": "🏡"
+      }
+    },
+    {
+      "section": "Marconi",
+      "narration": "Como en Italia no encontró apoyo, se mudó a Inglaterra, donde patentó su sistema de telegrafía sin hilos y fundó su propia empresa.",
+      "visual_query": "Se fue a Inglaterra y fundó su empresa",
+      "card": {
+        "layout": "quote",
+        "heading": "Se fue a Inglaterra y fundó su empresa",
+        "items": [],
+        "icon": "🇬🇧"
+      }
+    },
+    {
+      "section": "El Atlántico",
+      "narration": "Pero su gran desafío era cruzar el Atlántico. Muchos científicos creían que era imposible: las ondas viajan en línea recta y la Tierra es curva. Pensaban que se perderían en el espacio.",
+      "visual_query": "«Imposible: la Tierra es curva»",
+      "card": {
+        "layout": "quote",
+        "heading": "«Imposible: la Tierra es curva»",
+        "items": [],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "El Atlántico",
+      "narration": "El doce de diciembre de mil novecientos uno, en Terranova, Marconi esperaba con un auricular pegado al oído y una antena colgada de una cometa. Desde Cornualles, en Inglaterra, le enviaban una y otra vez la letra S: tres puntos.",
+      "visual_query": "12 de diciembre de 1901",
+      "card": {
+        "layout": "steps",
+        "heading": "12 de diciembre de 1901",
+        "items": [
+          "Emisor: Cornualles (Inglaterra)",
+          "Receptor: Terranova (Canadá)",
+          "Mensaje: la letra S"
+        ],
+        "icon": "🪁"
+      }
+    },
+    {
+      "section": "El Atlántico",
+      "narration": "Y la escuchó. Tres débiles chasquidos que habían cruzado más de tres mil kilómetros de océano. Lo que nadie sabía entonces era que una capa de la atmósfera, la ionosfera, rebota las ondas de radio y les permite viajar más allá del horizonte.",
+      "visual_query": "kilómetros cruzó la letra S sobre el océano",
+      "card": {
+        "layout": "number",
+        "heading": "kilómetros cruzó la letra S sobre el océano",
+        "items": [
+          "+3.000"
+        ],
+        "icon": "📶"
+      }
+    },
+    {
+      "section": "El Atlántico",
+      "narration": "En mil novecientos nueve, Marconi compartió el Premio Nobel de Física con el alemán Karl Ferdinand Braun.",
+      "visual_query": "Marconi recibe el Premio Nobel de Física",
+      "card": {
+        "layout": "number",
+        "heading": "Marconi recibe el Premio Nobel de Física",
+        "items": [
+          "1909"
+        ],
+        "icon": "🏅"
+      }
+    },
+    {
+      "section": "El Titanic",
+      "narration": "En mil novecientos doce, muchos grandes barcos llevaban equipos de radio Marconi. Sus operadores eran empleados de la compañía Marconi, y gran parte de su trabajo era enviar mensajes privados de los pasajeros ricos.",
+      "visual_query": "La radio de los barcos era, sobre todo, un servicio para pasajeros",
+      "card": {
+        "layout": "quote",
+        "heading": "La radio de los barcos era, sobre todo, un servicio para pasajeros",
+        "items": [],
+        "icon": "💌"
+      }
+    },
+    {
+      "section": "El Titanic",
+      "narration": "Esa noche, el Titanic había recibido varios avisos de hielo de otros barcos. Algunos no llegaron al puente de mando. Los operadores estaban saturados de mensajes de pasajeros.",
+      "visual_query": "Los avisos de hielo",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los avisos de hielo",
+        "items": [
+          "Varios barcos avisaron",
+          "Algunos no llegaron al capitán",
+          "La radio estaba saturada"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "El Titanic",
+      "narration": "Tras el choque, Jack Phillips y Harold Bride enviaron señales de socorro, usando la señal tradicional CQD y también la nueva señal SOS.",
+      "visual_query": "Las señales de socorro",
+      "card": {
+        "layout": "steps",
+        "heading": "Las señales de socorro",
+        "items": [
+          "CQD: la señal tradicional",
+          "SOS: la nueva señal",
+          "Una y otra vez"
+        ],
+        "icon": "🆘"
+      }
+    },
+    {
+      "section": "El Titanic",
+      "narration": "El barco Carpathia, a unos cien kilómetros, recibió el mensaje y puso rumbo a toda máquina. Llegó horas después del hundimiento y rescató a unos setecientos supervivientes de los botes.",
+      "visual_query": "supervivientes rescatados por el Carpathia",
+      "card": {
+        "layout": "number",
+        "heading": "supervivientes rescatados por el Carpathia",
+        "items": [
+          "≈ 700"
+        ],
+        "icon": "🛟"
+      },
+      "photo": "RMS Carpathia",
+      "photo_caption": "El Carpathia"
+    },
+    {
+      "section": "El Titanic",
+      "narration": "La parte más trágica: había otro barco más cerca, el Californian. Pero su único operador de radio se había ido a dormir poco antes, y nadie escuchó la llamada.",
+      "visual_query": "El barco más cercano tenía la radio apagada",
+      "card": {
+        "layout": "quote",
+        "heading": "El barco más cercano tenía la radio apagada",
+        "items": [
+          "El operador se había ido a dormir"
+        ],
+        "icon": "😔"
+      }
+    },
+    {
+      "section": "El Titanic",
+      "narration": "Jack Phillips se quedó transmitiendo casi hasta el final. No sobrevivió. Harold Bride sí, y al llegar a Nueva York ayudó al operador del Carpathia con los mensajes.",
+      "visual_query": "Jack Phillips transmitió casi hasta el final",
+      "card": {
+        "layout": "quote",
+        "heading": "Jack Phillips transmitió casi hasta el final",
+        "items": [],
+        "icon": "🕯️"
+      }
+    },
+    {
+      "section": "Las consecuencias",
+      "narration": "La tragedia cambió las reglas. Poco después, nuevas leyes en Estados Unidos y el primer convenio internacional para la seguridad de la vida en el mar exigieron que los barcos tuvieran radio funcionando las veinticuatro horas.",
+      "visual_query": "Lo que cambió",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que cambió",
+        "items": [
+          "Radio de guardia 24 horas",
+          "Botes para todos",
+          "Patrulla de hielo en el Atlántico"
+        ],
+        "icon": "📜"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "La radio de Marconi demostró en el Titanic su enorme valor, pero también sus límites cuando no se usa bien. Una lección que sigue vigente: la tecnología solo salva vidas si hay alguien escuchando.",
+      "visual_query": "La tecnología solo salva vidas si alguien escucha",
+      "card": {
+        "layout": "quote",
+        "heading": "La tecnología solo salva vidas si alguien escucha",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "thumbnail_badge": "SOS",
+  "full_description": "En 1901, el joven italiano Guglielmo Marconi logró algo que muchos científicos creían imposible: enviar una señal de radio a través del océano Atlántico. Once años después, la radio del Titanic permitió salvar a unas 700 personas… y su naufragio cambió para siempre las normas de seguridad en el mar.\n\nEn este vídeo te cuento la historia de Marconi, la letra «S» que cruzó el océano, el papel de los radiotelegrafistas del Titanic, el barco que estaba cerca pero no escuchó, y cómo aquella tragedia transformó las comunicaciones.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.\n\nCapítulos:\n0:00 Introducción\n0:25 Marconi\n0:59 El Atlántico\n1:50 El Titanic\n3:00 Las consecuencias\n3:14 Conclusión\n\nFuentes:\nhttps://www.nobelprize.org/prizes/physics/1909/marconi/biographical/\nhttps://www.britannica.com/biography/Guglielmo-Marconi\nhttps://www.britannica.com/topic/Titanic\n\nImágenes: Wikimedia Commons\n- RMS Carpathia.jpg — Unknown authorUnknown author (Public domain)\n\n#Titanic #Marconi #HistoriaDeLaTecnología",
+  "duration_s": 218.484,
+  "image_credits": [
+    {
+      "title": "RMS Carpathia.jpg",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:RMS_Carpathia.jpg"
+    }
+  ]
+}

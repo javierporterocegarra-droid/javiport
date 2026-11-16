@@ -1,0 +1,265 @@
+{
+  "topic": "Pong y el nacimiento de la industria del videojuego",
+  "title": "Pong: la máquina que se atascó de monedas y creó los videojuegos",
+  "description": "En 1972, en un bar de California, una máquina recreativa dejó de funcionar a los pocos días de instalarse. Cuando el técnico la abrió, descubrió el motivo: estaba tan llena de monedas que se había atascado. Era Pong, y con él nació la industria de los videojuegos.\n\nEn este vídeo te cuento la historia de Pong y de Atari: los primeros juegos de laboratorio, Nolan Bushnell, el ingeniero Allan Alcorn y su «ejercicio de práctica», la famosa avería del bar Andy Capp's, el pleito con la primera consola doméstica y cómo un juego de tenis con dos rayas y un punto cambió el entretenimiento.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "historia de los videojuegos",
+    "pong atari",
+    "primer videojuego de la historia",
+    "atari historia",
+    "Pong",
+    "Atari",
+    "Nolan Bushnell",
+    "primer videojuego",
+    "Magnavox Odyssey",
+    "retro",
+    "arcade",
+    "historia de la tecnología",
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
+  ],
+  "hashtags": [
+    "#Pong",
+    "#Atari",
+    "#HistoriaDeLosVideojuegos"
+  ],
+  "thumbnail_text": "Atascada de monedas",
+  "thumbnail_query": "Pong y el nacimiento de la industria del videojuego",
+  "thumbnail_icon": "🕹️",
+  "thumbnail_photo": "Pong arcade cabinet",
+  "pinned_comment": "¿Cuál fue el primer videojuego al que jugaste? 🕹️ Te leo 👇",
+  "sources": [
+    "https://www.britannica.com/topic/Pong",
+    "https://www.museumofplay.org/games/pong/",
+    "https://www.computerhistory.org/pdp-1/spacewar/"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Mil novecientos setenta y dos. En el bar Andy Capp's, en Sunnyvale, California, se instala una extraña máquina con una pantalla de televisión. Dos rayas, un punto y una instrucción: evita fallar la pelota para conseguir la máxima puntuación.",
+      "visual_query": "Pong",
+      "card": {
+        "layout": "title",
+        "heading": "Pong",
+        "items": [
+          "Sunnyvale, California, 1972"
+        ],
+        "icon": "🕹️"
+      },
+      "photo": "Pong arcade cabinet",
+      "photo_caption": "Máquina recreativa de Pong"
+    },
+    {
+      "section": "Introducción",
+      "narration": "A los pocos días, el dueño del bar llama: la máquina se ha estropeado. El técnico va a revisarla… y descubre que el problema es que está atascada de monedas. Había nacido la industria del videojuego.",
+      "visual_query": "Se estropeó por tener demasiadas monedas",
+      "card": {
+        "layout": "quote",
+        "heading": "Se estropeó por tener demasiadas monedas",
+        "items": [],
+        "icon": "🪙"
+      }
+    },
+    {
+      "section": "Antes de Pong",
+      "narration": "Pong no fue el primer videojuego. En mil novecientos cincuenta y ocho, el físico William Higinbotham creó Tennis for Two en un laboratorio de Estados Unidos, usando un osciloscopio, para entretener a los visitantes.",
+      "visual_query": "Tennis for Two, en un osciloscopio",
+      "card": {
+        "layout": "number",
+        "heading": "Tennis for Two, en un osciloscopio",
+        "items": [
+          "1958"
+        ],
+        "icon": "🎾"
+      }
+    },
+    {
+      "section": "Antes de Pong",
+      "narration": "En mil novecientos sesenta y dos, unos estudiantes del MIT crearon Spacewar!, un juego de naves espaciales para un ordenador enorme y carísimo. Era genial, pero casi nadie tenía acceso a una máquina así.",
+      "visual_query": "Los juegos de laboratorio",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los juegos de laboratorio",
+        "items": [
+          "1958: Tennis for Two",
+          "1962: Spacewar! (MIT)",
+          "Solo en máquinas carísimas"
+        ],
+        "icon": "🚀"
+      },
+      "photo": "Spacewar PDP-1",
+      "photo_caption": "Spacewar! en un ordenador PDP-1"
+    },
+    {
+      "section": "Nolan Bushnell",
+      "narration": "Un joven ingeniero llamado Nolan Bushnell jugó a Spacewar! en la universidad y tuvo una idea: ¿y si hubiera máquinas así en los bares, funcionando con monedas?",
+      "visual_query": "¿Y si los videojuegos funcionaran con monedas?",
+      "card": {
+        "layout": "quote",
+        "heading": "¿Y si los videojuegos funcionaran con monedas?",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Nolan Bushnell",
+      "narration": "En mil novecientos setenta y uno, junto a Ted Dabney, lanzó Computer Space, una versión de Spacewar! para recreativas. Fue un fracaso: era demasiado complicada para alguien que solo quería jugar un rato con una cerveza en la mano.",
+      "visual_query": "Computer Space: demasiado complicado",
+      "card": {
+        "layout": "quote",
+        "heading": "Computer Space: demasiado complicado",
+        "items": [
+          "Un fracaso comercial (1971)"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Atari",
+      "narration": "Pero no se rindieron. En junio de mil novecientos setenta y dos fundaron Atari, nombre tomado de un término del juego japonés Go, parecido al jaque del ajedrez.",
+      "visual_query": "Bushnell y Dabney fundan Atari",
+      "card": {
+        "layout": "number",
+        "heading": "Bushnell y Dabney fundan Atari",
+        "items": [
+          "1972"
+        ],
+        "icon": "🏢"
+      }
+    },
+    {
+      "section": "Atari",
+      "narration": "Bushnell contrató a un ingeniero llamado Allan Alcorn, y le encargó un juego de tenis sencillo. Según contó después, era solo un ejercicio de práctica. Pero Alcorn hizo un trabajo tan bueno que decidieron venderlo.",
+      "visual_query": "El nacimiento de Pong",
+      "card": {
+        "layout": "steps",
+        "heading": "El nacimiento de Pong",
+        "items": [
+          "Un ejercicio de práctica",
+          "Un juego de tenis sencillo",
+          "Demasiado bueno para no venderlo"
+        ],
+        "icon": "🎮"
+      }
+    },
+    {
+      "section": "Atari",
+      "narration": "Alcorn añadió detalles que lo hicieron adictivo: la pelota aceleraba durante el partido, y rebotaba con distinto ángulo según en qué parte de la pala la golpearas. Sencillo de aprender, difícil de dominar.",
+      "visual_query": "El secreto de Pong",
+      "card": {
+        "layout": "bullets",
+        "heading": "El secreto de Pong",
+        "items": [
+          "La pelota acelera",
+          "El ángulo depende del golpe",
+          "Fácil de aprender, difícil de dominar"
+        ],
+        "icon": "🏓"
+      }
+    },
+    {
+      "section": "El éxito",
+      "narration": "Tras el éxito en el bar, Atari empezó a fabricar Pong en serie. Se vendieron miles de máquinas, y muchos competidores lanzaron sus copias.",
+      "visual_query": "Miles de máquinas… y muchas copias",
+      "card": {
+        "layout": "quote",
+        "heading": "Miles de máquinas… y muchas copias",
+        "items": [],
+        "icon": "🏭"
+      }
+    },
+    {
+      "section": "El pleito",
+      "narration": "Pero había un problema. Unos meses antes había salido a la venta la Magnavox Odyssey, considerada la primera consola doméstica de la historia, creada por el ingeniero Ralph Baer. Y tenía un juego de tenis.",
+      "visual_query": "Magnavox Odyssey",
+      "card": {
+        "layout": "title",
+        "heading": "Magnavox Odyssey",
+        "items": [
+          "La primera consola doméstica (1972)"
+        ],
+        "icon": "📺"
+      },
+      "photo": "Magnavox Odyssey console",
+      "photo_caption": "Magnavox Odyssey (1972)"
+    },
+    {
+      "section": "El pleito",
+      "narration": "Magnavox demandó a Atari. Bushnell había probado la Odyssey en una feria antes de crear Pong. Al final, Atari llegó a un acuerdo y pagó para obtener una licencia.",
+      "visual_query": "Atari pagó un acuerdo a Magnavox",
+      "card": {
+        "layout": "quote",
+        "heading": "Atari pagó un acuerdo a Magnavox",
+        "items": [],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Pong en casa",
+      "narration": "En mil novecientos setenta y cinco llegó Home Pong, una versión para conectar a la televisión de casa, vendida en los grandes almacenes Sears. Fue un éxito en la Navidad de aquel año.",
+      "visual_query": "Home Pong llega a los hogares",
+      "card": {
+        "layout": "number",
+        "heading": "Home Pong llega a los hogares",
+        "items": [
+          "1975"
+        ],
+        "icon": "🏠"
+      }
+    },
+    {
+      "section": "Legado",
+      "narration": "Después llegaron Space Invaders, Pac-Man, las consolas, los ordenadores personales… Hoy la industria del videojuego mueve más dinero que el cine y la música juntos.",
+      "visual_query": "Hoy los videojuegos superan al cine y la música juntos",
+      "card": {
+        "layout": "quote",
+        "heading": "Hoy los videojuegos superan al cine y la música juntos",
+        "items": [],
+        "icon": "💰"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Y todo empezó con dos rayas, un punto y una máquina tan llena de monedas que dejó de funcionar. A veces, los inventos más simples son los que cambian el mundo.",
+      "visual_query": "Dos rayas y un punto cambiaron el entretenimiento",
+      "card": {
+        "layout": "quote",
+        "heading": "Dos rayas y un punto cambiaron el entretenimiento",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "thumbnail_badge": "1972",
+  "full_description": "En 1972, en un bar de California, una máquina recreativa dejó de funcionar a los pocos días de instalarse. Cuando el técnico la abrió, descubrió el motivo: estaba tan llena de monedas que se había atascado. Era Pong, y con él nació la industria de los videojuegos.\n\nEn este vídeo te cuento la historia de Pong y de Atari: los primeros juegos de laboratorio, Nolan Bushnell, el ingeniero Allan Alcorn y su «ejercicio de práctica», la famosa avería del bar Andy Capp's, el pleito con la primera consola doméstica y cómo un juego de tenis con dos rayas y un punto cambió el entretenimiento.\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.\n\nCapítulos:\n0:00 Introducción\n0:29 Antes de Pong\n0:58 Nolan Bushnell\n1:24 Atari\n2:11 El pleito\n2:36 Pong en casa\n2:48 Legado\n3:00 Conclusión\n\nFuentes:\nhttps://www.britannica.com/topic/Pong\nhttps://www.museumofplay.org/games/pong/\nhttps://www.computerhistory.org/pdp-1/spacewar/\n\nImágenes: Wikimedia Commons\n- Atari Pong arcade game cabinet.jpg — Four_Arcade_Games.jpg: Rob Boudon\nderivative work: Ubcule (CC BY 2.0)\n- Magnavox-Odyssey-Console-Set.png — Evan-Amos (Public domain)\n\n#Pong #Atari #HistoriaDeLosVideojuegos",
+  "duration_s": 201.97600000000003,
+  "image_credits": [
+    {
+      "title": "Atari Pong arcade game cabinet.jpg",
+      "author": "Four_Arcade_Games.jpg: Rob Boudon\nderivative work: Ubcule",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Atari_Pong_arcade_game_cabinet.jpg"
+    },
+    {
+      "title": "Magnavox-Odyssey-Console-Set.png",
+      "author": "Evan-Amos",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Magnavox-Odyssey-Console-Set.png"
+    }
+  ]
+}

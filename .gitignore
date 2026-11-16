@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+output/
+secrets/
+client_secret*.json
+token.json
+data/*.db-journal
+models/

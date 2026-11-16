@@ -1,0 +1,283 @@
+{
+  "topic": "El ratón, la madre de todas las demos y Xerox PARC",
+  "title": "Xerox PARC: lo que Steve Jobs y Bill Gates «copiaron»",
+  "description": "En 1968, Douglas Engelbart hizo una demostración que dejó al público boquiabierto: un ratón, ventanas, enlaces, edición de texto en pantalla y hasta videoconferencia. Años después, en el centro de investigación Xerox PARC, estas ideas se convirtieron en el primer ordenador con interfaz gráfica moderna. Y en 1979, Steve Jobs fue de visita.\n\nEn este vídeo te cuento la historia del ratón y de la interfaz gráfica: la «madre de todas las demos», el Xerox Alto, la visita de Jobs a Xerox PARC, el Macintosh, Windows y la famosa respuesta de Bill Gates sobre un «vecino rico llamado Xerox».\n\nEn TecnoHistoria contamos la historia de los inventos y las personas que cambiaron el mundo. Suscríbete y cuéntame qué historia quieres que contemos después.",
+  "tags": [
+    "xerox parc steve jobs",
+    "steve jobs bill gates",
+    "historia del raton de ordenador",
+    "historia de la interfaz grafica",
+    "ratón",
+    "historia del ratón",
+    "Douglas Engelbart",
+    "Xerox PARC",
+    "Xerox Alto",
+    "interfaz gráfica",
+    "Macintosh",
+    "Steve Jobs",
+    "Bill Gates",
+    "Windows",
+    "historia de la tecnología",
+    "tecnohistoria",
+    "documental",
+    "inventos que cambiaron el mundo",
+    "historia de la tecnologia"
+  ],
+  "hashtags": [
+    "#XeroxPARC",
+    "#SteveJobs",
+    "#HistoriaDeLaTecnología"
+  ],
+  "thumbnail_text": "Lo copiaron todo",
+  "thumbnail_query": "El ratón, la madre de todas las demos y Xerox PARC",
+  "thumbnail_icon": "🖱️",
+  "thumbnail_photo": "First computer mouse Engelbart",
+  "pinned_comment": "¿Crees que Apple y Microsoft «copiaron» a Xerox, o lo mejoraron? 🖱️ Debate abierto 👇",
+  "sources": [
+    "https://www.dougengelbart.org/content/view/209/",
+    "https://www.computerhistory.org/revolution/input-output/14/347",
+    "https://www.britannica.com/technology/graphical-user-interface"
+  ],
+  "scenes": [
+    {
+      "section": "Introducción",
+      "narration": "Nueve de diciembre de mil novecientos sesenta y ocho. San Francisco. Ante unas mil personas, un ingeniero llamado Douglas Engelbart enseña algo que nadie había visto nunca: un aparato de madera con ruedas que mueve un puntero por una pantalla.",
+      "visual_query": "9 de diciembre de 1968",
+      "card": {
+        "layout": "title",
+        "heading": "9 de diciembre de 1968",
+        "items": [
+          "La «madre de todas las demos»"
+        ],
+        "icon": "🖱️"
+      }
+    },
+    {
+      "section": "Introducción",
+      "narration": "Era el primer ratón de ordenador. Y era solo una parte de una demostración tan adelantada que hoy se la conoce como «la madre de todas las demos».",
+      "visual_query": "«La madre de todas las demos»",
+      "card": {
+        "layout": "quote",
+        "heading": "«La madre de todas las demos»",
+        "items": [],
+        "icon": "🎬"
+      },
+      "photo": "First computer mouse Engelbart",
+      "photo_caption": "Prototipo del primer ratón (Engelbart y English)"
+    },
+    {
+      "section": "Engelbart",
+      "narration": "Engelbart trabajaba en el Instituto de Investigación de Stanford. Su sueño era usar los ordenadores para aumentar la inteligencia humana, para que las personas pudieran resolver problemas complejos trabajando juntas.",
+      "visual_query": "Su sueño: aumentar la inteligencia humana",
+      "card": {
+        "layout": "quote",
+        "heading": "Su sueño: aumentar la inteligencia humana",
+        "items": [],
+        "icon": "🧠"
+      },
+      "photo": "Douglas Engelbart",
+      "photo_caption": "Douglas Engelbart"
+    },
+    {
+      "section": "La demo",
+      "narration": "En noventa minutos, Engelbart mostró el ratón, la edición de texto en pantalla, enlaces entre documentos, ventanas con distinta información… e incluso habló por videoconferencia con un compañero que estaba a cincuenta kilómetros.",
+      "visual_query": "Lo que mostró en 1968",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que mostró en 1968",
+        "items": [
+          "El ratón",
+          "Textos con enlaces (hipertexto)",
+          "Ventanas en pantalla",
+          "Videoconferencia"
+        ],
+        "icon": "🤯"
+      }
+    },
+    {
+      "section": "La demo",
+      "narration": "Recuerda: en mil novecientos sesenta y ocho, la mayoría de ordenadores se usaban con tarjetas perforadas. Aquello parecía ciencia ficción.",
+      "visual_query": "En 1968, parecía ciencia ficción",
+      "card": {
+        "layout": "quote",
+        "heading": "En 1968, parecía ciencia ficción",
+        "items": [],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "La demo",
+      "narration": "El ratón lo había construido su colaborador Bill English: una caja de madera con dos ruedas metálicas perpendiculares. Lo llamaron así porque el cable que salía por detrás parecía una cola.",
+      "visual_query": "El primer ratón",
+      "card": {
+        "layout": "steps",
+        "heading": "El primer ratón",
+        "items": [
+          "Una caja de madera",
+          "Dos ruedas metálicas",
+          "El cable parecía una cola"
+        ],
+        "icon": "🐭"
+      }
+    },
+    {
+      "section": "Xerox PARC",
+      "narration": "En mil novecientos setenta, la empresa de fotocopiadoras Xerox abrió un centro de investigación en Palo Alto, California: Xerox PARC. Allí se reunió a algunos de los mejores informáticos del mundo, varios de ellos procedentes del equipo de Engelbart.",
+      "visual_query": "Xerox PARC",
+      "card": {
+        "layout": "title",
+        "heading": "Xerox PARC",
+        "items": [
+          "Palo Alto, 1970"
+        ],
+        "icon": "🏢"
+      }
+    },
+    {
+      "section": "Xerox PARC",
+      "narration": "Y en mil novecientos setenta y tres crearon el Xerox Alto, un ordenador adelantadísimo para su época: pantalla vertical como una hoja de papel, ratón, ventanas, iconos y menús. La interfaz gráfica moderna había nacido.",
+      "visual_query": "Xerox Alto: ratón, ventanas e iconos",
+      "card": {
+        "layout": "number",
+        "heading": "Xerox Alto: ratón, ventanas e iconos",
+        "items": [
+          "1973"
+        ],
+        "icon": "🖥️"
+      },
+      "photo": "Xerox Alto",
+      "photo_caption": "Xerox Alto (1973)"
+    },
+    {
+      "section": "Xerox PARC",
+      "narration": "Pero no solo eso. En Xerox PARC también se desarrollaron la impresora láser y la red Ethernet, la tecnología con la que todavía hoy se conectan muchos ordenadores por cable.",
+      "visual_query": "Inventos de Xerox PARC",
+      "card": {
+        "layout": "bullets",
+        "heading": "Inventos de Xerox PARC",
+        "items": [
+          "Interfaz gráfica",
+          "Impresora láser",
+          "Red Ethernet"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Xerox PARC",
+      "narration": "El problema es que Xerox no supo qué hacer con todo aquello. Era una empresa de fotocopiadoras, y sus directivos no veían negocio en los ordenadores personales.",
+      "visual_query": "Xerox no supo ver lo que tenía",
+      "card": {
+        "layout": "quote",
+        "heading": "Xerox no supo ver lo que tenía",
+        "items": [],
+        "icon": "🙈"
+      }
+    },
+    {
+      "section": "La visita",
+      "narration": "En mil novecientos setenta y nueve, Steve Jobs, cofundador de Apple, consiguió una visita a Xerox PARC. A cambio, Xerox pudo invertir en acciones de Apple antes de que saliera a bolsa.",
+      "visual_query": "Jobs visitó Xerox PARC a cambio de acciones",
+      "card": {
+        "layout": "quote",
+        "heading": "Jobs visitó Xerox PARC a cambio de acciones",
+        "items": [
+          "1979"
+        ],
+        "icon": "🍎"
+      }
+    },
+    {
+      "section": "La visita",
+      "narration": "Allí vio la interfaz gráfica funcionando, y quedó fascinado. Según se cuenta, dijo que era lo mejor que había visto nunca y que todos los ordenadores funcionarían así algún día.",
+      "visual_query": "«Todos los ordenadores funcionarán así»",
+      "card": {
+        "layout": "quote",
+        "heading": "«Todos los ordenadores funcionarán así»",
+        "items": [],
+        "icon": "🤩"
+      }
+    },
+    {
+      "section": "El Macintosh",
+      "narration": "Apple trabajó durante años en llevar esas ideas a un ordenador más barato y fácil de usar. Primero con el Lisa, en mil novecientos ochenta y tres, que fracasó por su precio. Y después, en enero de mil novecientos ochenta y cuatro, con el Macintosh.",
+      "visual_query": "Apple adopta la interfaz gráfica",
+      "card": {
+        "layout": "steps",
+        "heading": "Apple adopta la interfaz gráfica",
+        "items": [
+          "1983: Apple Lisa (demasiado caro)",
+          "1984: Macintosh"
+        ],
+        "icon": "💻"
+      },
+      "photo": "Macintosh 128K",
+      "photo_caption": "Macintosh (1984)"
+    },
+    {
+      "section": "El Macintosh",
+      "narration": "Apple no se limitó a copiar: simplificó el ratón a un solo botón, lo abarató muchísimo e inventó detalles como arrastrar archivos o los menús desplegables tal y como los conocemos.",
+      "visual_query": "Apple no solo copió: simplificó y abarató",
+      "card": {
+        "layout": "quote",
+        "heading": "Apple no solo copió: simplificó y abarató",
+        "items": [],
+        "icon": "✂️"
+      }
+    },
+    {
+      "section": "Windows",
+      "narration": "Mientras tanto, Microsoft, que creaba programas para el Macintosh, lanzó su propio sistema con ventanas: Windows, en mil novecientos ochenta y cinco. Jobs se enfureció y acusó a Bill Gates de robarle la idea.",
+      "visual_query": "Microsoft lanza Windows",
+      "card": {
+        "layout": "number",
+        "heading": "Microsoft lanza Windows",
+        "items": [
+          "1985"
+        ],
+        "icon": "🪟"
+      }
+    },
+    {
+      "section": "Windows",
+      "narration": "Y Gates le respondió con una frase que se ha hecho célebre: que más bien era como si los dos tuvieran un vecino rico llamado Xerox, y él hubiera entrado a robarle la tele… para descubrir que Jobs ya se la había llevado.",
+      "visual_query": "«Teníamos un vecino rico llamado Xerox…»",
+      "card": {
+        "layout": "quote",
+        "heading": "«Teníamos un vecino rico llamado Xerox…»",
+        "items": [
+          "Bill Gates a Steve Jobs"
+        ],
+        "icon": "😂"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Hoy usamos ratones, ventanas e iconos sin pensar en su origen. Pero todo empezó con un ingeniero que soñaba con hacer a las personas más inteligentes, una caja de madera con ruedas… y una empresa de fotocopiadoras que no supo ver el futuro.",
+      "visual_query": "Todo empezó con una caja de madera con ruedas",
+      "card": {
+        "layout": "quote",
+        "heading": "Todo empezó con una caja de madera con ruedas",
+        "items": [],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Conclusión",
+      "narration": "Si te ha gustado esta historia, suscríbete a TecnoHistoria y cuéntame en los comentarios qué invento o qué personaje quieres que contemos en el próximo vídeo. ¡Nos vemos!",
+      "visual_query": "Suscríbete a TecnoHistoria",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete a TecnoHistoria",
+        "items": [
+          "La historia de la tecnología"
+        ],
+        "icon": "🔔"
+      }
+    }
+  ],
+  "thumbnail_badge": "1979",
+  "publish_at": "2026-11-30T17:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long"
+}
