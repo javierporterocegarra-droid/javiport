@@ -4,7 +4,7 @@ Marca con `[x]` y la carpeta de `videos/` cada idea que se use. Las sesiones sem
 
 ## Historia de empresas e inventos (documentales de los martes)
 
-- [ ] Nokia: cómo el rey de los móviles lo perdió todo
+- [x] Nokia: cómo el rey de los móviles lo perdió todo — `19-nokia`
 - [ ] Nintendo: de cartas japonesas de 1889 a imperio del videojuego
 - [ ] Blockbuster pudo comprar Netflix por 50 millones (y se rió)
 - [ ] Sony contra Nintendo: la traición que creó la PlayStation
@@ -105,7 +105,7 @@ Ya publicadas en formato corto (pueden tener versión documental más adelante):
 ## Nuevas tecnologías y cómo aprovecharlas (sábados: alternar explicador y guía)
 
 - [ ] ChatGPT, Claude o Gemini: cuál usar para cada cosa — *guía*
-- [ ] 10 usos de la IA que te ahorran una hora al día — *guía*
+- [x] 10 usos de la IA que te ahorran una hora al día — *guía* — `20-ia-ahorra-una-hora`
 - [ ] Trucos de móvil que casi nadie usa (serie de Shorts) — *shorts*
 - [ ] Lo mejor del CES 2027: lo que llega este año (publicar en enero) — *explicador*
 - [ ] ¿La IA te va a quitar el trabajo? Lo que dicen los datos — *explicador*

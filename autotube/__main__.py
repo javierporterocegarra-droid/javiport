@@ -76,6 +76,10 @@ def main(argv=None) -> int:
         wd = Path(args.workdir)
         sc = json.loads((wd / "script.json").read_text(encoding="utf-8"))
         dossier = (wd / "research.md").read_text(encoding="utf-8") if (wd / "research.md").exists() else ""
+        if sc.get("format"):
+            import copy
+            cfg = copy.deepcopy(cfg)
+            cfg["video"]["format"] = sc["format"]
         pipeline.render_from_script(cfg, db, wd, sc, dossier)
         print(f"Vídeo listo: {wd / 'video.mp4'}")
         return 0
