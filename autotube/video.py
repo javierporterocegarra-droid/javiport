@@ -120,7 +120,7 @@ def build_ass(cfg: dict, scenes: list[dict], out: Path) -> None:
     w, h = dims(cfg)
     short = cfg["video"]["format"] == "short"
     size = 88 if short else 62
-    margin_v = int(h * 0.30) if short else 70
+    margin_v = int(h * 0.22) if short else 70
     max_words = 3 if short else 7
     lines = [
         "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {w}", f"PlayResY: {h}", "WrapStyle: 0", "",

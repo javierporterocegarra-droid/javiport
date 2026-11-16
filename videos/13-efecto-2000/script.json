@@ -256,5 +256,8 @@
       }
     }
   ],
-  "thumbnail_badge": "Y2K"
+  "thumbnail_badge": "Y2K",
+  "publish_at": "2026-11-25T17:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long"
 }

@@ -275,5 +275,8 @@
       }
     }
   ],
-  "thumbnail_badge": "SOS"
+  "thumbnail_badge": "SOS",
+  "publish_at": "2026-11-27T17:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long"
 }

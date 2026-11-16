@@ -45,6 +45,9 @@ def main(argv=None) -> int:
     pr.add_argument("--tz", default="Europe/Madrid")
     pr.add_argument("--no-upload", action="store_true")
     pr.add_argument("--reuse", action="store_true", help="no volver a renderizar si ya existe el vídeo")
+    pd = sub.add_parser("produce-due", help="renderiza y sube (programados) los guiones de videos/ con publish_at cercano")
+    pd.add_argument("--days", type=float, default=3, help="subir los que se publiquen en los próximos N días")
+    pd.add_argument("--max", type=int, default=4, help="máximo de vídeos por ejecución")
     sub.add_parser("manage")
     sub.add_parser("report")
     a = sub.add_parser("autopilot")
@@ -77,8 +80,15 @@ def main(argv=None) -> int:
         print(f"Vídeo listo: {wd / 'video.mp4'}")
         return 0
 
-    from .llm import LLM
-    llm = LLM(cfg)
+    if args.cmd == "produce-due":
+        return _produce_due(cfg, db, args)
+
+    try:
+        from .llm import LLM
+        llm = LLM(cfg)
+    except Exception as e:  # sin clave de la API de Claude: solo funcionan los comandos que no la usan
+        llm = None
+        logging.getLogger("autotube").warning("Claude API no disponible (%s)", e)
 
     if args.cmd == "trends":
         from .trends import pick_topic
@@ -157,7 +167,7 @@ def main(argv=None) -> int:
         return 0
     if args.cmd == "manage":
         manager.sync_stats(cfg, db)
-        n = manager.handle_comments(cfg, db, llm)
+        n = manager.handle_comments(cfg, db, llm) if llm else 0
         print(f"Estadísticas sincronizadas. Comentarios respondidos: {n}")
         return 0
     if args.cmd == "report":
@@ -180,6 +190,68 @@ def main(argv=None) -> int:
                 print(f"Subido: https://youtu.be/{res['youtube_id']}")
         return 0
     return 1
+
+
+def _produce_due(cfg: dict, db, args) -> int:
+    """Para cada videos/*/script.json con `publish_at` y sin uploaded.json: si se publica en los
+    próximos `--days` días, lo renderiza (largo o Short según `format`) y lo sube programado."""
+    import copy
+    import json
+    import shutil
+    from datetime import datetime, timedelta, timezone
+    from zoneinfo import ZoneInfo
+
+    from googleapiclient.errors import HttpError
+
+    from . import pipeline
+    from .config import ROOT
+
+    log = logging.getLogger("produce-due")
+    now = datetime.now(timezone.utc)
+    pending = []
+    for script in sorted((ROOT / "videos").glob("*/script.json")):
+        src = script.parent
+        sc = json.loads(script.read_text(encoding="utf-8"))
+        if not sc.get("publish_at") or (src / "uploaded.json").exists():
+            continue
+        when = datetime.fromisoformat(sc["publish_at"])
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=ZoneInfo(sc.get("tz", "Europe/Madrid")))
+        if when - now <= timedelta(days=args.days):
+            pending.append((when, src, sc))
+    pending.sort(key=lambda x: x[0])
+    log.info("%d vídeos pendientes en los próximos %s días", len(pending), args.days)
+    done = 0
+    for when, src, sc in pending[: args.max]:
+        vcfg = copy.deepcopy(cfg)
+        vcfg["video"]["format"] = sc.get("format", cfg["video"]["format"])
+        wd = Path(vcfg["paths"]["output"]) / src.name
+        wd.mkdir(parents=True, exist_ok=True)
+        shutil.copy(src / "script.json", wd / "script.json")
+        try:
+            if not ((wd / "video.mp4").exists() and (wd / "metadata.json").exists()):
+                pipeline.render_from_script(vcfg, db, wd, sc)
+        except Exception as e:
+            log.error("[%s] error al renderizar: %s", src.name, e)
+            continue
+        for f in ("metadata.json", "thumbnail.jpg"):
+            shutil.copy(wd / f, src / f)
+        publish = max(when, now + timedelta(hours=1))
+        try:
+            res = pipeline.upload_dir(vcfg, db, wd, publish_at=publish.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+        except HttpError as e:
+            if "quota" in str(e).lower() or "uploadlimitexceeded" in str(e).lower():
+                log.warning("Límite de subidas/cuota alcanzado: se reintentará en la próxima ejecución")
+                break
+            log.error("[%s] error al subir: %s", src.name, e)
+            continue
+        info = {**res, "publish_local": publish.astimezone(ZoneInfo(sc.get("tz", "Europe/Madrid"))).strftime("%Y-%m-%d %H:%M"),
+                "title": sc["title"], "format": vcfg["video"]["format"]}
+        (src / "uploaded.json").write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[{src.name}] SUBIDO https://youtu.be/{res['youtube_id']} -> {info['publish_local']}", flush=True)
+        done += 1
+    print(f"Subidos en esta ejecución: {done}")
+    return 0
 
 
 if __name__ == "__main__":

@@ -193,7 +193,7 @@ def render_card(card: dict, size: tuple[int, int], accent_hex: str, reveal: int 
                     d.polygon([(ax - 12 * s, top + bh / 2 - 18 * s), (ax + 12 * s, top + bh / 2),
                                (ax - 12 * s, top + bh / 2 + 18 * s)], fill=accent)
         else:
-            avail = h - y - (margin if vertical else 200 * s)
+            avail = h - y - (0.32 * h if vertical else 200 * s)
             per = avail / max(1, len(items))
             fs = int(min(60 * s, per * 0.42))
             for i, it in enumerate(shown):
@@ -216,8 +216,8 @@ def render_card(card: dict, size: tuple[int, int], accent_hex: str, reveal: int 
     else:  # title
         if icon:
             _paste_icon(img, icon, int(220 * s), (w / 2, h * (0.3 if not vertical else 0.3)))
-        f, lines = _fit(d, heading, BOLD, w - 2 * margin, h * 0.32, int(110 * s))
-        y = h * (0.52 if icon else 0.4)
+        f, lines = _fit(d, heading, BOLD, w - 2 * margin, h * (0.2 if vertical else 0.32), int(110 * s))
+        y = h * ((0.42 if vertical else 0.52) if icon else 0.4)
         for ln in lines:
             d.text((w / 2, y), ln, font=f, fill=TEXT, anchor="mt", stroke_width=int(2 * s), stroke_fill=(0, 0, 0))
             y += f.size * 1.15

@@ -276,5 +276,8 @@
       }
     }
   ],
-  "thumbnail_badge": "1979"
+  "thumbnail_badge": "1979",
+  "publish_at": "2026-11-30T17:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long"
 }

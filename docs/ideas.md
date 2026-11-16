@@ -1,0 +1,146 @@
+# Banco de ideas (ordenadas por potencial)
+
+Marca con `[x]` y la carpeta de `videos/` cada idea que se use. Las sesiones semanales eligen la siguiente sin marcar.
+
+## Historia de empresas e inventos (documentales de los martes)
+
+- [ ] Nokia: cómo el rey de los móviles lo perdió todo
+- [ ] Nintendo: de cartas japonesas de 1889 a imperio del videojuego
+- [ ] Blockbuster pudo comprar Netflix por 50 millones (y se rió)
+- [ ] Sony contra Nintendo: la traición que creó la PlayStation
+- [ ] Samsung: empezó vendiendo pescado seco
+- [ ] Kodak inventó la cámara digital… y la escondió
+- [ ] BlackBerry: del móvil de los presidentes a desaparecer
+- [ ] Apple estuvo a 90 días de la quiebra: el regreso de Steve Jobs
+- [ ] Atari: los videojuegos enterrados en el desierto
+- [ ] NVIDIA: de tarjetas gráficas a la empresa más valiosa del mundo
+- [ ] El día que Tesla estuvo a punto de quebrar
+- [ ] Xerox inventó el ordenador moderno y se lo regaló a Apple
+- [ ] Microsoft contra Apple: la guerra por tu ordenador
+- [ ] Yahoo pudo comprar Google y Facebook (y dijo que no)
+- [ ] El error de IBM que creó a Microsoft
+- [ ] Theranos: la mentira que valió 9.000 millones
+- [ ] El día que despidieron a Steve Jobs de su propia empresa
+- [ ] Tetris: el juego soviético y la batalla por sus derechos
+- [ ] Pokémon: de coleccionar insectos a la franquicia más rentable
+- [ ] MySpace: cómo perdió contra Facebook
+- [ ] Sega: cómo perdió la guerra de las consolas
+- [ ] Amazon: de vender libros en un garaje a dominar internet
+- [ ] La mafia de PayPal: los que fundaron medio Silicon Valley
+- [ ] Huawei: la empresa que Estados Unidos quiso frenar
+- [ ] Motorola: del primer móvil al olvido
+- [ ] El error de Intel que le costó el iPhone
+- [ ] Mercado Libre: el Amazon de Latinoamérica
+- [ ] FTX: cómo desaparecieron miles de millones en días
+- [ ] Netflix: de alquilar DVD por correo a gigante
+- [ ] Commodore: el ordenador más vendido de la historia y su quiebra
+- [ ] Napster: la app que hizo temblar a la música
+- [ ] La crisis del videojuego de 1983
+- [ ] WhatsApp: la app que Facebook compró por 19.000 millones
+- [ ] Instagram: vendida por 1.000 millones con 13 empleados
+- [ ] TikTok: cómo una app china conquistó el mundo
+- [ ] Betamax contra VHS: la guerra de formatos
+- [ ] Netscape: la empresa que inventó el navegador y murió
+- [ ] La burbuja puntocom: cuando internet arruinó a millones
+- [ ] Hedy Lamarr: la actriz que inventó una tecnología clave del wifi
+- [ ] Jensen Huang: de fregar platos a dirigir el gigante de la IA
+- [ ] Elon Musk antes de ser famoso: Zip2 y X.com
+- [ ] Game Boy: la consola menos potente que lo ganó todo
+- [ ] Minecraft: de proyecto personal a 2.500 millones
+- [ ] Boeing 737 MAX: cuando el software tumbó aviones
+- [ ] Stuxnet: el virus que saboteó un programa nuclear
+- [ ] Kevin Mitnick: el hacker más buscado del mundo
+- [ ] YouTube: cómo empezó con un vídeo en el zoo
+- [ ] De Twitter a X: la compra de 44.000 millones
+- [ ] Airbnb: empezó vendiendo cereales
+- [ ] La historia de OpenAI y ChatGPT
+- [ ] Facebook: de un dormitorio de Harvard a 3.000 millones de usuarios
+- [ ] Los 10 mayores fracasos tecnológicos de la historia (recopilatorio)
+- [ ] Nokia N-Gage: el móvil-consola que fracasó
+- [ ] Telefónica: la empresa que conectó España
+- [ ] Segway: el invento que iba a cambiar las ciudades
+- [ ] Google Glass: por qué fracasaron
+- [ ] Rappi: la startup colombiana que valió más de 5.000 millones
+- [ ] Vine: la app que inventó los vídeos cortos y murió
+- [ ] Concorde: el avión del futuro que nadie quiso
+- [ ] Internet Explorer: de dominar la web a desaparecer
+- [ ] Pets.com y las startups más absurdas de los 2000
+- [ ] WeWork: cómo se hundió la startup de 47.000 millones
+- [ ] Xiaomi: de cero a gigante en 10 años
+- [ ] Grace Hopper y el primer bug de la historia
+- [ ] Linus Torvalds: el estudiante que creó Linux gratis
+- [ ] Jeff Bezos: la apuesta que todos creían absurda
+- [ ] Zuckerberg y la demanda de los Winklevoss
+- [ ] Walkman: el invento que Sony casi no lanzó
+- [ ] Fortnite contra Apple: la guerra por la App Store
+- [ ] Wii: la consola que nadie tomó en serio
+- [ ] Virtual Boy: el mayor fracaso de Nintendo
+- [ ] Shigeru Miyamoto: el creador de Mario y Zelda
+- [ ] Angry Birds: 51 juegos fallidos antes del éxito
+- [ ] El iPod: cómo salvó a Apple
+- [ ] Silicon Valley: cómo un valle de huertos se volvió el centro del mundo
+- [ ] Bell Labs: la fábrica de inventos del siglo XX
+- [ ] Challenger: el error de ingeniería que costó siete vidas
+- [ ] WannaCry: el ciberataque que paralizó hospitales
+- [ ] Uber: ascenso y escándalos
+- [ ] Spotify: cómo un sueco venció a la piratería
+- [ ] AlphaGo: la partida que cambió la IA
+- [ ] Blu-ray contra HD DVD: la última guerra de formatos
+- [ ] Tim Berners-Lee: por qué nunca patentó la web
+- [ ] Oracle y Larry Ellison: el vendedor más agresivo de Silicon Valley
+- [ ] Altair 8800: el kit que dio origen a Microsoft
+- [ ] Therac-25: cuando un error de software mató a pacientes
+- [ ] El apagón de 2003: 50 millones de personas a oscuras
+- [ ] El gusano Morris: el primer virus de internet
+- [ ] IBM Simon: el primer smartphone, 13 años antes del iPhone
+- [ ] Martin Cooper y la primera llamada desde un móvil
+- [ ] El fax, el busca y otras tecnologías olvidadas (recopilatorio)
+- [ ] Wikipedia: la enciclopedia que nadie creía posible
+- [ ] Zoom: la empresa que ganó con la pandemia
+- [ ] Cabify: la startup española que plantó cara a Uber
+- [ ] El hackeo de Sony Pictures
+
+Ya publicadas en formato corto (pueden tener versión documental más adelante): Google, Satoshi Nakamoto, Enigma, Apolo 11, internet, efecto 2000, Torres Quevedo, transistor, telégrafo, Titanic, Pong, Xerox, iPhone, ENIAC, Tesla vs Edison, hermanos Wright, Gutenberg, Ada Lovelace.
+
+## Nuevas tecnologías y cómo aprovecharlas (sábados: alternar explicador y guía)
+
+- [ ] ChatGPT, Claude o Gemini: cuál usar para cada cosa — *guía*
+- [ ] 10 usos de la IA que te ahorran una hora al día — *guía*
+- [ ] Trucos de móvil que casi nadie usa (serie de Shorts) — *shorts*
+- [ ] Lo mejor del CES 2027: lo que llega este año (publicar en enero) — *explicador*
+- [ ] ¿La IA te va a quitar el trabajo? Lo que dicen los datos — *explicador*
+- [ ] Cómo usar la IA para estudiar (sin hacer trampa) — *guía*
+- [ ] Robots humanoides: por qué ahora sí — *explicador*
+- [ ] Cómo detectar fotos y vídeos falsos hechos con IA — *guía*
+- [ ] Qué es un agente de IA y cómo usarlo hoy — *guía*
+- [ ] Coches eléctricos: datos reales de autonomía, coste y baterías — *explicador*
+- [ ] Cómo crear un asistente de IA con tus documentos, sin programar — *guía*
+- [ ] Ordenadores cuánticos: qué pueden hacer de verdad — *explicador*
+- [ ] 10 apps gratis que deberías tener en el móvil — *guía*
+- [ ] Cómo proteger tu móvil de estafas y hackers — *guía*
+- [ ] Gafas inteligentes: ¿el próximo smartphone? — *explicador*
+- [ ] Cuánta energía gasta la IA: los datos — *explicador*
+- [ ] Cómo hacer presentaciones en 5 minutos con IA — *guía*
+- [ ] Por qué todo el mundo quiere los chips de NVIDIA — *explicador*
+- [ ] Interfaces cerebro-ordenador: qué hay de real — *explicador*
+- [ ] Cómo editar fotos y vídeos con IA gratis — *guía*
+- [ ] 5 tecnologías de ciencia ficción que ya existen — *explicador*
+- [ ] Cómo usar la IA para buscar trabajo — *guía*
+- [ ] Energía de fusión: ¿cuánto falta de verdad? — *explicador*
+- [ ] Baterías de estado sólido: qué cambian — *explicador*
+- [ ] Internet por satélite: cómo funciona y cuánto cuesta — *explicador*
+- [ ] Impresión 3D en casa: para qué sirve de verdad — *guía*
+- [ ] Cómo automatizar tareas del ordenador con IA — *guía*
+- [ ] Casa inteligente: qué merece la pena y qué no — *guía*
+- [ ] Coches autónomos: dónde estamos de verdad — *explicador*
+- [ ] Realidad virtual: ¿por qué no termina de despegar? — *explicador*
+- [ ] Cómo funciona el reconocimiento facial y cómo protegerte — *explicador*
+- [ ] La cadena de bloques sin humo: para qué sirve hoy — *explicador*
+- [ ] Cómo traducir en tiempo real con el móvil — *shorts*
+- [ ] Cómo crear música con IA (y qué dice la ley) — *guía*
+- [ ] Relojes inteligentes: qué miden de verdad — *explicador*
+- [ ] Drones de reparto: ¿llegarán a tu ciudad? — *explicador*
+- [ ] El 6G: qué es y cuándo llega — *explicador*
+- [ ] Paneles solares en casa: números reales — *guía*
+- [ ] Cómo hacer copias de seguridad de tu vida digital — *guía*
+- [ ] Predicciones para 2030: qué dicen los expertos — *explicador*

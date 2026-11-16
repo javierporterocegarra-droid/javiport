@@ -274,5 +274,8 @@
       }
     }
   ],
-  "thumbnail_badge": "1947"
+  "thumbnail_badge": "1947",
+  "publish_at": "2026-11-23T17:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long"
 }

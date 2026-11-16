@@ -280,5 +280,8 @@
       }
     }
   ],
-  "thumbnail_badge": "2008"
+  "thumbnail_badge": "2008",
+  "publish_at": "2026-11-24T17:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long"
 }
