@@ -5,17 +5,18 @@
 channel:
   name: "TecnoHistoria"
   # Nicho del canal: cuanto más concreto, mejor rendimiento y más coherencia.
-  niche: "historia de la tecnología: los inventos, las personas y los momentos que cambiaron el mundo, contados como una historia"
+  niche: "tecnología explicada: la historia de las empresas e inventos que la crearon (40 %), las nuevas tecnologías explicadas con datos (30 %) y guías prácticas para aprovecharlas, sobre todo IA y apps (30 %)"
   language: es            # idioma de los guiones y metadatos
   region: ES              # país para tendencias de YouTube (ES, MX, AR, US...)
-  audience: "hispanohablantes de 18 a 60 años curiosos por la historia y la tecnología"
-  tone: "narrativo y con suspense, como un buen documental; riguroso con las fechas y los datos"
+  audience: "hispanohablantes de 18 a 45 años que usan tecnología a diario, curiosos por cómo funciona y por sacarle partido"
+  tone: "narrativo y con suspense en las historias, claro y práctico en las guías; siempre riguroso, con datos y fuentes, sin exagerar"
   # Palabras clave semilla para buscar lo que funciona en tu nicho
   keywords:
-    - "historia de la tecnología"
-    - "historia de la informática"
+    - "historia de empresas tecnológicas"
+    - "como usar inteligencia artificial"
+    - "nuevas tecnologias"
+    - "trucos del movil"
     - "inventos que cambiaron el mundo"
-    - "historia de internet"
   # Temas que NUNCA debe tratar
   banned_topics:
     - política partidista
