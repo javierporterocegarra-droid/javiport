@@ -1,0 +1,101 @@
+{
+  "topic": "En el año 2000, Netflix se ofreció a Blockbuster por 50 millones de dólares y Blockbuster dijo que no",
+  "title": "Netflix se ofreció a Blockbuster por 50 millones #Shorts",
+  "description": "En el año 2000, los fundadores de Netflix viajaron a Dallas para ofrecer su empresa a Blockbuster por 50 millones de dólares. Blockbuster dijo que no. Diez años después estaba en bancarrota.\n\nLa historia completa, mañana martes en el documental de TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más historias y trucos de tecnología.",
+  "tags": [
+    "netflix",
+    "blockbuster",
+    "reed hastings",
+    "historia de netflix",
+    "historia de empresas",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#Netflix",
+    "#Blockbuster",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Tú habrías comprado Netflix por 50 millones en el año 2000? 👇",
+  "sources": [
+    "https://sports.yahoo.com/blockbuster-ceo-struggled-not-laugh-191553438.html",
+    "https://marketplace.org/2020/09/08/ceo-reed-hastings-on-how-netflix-beat-blockbuster"
+  ],
+  "publish_at": "2026-11-30T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "Blockbuster pudo comprar Netflix por cincuenta millones de dólares. Y dijo que no.",
+      "visual_query": "money",
+      "card": {
+        "layout": "number",
+        "heading": "50 M$",
+        "items": [
+          "Netflix, en venta"
+        ],
+        "icon": "💵"
+      }
+    },
+    {
+      "section": "La reunión",
+      "narration": "Dallas, año 2000. Reed Hastings y Marc Randolph, fundadores de Netflix, ofrecen su empresa al gigante de los videoclubes. Netflix perdía dinero y enviaba DVD por correo en sobres rojos.",
+      "visual_query": "envelope mail",
+      "card": {
+        "layout": "bullets",
+        "heading": "Dallas, 2000",
+        "items": [
+          "Netflix perdía dinero",
+          "DVD por correo"
+        ],
+        "icon": "✉️"
+      }
+    },
+    {
+      "section": "La risa",
+      "narration": "Según el relato de Randolph, el jefe de Blockbuster, John Antioco, tuvo que esforzarse para no reírse. La respuesta fue un no.",
+      "visual_query": "businessman laughing",
+      "card": {
+        "layout": "quote",
+        "heading": "«Intentaba no reírse»",
+        "items": [
+          "Según Marc Randolph"
+        ],
+        "icon": "😏"
+      }
+    },
+    {
+      "section": "El final",
+      "narration": "Diez años después, Blockbuster estaba en bancarrota. Hoy Netflix tiene más de trescientos veinticinco millones de suscriptores.",
+      "visual_query": "stock chart",
+      "card": {
+        "layout": "bullets",
+        "heading": "Diez años después",
+        "items": [
+          "Blockbuster: quiebra",
+          "Netflix: +325 millones"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Pero la historia real es más sorprendente: Blockbuster llegó a tener a Netflix en jaque. La historia completa, mañana en el canal.",
+      "visual_query": "movie",
+      "card": {
+        "layout": "title",
+        "heading": "Mañana, el documental",
+        "items": [
+          "Blockbuster vs Netflix"
+        ],
+        "icon": "🎬"
+      }
+    }
+  ]
+}

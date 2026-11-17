@@ -6,7 +6,7 @@ Marca con `[x]` y la carpeta de `videos/` cada idea que se use. Las sesiones sem
 
 - [x] Nokia: cómo el rey de los móviles lo perdió todo — `19-nokia`
 - [x] Nintendo: de cartas japonesas de 1889 a imperio del videojuego — `25-nintendo`
-- [ ] Blockbuster pudo comprar Netflix por 50 millones (y se rió)
+- [x] Blockbuster pudo comprar Netflix por 50 millones (y se rió) — `32-blockbuster-netflix`
 - [ ] Sony contra Nintendo: la traición que creó la PlayStation
 - [ ] Samsung: empezó vendiendo pescado seco
 - [ ] Kodak inventó la cámara digital… y la escondió
@@ -106,12 +106,12 @@ Ya publicadas en formato corto (pueden tener versión documental más adelante):
 
 - [ ] ChatGPT, Claude o Gemini: cuál usar para cada cosa — *guía*
 - [x] 10 usos de la IA que te ahorran una hora al día — *guía* — `20-ia-ahorra-una-hora`
-- [ ] Trucos de móvil que casi nadie usa (serie de Shorts) — *shorts* — serie en curso: `30-short-copiar-texto-foto`
+- [ ] Trucos de móvil que casi nadie usa (serie de Shorts) — *shorts* — serie en curso: `30-short-copiar-texto-foto`, `36-short-truco-foto-falsa`
 - [ ] Lo mejor del CES 2027: lo que llega este año (publicar en enero) — *explicador*
 - [x] ¿La IA te va a quitar el trabajo? Lo que dicen los datos — *explicador* — `26-ia-quita-trabajo-datos`
 - [ ] Cómo usar la IA para estudiar (sin hacer trampa) — *guía*
 - [ ] Robots humanoides: por qué ahora sí — *explicador*
-- [ ] Cómo detectar fotos y vídeos falsos hechos con IA — *guía*
+- [x] Cómo detectar fotos y vídeos falsos hechos con IA — *guía* — `33-detectar-fotos-videos-ia`
 - [ ] Qué es un agente de IA y cómo usarlo hoy — *guía*
 - [ ] Coches eléctricos: datos reales de autonomía, coste y baterías — *explicador*
 - [ ] Cómo crear un asistente de IA con tus documentos, sin programar — *guía*

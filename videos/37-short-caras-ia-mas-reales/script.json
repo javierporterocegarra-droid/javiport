@@ -1,0 +1,100 @@
+{
+  "topic": "Un estudio de 2023 mostró que la gente toma por reales el 66 % de las caras creadas por IA, más que las fotos reales",
+  "title": "Las caras hechas con IA parecen más reales que las reales #Shorts",
+  "description": "Un estudio publicado en 2023 en la revista Psychological Science encontró que los participantes tomaron por reales el 66 % de las caras de personas blancas generadas por IA, más que las fotos de personas reales. En otro estudio de 2022 (PNAS), la gente acertó solo el 48 % de las veces.\n\nCómo detectar fotos y vídeos hechos con IA: guía completa mañana sábado en TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más historias y trucos de tecnología.",
+  "tags": [
+    "caras ia",
+    "inteligencia artificial",
+    "deepfake",
+    "fotos falsas",
+    "estudio",
+    "psicología",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#IA",
+    "#Deepfake",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Crees que tú sabrías distinguir una cara real de una hecha con IA? 👇",
+  "sources": [
+    "https://theconversation.com/can-you-spot-the-ai-impostors-we-found-ai-faces-can-look-more-real-than-actual-humans-215160",
+    "https://www.pnas.org/doi/10.1073/pnas.2120481119"
+  ],
+  "publish_at": "2026-12-04T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "Las caras creadas por inteligencia artificial ya nos parecen más reales que las caras de verdad.",
+      "visual_query": "portrait face",
+      "card": {
+        "layout": "title",
+        "heading": "Más reales que reales",
+        "items": [
+          "Caras hechas con IA"
+        ],
+        "icon": "😶"
+      }
+    },
+    {
+      "section": "El estudio",
+      "narration": "En un estudio de 2023 en la revista Psychological Science, los participantes tomaron por personas reales el sesenta y seis por ciento de las caras generadas por IA. Más que las fotos auténticas.",
+      "visual_query": "laboratory study",
+      "card": {
+        "layout": "number",
+        "heading": "66 %",
+        "items": [
+          "Caras IA tomadas por reales"
+        ],
+        "icon": "🧪"
+      }
+    },
+    {
+      "section": "Otro estudio",
+      "narration": "Y en otro de 2022, la gente acertó solo el cuarenta y ocho por ciento de las veces al distinguir caras reales de falsas. Peor que lanzar una moneda.",
+      "visual_query": "coin toss",
+      "card": {
+        "layout": "number",
+        "heading": "48 %",
+        "items": [
+          "Aciertos: menos que el azar"
+        ],
+        "icon": "🪙"
+      }
+    },
+    {
+      "section": "Por qué",
+      "narration": "Una explicación es que estas caras parecen muy promedio y simétricas, y eso nos resulta familiar y fiable.",
+      "visual_query": "symmetrical face",
+      "card": {
+        "layout": "title",
+        "heading": "Demasiado perfectas",
+        "items": [
+          "Y por eso creíbles"
+        ],
+        "icon": "🎭"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Así que tus ojos no bastan. Mañana sábado, la guía completa para detectar imágenes hechas con IA, en el canal.",
+      "visual_query": "magnifying glass",
+      "card": {
+        "layout": "title",
+        "heading": "Mañana, la guía",
+        "items": [
+          "Detecta la IA"
+        ],
+        "icon": "🕵️"
+      }
+    }
+  ]
+}
