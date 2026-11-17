@@ -13,18 +13,39 @@ La estrategia completa está en el documento «TecnoHistoria: sistema completo d
 - **Nunca:** datos sin fuente, consejos médicos, legales o de inversión, política partidista,
   clickbait que el vídeo no cumple, imitar a personas reales con IA.
 
-## Calendario semanal (desde el 23 de noviembre de 2026, hora de Madrid)
+## Calendario semanal (desde el 30 de noviembre de 2026, hora de Madrid)
 
-| Día | Pieza | Hora | `format` | Duración | Palabras de narración |
-| --- | --- | --- | --- | --- | --- |
-| Martes | Documental (pilar historia) | 18:00 | `long` | 15–20 min | 2.200–2.800 |
-| Sábado | Explicador con datos o guía práctica (alternar cada semana) | 18:00 | `long` | 10–12 min | 1.400–1.700 |
-| Lunes, miércoles, jueves, viernes, domingo | Short (dato, truco o momento clave de los vídeos de la semana) | 13:00 | `short` | 40–55 s | 110–140 |
+Prioridad: lo que más busca la gente (medido con la API de YouTube, mediana de visitas de los 20 primeros
+resultados del último año): trucos de ChatGPT (~140.000), «¿qué pasaría si la IA…?» (~140.000), ChatGPT para
+fotos (~100.000), apagón/«¿qué pasaría si…?» tecnológicos (~70.000), trucos de Gemini y Meta AI en WhatsApp
+(~60.000), IA para estudiar (~50.000). Repite la medición con `scratchpad/demand.py` o similar cuando dudes.
+
+| Día | Pieza | Hora | `format` | Duración | Palabras | `playlists` |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lunes | Short: truco de IA o del móvil | 13:00 | `short` | 35–50 s | 100–130 | `["ia"]` |
+| Martes | Documental (historia de empresas e inventos) | 18:00 | `long` | 13–18 min | 2.000–2.600 | `["historias"]` |
+| Miércoles | Short: dato o giro del documental | 13:00 | `short` | 35–50 s | 100–130 | — |
+| Jueves | «¿Qué pasaría si…?» de tecnología o IA, con datos | 18:00 | `long` | 8–10 min | 1.100–1.400 | `["quepasaria"]` |
+| Viernes | Short: truco de IA (ChatGPT, Gemini, Meta AI…) | 13:00 | `short` | 35–50 s | 100–130 | `["ia"]` |
+| Sábado | Guía práctica de IA para el día a día (año en el título) | 18:00 | `long` | 8–12 min | 1.200–1.700 | `["ia"]` |
+| Domingo | Short: «¿qué pasaría si…?» o dato sorprendente | 13:00 | `short` | 35–50 s | 100–130 | — |
+
+Los vídeos largos deben pasar de 8 minutos (permite anuncios a mitad de vídeo cuando se monetice).
+
+### Para conseguir suscriptores (aplícalo en cada guion)
+
+- Gancho en los primeros 5 s: un dato, una escena o el resultado final. Nada de saludos ni presentaciones.
+- Petición de suscripción breve hacia el 20–30 % del vídeo largo, ligada a la serie («un ¿qué pasaría si…? cada semana»).
+- Cierre que manda a otro vídeo concreto del canal (nunca «hasta la próxima»).
+- Los Shorts terminan llevando al vídeo largo relacionado («la historia completa, en el canal»).
+- `pinned_comment` con una pregunta fácil de responder (opinión o experiencia personal).
+- Títulos con la búsqueda exacta al principio («Trucos de ChatGPT…», «¿Qué pasaría si…?», «Cómo…»).
+- Añade `"playlists"` con la lista del tema: `historias`, `ia`, `quepasaria` (ver `config.yaml`).
 
 ## Cómo se trabaja cada domingo
 
-1. Lee `docs/ideas.md` y elige las siguientes ideas sin marcar (el documental del pilar historia; el
-   vídeo del sábado alterna explicador y guía). Revisa `videos/` para no repetir temas.
+1. Lee `docs/ideas.md` y elige las siguientes ideas sin marcar, empezando por la sección «Alta demanda»
+   (documental del martes, «¿qué pasaría si…?» del jueves y guía de IA del sábado). Revisa `videos/` para no repetir temas.
 2. Investiga cada tema con búsqueda web: 3–6 fuentes fiables; anota en `sources` las URL que abras.
    Comprueba fechas, cifras y nombres. Si un dato no se puede confirmar, no lo uses.
 3. Escribe cada guion en `videos/NN-slug/script.json` (NN = siguiente número libre, dos o más cifras).

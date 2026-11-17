@@ -138,7 +138,31 @@ def _scene_photo(cfg: dict, workdir: Path, i: int, scene: dict, used: set, size,
 
 def _use_cards(cfg: dict) -> bool:
     mode = cfg["video"].get("visuals", "auto")
-    return mode == "cards" or (mode == "auto" and not env("PEXELS_API_KEY"))
+    return mode in ("cards", "footage") or (mode == "auto" and not env("PEXELS_API_KEY"))
+
+
+def _scene_footage(cfg: dict, workdir: Path, i: int, scene: dict, dur: float, used: set) -> Path | None:
+    """Vídeo real de Pexels para el fondo de la escena (se cachea en el directorio de trabajo)."""
+    cached = workdir / f"footage_{i:03d}.mp4"
+    if cached.exists() and cached.stat().st_size > 0:
+        return cached
+    miss = workdir / f"footage_{i:03d}.none"
+    if miss.exists():
+        return None
+    vertical = cfg["video"]["format"] == "short"
+    query = scene.get("visual_query") or scene["card"].get("heading", "")
+    for q in dict.fromkeys([query, " ".join(query.split()[:2])]):
+        if not q:
+            continue
+        try:
+            p = media.pexels_video(q, cached, "portrait" if vertical else "landscape", dur, used)
+            if p:
+                return p
+        except Exception as e:
+            log.warning("Pexels falló para %r: %s", q, e)
+            return None  # no se cachea el fallo de red
+    miss.write_text(query, encoding="utf-8")
+    return None
 
 
 def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = "", vid: int | None = None) -> Path:
@@ -148,6 +172,7 @@ def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = ""
         vid = row["id"] if row else db.add_video(sc.get("topic", sc["title"]), str(workdir))
         db.update_video(vid, title=sc["title"], status="scripted")
     use_cards = _use_cards(cfg)
+    use_footage = cfg["video"].get("footage", True) and bool(env("PEXELS_API_KEY"))
     size = video.dims(cfg)
     accent = cfg["video"].get("theme_color", "#22D3EE")
     animated = cfg["video"].get("animated", True)
@@ -169,6 +194,9 @@ def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = ""
                 kind = "card"
                 assets = cards.card_frames(scene["card"], size, accent, workdir / f"card_{i:03d}", seed=i,
                                            transparent=animated)
+                clip = _scene_footage(cfg, workdir, i, scene, dur, used) if use_footage else None
+                if clip:
+                    kind, assets = "footage", (clip, assets)
             else:
                 kind = "stock"
                 assets = media.fetch_scene_media(cfg, scene["visual_query"], scene["section"],
@@ -246,6 +274,9 @@ def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = ""
             if len(desc) + len(block) > 4700:
                 block = block[: 4700 - len(desc)].rsplit("\n", 1)[0]
             desc += block
+        sub = cfg["channel"].get("subscribe_url")
+        if sub:
+            desc = desc.replace("\n\n", f"\n\n🔔 Suscríbete: {sub}\n\n", 1) if "\n\n" in desc else desc + f"\n\n🔔 Suscríbete: {sub}"
         desc += "\n\n" + " ".join(sc["hashtags"][:3])
         meta = {**sc, "full_description": desc, "duration_s": offset, "image_credits": credits}
         _save(workdir / "metadata.json", meta)

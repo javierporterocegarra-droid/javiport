@@ -2,6 +2,37 @@
 
 Marca con `[x]` y la carpeta de `videos/` cada idea que se use. Las sesiones semanales eligen la siguiente sin marcar.
 
+## Alta demanda (medida en noviembre de 2026) — usar primero
+
+### Guías de IA para el día a día (sábados)
+- [ ] Trucos de ChatGPT que casi nadie usa (2026) — *guía* — ~140k
+- [ ] Cómo editar y crear fotos con ChatGPT (2026) — *guía* — ~100k
+- [ ] Trucos de Gemini que te ahorran tiempo (2026) — *guía* — ~60k
+- [ ] Meta AI en WhatsApp: qué puede hacer y trucos (2026) — *guía* — ~58k
+- [ ] Cómo usar la IA para estudiar (sin hacer trampa) — *guía* — ~51k
+- [ ] Cómo usar la IA para buscar trabajo: CV, carta y entrevista — *guía* — ~24k
+- [ ] Aprender inglés con IA gratis: el método paso a paso — *guía* — ~18k
+- [ ] ChatGPT para Excel: fórmulas y tablas sin saber Excel — *guía*
+
+### ¿Qué pasaría si…? (jueves)
+- [x] ¿Qué pasaría si hubiera un apagón mundial? — `39-que-pasaria-apagon-mundial` — ~69k
+- [x] ¿Qué pasaría si la IA se rebelara? — `40-que-pasaria-ia-se-rebela` — ~140k
+- [ ] ¿Qué pasaría si explotara la burbuja de la IA? (sin consejos de inversión)
+- [ ] ¿Qué pasaría si se cortaran los cables submarinos de internet?
+- [ ] ¿Qué pasaría si el GPS dejara de funcionar un día?
+- [ ] ¿Qué pasaría si la IA hiciera todos los trabajos de oficina?
+- [ ] ¿Qué pasaría si desapareciera tu móvil durante una semana?
+- [ ] ¿Qué pasaría si internet se apagara 24 horas?
+- [ ] ¿Qué pasaría si todos tuviéramos un robot en casa?
+
+### Shorts de trucos (lunes y viernes)
+- [ ] ChatGPT: el truco del «actúa como…»
+- [ ] Gemini: resume un vídeo de YouTube
+- [ ] Meta AI en WhatsApp: crea una imagen en un chat
+- [ ] Traduce una conversación en directo con el móvil
+- [ ] ChatGPT: convierte una foto de apuntes en un esquema
+- [ ] Google Lens: resuelve un problema de mates con una foto
+
 ## Historia de empresas e inventos (documentales de los martes)
 
 - [x] Nokia: cómo el rey de los móviles lo perdió todo — `19-nokia`
