@@ -74,6 +74,10 @@ def render_segment(cfg: dict, kind: str, assets, audio: Path, duration: float, o
     off, tot = f"{offset:.3f}", f"{max(total_video, 1):.3f}"
     bar_h = max(4, h // 180)
     color = "0x" + accent.lstrip("#")
+    footage = None
+    if kind == "footage":  # vídeo real de fondo (b-roll) oscurecido + tarjeta transparente encima
+        footage, assets = assets
+        kind = "card"
     if kind == "card":
         assets = assets if isinstance(assets, list) else [assets]
         if len(assets) == 1:
@@ -86,8 +90,17 @@ def render_segment(cfg: dict, kind: str, assets, audio: Path, duration: float, o
                                    for i, p in enumerate(assets)) + f"file '{assets[-1].resolve()}'\n",
                            encoding="utf-8")
             fg_in = ["-f", "concat", "-safe", "0", "-i", str(lst)]
-        inputs = ["-loop", "1", "-framerate", str(fps), "-i", str(bg_wide), *fg_in]
-        vgraph = (f"[0:v]crop={w}:{h}:x='(iw-ow)/2*(1+sin(({off}+t)/9))':y='(ih-oh)/2*(1+cos(({off}+t)/13))'[bg];"
+        if footage is not None:
+            inputs = ["-stream_loop", "-1", "-i", str(footage), *fg_in]
+            bg = (f"[0:v]scale={int(w * 1.08)}:{int(h * 1.08)}:force_original_aspect_ratio=increase,"
+                  f"crop={int(w * 1.08)}:{int(h * 1.08)},fps={fps},"
+                  f"crop={w}:{h}:x='(iw-ow)*t/{total:.3f}':y='(ih-oh)/2',"
+                  f"eq=brightness=-0.10:saturation=0.85,colorlevels=romax=0.62:gomax=0.62:bomax=0.66,"
+                  f"vignette=PI/4,fade=t=in:st=0:d=0.3[bg];")
+        else:
+            inputs = ["-loop", "1", "-framerate", str(fps), "-i", str(bg_wide), *fg_in]
+            bg = (f"[0:v]crop={w}:{h}:x='(iw-ow)/2*(1+sin(({off}+t)/9))':y='(ih-oh)/2*(1+cos(({off}+t)/13))'[bg];")
+        vgraph = (bg +
                   f"[1:v]fps={fps},format=rgba,fade=t=in:st=0:d=0.4:alpha=1[fg];"
                   f"[bg][fg]overlay=0:0[v1]")
     else:  # photo

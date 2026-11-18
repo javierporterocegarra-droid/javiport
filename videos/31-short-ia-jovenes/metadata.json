@@ -1,0 +1,107 @@
+{
+  "topic": "Estudio de Stanford: caída del empleo de los jóvenes de 22 a 25 años en las profesiones más expuestas a la IA",
+  "title": "La IA ya afecta al empleo de los jóvenes (Stanford) #Shorts",
+  "description": "Un estudio de Stanford con datos de nóminas de millones de trabajadores en Estados Unidos detecta una caída del empleo de los jóvenes de 22 a 25 años en las profesiones más expuestas a la IA, mientras los veteranos se mantienen estables.\n\nTodos los datos, en el explicador «¿La IA te va a quitar el trabajo?» de TecnoHistoria. Suscríbete.",
+  "tags": [
+    "inteligencia artificial",
+    "ia y empleo",
+    "empleo joven",
+    "estudio stanford",
+    "futuro del trabajo",
+    "primer empleo",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#InteligenciaArtificial",
+    "#Empleo",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "Si estás estudiando o empezando a trabajar, ¿notas ya el efecto de la IA? 👇",
+  "sources": [
+    "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine",
+    "https://digitaleconomy.stanford.edu/app/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf"
+  ],
+  "publish_at": "2026-11-29T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "La inteligencia artificial ya está afectando al empleo. Pero no a quien imaginas: a los más jóvenes.",
+      "visual_query": "young graduate job search",
+      "card": {
+        "layout": "title",
+        "heading": "Los primeros afectados",
+        "items": [
+          "Los más jóvenes"
+        ],
+        "icon": "🐤"
+      }
+    },
+    {
+      "section": "El estudio",
+      "narration": "Investigadores de Stanford analizaron las nóminas de millones de trabajadores en Estados Unidos. En las profesiones más expuestas a la IA, el empleo de los jóvenes de 22 a 25 años cayó un 16 por ciento en términos relativos.",
+      "visual_query": "payroll data screen",
+      "card": {
+        "layout": "number",
+        "heading": "-16 %",
+        "items": [
+          "empleo relativo, 22 a 25 años",
+          "Stanford, noviembre de 2025"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Veteranos",
+      "narration": "En esas mismas profesiones, el empleo de los trabajadores con más experiencia se mantuvo estable.",
+      "visual_query": "office team mixed ages",
+      "card": {
+        "layout": "bullets",
+        "heading": "Mismas profesiones",
+        "items": [
+          "Jóvenes: bajan",
+          "Veteranos: estables"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Por qué",
+      "narration": "Una explicación posible: la IA hace bien las tareas que antes se encargaban a los recién llegados, como resumir o redactar borradores. Los autores avisan de que puede haber otras causas.",
+      "visual_query": "intern desk laptop",
+      "card": {
+        "layout": "steps",
+        "heading": "Tareas de entrada",
+        "items": [
+          "Resumir",
+          "Redactar borradores",
+          "Ordenar datos"
+        ],
+        "icon": "🪜"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Qué hacer si estás empezando, con todos los datos: el explicador completo, en el canal.",
+      "visual_query": "students studying",
+      "card": {
+        "layout": "title",
+        "heading": "IA y empleo",
+        "items": [
+          "Completo, en el canal"
+        ],
+        "icon": "📊"
+      }
+    }
+  ],
+  "full_description": "Un estudio de Stanford con datos de nóminas de millones de trabajadores en Estados Unidos detecta una caída del empleo de los jóvenes de 22 a 25 años en las profesiones más expuestas a la IA, mientras los veteranos se mantienen estables.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nTodos los datos, en el explicador «¿La IA te va a quitar el trabajo?» de TecnoHistoria. Suscríbete.\n\nFuentes:\nhttps://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine\nhttps://digitaleconomy.stanford.edu/app/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf\n\n#InteligenciaArtificial #Empleo #Shorts",
+  "duration_s": 47.498000000000005,
+  "image_credits": []
+}

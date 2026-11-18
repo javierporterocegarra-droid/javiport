@@ -1,0 +1,108 @@
+{
+  "topic": "Qué significa que el 40 % de los empleos estén expuestos a la IA según el FMI",
+  "title": "El 40 % de los empleos, expuestos a la IA: qué significa #Shorts",
+  "description": "El FMI calcula que casi el 40 % de los empleos del mundo están expuestos a la inteligencia artificial. Pero estar expuesto no es lo mismo que desaparecer.\n\nTodos los datos, en el explicador «¿La IA te va a quitar el trabajo?» de TecnoHistoria. Suscríbete.",
+  "tags": [
+    "inteligencia artificial",
+    "ia y empleo",
+    "fmi",
+    "futuro del trabajo",
+    "la ia quitará trabajos",
+    "oit",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#InteligenciaArtificial",
+    "#Empleo",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Crees que tu trabajo está expuesto a la IA? 👇",
+  "sources": [
+    "https://www.cnbc.com/2024/01/15/imf-warns-ai-to-hit-almost-40percent-of-global-employment-worsen-inequality.html",
+    "https://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html"
+  ],
+  "publish_at": "2026-11-26T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "Casi el 40 por ciento de los empleos del mundo están expuestos a la inteligencia artificial. Lo dice el Fondo Monetario Internacional.",
+      "visual_query": "office workers crowd",
+      "card": {
+        "layout": "number",
+        "heading": "40 %",
+        "items": [
+          "de los empleos del mundo",
+          "Fondo Monetario Internacional"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "Matiz",
+      "narration": "Pero expuesto no significa eliminado. Significa que la IA puede hacer o ayudar a hacer una parte de sus tareas.",
+      "visual_query": "magnifying glass",
+      "card": {
+        "layout": "quote",
+        "heading": "Expuesto no es eliminado",
+        "items": [
+          "Cambian algunas tareas"
+        ],
+        "icon": "🔍"
+      }
+    },
+    {
+      "section": "Mitad y mitad",
+      "narration": "En los países ricos, según el FMI, aproximadamente la mitad de esos empleos podría salir ganando, porque la IA les haría más productivos. La otra mitad sí podría ver reducida su demanda.",
+      "visual_query": "balance scale",
+      "card": {
+        "layout": "bullets",
+        "heading": "Empleos expuestos",
+        "items": [
+          "Mitad: salen ganando",
+          "Mitad: más riesgo"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "La OIT",
+      "narration": "La Organización Internacional del Trabajo concluye algo parecido: lo más probable es que la IA transforme los empleos, no que los sustituya.",
+      "visual_query": "person working computer",
+      "card": {
+        "layout": "title",
+        "heading": "Transformar, no sustituir",
+        "items": [
+          "OIT, 2025"
+        ],
+        "icon": "🔄"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Y qué está pasando ya de verdad en el empleo, con datos y sin alarmismo: el explicador completo, en el canal.",
+      "visual_query": "chart data",
+      "card": {
+        "layout": "title",
+        "heading": "IA y empleo",
+        "items": [
+          "Completo, en el canal"
+        ],
+        "icon": "📊"
+      }
+    }
+  ],
+  "playlists": [
+    "ia"
+  ],
+  "full_description": "El FMI calcula que casi el 40 % de los empleos del mundo están expuestos a la inteligencia artificial. Pero estar expuesto no es lo mismo que desaparecer.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nTodos los datos, en el explicador «¿La IA te va a quitar el trabajo?» de TecnoHistoria. Suscríbete.\n\nFuentes:\nhttps://www.cnbc.com/2024/01/15/imf-warns-ai-to-hit-almost-40percent-of-global-employment-worsen-inequality.html\nhttps://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html\n\n#InteligenciaArtificial #Empleo #Shorts",
+  "duration_s": 46.466,
+  "image_credits": []
+}

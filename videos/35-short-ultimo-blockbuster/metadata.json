@@ -1,0 +1,107 @@
+{
+  "topic": "Solo queda un Blockbuster abierto en el mundo, en Bend (Oregón)",
+  "title": "Solo queda un Blockbuster en todo el mundo #Shorts",
+  "description": "Blockbuster llegó a tener más de 9.000 tiendas en 2004. Hoy solo queda una abierta, en Bend (Oregón, Estados Unidos), una franquicia de una familia local que se ha convertido en atracción turística.\n\nLa historia completa de Blockbuster y Netflix, en el documental de TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más historias y trucos de tecnología.",
+  "tags": [
+    "blockbuster",
+    "último blockbuster",
+    "bend oregon",
+    "videoclub",
+    "historia de empresas",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#Blockbuster",
+    "#Videoclub",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Irías a visitar el último Blockbuster del mundo? ¿Qué película alquilarías? 👇",
+  "sources": [
+    "https://bendbulletin.com/?p=636749",
+    "https://visitcentraloregon.com/articles/the-last-blockbuster-video-store-located-in-bend-oregon/",
+    "https://www.scmp.com/news/world/united-states-canada/article/2189012/last-blockbuster-store-earth-bend-oregon"
+  ],
+  "publish_at": "2026-12-02T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Dato",
+      "narration": "Blockbuster llegó a tener más de nueve mil tiendas. Hoy queda una. Solo una en todo el planeta.",
+      "visual_query": "video store",
+      "card": {
+        "layout": "number",
+        "heading": "9.094 → 1",
+        "items": [
+          "Tiendas Blockbuster"
+        ],
+        "icon": "📼"
+      }
+    },
+    {
+      "section": "Dónde",
+      "narration": "Está en Bend, una pequeña ciudad de Oregón, en Estados Unidos. No es de la empresa: es una franquicia de una familia local.",
+      "visual_query": "Bend Oregon",
+      "card": {
+        "layout": "title",
+        "heading": "Bend, Oregón",
+        "items": [
+          "Una franquicia familiar"
+        ],
+        "icon": "📍"
+      },
+      "photo": "Bend, Oregon",
+      "photo_caption": "Bend (Oregón)"
+    },
+    {
+      "section": "Cómo pasó",
+      "narration": "Las tiendas propias cerraron en 2014. Las franquicias fueron cayendo una a una, hasta que en 2019 cerró la de Perth, en Australia. Bend se quedó sola.",
+      "visual_query": "closed store",
+      "card": {
+        "layout": "steps",
+        "heading": "La cuenta atrás",
+        "items": [
+          "2010: quiebra",
+          "2014: cierran las propias",
+          "2019: solo queda Bend"
+        ],
+        "icon": "⏳"
+      }
+    },
+    {
+      "section": "Hoy",
+      "narration": "Ahora es casi un museo: gente de todo el mundo viaja para hacerse fotos y alquilar una película como en los noventa.",
+      "visual_query": "tourists photo",
+      "card": {
+        "layout": "title",
+        "heading": "Atracción turística",
+        "items": [
+          "Viaje a los noventa"
+        ],
+        "icon": "📸"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "¿Y por qué cayó el gigante? La historia completa de Blockbuster y Netflix, en el canal.",
+      "visual_query": "movie",
+      "card": {
+        "layout": "title",
+        "heading": "La historia completa",
+        "items": [
+          "En el canal"
+        ],
+        "icon": "🎬"
+      }
+    }
+  ],
+  "full_description": "Blockbuster llegó a tener más de 9.000 tiendas en 2004. Hoy solo queda una abierta, en Bend (Oregón, Estados Unidos), una franquicia de una familia local que se ha convertido en atracción turística.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nLa historia completa de Blockbuster y Netflix, en el documental de TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más historias y trucos de tecnología.\n\nFuentes:\nhttps://bendbulletin.com/?p=636749\nhttps://visitcentraloregon.com/articles/the-last-blockbuster-video-store-located-in-bend-oregon/\nhttps://www.scmp.com/news/world/united-states-canada/article/2189012/last-blockbuster-store-earth-bend-oregon\n\n#Blockbuster #Videoclub #Shorts",
+  "duration_s": 43.418,
+  "image_credits": []
+}

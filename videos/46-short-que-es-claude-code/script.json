@@ -1,0 +1,106 @@
+{
+  "topic": "Qué es Claude Code: el agente de programación de Anthropic que lee tu código, edita archivos y ejecuta comandos con tu permiso",
+  "title": "¿Qué es Claude Code? Explicado en 45 segundos #Shorts",
+  "description": "Claude Code es una herramienta de Anthropic que funciona como un programador con IA: entiende un proyecto de código, propone cambios, edita archivos y ejecuta comandos, siempre pidiendo permiso para las acciones importantes. Se usa desde la terminal y también desde editores de código y apps de Anthropic.\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "claude code",
+    "que es claude code",
+    "anthropic",
+    "claude",
+    "programar con ia",
+    "inteligencia artificial",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#ClaudeCode",
+    "#IA",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Has probado a programar con IA? ¿Te da miedo o te encanta? 👇",
+  "sources": [
+    "https://docs.anthropic.com/en/docs/claude-code/overview",
+    "https://www.anthropic.com/claude-code"
+  ],
+  "publish_at": "2026-12-11T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "¿Qué es Claude Code y por qué todo el mundo habla de él? Te lo explico en cuarenta y cinco segundos.",
+      "visual_query": "programmer laptop",
+      "card": {
+        "layout": "title",
+        "heading": "Claude Code",
+        "items": [
+          "En 45 segundos"
+        ],
+        "icon": "💻"
+      }
+    },
+    {
+      "section": "Qué es",
+      "narration": "Es una herramienta de Anthropic, la empresa que crea la IA Claude. Funciona como un programador con inteligencia artificial que trabaja dentro de tu proyecto.",
+      "visual_query": "code on screen",
+      "card": {
+        "layout": "title",
+        "heading": "Un programador con IA",
+        "items": [
+          "De Anthropic"
+        ],
+        "icon": "🤖"
+      }
+    },
+    {
+      "section": "Qué hace",
+      "narration": "Le pides algo en lenguaje normal, como añade un botón para descargar en PDF, y lee tu código, propone los cambios, edita los archivos y puede ejecutar pruebas.",
+      "visual_query": "software development",
+      "card": {
+        "layout": "steps",
+        "heading": "Qué hace",
+        "items": [
+          "Lee tu código",
+          "Edita archivos",
+          "Ejecuta pruebas"
+        ],
+        "icon": "⚙️"
+      }
+    },
+    {
+      "section": "El control",
+      "narration": "Lo importante: pide permiso antes de las acciones delicadas, y tú revisas lo que cambia. Se usa desde la terminal y también desde editores de código.",
+      "visual_query": "terminal window",
+      "card": {
+        "layout": "bullets",
+        "heading": "Tú tienes el control",
+        "items": [
+          "Pide permiso",
+          "Tú revisas"
+        ],
+        "icon": "🔐"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "¿Te sustituirá como programador? Eso lo vemos en el canal, en nuestro vídeo sobre la IA y el empleo.",
+      "visual_query": "office work",
+      "card": {
+        "layout": "title",
+        "heading": "¿Y el empleo?",
+        "items": [
+          "Lo vemos en el canal"
+        ],
+        "icon": "📊"
+      }
+    }
+  ],
+  "playlists": [
+    "ia"
+  ]
+}

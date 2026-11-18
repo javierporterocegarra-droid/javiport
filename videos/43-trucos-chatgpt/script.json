@@ -1,0 +1,397 @@
+{
+  "topic": "Diez trucos de ChatGPT que casi nadie usa en 2026: fórmula de mensajes, instrucciones, memoria, chat temporal, proyectos, fotos y voz",
+  "title": "Trucos de ChatGPT que casi nadie usa (2026)",
+  "description": "Trucos de ChatGPT que casi nadie usa en 2026: diez formas de conseguir respuestas mucho mejores, la mayoría también en la versión gratuita.\n\nEn esta guía aprenderás:\n1. La fórmula del buen mensaje: papel, contexto, tarea y formato.\n2. A pedirle que te haga preguntas antes de responder.\n3. A configurar las instrucciones personalizadas.\n4. A usar y controlar la memoria (y por qué borrar un chat no borra un recuerdo).\n5. Cuándo usar el chat temporal.\n6. Cómo organizar temas largos con proyectos.\n7. Qué puedes hacer con fotos: recetas con lo que hay en tu nevera, esquemas de tus apuntes y facturas explicadas.\n8. El modo de voz para practicar idiomas.\n9. Cómo cambiar el nivel, el formato y el tono.\n10. Por qué pedir fuentes y comprobarlas.\n\nTambién verás los errores más comunes y qué datos no deberías compartir nunca.\n\nSuscríbete a TecnoHistoria: una guía práctica de inteligencia artificial cada sábado.",
+  "tags": [
+    "trucos chatgpt",
+    "chatgpt",
+    "como usar chatgpt",
+    "chatgpt 2026",
+    "trucos de chatgpt",
+    "chatgpt gratis",
+    "prompts chatgpt",
+    "chatgpt español",
+    "inteligencia artificial",
+    "memoria chatgpt",
+    "proyectos chatgpt",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#ChatGPT",
+    "#IA",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "10 trucos ocultos",
+  "thumbnail_badge": "2026",
+  "thumbnail_icon": "🤖",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuál de estos trucos no conocías? ¿Tienes alguno que no esté en el vídeo? 👇",
+  "playlists": [
+    "ia"
+  ],
+  "sources": [
+    "https://help.openai.com/en/articles/8590148-memory-faq",
+    "https://help.openai.com/en/articles/10169521-projects-in-chatgpt",
+    "https://openai.com/blog/memory-and-new-controls-for-chatgpt",
+    "https://chatgpt.com/pricing"
+  ],
+  "publish_at": "2026-12-12T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "El resultado",
+      "narration": "Mira la diferencia. Esta es la respuesta que te da ChatGPT a una pregunta normal. Y esta es la que te da cuando usas los trucos de este vídeo: más clara, más útil y adaptada a ti. Son diez trucos, y la mayoría funcionan también en la versión gratuita.",
+      "visual_query": "laptop chat screen",
+      "card": {
+        "layout": "bullets",
+        "heading": "Antes y después",
+        "items": [
+          "Respuesta genérica",
+          "Respuesta a tu medida"
+        ],
+        "icon": "✨"
+      }
+    },
+    {
+      "section": "Requisitos",
+      "narration": "Qué necesitas: una cuenta de ChatGPT, gratis o de pago, en el móvil o en el ordenador. Las opciones cambian de sitio de vez en cuando, pero si no encuentras alguna, búscala en el menú de ajustes con tu nombre o tu foto.",
+      "visual_query": "smartphone app",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que necesitas",
+        "items": [
+          "Cuenta de ChatGPT",
+          "Móvil u ordenador",
+          "5 minutos"
+        ],
+        "icon": "🧰"
+      }
+    },
+    {
+      "section": "Suscríbete",
+      "narration": "Si te gustan estas guías de inteligencia artificial, suscríbete a TecnoHistoria. Cada sábado hay una nueva.",
+      "visual_query": "subscribe",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Una guía de IA cada sábado"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "Truco 1",
+      "narration": "Truco uno: la fórmula del buen mensaje. La mayoría escribe una frase suelta. Prueba con cuatro piezas: un papel, contexto, la tarea y el formato. Por ejemplo: actúa como un entrenador personal. Tengo cuarenta años y poco tiempo. Hazme un plan de tres días a la semana. Ponlo en una tabla.",
+      "visual_query": "writing notebook",
+      "card": {
+        "layout": "steps",
+        "heading": "La fórmula",
+        "items": [
+          "Papel",
+          "Contexto",
+          "Tarea",
+          "Formato"
+        ],
+        "icon": "1️⃣"
+      }
+    },
+    {
+      "section": "Truco 1",
+      "narration": "Con esa estructura, la respuesta deja de ser genérica. Cuanto más contexto le das, más se parece el resultado a lo que necesitas. Es el truco que más cambia las respuestas, y no cuesta nada.",
+      "visual_query": "target",
+      "card": {
+        "layout": "title",
+        "heading": "Más contexto",
+        "items": [
+          "Mejor respuesta"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "Truco 2",
+      "narration": "Truco dos: que te pregunte él a ti. Añade al final: antes de responder, hazme las preguntas que necesites. ChatGPT te pedirá los detalles que faltan, como tu presupuesto, tu nivel o tus gustos, y luego te dará una respuesta mucho más precisa.",
+      "visual_query": "question marks",
+      "card": {
+        "layout": "quote",
+        "heading": "«Hazme preguntas antes»",
+        "items": [
+          "Truco 2"
+        ],
+        "icon": "2️⃣"
+      }
+    },
+    {
+      "section": "Truco 2",
+      "narration": "Un ejemplo real: si escribes quiero comprarme un móvil, te dará una lista genérica. Si añades hazme preguntas antes, te preguntará cuánto quieres gastar, si usas mucho la cámara o si prefieres iPhone o Android. Y la recomendación final tendrá sentido para ti.",
+      "visual_query": "smartphones store",
+      "card": {
+        "layout": "bullets",
+        "heading": "Ejemplo: comprar un móvil",
+        "items": [
+          "¿Presupuesto?",
+          "¿Cámara?",
+          "¿iPhone o Android?"
+        ],
+        "icon": "📱"
+      }
+    },
+    {
+      "section": "Truco 2",
+      "narration": "Y una variante muy útil para estudiar: pídele que te ponga a prueba. Por ejemplo: hazme diez preguntas tipo test sobre la Revolución francesa, de una en una, y corrígeme cada respuesta. Es como tener un profesor particular disponible a cualquier hora.",
+      "visual_query": "student studying",
+      "card": {
+        "layout": "quote",
+        "heading": "«Ponme a prueba»",
+        "items": [
+          "Para estudiar"
+        ],
+        "icon": "📝"
+      }
+    },
+    {
+      "section": "Truco 3",
+      "narration": "Truco tres: las instrucciones personalizadas. En los ajustes, en el apartado de personalización, puedes decirle a ChatGPT quién eres y cómo quieres que te responda. Por ejemplo: soy profesor de secundaria, respóndeme en español de España, ve al grano y usa ejemplos.",
+      "visual_query": "settings menu",
+      "card": {
+        "layout": "steps",
+        "heading": "Personalízalo",
+        "items": [
+          "Ajustes",
+          "Personalización",
+          "Quién eres y cómo responder"
+        ],
+        "icon": "3️⃣"
+      }
+    },
+    {
+      "section": "Truco 3",
+      "narration": "Así no tienes que repetirlo en cada conversación. Se aplica a todos tus chats nuevos. Si un día quieres que te conteste distinto, solo tienes que cambiarlo.",
+      "visual_query": "gear",
+      "card": {
+        "layout": "title",
+        "heading": "Una vez y listo",
+        "items": [
+          "Se aplica a todo"
+        ],
+        "icon": "⚙️"
+      }
+    },
+    {
+      "section": "Truco 4",
+      "narration": "Truco cuatro: la memoria. ChatGPT puede recordar cosas entre conversaciones. Puedes decirle directamente: recuerda que soy vegetariano, o recuerda que mi hijo tiene diez años. Y la próxima vez lo tendrá en cuenta.",
+      "visual_query": "memory brain",
+      "card": {
+        "layout": "quote",
+        "heading": "«Recuerda que…»",
+        "items": [
+          "Truco 4"
+        ],
+        "icon": "4️⃣"
+      }
+    },
+    {
+      "section": "Truco 4",
+      "narration": "Importante: puedes ver y borrar lo que recuerda en los ajustes de personalización. Y según la ayuda de OpenAI, borrar un chat no borra un recuerdo que se guardó a partir de él: tienes que borrar ese recuerdo por separado.",
+      "visual_query": "delete button",
+      "card": {
+        "layout": "bullets",
+        "heading": "Controla tu memoria",
+        "items": [
+          "Revísala en ajustes",
+          "Borrar el chat no basta"
+        ],
+        "icon": "🧹"
+      }
+    },
+    {
+      "section": "Truco 5",
+      "narration": "Truco cinco: el chat temporal. Si vas a preguntar algo que no quieres que se quede en tu historial ni en su memoria, abre un chat temporal. Según OpenAI, esos chats no crean ni actualizan recuerdos. Ideal para temas personales o para probar algo sin que afecte a tus otras conversaciones.",
+      "visual_query": "incognito privacy",
+      "card": {
+        "layout": "title",
+        "heading": "Chat temporal",
+        "items": [
+          "Sin memoria ni historial"
+        ],
+        "icon": "5️⃣"
+      }
+    },
+    {
+      "section": "Truco 6",
+      "narration": "Truco seis: los proyectos. Si usas ChatGPT para algo largo, como estudiar una asignatura, planear un viaje o llevar un negocio, crea un proyecto. Ahí guardas los chats, los archivos y unas instrucciones propias solo para ese tema. Según OpenAI, están disponibles también en la versión gratuita.",
+      "visual_query": "folders organization",
+      "card": {
+        "layout": "steps",
+        "heading": "Un proyecto por tema",
+        "items": [
+          "Chats",
+          "Archivos",
+          "Instrucciones propias"
+        ],
+        "icon": "6️⃣"
+      }
+    },
+    {
+      "section": "Truco 7",
+      "narration": "Truco siete: dale fotos. Puedes hacer una foto a tu nevera y pedirle tres cenas con lo que hay. Una foto de tus apuntes y pedir un esquema. O una foto de una factura que no entiendes y pedir que te la explique línea a línea.",
+      "visual_query": "fridge food",
+      "card": {
+        "layout": "bullets",
+        "heading": "Ideas con fotos",
+        "items": [
+          "Nevera → recetas",
+          "Apuntes → esquema",
+          "Factura → explicación"
+        ],
+        "icon": "7️⃣"
+      }
+    },
+    {
+      "section": "Truco 7",
+      "narration": "Un aviso: no subas fotos con datos muy sensibles, como tu DNI completo, contraseñas o números de tarjeta. Si hace falta, tapa esa parte antes de hacer la foto.",
+      "visual_query": "privacy lock",
+      "card": {
+        "layout": "title",
+        "heading": "Ojo con los datos",
+        "items": [
+          "Tapa lo sensible"
+        ],
+        "icon": "🔒"
+      }
+    },
+    {
+      "section": "Truco 7",
+      "narration": "Otra idea que funciona muy bien: pega un texto largo, como las condiciones de un contrato de alquiler o de una compañía de móvil, y pregúntale qué puntos deberías mirar con cuidado. Eso sí: para decisiones importantes, consulta siempre a un profesional.",
+      "visual_query": "contract document",
+      "card": {
+        "layout": "title",
+        "heading": "Textos largos",
+        "items": [
+          "¿Qué debo revisar?"
+        ],
+        "icon": "📄"
+      }
+    },
+    {
+      "section": "Truco 8",
+      "narration": "Truco ocho: el modo de voz. Toca el icono de voz y habla con ChatGPT como si fuera una llamada. Es perfecto para practicar un idioma: pídele que sea tu profesor de inglés, que te corrija y que te hable despacio.",
+      "visual_query": "headphones talking",
+      "card": {
+        "layout": "quote",
+        "heading": "Tu profesor de idiomas",
+        "items": [
+          "Truco 8: modo voz"
+        ],
+        "icon": "8️⃣"
+      }
+    },
+    {
+      "section": "Truco 9",
+      "narration": "Truco nueve: cambia el nivel y el formato. Pide explícamelo como si tuviera doce años, o resúmelo en tres puntos, o hazme una tabla comparativa. También puedes pedir otro tono: más formal para un correo del trabajo, más cercano para un mensaje a un amigo.",
+      "visual_query": "table chart",
+      "card": {
+        "layout": "bullets",
+        "heading": "Pide el formato",
+        "items": [
+          "Como si tuviera 12 años",
+          "En 3 puntos",
+          "En una tabla"
+        ],
+        "icon": "9️⃣"
+      }
+    },
+    {
+      "section": "Truco 9",
+      "narration": "Y un truco dentro del truco: pídele que compare. Compárame estos dos portátiles en una tabla con precio, batería y peso, y dime cuál me conviene si viajo mucho. Te ahorra abrir diez pestañas y leer veinte opiniones.",
+      "visual_query": "laptops comparison",
+      "card": {
+        "layout": "steps",
+        "heading": "Pídele que compare",
+        "items": [
+          "Dos opciones",
+          "Tabla",
+          "Recomendación"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Truco 10",
+      "narration": "Truco diez, el más importante: pide fuentes y compruébalas. ChatGPT puede equivocarse con total seguridad. Para datos, fechas o temas de salud y dinero, pídele que busque en internet y te dé los enlaces, y ábrelos tú.",
+      "visual_query": "magnifying glass",
+      "card": {
+        "layout": "quote",
+        "heading": "Pide fuentes",
+        "items": [
+          "Y ábrelas tú"
+        ],
+        "icon": "🔟"
+      }
+    },
+    {
+      "section": "Truco 10",
+      "narration": "Y si una respuesta no te convence, no empieces de cero: edita tu mensaje o dile qué cambiar. Por ejemplo: más corto, sin tecnicismos, o dame otra opción distinta.",
+      "visual_query": "edit pencil",
+      "card": {
+        "layout": "steps",
+        "heading": "Si no te convence",
+        "items": [
+          "Edita tu mensaje",
+          "Dile qué cambiar",
+          "Pide otra opción"
+        ],
+        "icon": "🔁"
+      }
+    },
+    {
+      "section": "Errores comunes",
+      "narration": "Ahora, los errores más comunes. Uno: escribir mensajes de tres palabras y esperar maravillas. Dos: creerse todo sin comprobar. Y tres: pegar datos personales o del trabajo sin pensar. ChatGPT es un ayudante, no una caja fuerte.",
+      "visual_query": "error warning",
+      "card": {
+        "layout": "bullets",
+        "heading": "Errores típicos",
+        "items": [
+          "Mensajes muy cortos",
+          "No comprobar",
+          "Pegar datos sensibles"
+        ],
+        "icon": "❌"
+      }
+    },
+    {
+      "section": "Resumen",
+      "narration": "Resumen de los diez trucos: la fórmula del buen mensaje, que te haga preguntas, instrucciones personalizadas, memoria, chat temporal, proyectos, fotos, modo de voz, nivel y formato, y pedir fuentes.",
+      "visual_query": "checklist",
+      "card": {
+        "layout": "steps",
+        "heading": "Los 10 trucos",
+        "items": [
+          "Fórmula",
+          "Preguntas",
+          "Instrucciones",
+          "Memoria",
+          "Temporal",
+          "Proyectos"
+        ],
+        "icon": "✅"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Guarda este vídeo para tenerlo a mano. Y si quieres más ideas, tienes en el canal la guía con diez usos de la IA que te ahorran una hora al día. Cuéntame en los comentarios: ¿cuál de estos trucos no conocías?",
+      "visual_query": "comments",
+      "card": {
+        "layout": "title",
+        "heading": "¿Cuál no conocías?",
+        "items": [
+          "Cuéntamelo abajo"
+        ],
+        "icon": "💬"
+      }
+    }
+  ]
+}

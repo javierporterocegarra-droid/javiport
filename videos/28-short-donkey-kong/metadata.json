@@ -1,0 +1,109 @@
+{
+  "topic": "Donkey Kong nació para reciclar 2.000 máquinas recreativas de Radar Scope que nadie quería",
+  "title": "Mario nació para salvar 2.000 máquinas que nadie quería #Shorts",
+  "description": "En 1981, la filial americana de Nintendo tenía unas 2.000 recreativas de Radar Scope sin vender. La solución fue un juego nuevo dentro de esas mismas máquinas: Donkey Kong, de Shigeru Miyamoto.\n\nLa historia completa de Nintendo, en el documental de TecnoHistoria. Suscríbete para más historias de la tecnología.",
+  "tags": [
+    "donkey kong",
+    "mario",
+    "shigeru miyamoto",
+    "radar scope",
+    "nintendo",
+    "historia de los videojuegos",
+    "recreativas",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#Nintendo",
+    "#Mario",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Jugaste alguna vez al Donkey Kong original? ¿Cuál es tu juego retro favorito? 👇",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Radar_Scope",
+    "https://www.superjumpmagazine.com/nintendo-of-america-nearly-killed-donkey-kong/"
+  ],
+  "publish_at": "2026-11-25T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "Mario nació para salvar a Nintendo de un almacén lleno de máquinas que nadie quería.",
+      "visual_query": "warehouse arcade machines",
+      "card": {
+        "layout": "title",
+        "heading": "Mario, el salvavidas",
+        "items": [
+          "Nintendo, 1981"
+        ],
+        "icon": "🍄"
+      }
+    },
+    {
+      "section": "El fracaso",
+      "narration": "En 1981, su filial americana había encargado unas tres mil recreativas de un juego llamado Radar Scope. Fue un fracaso: unas dos mil se quedaron sin vender.",
+      "visual_query": "retro space shooter",
+      "card": {
+        "layout": "bullets",
+        "heading": "Radar Scope",
+        "items": [
+          "3.000 encargadas",
+          "2.000 sin vender"
+        ],
+        "icon": "📦"
+      }
+    },
+    {
+      "section": "La idea",
+      "narration": "La solución: un juego nuevo que se pudiera instalar dentro de esas mismas máquinas. Se lo encargaron a Shigeru Miyamoto, un artista que nunca había creado un videojuego.",
+      "visual_query": "game design sketch",
+      "card": {
+        "layout": "quote",
+        "heading": "Juego nuevo, máquina vieja",
+        "items": [
+          "El encargo a Miyamoto"
+        ],
+        "icon": "♻️"
+      },
+      "photo": "Shigeru Miyamoto",
+      "photo_caption": "Shigeru Miyamoto"
+    },
+    {
+      "section": "El éxito",
+      "narration": "Creó Donkey Kong: un gorila, barriles y un carpintero que luego se llamaría Mario. Las máquinas se vendieron enseguida y fue la recreativa que más recaudó en 1981 y 1982.",
+      "visual_query": "Donkey Kong arcade",
+      "card": {
+        "layout": "number",
+        "heading": "1981",
+        "items": [
+          "Nace Donkey Kong"
+        ],
+        "icon": "🦍"
+      },
+      "photo": "Donkey Kong arcade",
+      "photo_caption": "Recreativa de Donkey Kong"
+    },
+    {
+      "section": "Cierre",
+      "narration": "Un fracaso convertido en leyenda gracias a una buena idea. La historia completa de Nintendo, en el canal.",
+      "visual_query": "arcade neon",
+      "card": {
+        "layout": "title",
+        "heading": "Nintendo",
+        "items": [
+          "Completa, en el canal"
+        ],
+        "icon": "🎮"
+      }
+    }
+  ],
+  "full_description": "En 1981, la filial americana de Nintendo tenía unas 2.000 recreativas de Radar Scope sin vender. La solución fue un juego nuevo dentro de esas mismas máquinas: Donkey Kong, de Shigeru Miyamoto.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nLa historia completa de Nintendo, en el documental de TecnoHistoria. Suscríbete para más historias de la tecnología.\n\nFuentes:\nhttps://en.wikipedia.org/wiki/Radar_Scope\nhttps://www.superjumpmagazine.com/nintendo-of-america-nearly-killed-donkey-kong/\n\n#Nintendo #Mario #Shorts",
+  "duration_s": 50.162,
+  "image_credits": []
+}

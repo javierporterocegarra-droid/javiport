@@ -83,13 +83,18 @@ def upload(cfg: dict, video_path, thumb_path, meta: dict, publish_at: str | None
     except HttpError as e:
         log.warning("No se pudo poner la miniatura (¿canal verificado por teléfono?): %s", e)
 
-    if up.get("playlist_id"):
+    playlists = [up["playlist_id"]] if up.get("playlist_id") else []
+    named = up.get("playlists") or {}
+    for name in meta.get("playlists") or []:
+        if named.get(name) and named[name] not in playlists:
+            playlists.append(named[name])
+    for pid in playlists:
         try:
             yt.playlistItems().insert(part="snippet", body={"snippet": {
-                "playlistId": up["playlist_id"],
+                "playlistId": pid,
                 "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
         except HttpError as e:
-            log.warning("No se pudo añadir a la playlist: %s", e)
+            log.warning("No se pudo añadir a la playlist %s: %s", pid, e)
 
     if up.get("post_comment") and meta.get("pinned_comment"):
         try:

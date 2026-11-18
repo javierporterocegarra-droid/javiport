@@ -1,0 +1,105 @@
+{
+  "topic": "Qué pasaría si la Luna desapareciera: mareas mucho más pequeñas, noches más oscuras y un eje de la Tierra menos estable a muy largo plazo",
+  "title": "¿Qué pasaría si la Luna desapareciera? #Shorts",
+  "description": "Si la Luna desapareciera, las mareas serían mucho más pequeñas (solo quedaría el efecto del Sol), las noches serían más oscuras y, a muy largo plazo, el eje de la Tierra podría oscilar mucho más, con cambios de clima extremos. Dato extra: la Luna se aleja de la Tierra unos 3,8 cm al año.\n\nMás «¿qué pasaría si…?» con datos en la lista del canal.\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "que pasaria si la luna desapareciera",
+    "que pasaria si",
+    "la luna",
+    "mareas",
+    "astronomia",
+    "curiosidades del universo",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#QuéPasaríaSi",
+    "#Luna",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Qué otro «¿qué pasaría si…?» quieres que investigue? 👇",
+  "sources": [
+    "https://science.nasa.gov/moon/tides/",
+    "https://science.nasa.gov/moon/facts/"
+  ],
+  "publish_at": "2026-12-13T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "¿Qué pasaría si mañana la Luna desapareciera? Spoiler: no sería solo perder una vista bonita.",
+      "visual_query": "full moon",
+      "card": {
+        "layout": "title",
+        "heading": "¿Y si no hubiera Luna?",
+        "items": [
+          "Spoiler: lo notaríamos"
+        ],
+        "icon": "🌕"
+      },
+      "photo": "Full Moon Luc Viatour",
+      "photo_caption": "La Luna llena"
+    },
+    {
+      "section": "Mareas",
+      "narration": "Primero, las mareas. La Luna es la principal causa. Sin ella, solo quedaría el efecto del Sol y las mareas serían mucho más pequeñas, con efectos en costas y ecosistemas.",
+      "visual_query": "ocean tide beach",
+      "card": {
+        "layout": "title",
+        "heading": "Mareas mínimas",
+        "items": [
+          "Solo quedaría el Sol"
+        ],
+        "icon": "🌊"
+      }
+    },
+    {
+      "section": "Noches",
+      "narration": "Segundo, las noches serían mucho más oscuras. Muchos animales usan la luz de la Luna para cazar, orientarse o reproducirse.",
+      "visual_query": "night sky stars",
+      "card": {
+        "layout": "title",
+        "heading": "Noches más oscuras",
+        "items": [
+          "Animales desorientados"
+        ],
+        "icon": "🌑"
+      }
+    },
+    {
+      "section": "El eje",
+      "narration": "Y tercero, a muy largo plazo: la Luna ayuda a estabilizar la inclinación de la Tierra. Sin ella, el eje podría oscilar mucho más durante millones de años, con cambios de clima extremos.",
+      "visual_query": "earth from space",
+      "card": {
+        "layout": "title",
+        "heading": "Un eje inestable",
+        "items": [
+          "Clima más extremo"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Dato extra: la Luna se aleja de nosotros unos tres coma ocho centímetros al año. Más qué pasaría si, en el canal.",
+      "visual_query": "moon",
+      "card": {
+        "layout": "number",
+        "heading": "3,8 cm/año",
+        "items": [
+          "Se aleja la Luna"
+        ],
+        "icon": "📏"
+      }
+    }
+  ],
+  "playlists": [
+    "quepasaria"
+  ]
+}

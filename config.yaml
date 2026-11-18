@@ -7,6 +7,7 @@ channel:
   # Nicho del canal: cuanto más concreto, mejor rendimiento y más coherencia.
   niche: "tecnología explicada: la historia de las empresas e inventos que la crearon (40 %), las nuevas tecnologías explicadas con datos (30 %) y guías prácticas para aprovecharlas, sobre todo IA y apps (30 %)"
   language: es            # idioma de los guiones y metadatos
+  subscribe_url: "https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1"
   region: ES              # país para tendencias de YouTube (ES, MX, AR, US...)
   audience: "hispanohablantes de 18 a 45 años que usan tecnología a diario, curiosos por cómo funciona y por sacarle partido"
   tone: "narrativo y con suspense en las historias, claro y práctico en las guías; siempre riguroso, con datos y fuentes, sin exagerar"
@@ -33,7 +34,7 @@ video:
   contact_url: "https://www.youtube.com/@tecnohistoria-1"
   photos: true            # usar fotos de Wikimedia Commons (licencias libres, con créditos)
   # stock = vídeos de Pexels | cards = gráficos animados | auto = Pexels si hay clave, si no gráficos
-  visuals: auto
+  visuals: footage       # footage = vídeo real de Pexels de fondo + tarjetas encima (sin clave: solo tarjetas)
   theme_color: "#F5B942"
 
 tts:
@@ -297,6 +298,12 @@ upload:
   # Política de YouTube: declarar contenido sintético/alterado realista
   contains_synthetic_media: true
   playlist_id: ""
+  # Listas por tema: en cada script.json, "playlists": ["historias"] o ["ia"], ["quepasaria"]
+  playlists:
+    historias: "PLG724tSNI0JQ"
+    ia: "PLAgn0nck8yns"
+    nokia: "PLIAQqa8fyclw"
+    quepasaria: "PLfOQkLYMOuy8"
   post_comment: true      # publica un comentario del canal (para fijarlo a mano)
 
 manage:

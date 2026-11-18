@@ -55,6 +55,8 @@ jobs:
           printf '%s' "$YT_TOKEN_JSON" > secrets/token.json
 
       - name: Producir y programar los próximos vídeos
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}   # opcional: vídeo real de fondo
         run: python -m autotube produce-due --days "${{ github.event.inputs.days || '3' }}" --max 4
 
       - name: Sincronizar estadísticas del canal
