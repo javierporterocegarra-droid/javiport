@@ -1,0 +1,638 @@
+{
+  "topic": "Historia de Nintendo: de fabricante de cartas hanafuda en 1889 a imperio del videojuego",
+  "title": "Nintendo: de cartas japonesas de 1889 a imperio del videojuego",
+  "description": "Nintendo nació en 1889 fabricando cartas pintadas a mano en Kioto… y hoy es una de las empresas de videojuegos más importantes del mundo. Esta es la historia completa de Nintendo, con sus fracasos y sus apuestas imposibles.\n\nEn este documental de TecnoHistoria recorremos más de 135 años: las cartas hanafuda de Fusajiro Yamauchi, la llegada de Hiroshi Yamauchi con 22 años, los extraños negocios de los años sesenta (taxis, comida instantánea y hasta un hotel por horas), la Ultra Hand de Gunpei Yokoi y su filosofía de la «tecnología marchita», las Game & Watch y el fracaso de Radar Scope, que acabó dando origen a Donkey Kong y a Mario.\n\nDespués, las consolas: la Famicom de 1983, la arriesgada llegada de la NES a Estados Unidos tras la crisis del videojuego, la Game Boy, la DS y la Wii de Satoru Iwata, el tropiezo de la Wii U y el regreso con Nintendo Switch y Switch 2. Todas las cifras de ventas proceden de los datos oficiales de Nintendo y de las fuentes enlazadas abajo.\n\nAl final te doy mi opinión sobre la verdadera lección de Nintendo: por qué gana justo cuando no intenta ser la consola más potente.\n\n¿Cuál fue tu primera consola de Nintendo? Cuéntamelo en los comentarios y suscríbete a TecnoHistoria: cada martes, un documental nuevo sobre la historia de la tecnología.",
+  "tags": [
+    "nintendo",
+    "historia de nintendo",
+    "nintendo documental",
+    "hiroshi yamauchi",
+    "gunpei yokoi",
+    "shigeru miyamoto",
+    "donkey kong",
+    "famicom",
+    "nes",
+    "game boy",
+    "nintendo switch",
+    "historia de los videojuegos",
+    "tecnohistoria",
+    "historia de la tecnología"
+  ],
+  "hashtags": [
+    "#Nintendo",
+    "#HistoriaDeLosVideojuegos",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "De cartas a Mario",
+  "thumbnail_badge": "1889",
+  "thumbnail_icon": "🎴",
+  "thumbnail_photo": "Hanafuda",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuál fue tu primera consola de Nintendo? ¿Y tu juego favorito de todos los tiempos? 👇",
+  "sources": [
+    "https://en.wikipedia.org/wiki/History_of_Nintendo",
+    "https://moneyweek.com/349214/23-september-1889-nintendo-starts-making-playing-cards",
+    "https://www.superjumpmagazine.com/nintendos-road-to-the-nes/",
+    "https://en.wikipedia.org/wiki/Gunpei_Yokoi",
+    "https://en.wikipedia.org/wiki/Radar_Scope",
+    "https://kotaku.com/happy-30th-birthday-nintendo-entertainment-system-1737218698",
+    "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html",
+    "https://www.pbs.org/newshour/arts/nintendo-president-satoru-iwata-dies-55",
+    "https://www.videogameschronicle.com/news/nintendo-switch-2-sells-3-5-million-in-4-days-likely-the-biggest-console-launch-ever"
+  ],
+  "publish_at": "2026-11-24T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Estados Unidos, 1981. En un almacén de la filial americana de Nintendo se amontonan unas dos mil máquinas recreativas que nadie quiere. El juego que llevan dentro ha fracasado, la empresa está al borde de la ruina y su presidente solo tiene una idea desesperada: pedir a Japón un juego nuevo para meter en esas mismas máquinas.",
+      "visual_query": "warehouse arcade cabinets",
+      "card": {
+        "layout": "number",
+        "heading": "2.000",
+        "items": [
+          "máquinas recreativas sin vender"
+        ],
+        "icon": "📦"
+      }
+    },
+    {
+      "section": "Gancho",
+      "narration": "El encargo acaba en manos de un joven artista que nunca había diseñado un videojuego. De ese encargo desesperado nacerán un gorila, un carpintero con bigote y el imperio del videojuego más duradero del mundo.",
+      "visual_query": "retro arcade game screen",
+      "card": {
+        "layout": "title",
+        "heading": "Un encargo desesperado",
+        "items": [
+          "Y un artista sin experiencia"
+        ],
+        "icon": "🦍"
+      }
+    },
+    {
+      "section": "La pregunta",
+      "narration": "Pero esta historia no empieza en 1981. Empieza casi un siglo antes, en Kioto, con una baraja de cartas pintadas a mano. ¿Cómo pasa una pequeña empresa de naipes a crear a Mario, Zelda y Pokémon? ¿Y cómo sobrevivió a decisiones tan extrañas como montar una compañía de taxis o un hotel por horas?",
+      "visual_query": "Kyoto old street",
+      "card": {
+        "layout": "bullets",
+        "heading": "La gran pregunta",
+        "items": [
+          "De naipes a Mario",
+          "Taxis y hoteles",
+          "¿Cómo sobrevivió?"
+        ],
+        "icon": "❓"
+      }
+    },
+    {
+      "section": "La pregunta",
+      "narration": "En este documental vamos a recorrer más de 135 años de Nintendo: sus fracasos, sus apuestas imposibles y la filosofía de un ingeniero que explica casi todos sus éxitos. Y al final te contaré por qué creo que Nintendo gana justo cuando no intenta ganar.",
+      "visual_query": "playing cards traditional japanese",
+      "card": {
+        "layout": "steps",
+        "heading": "El viaje",
+        "items": [
+          "Naipes en Kioto",
+          "Juguetes y recreativas",
+          "Consolas",
+          "La lección"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Orígenes",
+      "narration": "El 23 de septiembre de 1889, un artesano llamado Fusajiro Yamauchi abrió en Kioto un pequeño negocio para fabricar hanafuda, unas cartas tradicionales japonesas con dibujos de flores, animales y paisajes de cada mes del año.",
+      "visual_query": "hanafuda cards",
+      "card": {
+        "layout": "title",
+        "heading": "23 de septiembre de 1889",
+        "items": [
+          "Fusajiro Yamauchi funda Nintendo"
+        ],
+        "icon": "🎴"
+      },
+      "photo": "Hanafuda",
+      "photo_caption": "Cartas hanafuda"
+    },
+    {
+      "section": "Orígenes",
+      "narration": "Cada carta se pintaba a mano y se vendía en tiendas propias de la empresa en Kioto y Osaka. Durante más de medio siglo, Nintendo fue exactamente eso: un fabricante de naipes respetado, sólido y bastante tradicional. Y aquí va un detalle curioso: Nintendo sigue vendiendo cartas hanafuda hoy en día. La empresa de Mario nunca ha dejado de fabricar el producto con el que nació.",
+      "visual_query": "hand painting traditional art japan",
+      "card": {
+        "layout": "bullets",
+        "heading": "Nintendo en sus inicios",
+        "items": [
+          "Cartas pintadas a mano",
+          "Tiendas en Kioto y Osaka",
+          "Más de 50 años de naipes"
+        ],
+        "icon": "🖌️"
+      }
+    },
+    {
+      "section": "Orígenes",
+      "narration": "Todo cambió en 1949. El presidente de la compañía, abuelo de Hiroshi Yamauchi, sufrió un derrame cerebral, y la empresa pasó a manos de su nieto, un joven de apenas 22 años sin experiencia en el negocio. Nadie apostaba por él. Iba a dirigir Nintendo durante más de cincuenta años.",
+      "visual_query": "Kyoto 1950s",
+      "card": {
+        "layout": "number",
+        "heading": "22 años",
+        "items": [
+          "Hiroshi Yamauchi, 1949"
+        ],
+        "icon": "👔"
+      },
+      "photo": "Hiroshi Yamauchi",
+      "photo_caption": "Hiroshi Yamauchi"
+    },
+    {
+      "section": "Orígenes",
+      "narration": "Si te gustan estas historias de empresas que se reinventaron contra todo pronóstico, suscríbete a TecnoHistoria: cada martes contamos una nueva. Y ahora, vamos con la primera gran apuesta de aquel presidente de 22 años.",
+      "visual_query": "subscribe button",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Una historia nueva cada martes"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "Los años perdidos",
+      "narration": "Hiroshi Yamauchi resultó ser un jefe duro y muy poco convencional. Era famoso por decidir por instinto, a veces contra la opinión de todos. Esa forma de dirigir le llevaría a algunos de los mayores aciertos de la historia del entretenimiento… y también a algunos de sus errores más extraños.",
+      "visual_query": "japanese businessman 1960s",
+      "card": {
+        "layout": "quote",
+        "heading": "Decidir por instinto",
+        "items": [
+          "El estilo de Hiroshi Yamauchi"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Los años perdidos",
+      "narration": "Su primer gran acierto llegó en 1959: un acuerdo para imprimir naipes con los personajes de Disney. Fue un éxito enorme entre los niños japoneses y demostró algo que Yamauchi no olvidaría: el futuro no estaba en los jugadores de cartas adultos, sino en el entretenimiento para toda la familia.",
+      "visual_query": "vintage playing cards children",
+      "card": {
+        "layout": "title",
+        "heading": "1959",
+        "items": [
+          "Naipes con personajes de Disney"
+        ],
+        "icon": "🐭"
+      }
+    },
+    {
+      "section": "Los años perdidos",
+      "narration": "Animado por el éxito, Yamauchi quiso que Nintendo fuera mucho más que naipes. Y aquí empieza uno de los capítulos más extraños de la historia empresarial. En los años sesenta, Nintendo probó suerte con una compañía de taxis, con comida instantánea e incluso con un hotel por horas, de los que en Japón se llaman love hotels.",
+      "visual_query": "1960s Japan taxi",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los negocios de los 60",
+        "items": [
+          "Una compañía de taxis",
+          "Comida instantánea",
+          "Un hotel por horas"
+        ],
+        "icon": "🚕"
+      }
+    },
+    {
+      "section": "Los años perdidos",
+      "narration": "Ninguno funcionó. Aquellos negocios dieron pérdidas, la empresa se fue debilitando y, a mediados de la década, Nintendo estaba en una situación delicada. La vieja fábrica de naipes necesitaba encontrar algo nuevo, y rápido.",
+      "visual_query": "empty office 1960s",
+      "card": {
+        "layout": "quote",
+        "heading": "Nada funcionaba",
+        "items": [
+          "Pérdidas en los años 60"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Los juguetes",
+      "narration": "La salvación llegó por casualidad. Un joven ingeniero de mantenimiento, Gunpei Yokoi, había construido en sus ratos libres un brazo extensible para jugar. Yamauchi lo vio y le ordenó convertirlo en un producto para la campaña de Navidad. Así nació, en 1966, la Ultra Hand. Vendió más de un millón de unidades.",
+      "visual_query": "extending arm toy",
+      "card": {
+        "layout": "number",
+        "heading": "+1 millón",
+        "items": [
+          "Ultra Hand, 1966"
+        ],
+        "icon": "🦾"
+      },
+      "photo": "Gunpei Yokoi",
+      "photo_caption": "Gunpei Yokoi"
+    },
+    {
+      "section": "Los juguetes",
+      "narration": "Yokoi pasó de arreglar máquinas a inventar juguetes, y con los años desarrolló una idea que marcaría a Nintendo para siempre. La llamó pensamiento lateral con tecnología marchita.",
+      "visual_query": "light bulb idea",
+      "card": {
+        "layout": "quote",
+        "heading": "Tecnología marchita",
+        "items": [
+          "La idea de Gunpei Yokoi"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Los juguetes",
+      "narration": "A finales de los sesenta y durante los setenta, Nintendo se convirtió en una empresa de juguetes. Yokoi y su equipo crearon máquinas de lanzar pelotas, juegos de puntería con luz y otros inventos que aprovechaban componentes baratos. Poco a poco, la vieja fábrica de naipes empezaba a parecerse a algo nuevo.",
+      "visual_query": "vintage toys 1970s",
+      "card": {
+        "layout": "bullets",
+        "heading": "Nintendo, juguetera",
+        "items": [
+          "Brazo extensible",
+          "Juegos de puntería con luz",
+          "Componentes baratos"
+        ],
+        "icon": "🧸"
+      }
+    },
+    {
+      "section": "Los juguetes",
+      "narration": "La idea es sencilla y brillante: no hace falta la tecnología más avanzada. Es mejor usar tecnología madura, barata y fiable, que todo el mundo conoce, y encontrarle un uso nuevo que a nadie se le haya ocurrido.",
+      "visual_query": "simple electronics components",
+      "card": {
+        "layout": "steps",
+        "heading": "La filosofía de Yokoi",
+        "items": [
+          "Tecnología madura",
+          "Barata y fiable",
+          "Un uso nuevo"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Los juguetes",
+      "narration": "El mejor ejemplo llegó en 1980 con las Game & Watch: pequeñas consolas de bolsillo con una pantalla de cristal líquido, como la de las calculadoras, y un juego en cada aparato. Nada en ellas era tecnología puntera. Y sin embargo, se vendieron por todo el mundo. Además, para algunos de esos modelos el equipo de Yokoi ideó un control en forma de cruz para mover a los personajes con el pulgar. Ese invento, la cruceta, acabaría en casi todos los mandos de consola que has tenido en la mano.",
+      "visual_query": "Game and Watch handheld",
+      "card": {
+        "layout": "title",
+        "heading": "Game & Watch",
+        "items": [
+          "1980: juegos de bolsillo"
+        ],
+        "icon": "⌚"
+      },
+      "photo": "Game & Watch",
+      "photo_caption": "Una consola Game & Watch"
+    },
+    {
+      "section": "La crisis",
+      "narration": "Mientras tanto, Nintendo también se había metido en las máquinas recreativas, y quería conquistar Estados Unidos. En 1980 creó una filial americana dirigida por Minoru Arakawa, yerno de Yamauchi. Y Arakawa hizo una apuesta enorme con un juego de naves llamado Radar Scope.",
+      "visual_query": "arcade space shooter retro",
+      "card": {
+        "layout": "title",
+        "heading": "Radar Scope",
+        "items": [
+          "La gran apuesta americana"
+        ],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "La crisis",
+      "narration": "Encargó unas tres mil máquinas. Pero cuando llegaron, el juego ya parecía anticuado y la acogida fue fría. Se vendieron unas mil, y el resto, unas dos mil, se quedaron en el almacén. Para una empresa pequeña, aquello podía ser el final.",
+      "visual_query": "warehouse boxes stacked",
+      "card": {
+        "layout": "bullets",
+        "heading": "El desastre",
+        "items": [
+          "3.000 encargadas",
+          "1.000 vendidas",
+          "2.000 en el almacén"
+        ],
+        "icon": "📦"
+      }
+    },
+    {
+      "section": "La crisis",
+      "narration": "Y aquí está el dato sorpresa de esta historia. La solución no fue fabricar nada nuevo. Arakawa pidió a Japón un juego que pudiera instalarse dentro de esas mismas máquinas fallidas. Y Yamauchi le dio el encargo a un artista de la casa, Shigeru Miyamoto, que había dibujado el arte de Radar Scope, pero nunca había creado un juego.",
+      "visual_query": "game designer sketch",
+      "card": {
+        "layout": "quote",
+        "heading": "Reciclar el fracaso",
+        "items": [
+          "Juego nuevo, máquina vieja"
+        ],
+        "icon": "♻️"
+      },
+      "photo": "Shigeru Miyamoto",
+      "photo_caption": "Shigeru Miyamoto"
+    },
+    {
+      "section": "La crisis",
+      "narration": "Miyamoto creó una historia: un gorila que rapta a una chica y un carpintero que sube por andamios saltando barriles para rescatarla. Lo llamó Donkey Kong. En Estados Unidos, un pequeño equipo, con Arakawa y su mujer incluidos, cambió los chips y los adhesivos de más de dos mil máquinas.",
+      "visual_query": "Donkey Kong arcade",
+      "card": {
+        "layout": "steps",
+        "heading": "Así nació Donkey Kong",
+        "items": [
+          "Un gorila",
+          "Un carpintero",
+          "Barriles y andamios"
+        ],
+        "icon": "🛢️"
+      },
+      "photo": "Donkey Kong arcade",
+      "photo_caption": "Máquina recreativa de Donkey Kong (1981)"
+    },
+    {
+      "section": "La crisis",
+      "narration": "Las máquinas se vendieron enseguida, y Nintendo tuvo que fabricar miles más. El fracaso que iba a hundir a la filial americana se había convertido, en pocos meses, en su mayor éxito. Donkey Kong se convirtió en la recreativa que más dinero recaudó en 1981 y en 1982. Y aquel carpintero sin nombre acabaría llamándose Mario. Miyamoto, el artista que nunca había hecho un juego, se convertiría en uno de los diseñadores más influyentes de la historia, el creador de Mario y de Zelda.",
+      "visual_query": "retro pixel art hero",
+      "card": {
+        "layout": "title",
+        "heading": "Nace Mario",
+        "items": [
+          "El carpintero de Donkey Kong"
+        ],
+        "icon": "🍄"
+      }
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Con el dinero de las recreativas, Nintendo dio el gran salto: una consola para el salón de casa. El 15 de julio de 1983 lanzó en Japón la Family Computer, la Famicom, a un precio de 14.800 yenes. Fue un éxito inmediato en Japón, y convirtió a la antigua fábrica de naipes en una empresa de videojuegos de verdad.",
+      "visual_query": "Famicom console",
+      "card": {
+        "layout": "title",
+        "heading": "15 de julio de 1983",
+        "items": [
+          "Nace la Famicom"
+        ],
+        "icon": "🎮"
+      },
+      "photo": "Famicom",
+      "photo_caption": "Family Computer (Famicom), 1983"
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Pero llevarla a Estados Unidos parecía una locura. Allí el mercado del videojuego acababa de hundirse en la gran crisis de 1983, y muchas tiendas no querían ni oír hablar de consolas. Para convencerlas, Nintendo hizo una prueba en Nueva York en octubre de 1985 con una oferta difícil de rechazar: las tiendas solo pagarían por las consolas que vendieran.",
+      "visual_query": "New York 1985 toy store",
+      "card": {
+        "layout": "bullets",
+        "heading": "La prueba de Nueva York",
+        "items": [
+          "Octubre de 1985",
+          "Mercado hundido",
+          "Pagar solo lo vendido"
+        ],
+        "icon": "🗽"
+      }
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Y había otro truco. Para que no pareciera una consola más, de esas que habían arruinado a las tiendas, Nintendo la presentó casi como un juguete, acompañada de una pistola de luz y de un pequeño robot llamado R.O.B. El robot apenas tenía juegos, pero sirvió para que las jugueterías le hicieran sitio en sus estanterías.",
+      "visual_query": "retro toy robot",
+      "card": {
+        "layout": "bullets",
+        "heading": "Disfrazada de juguete",
+        "items": [
+          "Pistola de luz",
+          "El robot R.O.B.",
+          "Estanterías de juguetes"
+        ],
+        "icon": "🤖"
+      },
+      "photo": "R.O.B.",
+      "photo_caption": "El robot R.O.B. de Nintendo"
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Funcionó. La consola, rebautizada como Nintendo Entertainment System, se extendió por todo el país, y junto a ella, Super Mario Bros. Entre la Famicom y la NES, Nintendo vendió casi 62 millones de consolas en todo el mundo, según sus propios datos.",
+      "visual_query": "NES console controller",
+      "card": {
+        "layout": "number",
+        "heading": "61,91 millones",
+        "items": [
+          "Famicom y NES vendidas"
+        ],
+        "icon": "🕹️"
+      },
+      "photo": "Nintendo Entertainment System",
+      "photo_caption": "Nintendo Entertainment System (NES)"
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Super Mario Bros., lanzado en 1985, cambió lo que la gente esperaba de un videojuego. Ya no era una pantalla fija en la que sumar puntos: era un mundo que se recorría de izquierda a derecha, con secretos, niveles distintos y un final. Muchos niños de los ochenta descubrieron los videojuegos con ese juego.",
+      "visual_query": "retro platform game",
+      "card": {
+        "layout": "title",
+        "heading": "Super Mario Bros.",
+        "items": [
+          "1985: un mundo para recorrer"
+        ],
+        "icon": "🍄"
+      }
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Y entonces volvió Gunpei Yokoi con su tecnología marchita. En 1989 lanzó la Game Boy: pantalla en blanco y negro, verdosa, mucho menos potente que algunas rivales a color. Pero era barata, aguantaba muchas horas con pilas y venía con Tetris. Nintendo vendió 118,69 millones.",
+      "visual_query": "Game Boy original",
+      "card": {
+        "layout": "number",
+        "heading": "118,69 millones",
+        "items": [
+          "Game Boy (1989)"
+        ],
+        "icon": "🔋"
+      },
+      "photo": "Game Boy",
+      "photo_caption": "Game Boy (1989)"
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Unos años más tarde, en 1996, llegó a la Game Boy un juego de criaturas para coleccionar e intercambiar con los amigos mediante un cable: Pokémon. Aquella consola en blanco y negro, que ya tenía años, encontró una segunda juventud gracias a una buena idea.",
+      "visual_query": "trading game cards kids",
+      "card": {
+        "layout": "title",
+        "heading": "Pokémon",
+        "items": [
+          "Segunda vida para la Game Boy"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Pero la historia de Yokoi tiene un final amargo. En 1995 lanzó la Virtual Boy, una consola de visión en tres dimensiones con gráficos rojos sobre fondo negro. Fue uno de los mayores fracasos de Nintendo. Yokoi dejó la empresa poco después, y en 1997 murió en un accidente de tráfico.",
+      "visual_query": "red display retro 3d",
+      "card": {
+        "layout": "quote",
+        "heading": "La Virtual Boy",
+        "items": [
+          "El fracaso de 1995"
+        ],
+        "icon": "🥽"
+      },
+      "photo": "Virtual Boy",
+      "photo_caption": "Virtual Boy (1995)"
+    },
+    {
+      "section": "Las consolas",
+      "narration": "Esa sería la gran lección de Nintendo, aunque tardaría en aprenderla del todo: no necesitaba la máquina más potente. Necesitaba la idea más divertida.",
+      "visual_query": "family playing video games",
+      "card": {
+        "layout": "quote",
+        "heading": "La idea más divertida",
+        "items": [
+          "No la máquina más potente"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "Las caídas",
+      "narration": "Porque Nintendo también tuvo años malos. En los noventa y principios de los dos mil perdió terreno frente a Sony y su PlayStation. En mayo de 2002, Yamauchi se retiró y le sucedió Satoru Iwata, un programador que había empezado haciendo juegos.",
+      "visual_query": "video game developer office",
+      "card": {
+        "layout": "title",
+        "heading": "Satoru Iwata",
+        "items": [
+          "Presidente desde 2002"
+        ],
+        "icon": "🧑‍💻"
+      },
+      "photo": "Satoru Iwata",
+      "photo_caption": "Satoru Iwata"
+    },
+    {
+      "section": "Las caídas",
+      "narration": "Y en la práctica, Iwata volvió a la filosofía de Yokoi. La Nintendo DS, con dos pantallas y una táctil, vendió 154,02 millones de unidades. Y la Wii, con su mando que detectaba el movimiento, llevó los videojuegos a abuelos y familias enteras: 101,63 millones de consolas. Ninguna era la más potente de su generación.",
+      "visual_query": "family playing motion controller",
+      "card": {
+        "layout": "bullets",
+        "heading": "La era Iwata",
+        "items": [
+          "DS: 154,02 millones",
+          "Wii: 101,63 millones"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Las caídas",
+      "narration": "Pero después llegó la Wii U, en 2012, y fue un tropiezo serio: solo 13,56 millones de unidades. Su nombre se parecía tanto al de la Wii que, en mi opinión, mucha gente ni siquiera entendió que era una consola nueva y no un simple accesorio. Y su mando con pantalla encarecía el aparato sin que quedara claro para qué servía. Nintendo, por primera vez en su historia, registró pérdidas operativas varios años seguidos. Muchos accionistas pidieron la cabeza de Iwata. Él asumió la responsabilidad públicamente y se redujo el sueldo, pero se negó a dimitir. Y en lugar de rendirse, empezó a preparar la siguiente consola.",
+      "visual_query": "falling stock chart red",
+      "card": {
+        "layout": "number",
+        "heading": "13,56 millones",
+        "items": [
+          "Wii U, el gran tropiezo"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Las caídas",
+      "narration": "Hiroshi Yamauchi, el presidente de 22 años que lo había empezado todo, murió en 2013, a los 85. E Iwata tampoco llegó a ver la recuperación. Murió en julio de 2015, con solo 55 años, por un tumor en las vías biliares. Fue un golpe enorme para la empresa y para millones de jugadores que lo admiraban.",
+      "visual_query": "candle memorial",
+      "card": {
+        "layout": "quote",
+        "heading": "Satoru Iwata",
+        "items": [
+          "1959 - 2015"
+        ],
+        "icon": "🕯️"
+      }
+    },
+    {
+      "section": "El regreso",
+      "narration": "En 2017 llegó la Nintendo Switch: una consola que se juega en la tele y que se lleva en la mano. Otra vez, nada de potencia bruta: una idea sencilla, bien ejecutada, con los juegos de siempre, Mario y Zelda, y la posibilidad de jugar en el sofá, en el tren o con un amigo, compartiendo los mandos. Según los datos de Nintendo, ha vendido más de 156 millones de unidades, a la altura de las consolas más vendidas de la historia.",
+      "visual_query": "Nintendo Switch handheld",
+      "card": {
+        "layout": "number",
+        "heading": "156,59 millones",
+        "items": [
+          "Nintendo Switch"
+        ],
+        "icon": "🔀"
+      },
+      "photo": "Nintendo Switch",
+      "photo_caption": "Nintendo Switch (2017)"
+    },
+    {
+      "section": "El regreso",
+      "narration": "Y su sucesora, la Switch 2, se lanzó el 5 de junio de 2025 y vendió más de 3,5 millones de unidades en sus primeros cuatro días, el mejor lanzamiento de la historia de Nintendo. A 31 de marzo de 2026, ya iba por casi 20 millones. La empresa que en los años sesenta vendía comida instantánea y servicios de taxi vive hoy uno de los mejores momentos de toda su historia.",
+      "visual_query": "video game console launch store",
+      "card": {
+        "layout": "bullets",
+        "heading": "Switch 2",
+        "items": [
+          "3,5 millones en 4 días",
+          "19,86 millones a marzo de 2026"
+        ],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Ahora, mi opinión. Nintendo ha sobrevivido más de 135 años a guerras, a crisis, a sus propios negocios absurdos y a rivales mucho más grandes. Y creo que el secreto no es que acierte siempre. Al contrario: se ha equivocado muchísimo. Taxis, hoteles, Radar Scope, Virtual Boy, Wii U. Pocas empresas tienen una lista de fracasos tan larga y tan pública.",
+      "visual_query": "thinking person silhouette",
+      "card": {
+        "layout": "quote",
+        "heading": "No acierta siempre",
+        "items": [
+          "Pero sabe volver a su esencia"
+        ],
+        "icon": "💭"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "El secreto es que, cada vez que se pierde, vuelve a la misma idea: ganar con imaginación, no con potencia. Cuando intentó ser otra cosa, como una empresa de taxis, o cuando perdió el rumbo con la Wii U, le fue mal. Cuando volvió a la tecnología marchita de Yokoi, ganó. La Game Boy no era la portátil más potente. La Wii tampoco era la consola más potente. La Switch tampoco. Pero las tres dieron a la gente una forma nueva de jugar.",
+      "visual_query": "road sign direction",
+      "card": {
+        "layout": "steps",
+        "heading": "Cuándo gana Nintendo",
+        "items": [
+          "Game Boy",
+          "DS y Wii",
+          "Switch"
+        ],
+        "icon": "🏆"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Y hay otra lección escondida en Donkey Kong: a veces la salida de un fracaso está dentro del propio fracaso. Dos mil máquinas que nadie quería se convirtieron en el nacimiento de Mario. No hizo falta empezar de cero; hizo falta mirar lo mismo de otra forma. Y eso, sinceramente, vale para cualquier proyecto que se te haya atascado: antes de tirarlo todo, pregúntate qué otra cosa podría ser.",
+      "visual_query": "light at end of tunnel",
+      "card": {
+        "layout": "quote",
+        "heading": "Mirar lo mismo de otra forma",
+        "items": [
+          "De Radar Scope a Donkey Kong"
+        ],
+        "icon": "🔄"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Si quieres ver la historia contraria, la de una empresa que dominó su mercado y no supo reinventarse a tiempo, en el canal tienes el documental de Nokia. Y cuéntame en los comentarios: ¿cuál fue tu primera consola de Nintendo? Nos vemos el próximo martes en TecnoHistoria.",
+      "visual_query": "retro game console collection",
+      "card": {
+        "layout": "title",
+        "heading": "¿Cuál fue tu primera Nintendo?",
+        "items": [
+          "Cuéntamelo en los comentarios"
+        ],
+        "icon": "💬"
+      }
+    }
+  ],
+  "playlists": [
+    "historias"
+  ],
+  "full_description": "Nintendo nació en 1889 fabricando cartas pintadas a mano en Kioto… y hoy es una de las empresas de videojuegos más importantes del mundo. Esta es la historia completa de Nintendo, con sus fracasos y sus apuestas imposibles.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nEn este documental de TecnoHistoria recorremos más de 135 años: las cartas hanafuda de Fusajiro Yamauchi, la llegada de Hiroshi Yamauchi con 22 años, los extraños negocios de los años sesenta (taxis, comida instantánea y hasta un hotel por horas), la Ultra Hand de Gunpei Yokoi y su filosofía de la «tecnología marchita», las Game & Watch y el fracaso de Radar Scope, que acabó dando origen a Donkey Kong y a Mario.\n\nDespués, las consolas: la Famicom de 1983, la arriesgada llegada de la NES a Estados Unidos tras la crisis del videojuego, la Game Boy, la DS y la Wii de Satoru Iwata, el tropiezo de la Wii U y el regreso con Nintendo Switch y Switch 2. Todas las cifras de ventas proceden de los datos oficiales de Nintendo y de las fuentes enlazadas abajo.\n\nAl final te doy mi opinión sobre la verdadera lección de Nintendo: por qué gana justo cuando no intenta ser la consola más potente.\n\n¿Cuál fue tu primera consola de Nintendo? Cuéntamelo en los comentarios y suscríbete a TecnoHistoria: cada martes, un documental nuevo sobre la historia de la tecnología.\n\nCapítulos:\n0:00 Gancho\n0:34 La pregunta\n1:12 Orígenes\n2:26 Los años perdidos\n3:40 Los juguetes\n5:20 La crisis\n7:09 Las consolas\n10:07 Las caídas\n11:52 El regreso\n12:45 La lección\n14:07 Cierre\n\nFuentes:\nhttps://en.wikipedia.org/wiki/History_of_Nintendo\nhttps://moneyweek.com/349214/23-september-1889-nintendo-starts-making-playing-cards\nhttps://www.superjumpmagazine.com/nintendos-road-to-the-nes/\nhttps://en.wikipedia.org/wiki/Gunpei_Yokoi\nhttps://en.wikipedia.org/wiki/Radar_Scope\nhttps://kotaku.com/happy-30th-birthday-nintendo-entertainment-system-1737218698\nhttps://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html\nhttps://www.pbs.org/newshour/arts/nintendo-president-satoru-iwata-dies-55\nhttps://www.videogameschronicle.com/news/nintendo-switch-2-sells-3-5-million-in-4-days-likely-the-biggest-console-launch-ever\n\n#Nintendo #HistoriaDeLosVideojuegos #TecnoHistoria",
+  "duration_s": 864.482,
+  "image_credits": []
+}
