@@ -116,9 +116,19 @@ def set_contact(url: str) -> None:
 _last_call = [0.0]
 
 
-def _wm_get(url: str, retries: int = 7, **kw) -> requests.Response:
+_wm_fails = [0]  # fallos seguidos: si Wikimedia nos limita, se deja de usar en este render
+WM_MAX_FAILS = 4
+
+
+class WikimediaUnavailable(requests.HTTPError):
+    pass
+
+
+def _wm_get(url: str, retries: int = 3, **kw) -> requests.Response:
     """GET educado a Wikimedia: espaciado entre peticiones y reintentos ante 429/5xx."""
     import time
+    if _wm_fails[0] >= WM_MAX_FAILS:
+        raise WikimediaUnavailable("Wikimedia limita las peticiones: se sigue sin fotos")
     for attempt in range(retries):
         wait = 4.0 - (time.time() - _last_call[0])
         if wait > 0:
@@ -130,10 +140,16 @@ def _wm_get(url: str, retries: int = 7, **kw) -> requests.Response:
                 wait = float(r.headers.get("Retry-After") or 0)
             except ValueError:
                 wait = 0
-            time.sleep(min(90, max(wait + 1, 5 * 2 ** attempt)))
+            if attempt < retries - 1:
+                time.sleep(min(35, max(wait + 1, 5 * 2 ** attempt)))
             continue
         r.raise_for_status()
+        if "upload.wikimedia.org" in url:
+            _wm_fails[0] = 0
         return r
+    _wm_fails[0] += 1
+    if _wm_fails[0] >= WM_MAX_FAILS:
+        log.warning("Wikimedia sigue limitando (%s): el resto de escenas irán sin foto", r.status_code)
     r.raise_for_status()
     return r
 FREE_LICENSES = ("public domain", "pd", "cc0", "cc by", "cc-by", "no restrictions")
@@ -188,8 +204,10 @@ def wikimedia_photo(query: str, out: Path, used: set) -> tuple[Path, dict] | Non
         r = None
         for size in ([1280, 960] if ii.get("width", 0) > 1280 else [960]):
             try:
-                r = _wm_get(re.sub(r"/\d+px-", f"/{size}px-", thumb), timeout=120, retries=4)
+                r = _wm_get(re.sub(r"/\d+px-", f"/{size}px-", thumb), timeout=120, retries=2)
                 break
+            except WikimediaUnavailable:
+                raise
             except requests.HTTPError:
                 r = None
         if r is None:

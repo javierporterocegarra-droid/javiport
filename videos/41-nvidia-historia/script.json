@@ -1,0 +1,569 @@
+{
+  "topic": "Historia de NVIDIA: del Denny's de 1993 y la casi quiebra a la empresa más valiosa del mundo gracias a la IA",
+  "title": "NVIDIA: de casi quebrar a la empresa más valiosa del mundo",
+  "description": "La historia de NVIDIA: de casi quebrar a convertirse en la primera empresa del mundo valorada en más de 5 billones de dólares. Un documental sobre cómo una empresa de tarjetas gráficas para videojuegos acabó siendo el motor de la inteligencia artificial.\n\nNVIDIA nació en 1993 de una conversación en un Denny's entre Jensen Huang, Chris Malachowsky y Curtis Priem. Su primer chip, el NV1, fue un fracaso, y la empresa llegó a tener dinero para pagar solo un mes de nóminas. La salvó el RIVA 128 en 1997, y en 1999 lanzó la GeForce 256, presentada como la primera GPU.\n\nEn 2006 hizo la apuesta que lo cambió todo: CUDA, una forma de usar sus chips para cualquier cálculo. Durante años casi no dio dinero, hasta que en 2012 AlexNet, entrenada con dos tarjetas GTX 580, demostró que las redes neuronales funcionaban. En 2016 Jensen Huang entregó el primer DGX-1 a OpenAI, y en 2022 llegó ChatGPT.\n\nHoy cerca del 90 % de sus ingresos viene de los centros de datos. Vemos también sus riesgos y la lección que deja frente a Nokia o Blockbuster.\n\nSuscríbete a TecnoHistoria: un documental de historia de la tecnología cada martes.",
+  "tags": [
+    "nvidia",
+    "historia de nvidia",
+    "jensen huang",
+    "nvidia documental",
+    "gpu",
+    "cuda",
+    "inteligencia artificial",
+    "geforce",
+    "chatgpt",
+    "openai",
+    "historia de empresas",
+    "tarjetas gráficas",
+    "tecnohistoria",
+    "historia de la tecnología"
+  ],
+  "hashtags": [
+    "#NVIDIA",
+    "#IA",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "Casi quiebra",
+  "thumbnail_badge": "5 billones $",
+  "thumbnail_icon": "🟩",
+  "thumbnail_photo": "Jensen Huang",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuál fue tu primera tarjeta gráfica o tu primera consola? 👇",
+  "playlists": [
+    "historias"
+  ],
+  "sources": [
+    "https://www.sequoiacap.com/?p=16103",
+    "https://rallies.ai/news/nvidias-napkin-sketch-founding-and-sega-funded-riva-128-save-propel-trillion-dollar-growth",
+    "https://en.ara.cat/business/from-waiter-to-creator-of-the-ai-brain-the-story-of-the-founder-of-nvidia_1_5667327.html",
+    "https://blogs.nvidia.com/blog/first-gpu-gaming-ai",
+    "https://www.jonpeddie.com/news/part-iii-the-evolution-to-ai-gpus/",
+    "https://engineers.beehiiv.com/p/two-gaming-cards-in-a-bedroom-how-alexnet-started-modern-ai",
+    "https://www.ktvu.com/news/powered-rise-ai-nvidia-just-became-first-company-ever-valued-over-5-trillion",
+    "https://www.tomshardware.com/pc-components/gpus/nvidia-posts-record-usd215-billion-annual-revenue-in-latest-quarterly-earnings-report-gaming-gpus-now-only-11-45-percent-of-revenue",
+    "https://www.marketscreener.com/news/nvidia-annual-report-for-fiscal-year-ending-january-25-2026-form-10-k-ce7e5cd8d18af32d"
+  ],
+  "publish_at": "2026-12-08T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Veintinueve de octubre de 2025. Por primera vez en la historia, una empresa vale en bolsa más de cinco billones de dólares. No es Apple. No es Microsoft. Es una compañía que hace treinta años estuvo a un mes de no poder pagar las nóminas.",
+      "visual_query": "stock market screen",
+      "card": {
+        "layout": "number",
+        "heading": "5 billones $",
+        "items": [
+          "Primera empresa en lograrlo"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Gancho",
+      "narration": "Esa empresa nació en una mesa de un restaurante de carretera, fabricaba tarjetas gráficas para videojuegos y casi quiebra con su primer producto. Hoy, casi toda la inteligencia artificial del mundo funciona con sus chips. Se llama NVIDIA.",
+      "visual_query": "Nvidia headquarters",
+      "card": {
+        "layout": "title",
+        "heading": "NVIDIA",
+        "items": [
+          "De los videojuegos a la IA"
+        ],
+        "icon": "🟩"
+      },
+      "photo": "Nvidia headquarters Santa Clara",
+      "photo_caption": "Sede de NVIDIA en Santa Clara"
+    },
+    {
+      "section": "La pregunta",
+      "narration": "¿Cómo pasa una empresa de hacer gráficos para juegos a ser el motor de ChatGPT? La respuesta es una apuesta que durante más de diez años casi nadie entendió.",
+      "visual_query": "chess strategy",
+      "card": {
+        "layout": "title",
+        "heading": "La gran apuesta",
+        "items": [
+          "Que nadie entendió"
+        ],
+        "icon": "🎲"
+      }
+    },
+    {
+      "section": "La promesa",
+      "narration": "En este documental vas a ver los tres momentos en los que NVIDIA pudo desaparecer, la decisión que lo cambió todo y qué nos enseña sobre apostar por el futuro antes que nadie.",
+      "visual_query": "circuit board",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que vas a ver",
+        "items": [
+          "Casi quiebra",
+          "La apuesta",
+          "El imperio"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Acto 1: el restaurante",
+      "narration": "California, 1993. Tres ingenieros se reúnen en un Denny's, una cadena de restaurantes de carretera, en San José. Jensen Huang, de treinta años, trabajaba en una empresa de chips. Con él están Chris Malachowsky y Curtis Priem, que venían de Sun Microsystems.",
+      "visual_query": "american diner restaurant",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los fundadores",
+        "items": [
+          "Jensen Huang",
+          "Chris Malachowsky",
+          "Curtis Priem"
+        ],
+        "icon": "☕"
+      },
+      "photo": "Jensen Huang",
+      "photo_caption": "Jensen Huang"
+    },
+    {
+      "section": "Acto 1: el restaurante",
+      "narration": "Hay un detalle curioso: Jensen Huang había trabajado de adolescente en un Denny's, fregando platos y sirviendo mesas. Años después, en un restaurante de esa misma cadena, planeó la empresa que lo haría uno de los hombres más ricos del mundo.",
+      "visual_query": "waiter restaurant",
+      "card": {
+        "layout": "quote",
+        "heading": "Del Denny's al chip",
+        "items": [
+          "Huang fue camarero"
+        ],
+        "icon": "🍳"
+      }
+    },
+    {
+      "section": "Acto 1: el restaurante",
+      "narration": "Su idea: los ordenadores iban a necesitar chips especiales para dibujar gráficos en tres dimensiones, sobre todo para videojuegos. Un procesador normal hace muchas tareas distintas de una en una. Los gráficos necesitan hacer millones de cálculos sencillos a la vez.",
+      "visual_query": "3d graphics render",
+      "card": {
+        "layout": "title",
+        "heading": "La idea",
+        "items": [
+          "Chips solo para gráficos"
+        ],
+        "icon": "🎮"
+      }
+    },
+    {
+      "section": "Acto 1: el restaurante",
+      "narration": "En abril de 1993 fundaron NVIDIA. El nombre viene de invidia, que en latín significa envidia. Querían que sus chips dieran envidia a la competencia.",
+      "visual_query": "startup office",
+      "card": {
+        "layout": "number",
+        "heading": "1993",
+        "items": [
+          "Nace NVIDIA"
+        ],
+        "icon": "💚"
+      }
+    },
+    {
+      "section": "Primera casi muerte",
+      "narration": "Su primer chip, el NV1, salió en 1995 y fue un fracaso. Era muy ambicioso, pero dibujaba los gráficos de una forma distinta a la que estaba imponiendo Microsoft con su tecnología DirectX. Los desarrolladores de juegos no lo quisieron.",
+      "visual_query": "old computer graphics card",
+      "card": {
+        "layout": "title",
+        "heading": "El NV1",
+        "items": [
+          "Un fracaso caro"
+        ],
+        "icon": "💥"
+      }
+    },
+    {
+      "section": "Primera casi muerte",
+      "narration": "Para colmo, NVIDIA tenía un contrato con Sega para el chip de su siguiente consola, y el diseño iba por el mismo camino equivocado. Según cuentan las historias de la empresa, Huang acabó reconociendo ante Sega que aquello no iba a funcionar.",
+      "visual_query": "retro game console",
+      "card": {
+        "layout": "bullets",
+        "heading": "El contrato de Sega",
+        "items": [
+          "Diseño equivocado",
+          "Huang lo reconoce"
+        ],
+        "icon": "🕹️"
+      }
+    },
+    {
+      "section": "Primera casi muerte",
+      "narration": "Y Sega hizo algo poco habitual: en lugar de hundirles, invirtió unos cinco millones de dólares en NVIDIA. Aquel dinero les dio oxígeno. Pero muy poco: la empresa llegó a quedarse con dinero para pagar solo un mes de nóminas.",
+      "visual_query": "empty bank account",
+      "card": {
+        "layout": "number",
+        "heading": "1 mes",
+        "items": [
+          "De dinero para nóminas"
+        ],
+        "icon": "⏳"
+      }
+    },
+    {
+      "section": "Primera casi muerte",
+      "narration": "Huang despidió a gran parte de la plantilla y apostó todo a un solo chip nuevo, sin tiempo para fabricar prototipos de prueba. Si fallaba, NVIDIA desaparecía.",
+      "visual_query": "poker cards",
+      "card": {
+        "layout": "title",
+        "heading": "Todo a una carta",
+        "items": [
+          "Sin prototipos"
+        ],
+        "icon": "🃏"
+      }
+    },
+    {
+      "section": "La salvación",
+      "narration": "Ese chip fue el RIVA 128, lanzado en agosto de 1997. Funcionó. NVIDIA vendió alrededor de un millón de unidades en cuatro meses. Había sobrevivido, por los pelos.",
+      "visual_query": "graphics card",
+      "card": {
+        "layout": "number",
+        "heading": "1 millón",
+        "items": [
+          "RIVA 128 en 4 meses"
+        ],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "Suscríbete",
+      "narration": "Si te gustan estas historias de empresas que estuvieron a punto de desaparecer, suscríbete a TecnoHistoria. Cada martes hay un documental nuevo.",
+      "visual_query": "subscribe",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Un documental cada martes"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "Acto 2: la GPU",
+      "narration": "En enero de 1999, NVIDIA salió a bolsa. Y en octubre de ese año lanzó la GeForce 256, que presentó como la primera GPU del mundo, la unidad de procesamiento gráfico. Era un chip que se encargaba de todo el trabajo de los gráficos y liberaba al procesador principal.",
+      "visual_query": "GeForce 256",
+      "card": {
+        "layout": "number",
+        "heading": "1999",
+        "items": [
+          "GeForce 256: la primera GPU"
+        ],
+        "icon": "🖥️"
+      },
+      "photo": "GeForce 256",
+      "photo_caption": "Tarjeta GeForce 256 (1999)"
+    },
+    {
+      "section": "Acto 2: la GPU",
+      "narration": "Los jugadores se volvieron locos. Las GeForce se convirtieron en las tarjetas gráficas más deseadas, y en 2001 NVIDIA fabricó el chip gráfico de la primera Xbox de Microsoft. Ya no era una empresa pequeña: era el rey de los gráficos.",
+      "visual_query": "Xbox console",
+      "card": {
+        "layout": "bullets",
+        "heading": "El rey de los gráficos",
+        "items": [
+          "GeForce",
+          "La primera Xbox"
+        ],
+        "icon": "👑"
+      },
+      "photo": "Xbox",
+      "photo_caption": "La primera Xbox (2001)"
+    },
+    {
+      "section": "Acto 2: la GPU",
+      "narration": "De aquella época de casi quiebra le quedó a Jensen Huang una frase que repitió durante años a sus empleados: nuestra empresa está a treinta días de desaparecer. No lo decía como broma, sino como recordatorio de que el éxito de hoy no garantiza nada mañana.",
+      "visual_query": "office team meeting",
+      "card": {
+        "layout": "quote",
+        "heading": "«A 30 días de desaparecer»",
+        "items": [
+          "El lema de Jensen Huang"
+        ],
+        "icon": "⏱️"
+      }
+    },
+    {
+      "section": "Acto 2: la apuesta",
+      "narration": "Pero aquí está el giro de esta historia. Unos investigadores empezaron a usar las tarjetas gráficas para algo que no eran juegos: cálculos científicos. Si una GPU podía hacer millones de cálculos sencillos a la vez para dibujar píxeles, también podía hacerlos para simular el clima o analizar proteínas.",
+      "visual_query": "science laboratory computer",
+      "card": {
+        "layout": "title",
+        "heading": "Un uso inesperado",
+        "items": [
+          "Ciencia con tarjetas de juegos"
+        ],
+        "icon": "🔬"
+      }
+    },
+    {
+      "section": "Acto 2: la apuesta",
+      "narration": "El problema era que programarlas para eso era una pesadilla. Así que en noviembre de 2006, NVIDIA lanzó CUDA: una forma de programar sus chips para cualquier tipo de cálculo, no solo gráficos.",
+      "visual_query": "programming code screen",
+      "card": {
+        "layout": "number",
+        "heading": "2006",
+        "items": [
+          "Nace CUDA"
+        ],
+        "icon": "⚙️"
+      }
+    },
+    {
+      "section": "Dato sorpresa",
+      "narration": "Y aquí está el dato sorpresa: durante años, CUDA casi no dio dinero. NVIDIA metió esa tecnología en todas sus tarjetas, lo que encarecía cada chip, para un mercado que apenas existía. Muchos analistas no entendían por qué gastaba tanto en algo que no usaban los jugadores.",
+      "visual_query": "skeptical analyst",
+      "card": {
+        "layout": "quote",
+        "heading": "Años sin dar dinero",
+        "items": [
+          "La apuesta de CUDA"
+        ],
+        "icon": "🤔"
+      }
+    },
+    {
+      "section": "Acto 2: la apuesta",
+      "narration": "Huang lo defendía como una apuesta a muy largo plazo: si dabas a los científicos una herramienta potente, acabarían encontrando algo grande. Hacía falta paciencia. Y un poco de suerte.",
+      "visual_query": "seedling growth",
+      "card": {
+        "layout": "title",
+        "heading": "Paciencia",
+        "items": [
+          "Apostar a largo plazo"
+        ],
+        "icon": "🌱"
+      }
+    },
+    {
+      "section": "Acto 2: la apuesta",
+      "narration": "Mientras tanto, NVIDIA vivió otros sustos. A finales de 2008, con la crisis financiera, tuvo problemas con chips defectuosos en portátiles y sus acciones se hundieron. Durante unos años parecía una empresa más de componentes, sin un gran futuro por delante.",
+      "visual_query": "falling stock chart",
+      "card": {
+        "layout": "title",
+        "heading": "Otro susto",
+        "items": [
+          "La crisis de 2008"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Acto 3: el big bang de la IA",
+      "narration": "La suerte llegó en 2012. En la Universidad de Toronto, un equipo con Alex Krizhevsky, Ilya Sutskever y Geoffrey Hinton entrenó una red neuronal para reconocer imágenes. La llamaron AlexNet. Y la entrenaron con dos tarjetas gráficas de NVIDIA para videojuegos, las GTX 580.",
+      "visual_query": "neural network",
+      "card": {
+        "layout": "bullets",
+        "heading": "AlexNet, 2012",
+        "items": [
+          "Universidad de Toronto",
+          "2 tarjetas GTX 580"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Acto 3: el big bang de la IA",
+      "narration": "AlexNet arrasó en ImageNet, la gran competición de reconocimiento de imágenes, con una ventaja de más de diez puntos sobre el segundo. Fue el momento en que el mundo entendió que las redes neuronales funcionaban. Y que funcionaban con GPU.",
+      "visual_query": "image recognition",
+      "card": {
+        "layout": "number",
+        "heading": "+10 puntos",
+        "items": [
+          "Ventaja de AlexNet"
+        ],
+        "icon": "🏆"
+      }
+    },
+    {
+      "section": "Acto 3: el big bang de la IA",
+      "narration": "De repente, todos los investigadores de inteligencia artificial querían chips de NVIDIA. Y ahí estaba CUDA, con años de ventaja, herramientas maduras y miles de programadores que ya sabían usarlo. La apuesta que nadie entendía empezaba a pagar.",
+      "visual_query": "data center servers",
+      "card": {
+        "layout": "title",
+        "heading": "La apuesta paga",
+        "items": [
+          "CUDA tenía años de ventaja"
+        ],
+        "icon": "💰"
+      }
+    },
+    {
+      "section": "Acto 3: el big bang de la IA",
+      "narration": "En 2016, Jensen Huang entregó en persona el primer superordenador de IA de NVIDIA, el DGX-1, a un pequeño laboratorio de San Francisco que entonces casi nadie conocía. Se llamaba OpenAI.",
+      "visual_query": "supercomputer",
+      "card": {
+        "layout": "quote",
+        "heading": "Un regalo para OpenAI",
+        "items": [
+          "DGX-1, 2016"
+        ],
+        "icon": "🎁"
+      }
+    },
+    {
+      "section": "Acto 3: el big bang de la IA",
+      "narration": "El camino tampoco fue recto. En 2018, el auge de las criptomonedas disparó la venta de tarjetas gráficas para minar. Cuando las criptomonedas se desplomaron, NVIDIA se quedó con un montón de tarjetas sin vender y su acción perdió cerca de la mitad de su valor en pocos meses.",
+      "visual_query": "cryptocurrency mining rig",
+      "card": {
+        "layout": "number",
+        "heading": "2018",
+        "items": [
+          "El golpe de las criptomonedas"
+        ],
+        "icon": "🪙"
+      }
+    },
+    {
+      "section": "Acto 3: el big bang de la IA",
+      "narration": "Y en 2020 intentó la mayor compra de su historia: la británica Arm, cuyos diseños están en casi todos los móviles del mundo, por unos cuarenta mil millones de dólares. Los reguladores de varios países se opusieron y en 2022 NVIDIA tuvo que renunciar.",
+      "visual_query": "smartphone chip",
+      "card": {
+        "layout": "bullets",
+        "heading": "La compra fallida",
+        "items": [
+          "Arm por ~40.000 M$",
+          "Bloqueada por reguladores",
+          "Cancelada en 2022"
+        ],
+        "icon": "🚫"
+      }
+    },
+    {
+      "section": "Acto 3: el big bang de la IA",
+      "narration": "Seis años después, en noviembre de 2022, ese laboratorio lanzó ChatGPT. Y todas las grandes tecnológicas se lanzaron a construir centros de datos llenos de chips de NVIDIA. La demanda superó durante mucho tiempo a lo que la empresa podía fabricar.",
+      "visual_query": "data center aisle",
+      "card": {
+        "layout": "number",
+        "heading": "2022",
+        "items": [
+          "Llega ChatGPT"
+        ],
+        "icon": "💬"
+      }
+    },
+    {
+      "section": "El imperio",
+      "narration": "Las cifras dan vértigo. En su año fiscal 2026, terminado en enero, NVIDIA ingresó casi doscientos dieciséis mil millones de dólares, un sesenta y cinco por ciento más que el año anterior.",
+      "visual_query": "money chart",
+      "card": {
+        "layout": "number",
+        "heading": "216.000 M$",
+        "items": [
+          "Ingresos año fiscal 2026"
+        ],
+        "icon": "📊"
+      }
+    },
+    {
+      "section": "El imperio",
+      "narration": "Y lo más llamativo: alrededor del noventa por ciento de ese dinero ya viene de los centros de datos, sobre todo de chips para inteligencia artificial. Los videojuegos, el negocio con el que nació, son ahora una parte pequeña.",
+      "visual_query": "server rack",
+      "card": {
+        "layout": "bullets",
+        "heading": "De dónde viene el dinero",
+        "items": [
+          "Centros de datos: ~90 %",
+          "Videojuegos: pequeña parte"
+        ],
+        "icon": "🥧"
+      }
+    },
+    {
+      "section": "El imperio",
+      "narration": "El veintinueve de octubre de 2025 llegó el hito: cinco billones de dólares de valor en bolsa, apenas tres meses después de superar los cuatro billones. La empresa del Denny's se había convertido en la más valiosa del planeta.",
+      "visual_query": "stock exchange",
+      "card": {
+        "layout": "number",
+        "heading": "29/10/2025",
+        "items": [
+          "5 billones de dólares"
+        ],
+        "icon": "🏔️"
+      }
+    },
+    {
+      "section": "Los riesgos",
+      "narration": "Pero ningún imperio es eterno, y NVIDIA tiene riesgos. Depende mucho de pocos clientes: en su último informe anual, un solo cliente directo representaba el veintidós por ciento de sus ventas. Si las grandes tecnológicas gastan menos, lo nota enseguida.",
+      "visual_query": "warning chart",
+      "card": {
+        "layout": "number",
+        "heading": "22 %",
+        "items": [
+          "Ventas a un solo cliente"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Los riesgos",
+      "narration": "Además, sus propios clientes, como Google, Amazon o Microsoft, diseñan ya sus propios chips de IA. Y las tensiones entre Estados Unidos y China limitan a quién puede vender. El reto ahora no es crecer, sino seguir siendo imprescindible.",
+      "visual_query": "microchip closeup",
+      "card": {
+        "layout": "bullets",
+        "heading": "Amenazas",
+        "items": [
+          "Clientes con chips propios",
+          "Tensiones con China",
+          "Dependencia de pocos"
+        ],
+        "icon": "🧱"
+      }
+    },
+    {
+      "section": "El personaje",
+      "narration": "Y en el centro de todo, un personaje muy reconocible: Jensen Huang, siempre con su chaqueta de cuero negra, lleva dirigiendo NVIDIA desde que la fundó en 1993. Más de treinta años al mando, algo rarísimo en las grandes tecnológicas.",
+      "visual_query": "Jensen Huang",
+      "card": {
+        "layout": "number",
+        "heading": "+30 años",
+        "items": [
+          "Huang al frente de NVIDIA"
+        ],
+        "icon": "🧥"
+      },
+      "photo": "Jensen Huang",
+      "photo_caption": "Jensen Huang, cofundador y director de NVIDIA"
+    },
+    {
+      "section": "La lección",
+      "narration": "Mi lección de esta historia: NVIDIA no tuvo éxito por adivinar el futuro de la IA en 1993. Tuvo éxito porque sobrevivió a sus fracasos y porque, en 2006, construyó una herramienta para un futuro que todavía no existía, y la mantuvo durante años aunque no diera dinero.",
+      "visual_query": "light bulb idea",
+      "card": {
+        "layout": "quote",
+        "heading": "Construir antes de que exista",
+        "items": [
+          "La lección de NVIDIA"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Es lo contrario de lo que hicieron Nokia o Blockbuster: ellos protegieron lo que ya tenían. NVIDIA siguió apostando por lo que venía, incluso cuando le costaba dinero.",
+      "visual_query": "crossroads",
+      "card": {
+        "layout": "bullets",
+        "heading": "La diferencia",
+        "items": [
+          "Nokia: protegió",
+          "Blockbuster: protegió",
+          "NVIDIA: apostó"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Si quieres ver la otra cara de la moneda, la de las empresas que tenían el futuro en la mano y lo dejaron escapar, tienes en el canal las historias de Nokia y de Blockbuster. Y cuéntame en los comentarios: ¿cuál fue tu primera tarjeta gráfica o tu primera consola?",
+      "visual_query": "old phone",
+      "card": {
+        "layout": "title",
+        "heading": "Sigue con Nokia",
+        "items": [
+          "Y con Blockbuster"
+        ],
+        "icon": "📱"
+      }
+    }
+  ]
+}

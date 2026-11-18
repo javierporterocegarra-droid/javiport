@@ -1,0 +1,101 @@
+{
+  "topic": "NVIDIA, la empresa más valiosa del mundo, se planeó en un restaurante Denny's y su fundador había trabajado de camarero en esa cadena",
+  "title": "La empresa más valiosa del mundo nació en un restaurante #Shorts",
+  "description": "NVIDIA, la primera empresa en superar los 5 billones de dólares de valor en bolsa, se planeó en 1993 en un restaurante Denny's de San José (California). Su fundador, Jensen Huang, había trabajado de adolescente en esa misma cadena.\n\nLa historia completa de NVIDIA, en el documental de TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "nvidia",
+    "jensen huang",
+    "historia de nvidia",
+    "historia de empresas",
+    "curiosidades",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#NVIDIA",
+    "#Historia",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Sabías que NVIDIA empezó así? ¿Qué otra empresa crees que tiene un origen curioso? 👇",
+  "sources": [
+    "https://en.ara.cat/business/from-waiter-to-creator-of-the-ai-brain-the-story-of-the-founder-of-nvidia_1_5667327.html",
+    "https://www.ktvu.com/news/powered-rise-ai-nvidia-just-became-first-company-ever-valued-over-5-trillion"
+  ],
+  "publish_at": "2026-12-09T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "La empresa más valiosa del mundo nació en la mesa de un restaurante de carretera.",
+      "visual_query": "american diner",
+      "card": {
+        "layout": "title",
+        "heading": "Del restaurante",
+        "items": [
+          "A 5 billones de dólares"
+        ],
+        "icon": "🍳"
+      }
+    },
+    {
+      "section": "El lugar",
+      "narration": "California, 1993. Tres ingenieros se sientan en un Denny's de San José y planean una empresa de chips para gráficos de videojuegos: NVIDIA.",
+      "visual_query": "diner booth",
+      "card": {
+        "layout": "number",
+        "heading": "1993",
+        "items": [
+          "Un Denny's en San José"
+        ],
+        "icon": "☕"
+      }
+    },
+    {
+      "section": "El detalle",
+      "narration": "Lo curioso: uno de ellos, Jensen Huang, había trabajado de adolescente en esa misma cadena, fregando platos y sirviendo mesas.",
+      "visual_query": "Jensen Huang",
+      "card": {
+        "layout": "quote",
+        "heading": "Jensen Huang",
+        "items": [
+          "Fue camarero en Denny's"
+        ],
+        "icon": "🧽"
+      },
+      "photo": "Jensen Huang",
+      "photo_caption": "Jensen Huang"
+    },
+    {
+      "section": "Hoy",
+      "narration": "En octubre de 2025, NVIDIA se convirtió en la primera empresa de la historia en valer más de cinco billones de dólares, gracias a sus chips para inteligencia artificial.",
+      "visual_query": "stock market",
+      "card": {
+        "layout": "number",
+        "heading": "5 billones $",
+        "items": [
+          "Octubre de 2025"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Y antes estuvo a punto de quebrar. La historia completa de NVIDIA, en el canal.",
+      "visual_query": "movie",
+      "card": {
+        "layout": "title",
+        "heading": "La historia completa",
+        "items": [
+          "En el canal"
+        ],
+        "icon": "🎬"
+      }
+    }
+  ]
+}
