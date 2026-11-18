@@ -1,0 +1,785 @@
+{
+  "topic": "Blockbuster pudo comprar Netflix por 50 millones en el año 2000: auge, contraataque y caída del gigante del videoclub",
+  "title": "Blockbuster pudo comprar Netflix por 50 millones… y dijo que no",
+  "description": "Blockbuster pudo comprar Netflix por 50 millones de dólares en el año 2000 y dijo que no. Diez años después, el mayor videoclub del mundo estaba en bancarrota. Esta es la historia completa de Blockbuster y Netflix, y no es tan simple como el meme.\n\nBlockbuster nació en Dallas en 1985, creció hasta más de 9.000 tiendas y en 1994 Viacom lo compró por 8.400 millones de dólares. En 1997, Reed Hastings y Marc Randolph fundaron Netflix con una idea sencilla: películas en DVD por correo, primero por alquiler y después con una suscripción sin multas. En el año 2000 ofrecieron su empresa a Blockbuster por 50 millones y el entonces director ejecutivo, John Antioco, la rechazó.\n\nPero Blockbuster contraatacó: eliminó las multas en 2005 y lanzó Total Access en 2006, un plan que llegó a poner a Netflix contra las cuerdas. ¿Por qué perdió entonces? La deuda, la batalla con el inversor Carl Icahn, el miedo a canibalizar sus tiendas y la llegada del streaming. En 2010 se declaró en bancarrota y hoy solo queda un Blockbuster en el mundo, en Bend (Oregón), mientras Netflix supera los 325 millones de suscriptores.\n\nUna historia de innovación, de decisiones que parecen obvias a posteriori y de la importancia de reinventarse antes de que lo haga otro.\n\nSuscríbete a TecnoHistoria: un documental de historia de la tecnología cada martes.",
+  "tags": [
+    "blockbuster",
+    "netflix",
+    "blockbuster netflix",
+    "historia de netflix",
+    "historia de blockbuster",
+    "reed hastings",
+    "marc randolph",
+    "john antioco",
+    "videoclub",
+    "historia de empresas",
+    "fracasos empresariales",
+    "innovación",
+    "tecnohistoria",
+    "historia de la tecnología"
+  ],
+  "hashtags": [
+    "#Netflix",
+    "#Blockbuster",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "Se rieron de Netflix",
+  "thumbnail_badge": "50 M$",
+  "thumbnail_icon": "📼",
+  "thumbnail_photo": "Blockbuster Video",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Alquilabas películas en Blockbuster o en el videoclub de tu barrio? ¿Cuál fue la última película que alquilaste? 👇",
+  "sources": [
+    "https://www.history.com/this-day-in-history/october-19/first-blockbuster-store-opens",
+    "https://www.fundinguniverse.com/company-histories/blockbuster-inc-history",
+    "https://sports.yahoo.com/blockbuster-ceo-struggled-not-laugh-191553438.html",
+    "https://marketplace.org/2020/09/08/ceo-reed-hastings-on-how-netflix-beat-blockbuster",
+    "https://www.raconteur.net/leadership/blockbusters-ceo-james-keyes-netflix-competition",
+    "https://qz.com/1062888/netflix-was-founded-20-years-ago-today-because-reed-hastings-was-late-a-returning-video",
+    "https://www.nbcnews.com/news/amp/wbna7805560",
+    "https://www.cnbc.com/2020/09/22/how-netflix-almost-lost-the-movie-rental-wars-to-blockbuster.html",
+    "https://commoncog.com/c/cases/blockbuster-vs-netflix/",
+    "https://phys.org/news/2011-04-dish-network-blockbuster-320mn.html",
+    "https://spectrum.ieee.org/the-million-dollar-programming-prize",
+    "https://www.entmerch.org/industry/industry-history.html",
+    "https://en.wikipedia.org/wiki/Redbox",
+    "https://www.npr.org/2011/09/19/140606651/netflix-splits-into-two-companies",
+    "https://www.kunc.org/npr-news/2011-10-10/netflix-kills-qwikster-price-hike-lives-on",
+    "https://bendbulletin.com/?p=636749",
+    "https://au.variety.com/2026/tv/global/netflix-q4-2025-financial-earnings-subscribers-32133/"
+  ],
+  "publish_at": "2026-12-01T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Dallas, septiembre del año 2000. Dos emprendedores de California entran en la sede del mayor videoclub del planeta. Traen una propuesta: que Blockbuster compre su pequeña empresa por cincuenta millones de dólares. Según uno de ellos, el director ejecutivo de Blockbuster tuvo que aguantarse la risa. Esa empresa se llamaba Netflix.",
+      "visual_query": "corporate meeting room",
+      "card": {
+        "layout": "number",
+        "heading": "50 millones",
+        "items": [
+          "El precio de Netflix en 2000"
+        ],
+        "icon": "💵"
+      },
+      "photo": "Blockbuster Video",
+      "photo_caption": "Una tienda Blockbuster"
+    },
+    {
+      "section": "Gancho",
+      "narration": "Diez años después, Blockbuster estaba en bancarrota. Hoy Netflix tiene más de trescientos veinticinco millones de suscriptores. Y de los más de nueve mil videoclubes azules y amarillos que llegó a tener Blockbuster, solo queda uno abierto en todo el mundo.",
+      "visual_query": "empty video store",
+      "card": {
+        "layout": "bullets",
+        "heading": "Diez años después",
+        "items": [
+          "Blockbuster: bancarrota",
+          "Netflix: +325 millones",
+          "Queda 1 tienda"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "La pregunta",
+      "narration": "¿Cómo pasa una empresa de dominar un negocio entero a desaparecer en una década? ¿De verdad fue por reírse de Netflix en una reunión? La respuesta es más interesante que el meme, y tiene lecciones que sirven para cualquier empresa, y también para cualquier persona.",
+      "visual_query": "question mark",
+      "card": {
+        "layout": "title",
+        "heading": "¿Fue solo una risa?",
+        "items": [
+          "La historia real"
+        ],
+        "icon": "🤔"
+      }
+    },
+    {
+      "section": "La promesa",
+      "narration": "En este documental vas a ver cómo nació el gigante del alquiler de películas, cómo dos desconocidos con sobres rojos lo pusieron contra las cuerdas, y el momento exacto en que Blockbuster estuvo a punto de ganar la guerra… y la perdió.",
+      "visual_query": "movie theater",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que vas a ver",
+        "items": [
+          "El ascenso",
+          "El duelo",
+          "La caída"
+        ],
+        "icon": "🎬"
+      }
+    },
+    {
+      "section": "Contexto",
+      "narration": "Para entenderlo hay que volver a los años ochenta. El vídeo doméstico estaba explotando. Por primera vez, la gente podía ver películas en su salón cuando quisiera, con una cinta VHS. Pero alquilarlas era un caos: tiendas de barrio pequeñas, poca variedad y estanterías medio vacías.",
+      "visual_query": "VHS tapes",
+      "card": {
+        "layout": "title",
+        "heading": "Los años del VHS",
+        "items": [
+          "Películas en casa"
+        ],
+        "icon": "📼"
+      },
+      "photo": "VHS cassette",
+      "photo_caption": "Cintas VHS"
+    },
+    {
+      "section": "Acto 1: el ascenso",
+      "narration": "El diecinueve de octubre de 1985, un empresario llamado David Cook abrió en Dallas la primera tienda Blockbuster. No era un videoclub cualquiera: era enorme, luminoso, con miles de cintas ordenadas por géneros y un sistema informático para controlar el inventario.",
+      "visual_query": "video rental store 1980s",
+      "card": {
+        "layout": "number",
+        "heading": "1985",
+        "items": [
+          "Primera tienda, Dallas"
+        ],
+        "icon": "🏪"
+      }
+    },
+    {
+      "section": "Acto 1: el ascenso",
+      "narration": "Según la cadena History, aquella primera tienda abrió con unas ocho mil cintas. La idea era sencilla: si entrabas buscando una película, la ibas a encontrar. Eso, en los ochenta, era casi un lujo.",
+      "visual_query": "shelves of videotapes",
+      "card": {
+        "layout": "number",
+        "heading": "8.000",
+        "items": [
+          "cintas en la primera tienda"
+        ],
+        "icon": "📼"
+      }
+    },
+    {
+      "section": "Acto 1: el ascenso",
+      "narration": "El gran salto llegó en 1987. Un grupo de inversores liderado por Wayne Huizenga, un empresario que había hecho fortuna con la recogida de basuras, tomó el control. Cook salió de la empresa y la sede se trasladó a Fort Lauderdale, en Florida.",
+      "visual_query": "businessman portrait",
+      "card": {
+        "layout": "quote",
+        "heading": "Wayne Huizenga",
+        "items": [
+          "De las basuras al vídeo"
+        ],
+        "icon": "💼"
+      },
+      "photo": "Wayne Huizenga",
+      "photo_caption": "Wayne Huizenga"
+    },
+    {
+      "section": "Acto 1: el ascenso",
+      "narration": "Huizenga aplicó la receta que conocía: crecer comprando. Abrió tiendas sin parar y absorbió cadenas rivales. Blockbuster se convirtió en una de las marcas más reconocibles de Estados Unidos, con su ticket azul y amarillo en cada ciudad.",
+      "visual_query": "shopping mall store",
+      "card": {
+        "layout": "bullets",
+        "heading": "Crecer a toda costa",
+        "items": [
+          "Tiendas nuevas sin parar",
+          "Compra de rivales",
+          "Marca en cada ciudad"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Acto 1: el ascenso",
+      "narration": "En 1994, el gigante de los medios Viacom compró Blockbuster por unos ocho mil cuatrocientos millones de dólares. El videoclub de Dallas era ya un imperio.",
+      "visual_query": "corporate headquarters",
+      "card": {
+        "layout": "number",
+        "heading": "8.400 M$",
+        "items": [
+          "Viacom compra Blockbuster (1994)"
+        ],
+        "icon": "🏢"
+      }
+    },
+    {
+      "section": "Acto 1: el ascenso",
+      "narration": "Y el imperio siguió creciendo. En su mejor momento, hacia 2004, Blockbuster llegó a tener más de nueve mil tiendas en todo el mundo y unos ochenta y cuatro mil empleados. Si en los noventa alquilabas películas, es muy probable que lo hicieras allí.",
+      "visual_query": "store chain map",
+      "card": {
+        "layout": "bullets",
+        "heading": "El pico de 2004",
+        "items": [
+          "9.094 tiendas",
+          "84.300 empleados"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "Acto 1: el ascenso",
+      "narration": "Antes de seguir: si te gustan estas historias de empresas que lo tenían todo y lo perdieron, suscríbete a TecnoHistoria. Cada martes hay un documental nuevo.",
+      "visual_query": "subscribe button",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Un documental cada martes"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "Acto 1: el ascenso",
+      "narration": "Pero el negocio tenía un secreto incómodo. Una parte importante del dinero no venía de alquilar películas, sino de castigar a quien las devolvía tarde. Las multas por retraso eran una mina de oro, y los clientes las odiaban.",
+      "visual_query": "late fee receipt",
+      "card": {
+        "layout": "title",
+        "heading": "El secreto incómodo",
+        "items": [
+          "Las multas por retraso"
+        ],
+        "icon": "⏰"
+      }
+    },
+    {
+      "section": "Los rivales",
+      "narration": "Y aquí aparecen nuestros dos californianos. En 1997, Reed Hastings, un ingeniero que acababa de vender su primera empresa de software, y Marc Randolph, un experto en marketing, fundaron Netflix.",
+      "visual_query": "Reed Hastings",
+      "card": {
+        "layout": "bullets",
+        "heading": "Netflix, 1997",
+        "items": [
+          "Reed Hastings",
+          "Marc Randolph"
+        ],
+        "icon": "🚀"
+      },
+      "photo": "Reed Hastings",
+      "photo_caption": "Reed Hastings"
+    },
+    {
+      "section": "Los rivales",
+      "narration": "Hay una historia famosa sobre el origen de Netflix. Hastings contó durante años que la idea le vino tras pagar una multa de unos cuarenta dólares por devolver tarde la película Apolo 13.",
+      "visual_query": "rocket launch",
+      "card": {
+        "layout": "quote",
+        "heading": "La multa de Apolo 13",
+        "items": [
+          "40 dólares de multa"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "Los rivales",
+      "narration": "Pero Marc Randolph, el cofundador, cuenta otra versión. En su libro dice que la idea salió de muchas conversaciones en el coche, camino del trabajo, buscando qué negocio montar en internet. Según él, lo de Apolo 13 era una forma bonita de explicar la empresa.",
+      "visual_query": "Marc Randolph",
+      "card": {
+        "layout": "quote",
+        "heading": "Marc Randolph",
+        "items": [
+          "La idea nació en el coche"
+        ],
+        "icon": "🚗"
+      },
+      "photo": "Marc Randolph",
+      "photo_caption": "Marc Randolph"
+    },
+    {
+      "section": "Los rivales",
+      "narration": "Lo que sí es seguro es la apuesta: el DVD. Era un formato nuevo, ligero y plano. Una película cabía en un sobre y podía viajar por correo. Nada de tiendas: eliges la película en una web y te llega a casa en un sobre rojo.",
+      "visual_query": "Netflix DVD envelope",
+      "card": {
+        "layout": "steps",
+        "heading": "Cómo funcionaba",
+        "items": [
+          "Eliges en la web",
+          "Llega por correo",
+          "La devuelves en el sobre"
+        ],
+        "icon": "✉️"
+      },
+      "photo": "Netflix envelope",
+      "photo_caption": "Sobre de DVD de Netflix"
+    },
+    {
+      "section": "Los rivales",
+      "narration": "El momento tampoco era casual. El DVD acababa de llegar a las tiendas de Estados Unidos en 1997. Los reproductores eran caros y casi nadie tenía uno. Netflix estaba apostando por un formato que todavía era una rareza, como quien hoy apuesta por una tecnología que solo usan unos pocos.",
+      "visual_query": "DVD disc",
+      "card": {
+        "layout": "title",
+        "heading": "Apostar antes de tiempo",
+        "items": [
+          "El DVD era una rareza"
+        ],
+        "icon": "💿"
+      },
+      "photo": "DVD",
+      "photo_caption": "Un disco DVD"
+    },
+    {
+      "section": "Los rivales",
+      "narration": "Al principio fue un desastre económico. Pocos tenían reproductor de DVD y la empresa perdía dinero. Entonces Netflix probó algo que golpeaba justo donde le dolía a Blockbuster: una suscripción mensual, sin fechas de devolución y sin multas.",
+      "visual_query": "calendar subscription",
+      "card": {
+        "layout": "title",
+        "heading": "Sin multas",
+        "items": [
+          "Suscripción mensual"
+        ],
+        "icon": "🚫"
+      }
+    },
+    {
+      "section": "Los rivales",
+      "narration": "Netflix tenía además un arma que Blockbuster no valoraba: los datos. Cada valoración que dabas a una película alimentaba un sistema de recomendaciones. Cuanto más usabas la web, mejor sabía qué te iba a gustar. Una tienda física no podía hacer eso.",
+      "visual_query": "data recommendation algorithm",
+      "card": {
+        "layout": "bullets",
+        "heading": "El arma secreta",
+        "items": [
+          "Tus valoraciones",
+          "Recomendaciones",
+          "Cuanto más usas, mejor"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Acto 2: la reunión",
+      "narration": "En el año 2000 la burbuja de las puntocom estaba a punto de estallar y Netflix seguía perdiendo dinero. Hastings y Randolph buscaron una salida: aliarse con el gigante. Consiguieron una reunión en Dallas con John Antioco, el director ejecutivo de Blockbuster.",
+      "visual_query": "Dallas skyline",
+      "card": {
+        "layout": "title",
+        "heading": "Dallas, 2000",
+        "items": [
+          "Reunión con Blockbuster"
+        ],
+        "icon": "🤝"
+      },
+      "photo": "Dallas skyline",
+      "photo_caption": "Dallas"
+    },
+    {
+      "section": "Acto 2: la reunión",
+      "narration": "La propuesta, según el relato de Randolph: Netflix se encargaría de la parte online de Blockbuster y Blockbuster compraría Netflix por cincuenta millones de dólares.",
+      "visual_query": "handshake deal",
+      "card": {
+        "layout": "number",
+        "heading": "50 M$",
+        "items": [
+          "La oferta de Netflix"
+        ],
+        "icon": "💵"
+      }
+    },
+    {
+      "section": "Acto 2: la reunión",
+      "narration": "Randolph escribió después que Antioco estaba haciendo esfuerzos para no reírse. La respuesta fue no. Para Blockbuster, aquella empresa que perdía dinero era un negocio de nicho.",
+      "visual_query": "laughing businessman",
+      "card": {
+        "layout": "quote",
+        "heading": "«Hacía esfuerzos por no reírse»",
+        "items": [
+          "Según Marc Randolph"
+        ],
+        "icon": "😏"
+      }
+    },
+    {
+      "section": "Acto 2: la reunión",
+      "narration": "Ojo, porque esta escena la conocemos sobre todo por los fundadores de Netflix, que son una parte interesada. Y con lo que se sabía en el año 2000, rechazar a una empresa pequeña con pérdidas no parecía ninguna locura.",
+      "visual_query": "magnifying glass",
+      "card": {
+        "layout": "title",
+        "heading": "Ojo con el mito",
+        "items": [
+          "Es la versión de Netflix"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Acto 2: la reunión",
+      "narration": "Netflix sobrevivió a la crisis de las puntocom y salió a bolsa en 2002. Su suscripción crecía, y cada cliente nuevo era un cliente que dejaba de pagar multas en Blockbuster.",
+      "visual_query": "stock market",
+      "card": {
+        "layout": "number",
+        "heading": "2002",
+        "items": [
+          "Netflix sale a bolsa"
+        ],
+        "icon": "📊"
+      }
+    },
+    {
+      "section": "Acto 2: el contraataque",
+      "narration": "Y aquí viene la parte que casi nadie cuenta. Blockbuster no se quedó quieto. En 2004 lanzó su propio servicio de alquiler por internet, y en 2005 hizo algo radical: eliminó las multas por retraso.",
+      "visual_query": "online shopping website",
+      "card": {
+        "layout": "bullets",
+        "heading": "Blockbuster reacciona",
+        "items": [
+          "2004: alquiler online",
+          "2005: fin de las multas"
+        ],
+        "icon": "🔄"
+      }
+    },
+    {
+      "section": "Acto 2: el contraataque",
+      "narration": "Era una decisión carísima. La propia empresa calculó que las multas le habrían dado entre doscientos cincuenta y trescientos millones de dólares de beneficio operativo ese año. Renunció a ellos para competir con Netflix.",
+      "visual_query": "money falling",
+      "card": {
+        "layout": "number",
+        "heading": "250-300 M$",
+        "items": [
+          "Lo que costaba quitar las multas"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "Acto 2: el contraataque",
+      "narration": "Ese mismo 2005, el inversor Carl Icahn, que había comprado muchas acciones, entró en el consejo de administración tras una dura batalla. Criticaba el gasto en publicidad, en internet y la eliminación de las multas.",
+      "visual_query": "Carl Icahn",
+      "card": {
+        "layout": "quote",
+        "heading": "Carl Icahn",
+        "items": [
+          "Entra en el consejo (2005)"
+        ],
+        "icon": "🦈"
+      },
+      "photo": "Carl Icahn",
+      "photo_caption": "Carl Icahn"
+    },
+    {
+      "section": "Acto 2: el contraataque",
+      "narration": "Y aun así, en 2006 llegó el golpe maestro: Blockbuster Total Access. Pedías el DVD por internet, como en Netflix, pero además podías devolverlo en cualquier tienda y llevarte otra película gratis al momento.",
+      "visual_query": "DVD rental store counter",
+      "card": {
+        "layout": "steps",
+        "heading": "Total Access",
+        "items": [
+          "Pides online",
+          "Devuelves en tienda",
+          "Te llevas otra gratis"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "Dato sorpresa",
+      "narration": "Y aquí está el dato sorpresa: funcionó. Según cuenta la cadena CNBC, el plan atraía suscriptores a gran velocidad. A finales de enero de 2007, la acción de Netflix había caído casi un doce por ciento.",
+      "visual_query": "stock chart down",
+      "card": {
+        "layout": "number",
+        "heading": "-12 %",
+        "items": [
+          "Netflix en bolsa, enero 2007"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Dato sorpresa",
+      "narration": "Años después, el propio Hastings llegó a reconocer al responsable de Total Access que Blockbuster les había tenido en jaque mate. Netflix, la empresa que supuestamente iba a ganar sin despeinarse, estuvo contra las cuerdas.",
+      "visual_query": "chess checkmate",
+      "card": {
+        "layout": "quote",
+        "heading": "«Nos tenían en jaque mate»",
+        "items": [
+          "Reed Hastings, años después"
+        ],
+        "icon": "♟️"
+      }
+    },
+    {
+      "section": "Acto 2: el contraataque",
+      "narration": "El problema era el precio. Cada cambio de película en tienda costaba dinero, unos dos dólares según CNBC. Blockbuster estaba comprando clientes a pérdidas, mientras sus tiendas seguían costando lo mismo.",
+      "visual_query": "cash register",
+      "card": {
+        "layout": "number",
+        "heading": "2 $",
+        "items": [
+          "Coste de cada cambio en tienda"
+        ],
+        "icon": "🩸"
+      }
+    },
+    {
+      "section": "Acto 2: el contraataque",
+      "narration": "Netflix se tomaba tan en serio esas recomendaciones que en octubre de 2006 lanzó un concurso mundial: un millón de dólares para quien mejorara un diez por ciento su algoritmo, llamado Cinematch. Entregó más de cien millones de valoraciones anónimas para que la gente trabajara con ellas.",
+      "visual_query": "trophy prize",
+      "card": {
+        "layout": "number",
+        "heading": "1 millón $",
+        "items": [
+          "El premio Netflix (2006)"
+        ],
+        "icon": "🏆"
+      }
+    },
+    {
+      "section": "Acto 2: el contraataque",
+      "narration": "Tardaron unos tres años en conseguirlo. En 2009 el premio se lo llevó un equipo internacional llamado BellKor's Pragmatic Chaos, con una mejora del diez coma cero seis por ciento. Mientras Blockbuster discutía sobre tiendas, Netflix pensaba como una empresa de software.",
+      "visual_query": "computer code",
+      "card": {
+        "layout": "number",
+        "heading": "10,06 %",
+        "items": [
+          "Mejora del algoritmo (2009)"
+        ],
+        "icon": "📐"
+      }
+    },
+    {
+      "section": "Un tercer rival",
+      "narration": "Y entonces apareció un tercer jugador que casi nadie esperaba: Redbox. Eran máquinas rojas, colocadas a la entrada de supermercados y restaurantes, que alquilaban DVD por un dólar la noche. Sin tienda, sin empleados, sin colas.",
+      "visual_query": "Redbox kiosk",
+      "card": {
+        "layout": "number",
+        "heading": "1 $",
+        "items": [
+          "Redbox: un dólar por noche"
+        ],
+        "icon": "🟥"
+      },
+      "photo": "Redbox",
+      "photo_caption": "Un quiosco de Redbox"
+    },
+    {
+      "section": "Un tercer rival",
+      "narration": "Redbox empezó en 2004 en restaurantes de la zona de Denver. En 2007 ya tenía más puntos de alquiler en Estados Unidos que Blockbuster. Blockbuster quedó atrapado en el medio: más caro que la máquina de la esquina y más lento que el sobre de Netflix.",
+      "visual_query": "vending machine",
+      "card": {
+        "layout": "bullets",
+        "heading": "Atrapado en medio",
+        "items": [
+          "Más caro que Redbox",
+          "Más lento que Netflix"
+        ],
+        "icon": "🥪"
+      }
+    },
+    {
+      "section": "Acto 3: la caída",
+      "narration": "En 2007, tras años de choques con Icahn por la estrategia, John Antioco dejó la empresa. Su sucesor, Jim Keyes, venía del mundo de las tiendas físicas y cambió el rumbo: menos gasto en internet, más foco en las tiendas.",
+      "visual_query": "corporate boardroom",
+      "card": {
+        "layout": "bullets",
+        "heading": "Cambio de rumbo (2007)",
+        "items": [
+          "Sale John Antioco",
+          "Llega Jim Keyes",
+          "Vuelta a las tiendas"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Acto 3: la caída",
+      "narration": "Ese mismo año, Netflix dio el paso que lo cambiaría todo: empezó a ofrecer películas por internet, en streaming. Era una función pequeña, con un catálogo corto. Pero apuntaba hacia el futuro.",
+      "visual_query": "streaming on laptop",
+      "card": {
+        "layout": "title",
+        "heading": "2007: llega el streaming",
+        "items": [
+          "Ver sin esperar el sobre"
+        ],
+        "icon": "📺"
+      }
+    },
+    {
+      "section": "Acto 3: la caída",
+      "narration": "Fíjate en la diferencia. Netflix estaba dispuesta a matar su propio negocio de DVD para pasar a internet. Blockbuster, con miles de tiendas, empleados y alquileres a largo plazo, tenía demasiado que perder.",
+      "visual_query": "crossroads",
+      "card": {
+        "layout": "bullets",
+        "heading": "Dos actitudes",
+        "items": [
+          "Netflix: se reinventa",
+          "Blockbuster: se protege"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Acto 3: la caída",
+      "narration": "Y había otro enemigo silencioso: la deuda. En 2009, Hastings comentó que lo único que había impedido que Blockbuster los destruyera era precisamente eso, su deuda. Sin dinero para resistir, la crisis financiera de 2008 hizo el resto.",
+      "visual_query": "debt chains",
+      "card": {
+        "layout": "quote",
+        "heading": "La deuda",
+        "items": [
+          "El enemigo silencioso"
+        ],
+        "icon": "⛓️"
+      }
+    },
+    {
+      "section": "Acto 3: la caída",
+      "narration": "El veintitrés de septiembre de 2010, Blockbuster se declaró en bancarrota, con casi mil millones de dólares de deuda. Diez años después de aquella reunión en Dallas.",
+      "visual_query": "closed store sign",
+      "card": {
+        "layout": "number",
+        "heading": "2010",
+        "items": [
+          "Blockbuster en bancarrota"
+        ],
+        "icon": "💔"
+      }
+    },
+    {
+      "section": "Acto 3: la caída",
+      "narration": "En 2011, la operadora de televisión Dish Network ganó la subasta de lo que quedaba con una oferta de unos trescientos veinte millones de dólares. En 1994 Viacom había pagado más de ocho mil millones.",
+      "visual_query": "auction gavel",
+      "card": {
+        "layout": "bullets",
+        "heading": "De 8.400 a 320",
+        "items": [
+          "1994: 8.400 M$",
+          "2011: 320 M$"
+        ],
+        "icon": "🏷️"
+      }
+    },
+    {
+      "section": "Acto 3: la caída",
+      "narration": "A principios de 2014 cerraron las últimas tiendas propias. Solo sobrevivieron algunas franquicias, que fueron apagándose una a una.",
+      "visual_query": "store closing sale",
+      "card": {
+        "layout": "title",
+        "heading": "2014: cierre",
+        "items": [
+          "Solo quedan franquicias"
+        ],
+        "icon": "🚪"
+      }
+    },
+    {
+      "section": "El último Blockbuster",
+      "narration": "Hoy queda uno. Está en Bend, una pequeña ciudad de Oregón, y lo lleva una familia local que tenía la franquicia. Cuando en 2019 cerró la tienda de Perth, en Australia, se convirtió en el último Blockbuster del planeta. Ahora es casi un museo y una atracción turística.",
+      "visual_query": "The Last Blockbuster Bend Oregon",
+      "card": {
+        "layout": "number",
+        "heading": "1",
+        "items": [
+          "Bend, Oregón: el último"
+        ],
+        "icon": "📍"
+      },
+      "photo": "Blockbuster Bend Oregon",
+      "photo_caption": "El último Blockbuster, en Bend (Oregón)"
+    },
+    {
+      "section": "El último Blockbuster",
+      "narration": "Mientras tanto, Netflix acabó 2025 con más de trescientos veinticinco millones de suscriptores en todo el mundo. La empresa por la que nadie quiso pagar cincuenta millones produce hoy series y películas que ve medio planeta.",
+      "visual_query": "Netflix logo",
+      "card": {
+        "layout": "number",
+        "heading": "+325 M",
+        "items": [
+          "Suscriptores de Netflix (2025)"
+        ],
+        "icon": "🌐"
+      },
+      "photo": "Netflix 2015 logo",
+      "photo_caption": "Logo de Netflix"
+    },
+    {
+      "section": "El giro final",
+      "narration": "Pero cuidado con pensar que Netflix nunca se equivocó. En 2011 estuvo a punto de cometer su propio error al estilo Blockbuster. En julio subió los precios: quien quería DVD y streaming pasó a pagar quince dólares con noventa y ocho, frente a los nueve con noventa y nueve de antes.",
+      "visual_query": "price increase",
+      "card": {
+        "layout": "bullets",
+        "heading": "El error de 2011",
+        "items": [
+          "Antes: 9,99 $",
+          "Después: 15,98 $"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "El giro final",
+      "narration": "Y en septiembre anunció que separaría el negocio de DVD en otra empresa llamada Qwikster. Los clientes se indignaron. Netflix perdió unos ochocientos mil suscriptores en Estados Unidos en un trimestre y su acción se desplomó.",
+      "visual_query": "angry customers",
+      "card": {
+        "layout": "number",
+        "heading": "-800.000",
+        "items": [
+          "Suscriptores perdidos (2011)"
+        ],
+        "icon": "😡"
+      }
+    },
+    {
+      "section": "El giro final",
+      "narration": "Hastings pidió perdón públicamente con una frase que se hizo famosa: «la he fastidiado». Y en octubre de 2011, menos de un mes después, canceló Qwikster antes de que llegara a funcionar. Supo rectificar a tiempo. Blockbuster nunca tuvo esa segunda oportunidad.",
+      "visual_query": "apology",
+      "card": {
+        "layout": "quote",
+        "heading": "«La he fastidiado»",
+        "items": [
+          "Reed Hastings, 2011"
+        ],
+        "icon": "🙏"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Entonces, ¿Blockbuster cayó por reírse de Netflix? No exactamente. Su último director ejecutivo, Jim Keyes, dijo que culpar a esa reunión es fácil con la ventaja de saber cómo acabó la historia. Y tiene parte de razón.",
+      "visual_query": "hindsight",
+      "card": {
+        "layout": "quote",
+        "heading": "«Es fácil decirlo a posteriori»",
+        "items": [
+          "Jim Keyes"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Mi opinión es que Blockbuster no perdió por no ver el futuro. Lo vio, y en 2006 llegó a ir por delante. Perdió porque no pudo sostener el cambio: la deuda, las peleas internas y un negocio de tiendas que no se atrevía a canibalizar.",
+      "visual_query": "puzzle pieces",
+      "card": {
+        "layout": "bullets",
+        "heading": "Por qué perdió",
+        "items": [
+          "La deuda",
+          "Las peleas internas",
+          "Miedo a canibalizarse"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Netflix hizo lo contrario. Primero mató a las multas, luego a su propio negocio de DVD por correo. La lección sirve para cualquiera: si no estás dispuesto a sustituirte tú mismo, alguien lo hará por ti.",
+      "visual_query": "light bulb idea",
+      "card": {
+        "layout": "quote",
+        "heading": "Reemplázate tú",
+        "items": [
+          "o lo hará otro"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Esta no es la única empresa que tuvo el futuro en la mano y lo dejó escapar. Nokia dominaba los móviles y lo perdió todo en pocos años: tienes su historia completa en el canal. Y cuéntame en los comentarios: ¿alquilabas películas en Blockbuster o en el videoclub de tu barrio?",
+      "visual_query": "old mobile phone",
+      "card": {
+        "layout": "title",
+        "heading": "Sigue con Nokia",
+        "items": [
+          "Otra caída de gigante"
+        ],
+        "icon": "📱"
+      }
+    }
+  ],
+  "playlists": [
+    "historias"
+  ],
+  "full_description": "Blockbuster pudo comprar Netflix por 50 millones de dólares en el año 2000 y dijo que no. Diez años después, el mayor videoclub del mundo estaba en bancarrota. Esta es la historia completa de Blockbuster y Netflix, y no es tan simple como el meme.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nBlockbuster nació en Dallas en 1985, creció hasta más de 9.000 tiendas y en 1994 Viacom lo compró por 8.400 millones de dólares. En 1997, Reed Hastings y Marc Randolph fundaron Netflix con una idea sencilla: películas en DVD por correo, primero por alquiler y después con una suscripción sin multas. En el año 2000 ofrecieron su empresa a Blockbuster por 50 millones y el entonces director ejecutivo, John Antioco, la rechazó.\n\nPero Blockbuster contraatacó: eliminó las multas en 2005 y lanzó Total Access en 2006, un plan que llegó a poner a Netflix contra las cuerdas. ¿Por qué perdió entonces? La deuda, la batalla con el inversor Carl Icahn, el miedo a canibalizar sus tiendas y la llegada del streaming. En 2010 se declaró en bancarrota y hoy solo queda un Blockbuster en el mundo, en Bend (Oregón), mientras Netflix supera los 325 millones de suscriptores.\n\nUna historia de innovación, de decisiones que parecen obvias a posteriori y de la importancia de reinventarse antes de que lo haga otro.\n\nSuscríbete a TecnoHistoria: un documental de historia de la tecnología cada martes.\n\nCapítulos:\n0:00 Gancho\n0:38 La pregunta\n0:55 La promesa\n1:08 Contexto\n1:28 Acto 1: el ascenso\n3:26 Los rivales\n5:22 Acto 2: la reunión\n6:25 Acto 2: el contraataque\n7:23 Dato sorpresa\n7:53 Acto 2: el contraataque\n8:42 Un tercer rival\n9:15 Acto 3: la caída\n10:51 El último Blockbuster\n11:24 El giro final\n12:16 La lección\n13:02 Cierre\n\nFuentes:\nhttps://www.history.com/this-day-in-history/october-19/first-blockbuster-store-opens\nhttps://www.fundinguniverse.com/company-histories/blockbuster-inc-history\nhttps://sports.yahoo.com/blockbuster-ceo-struggled-not-laugh-191553438.html\nhttps://marketplace.org/2020/09/08/ceo-reed-hastings-on-how-netflix-beat-blockbuster\nhttps://www.raconteur.net/leadership/blockbusters-ceo-james-keyes-netflix-competition\nhttps://qz.com/1062888/netflix-was-founded-20-years-ago-today-because-reed-hastings-was-late-a-returning-video\nhttps://www.nbcnews.com/news/amp/wbna7805560\nhttps://www.cnbc.com/2020/09/22/how-netflix-almost-lost-the-movie-rental-wars-to-blockbuster.html\nhttps://commoncog.com/c/cases/blockbuster-vs-netflix/\nhttps://phys.org/news/2011-04-dish-network-blockbuster-320mn.html\n\n#Netflix #Blockbuster #TecnoHistoria",
+  "duration_s": 799.5519999999999,
+  "image_credits": []
+}
