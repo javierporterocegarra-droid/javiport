@@ -1,0 +1,467 @@
+{
+  "topic": "¿Qué pasaría si hubiera un apagón mundial? Hora a hora, causas reales (tormentas solares), coste y cómo prepararse",
+  "title": "¿Qué pasaría si hubiera un apagón mundial? (hora a hora)",
+  "description": "¿Qué pasaría si hubiera un apagón mundial? Lo vemos hora a hora, a partir de lo que ocurrió en apagones reales como el de España y Portugal del 28 de abril de 2025. Qué falla primero, qué aguanta, por qué arrancar una red apagada es tan difícil y cuánto tiempo tardaríamos en recuperarnos.\n\nTambién vemos qué podría provocarlo de verdad: las tormentas solares. Desde el evento Carrington de 1859, que hizo echar chispas a los telégrafos, hasta el apagón de Quebec de 1989 y la tormenta de mayo de 2024 que desorientó a tractores guiados por GPS. Y cuánto costaría hoy un evento así, según el estudio de Lloyd's.\n\nPero también separamos lo real de lo exagerado: por qué un apagón de todo el planeta a la vez es muy improbable, y por qué los apagones regionales sí son un riesgo real.\n\nY lo más útil: qué recomienda la Unión Europea para estar preparado 72 horas y qué cosas casi todo el mundo olvida en su kit.\n\nSuscríbete a TecnoHistoria para más experimentos de «¿qué pasaría si…?» con datos.",
+  "tags": [
+    "que pasaria si",
+    "apagón mundial",
+    "que pasaria si hubiera un apagon mundial",
+    "apagón españa",
+    "apagón 28 de abril",
+    "tormenta solar",
+    "evento carrington",
+    "kit de emergencia",
+    "72 horas",
+    "red eléctrica",
+    "tecnohistoria",
+    "qué pasaría si"
+  ],
+  "hashtags": [
+    "#QuéPasaríaSi",
+    "#Apagón",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "Apagón mundial",
+  "thumbnail_badge": "72 h",
+  "thumbnail_icon": "🔌",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Dónde te pilló el apagón del 28 de abril? ¿Qué echaste más de menos? 👇",
+  "playlists": [
+    "quepasaria"
+  ],
+  "sources": [
+    "https://sciencemediacentre.es/en/final-blackout-report-european-operators-confirms-event-was-caused-multiple-factors-recommends",
+    "https://www.datacenterdynamics.com/es/noticias/el-gran-apag%C3%B3n-de-espa%C3%B1a-y-portugal-fue-una-tormenta-perfecta-de-sobretensiones-desconexiones-y-falta-de-resiliencia/",
+    "https://www.euribor.com.es/2025/10/03/europa-confirma-que-el-apagon-de-espana-fue-el-mas-grave-en-dos-decadas/?amp=1",
+    "https://en.wikipedia.org/wiki/Carrington_Event",
+    "https://www.space.com/the-universe/sun/wonky-row-crops-and-possessed-tractors-the-surprising-impact-of-solar-storms-on-modern-farming",
+    "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003",
+    "https://spain.representation.ec.europa.eu/noticias-eventos/noticias-0/estrategia-de-preparacion-de-la-union-para-prevenir-amenazas-y-crisis-emergentes-y-reaccionar-frente-2025-03-26_es"
+  ],
+  "publish_at": "2026-11-26T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Veintiocho de abril de 2025, doce y treinta y tres del mediodía. En cinco segundos, España y Portugal se quedan sin electricidad. Semáforos apagados, trenes parados, gente atrapada en ascensores y millones de móviles que, poco a poco, se quedan sin cobertura.",
+      "visual_query": "city blackout night",
+      "card": {
+        "layout": "number",
+        "heading": "12:33",
+        "items": [
+          "28 de abril de 2025"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "Gancho",
+      "narration": "Fue el apagón más grave de Europa en dos décadas. Y duró, como mucho, unas dieciséis horas. Ahora imagina lo mismo, pero en todo el planeta a la vez. ¿Qué pasaría si hubiera un apagón mundial?",
+      "visual_query": "earth at night from space",
+      "card": {
+        "layout": "title",
+        "heading": "¿Y si fuera en todo el mundo?",
+        "items": [
+          "Un experimento con datos"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "La promesa",
+      "narration": "En este vídeo vamos a verlo hora a hora, con lo que sabemos de apagones reales. Qué podría causarlo de verdad, cuánto costaría y, lo más útil, qué puedes hacer tú para estar preparado. Sin alarmismo: con datos.",
+      "visual_query": "clock timeline",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que vas a ver",
+        "items": [
+          "Hora a hora",
+          "Qué podría causarlo",
+          "Cómo prepararte"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Minuto 1",
+      "narration": "Minuto uno. Todo lo que depende de un enchufe se para. Luces, ascensores, metro, semáforos, frigoríficos. Los hospitales, aeropuertos y centros de datos arrancan sus generadores de emergencia en segundos: están diseñados justo para esto.",
+      "visual_query": "traffic lights off",
+      "card": {
+        "layout": "bullets",
+        "heading": "Minuto 1",
+        "items": [
+          "Se apaga lo enchufado",
+          "Arrancan los generadores",
+          "Hospitales siguen"
+        ],
+        "icon": "🔌"
+      }
+    },
+    {
+      "section": "Minuto 1",
+      "narration": "Tu móvil sigue funcionando, porque tiene batería. Y las antenas de telefonía también, porque muchas tienen baterías de respaldo. Pero en ese momento millones de personas llaman a la vez para saber qué pasa, y la red se satura.",
+      "visual_query": "cell tower",
+      "card": {
+        "layout": "title",
+        "heading": "La red se satura",
+        "items": [
+          "Todos llaman a la vez"
+        ],
+        "icon": "📶"
+      }
+    },
+    {
+      "section": "Hora 1",
+      "narration": "Hora uno. Internet empieza a fallar. Tu router de casa está apagado, así que solo te queda la red móvil. Los pagos con tarjeta dejan de funcionar en muchos comercios y los cajeros automáticos se apagan. De repente, el dinero en efectivo vuelve a ser el rey.",
+      "visual_query": "cash coins",
+      "card": {
+        "layout": "bullets",
+        "heading": "Hora 1",
+        "items": [
+          "Sin wifi en casa",
+          "Sin pagos con tarjeta",
+          "El efectivo manda"
+        ],
+        "icon": "💶"
+      }
+    },
+    {
+      "section": "Hora 1",
+      "narration": "En España, durante el apagón, la radio de pilas fue la gran protagonista. Mucha gente se enteró de lo que pasaba por la radio, igual que hace cincuenta años.",
+      "visual_query": "portable radio",
+      "card": {
+        "layout": "quote",
+        "heading": "Volvió la radio",
+        "items": [
+          "Apagón de 2025"
+        ],
+        "icon": "📻"
+      },
+      "photo": "Transistor radio",
+      "photo_caption": "Radio de transistores"
+    },
+    {
+      "section": "Hora 6",
+      "narration": "Hora seis. Las baterías de muchas antenas se agotan y la cobertura móvil va desapareciendo. Las gasolineras no pueden bombear combustible sin electricidad. Y en los edificios altos, sin las bombas que suben el agua, los pisos superiores pueden quedarse sin agua en el grifo.",
+      "visual_query": "gas station",
+      "card": {
+        "layout": "bullets",
+        "heading": "Hora 6",
+        "items": [
+          "Se cae la cobertura",
+          "Gasolineras paradas",
+          "Sin agua en pisos altos"
+        ],
+        "icon": "🚱"
+      }
+    },
+    {
+      "section": "Hora 6",
+      "narration": "¿Y tu nevera? Según el Departamento de Agricultura de Estados Unidos, un frigorífico cerrado mantiene los alimentos seguros unas cuatro horas. Un congelador lleno y sin abrir, unas cuarenta y ocho. El truco es sencillo: no abras la puerta si no es imprescindible.",
+      "visual_query": "refrigerator kitchen",
+      "card": {
+        "layout": "bullets",
+        "heading": "Tu nevera",
+        "items": [
+          "Frigorífico: unas 4 horas",
+          "Congelador lleno: unas 48",
+          "No abras la puerta"
+        ],
+        "icon": "🧊"
+      }
+    },
+    {
+      "section": "Hora 6",
+      "narration": "Y algo que se vio en España: quien tenía un coche con el depósito lleno o una batería externa cargada pudo seguir informándose y cargando el móvil. Quien tenía el móvil al diez por ciento se quedó incomunicado mucho antes.",
+      "visual_query": "phone low battery",
+      "card": {
+        "layout": "title",
+        "heading": "La batería manda",
+        "items": [
+          "Quien iba cargado aguantó más"
+        ],
+        "icon": "🔋"
+      }
+    },
+    {
+      "section": "Hora 24",
+      "narration": "Hora veinticuatro. Si el apagón sigue, los generadores necesitan combustible y empieza la logística de emergencia: priorizar hospitales, depuradoras de agua y comunicaciones. Los alimentos frescos de supermercados y casas empiezan a estropearse.",
+      "visual_query": "hospital generator",
+      "card": {
+        "layout": "title",
+        "heading": "Día 1",
+        "items": [
+          "Prioridad: hospitales y agua"
+        ],
+        "icon": "🏥"
+      }
+    },
+    {
+      "section": "Día 3",
+      "narration": "Día tres. Aquí está la gran diferencia entre un apagón regional y uno mundial. Cuando cae España, la red de Francia ayuda a volver a arrancar. Si cae todo el planeta, nadie puede prestarte energía. Cada país tendría que arrancar su red desde cero.",
+      "visual_query": "power plant",
+      "card": {
+        "layout": "bullets",
+        "heading": "Día 3",
+        "items": [
+          "Nadie puede ayudar",
+          "Arranque desde cero"
+        ],
+        "icon": "🔄"
+      }
+    },
+    {
+      "section": "Dato sorpresa",
+      "narration": "Y aquí viene el dato que sorprende: volver a encender una red apagada no es darle a un interruptor. Se hace por islas, central a central, equilibrando producción y consumo al milímetro. Por eso, incluso en España, la recuperación completa tardó hasta la madrugada del día siguiente.",
+      "visual_query": "electrical substation",
+      "card": {
+        "layout": "title",
+        "heading": "Arrancar una red",
+        "items": [
+          "Isla a isla, sin prisa"
+        ],
+        "icon": "🧩"
+      }
+    },
+    {
+      "section": "Suscríbete",
+      "narration": "Si te gustan estos experimentos de qué pasaría si, suscríbete a TecnoHistoria. Hay uno nuevo cada semana.",
+      "visual_query": "subscribe",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Uno nuevo cada semana"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "¿Qué podría causarlo?",
+      "narration": "Pero, ¿qué podría apagar el planeta entero? El candidato más serio no es un hacker ni una guerra. Es el Sol.",
+      "visual_query": "solar flare sun",
+      "card": {
+        "layout": "title",
+        "heading": "El sospechoso: el Sol",
+        "items": [
+          "Tormentas solares"
+        ],
+        "icon": "☀️"
+      },
+      "photo": "Solar flare",
+      "photo_caption": "Una erupción solar"
+    },
+    {
+      "section": "¿Qué podría causarlo?",
+      "narration": "En septiembre de 1859 se produjo la tormenta geomagnética más intensa registrada, llamada evento Carrington. Hubo auroras visibles cerca del trópico y las líneas de telégrafo echaban chispas. Algunos operadores dijeron que seguían enviando mensajes con las baterías desconectadas, solo con la corriente que inducía la tormenta.",
+      "visual_query": "telegraph",
+      "card": {
+        "layout": "number",
+        "heading": "1859",
+        "items": [
+          "El evento Carrington"
+        ],
+        "icon": "📡"
+      },
+      "photo": "Telegraph key",
+      "photo_caption": "Un telégrafo del siglo XIX"
+    },
+    {
+      "section": "¿Qué podría causarlo?",
+      "narration": "En 1859 no había red eléctrica. Pero en marzo de 1989, una tormenta mucho más débil dejó sin luz a la provincia canadiense de Quebec en unos noventa segundos. Millones de personas estuvieron unas nueve horas a oscuras.",
+      "visual_query": "power lines snow",
+      "card": {
+        "layout": "bullets",
+        "heading": "Quebec, 1989",
+        "items": [
+          "Red caída en 90 segundos",
+          "Millones sin luz",
+          "Unas 9 horas"
+        ],
+        "icon": "🇨🇦"
+      }
+    },
+    {
+      "section": "¿Qué podría causarlo?",
+      "narration": "Y más reciente: en mayo de 2024 llegó la tormenta solar más fuerte en veinte años. En Estados Unidos, tractores guiados por GPS se desviaron varios metros de sus surcos. Los errores de posición llegaron a decenas de metros durante horas.",
+      "visual_query": "tractor field",
+      "card": {
+        "layout": "number",
+        "heading": "2024",
+        "items": [
+          "Tractores desorientados"
+        ],
+        "icon": "🚜"
+      }
+    },
+    {
+      "section": "El coste",
+      "narration": "¿Cuánto costaría un evento como el de Carrington hoy? Un estudio de la aseguradora Lloyd's de 2013 lo estimó solo para Estados Unidos entre seiscientos mil millones y dos coma seis billones de dólares, con apagones que en algunas zonas podrían durar semanas o meses.",
+      "visual_query": "money stack",
+      "card": {
+        "layout": "number",
+        "heading": "0,6-2,6 bill. $",
+        "items": [
+          "Coste en EE. UU. (Lloyd's)"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "El coste",
+      "narration": "El cuello de botella son los grandes transformadores. Son enormes, se fabrican casi a medida y reemplazarlos puede llevar meses. Si una tormenta quemara muchos a la vez, no habría repuestos para todos.",
+      "visual_query": "power transformer",
+      "card": {
+        "layout": "title",
+        "heading": "El cuello de botella",
+        "items": [
+          "Los grandes transformadores"
+        ],
+        "icon": "🏭"
+      }
+    },
+    {
+      "section": "El coste",
+      "narration": "Y piensa en todo lo que hoy depende del GPS y de los satélites, no solo los tractores: la navegación de aviones y barcos, las redes móviles y hasta los bancos, que usan sus señales de tiempo para sincronizar operaciones. Una tormenta extrema también podría dañar satélites.",
+      "visual_query": "gps satellite",
+      "card": {
+        "layout": "bullets",
+        "heading": "Más allá de la luz",
+        "items": [
+          "GPS y navegación",
+          "Redes móviles",
+          "Satélites"
+        ],
+        "icon": "🛰️"
+      }
+    },
+    {
+      "section": "Lo real y lo exagerado",
+      "narration": "Ahora, la parte que muchos vídeos no te cuentan. Un apagón de todo el planeta a la vez es muy, muy improbable. No existe una única red mundial: hay muchas redes regionales separadas, y una tormenta solar golpea con más fuerza en las latitudes altas.",
+      "visual_query": "world map grid",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo improbable",
+        "items": [
+          "No hay una red mundial",
+          "Redes separadas",
+          "El Sol no golpea igual"
+        ],
+        "icon": "✅"
+      }
+    },
+    {
+      "section": "Lo real y lo exagerado",
+      "narration": "Además, desde 1989 las eléctricas vigilan el clima espacial. Satélites como los de la NASA y la agencia estadounidense NOAA avisan con horas o días de antelación, y las redes pueden protegerse desconectando partes antes del impacto.",
+      "visual_query": "satellite space",
+      "card": {
+        "layout": "title",
+        "heading": "Hay vigilancia",
+        "items": [
+          "Avisos con horas de margen"
+        ],
+        "icon": "🛰️"
+      }
+    },
+    {
+      "section": "Lo real y lo exagerado",
+      "narration": "Lo realista no es un apagón mundial, sino apagones grandes y regionales como el de España. Y de esos sí ha habido muchos: en 2003, un fallo de software en una sala de control dejó sin luz a unos cincuenta millones de personas en Estados Unidos y Canadá.",
+      "visual_query": "new york blackout",
+      "card": {
+        "layout": "number",
+        "heading": "50 millones",
+        "items": [
+          "Apagón de 2003"
+        ],
+        "icon": "🌃"
+      }
+    },
+    {
+      "section": "Lo real y lo exagerado",
+      "narration": "En el caso de España, el informe de los operadores europeos habla de una cascada de sobretensiones con varios factores a la vez. No hubo un único culpable. Así fallan casi siempre los sistemas complejos: por una suma de pequeños problemas.",
+      "visual_query": "domino effect",
+      "card": {
+        "layout": "quote",
+        "heading": "Una cascada de fallos",
+        "items": [
+          "Informe europeo"
+        ],
+        "icon": "🔗"
+      }
+    },
+    {
+      "section": "Cómo prepararte",
+      "narration": "Entonces, ¿qué puedes hacer tú? En marzo de 2025, la Comisión Europea pidió a los ciudadanos estar preparados para aguantar al menos setenta y dos horas por su cuenta en una emergencia.",
+      "visual_query": "emergency kit backpack",
+      "card": {
+        "layout": "number",
+        "heading": "72 horas",
+        "items": [
+          "Recomendación de la UE"
+        ],
+        "icon": "🎒"
+      }
+    },
+    {
+      "section": "Cómo prepararte",
+      "narration": "Un kit básico: agua, unos cuantos litros por persona y día. Comida que no necesite nevera ni cocina. Una radio de pilas, una linterna, pilas de repuesto y una batería externa cargada para el móvil.",
+      "visual_query": "flashlight batteries",
+      "card": {
+        "layout": "bullets",
+        "heading": "Kit básico",
+        "items": [
+          "Agua y comida",
+          "Radio y linterna",
+          "Batería externa"
+        ],
+        "icon": "🔦"
+      }
+    },
+    {
+      "section": "Cómo prepararte",
+      "narration": "Y dos cosas que mucha gente olvida: algo de dinero en efectivo, porque sin luz no hay datáfonos, y una lista en papel con teléfonos importantes. Sin móvil, ¿cuántos números te sabes de memoria?",
+      "visual_query": "notebook phone numbers",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que se olvida",
+        "items": [
+          "Efectivo",
+          "Teléfonos en papel",
+          "Botiquín y medicinas"
+        ],
+        "icon": "📝"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Mi conclusión es esta: el apagón mundial es más ciencia ficción que riesgo real. Pero el de España demostró algo importante: dependemos tanto de la electricidad que un solo día sin ella lo cambia todo. Y prepararse cuesta muy poco.",
+      "visual_query": "light bulb",
+      "card": {
+        "layout": "quote",
+        "heading": "Prepararse cuesta poco",
+        "items": [
+          "Y te ahorra mucho"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Si quieres más experimentos así, tienes la lista de qué pasaría si en el canal. Y cuéntame en los comentarios: ¿dónde te pilló el apagón del veintiocho de abril, o cómo lo habrías vivido?",
+      "visual_query": "candle light",
+      "card": {
+        "layout": "title",
+        "heading": "¿Dónde te pilló?",
+        "items": [
+          "Cuéntamelo abajo"
+        ],
+        "icon": "💬"
+      }
+    }
+  ],
+  "full_description": "¿Qué pasaría si hubiera un apagón mundial? Lo vemos hora a hora, a partir de lo que ocurrió en apagones reales como el de España y Portugal del 28 de abril de 2025. Qué falla primero, qué aguanta, por qué arrancar una red apagada es tan difícil y cuánto tiempo tardaríamos en recuperarnos.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nTambién vemos qué podría provocarlo de verdad: las tormentas solares. Desde el evento Carrington de 1859, que hizo echar chispas a los telégrafos, hasta el apagón de Quebec de 1989 y la tormenta de mayo de 2024 que desorientó a tractores guiados por GPS. Y cuánto costaría hoy un evento así, según el estudio de Lloyd's.\n\nPero también separamos lo real de lo exagerado: por qué un apagón de todo el planeta a la vez es muy improbable, y por qué los apagones regionales sí son un riesgo real.\n\nY lo más útil: qué recomienda la Unión Europea para estar preparado 72 horas y qué cosas casi todo el mundo olvida en su kit.\n\nSuscríbete a TecnoHistoria para más experimentos de «¿qué pasaría si…?» con datos.\n\nCapítulos:\n0:00 Gancho\n0:32 La promesa\n0:47 Minuto 1\n1:20 Hora 1\n1:49 Hora 6\n2:38 Hora 24\n2:55 Día 3\n3:13 Dato sorpresa\n3:39 ¿Qué podría causarlo?\n4:44 El coste\n5:31 Lo real y lo exagerado\n6:36 Cómo prepararte\n7:16 La lección\n7:31 Cierre\n\nFuentes:\nhttps://sciencemediacentre.es/en/final-blackout-report-european-operators-confirms-event-was-caused-multiple-factors-recommends\nhttps://www.datacenterdynamics.com/es/noticias/el-gran-apag%C3%B3n-de-espa%C3%B1a-y-portugal-fue-una-tormenta-perfecta-de-sobretensiones-desconexiones-y-falta-de-resiliencia/\nhttps://www.euribor.com.es/2025/10/03/europa-confirma-que-el-apagon-de-espana-fue-el-mas-grave-en-dos-decadas/?amp=1\nhttps://en.wikipedia.org/wiki/Carrington_Event\nhttps://www.space.com/the-universe/sun/wonky-row-crops-and-possessed-tractors-the-surprising-impact-of-solar-storms-on-modern-farming\nhttps://en.wikipedia.org/wiki/Northeast_blackout_of_2003\nhttps://spain.representation.ec.europa.eu/noticias-eventos/noticias-0/estrategia-de-preparacion-de-la-union-para-prevenir-amenazas-y-crisis-emergentes-y-reaccionar-frente-2025-03-26_es\n\n#QuéPasaríaSi #Apagón #TecnoHistoria",
+  "duration_s": 463.26,
+  "image_credits": []
+}
