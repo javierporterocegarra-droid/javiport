@@ -1,0 +1,114 @@
+{
+  "topic": "Truco de móvil: copiar texto de cualquier foto con Texto en vivo (iPhone) o Google Lens (Android)",
+  "title": "Truco: copia el texto de cualquier foto con tu móvil #Shorts",
+  "description": "Deja de copiar a mano: tu móvil puede sacar el texto de una foto, un cartel o un documento. En iPhone, con Texto en vivo desde la app Fotos o la cámara; en Android, con Google Lens desde Google Fotos o la cámara. Los nombres de los menús pueden variar según el modelo y la versión.\n\nMás trucos de tecnología e IA en TecnoHistoria. Suscríbete.",
+  "tags": [
+    "trucos móvil",
+    "copiar texto de una foto",
+    "texto en vivo iphone",
+    "google lens",
+    "trucos android",
+    "trucos iphone",
+    "ocr móvil",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#TrucosMóvil",
+    "#iPhone",
+    "#Android"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Conocías este truco? ¿Qué otro truco de móvil quieres ver? 👇",
+  "sources": [
+    "https://support.apple.com/120004",
+    "https://www.androidcentral.com/how-copy-text-images-google-photos",
+    "https://www.guidingtech.com/use-google-lens-to-copy-text-from-image/"
+  ],
+  "publish_at": "2026-11-27T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "Deja de copiar a mano lo que ves en una foto. Tu móvil puede hacerlo por ti.",
+      "visual_query": "smartphone photo document",
+      "card": {
+        "layout": "title",
+        "heading": "Copia texto de fotos",
+        "items": [
+          "Sin teclear nada"
+        ],
+        "icon": "📸"
+      }
+    },
+    {
+      "section": "iPhone",
+      "narration": "En iPhone, abre la foto en la app Fotos, mantén pulsado sobre el texto, ajusta la selección y toca Copiar. Se llama Texto en vivo y también funciona apuntando con la cámara.",
+      "visual_query": "iphone photos app",
+      "card": {
+        "layout": "steps",
+        "heading": "En iPhone",
+        "items": [
+          "Abre la foto",
+          "Mantén pulsado el texto",
+          "Toca Copiar"
+        ],
+        "icon": "🍏"
+      }
+    },
+    {
+      "section": "Android",
+      "narration": "En Android, abre la foto en Google Fotos y toca el botón de Lens. Selecciona el texto y copia. Los menús pueden cambiar un poco según el modelo.",
+      "visual_query": "android phone camera",
+      "card": {
+        "layout": "steps",
+        "heading": "En Android",
+        "items": [
+          "Abre Google Fotos",
+          "Toca Lens",
+          "Selecciona y copia"
+        ],
+        "icon": "🤖"
+      }
+    },
+    {
+      "section": "Usos",
+      "narration": "Sirve para un número de wifi, una receta de un libro, un horario en un cartel o la dirección de una tarjeta. Luego lo pegas donde quieras.",
+      "visual_query": "restaurant menu photo",
+      "card": {
+        "layout": "bullets",
+        "heading": "Para qué sirve",
+        "items": [
+          "Contraseña del wifi",
+          "Recetas",
+          "Horarios y direcciones"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Guárdalo para no olvidarlo, y sigue la serie de trucos de móvil e inteligencia artificial en el canal.",
+      "visual_query": "smartphone tips",
+      "card": {
+        "layout": "title",
+        "heading": "Más trucos",
+        "items": [
+          "En el canal"
+        ],
+        "icon": "🔖"
+      }
+    }
+  ],
+  "playlists": [
+    "ia"
+  ],
+  "full_description": "Deja de copiar a mano: tu móvil puede sacar el texto de una foto, un cartel o un documento. En iPhone, con Texto en vivo desde la app Fotos o la cámara; en Android, con Google Lens desde Google Fotos o la cámara. Los nombres de los menús pueden variar según el modelo y la versión.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nMás trucos de tecnología e IA en TecnoHistoria. Suscríbete.\n\nFuentes:\nhttps://support.apple.com/120004\nhttps://www.androidcentral.com/how-copy-text-images-google-photos\nhttps://www.guidingtech.com/use-google-lens-to-copy-text-from-image/\n\n#TrucosMóvil #iPhone #Android",
+  "duration_s": 44.354,
+  "image_credits": []
+}
