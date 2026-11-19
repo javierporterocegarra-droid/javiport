@@ -1,0 +1,413 @@
+{
+  "topic": "¿Qué pasaría si el Sol explotara o desapareciera? Minuto a minuto, por qué no puede ser una supernova y su final real",
+  "title": "¿Qué pasaría si el Sol explotara? (spoiler: no puede)",
+  "description": "¿Qué pasaría si el Sol explotara? Durante 8 minutos y 20 segundos no te enterarías de nada. En este vídeo vemos, minuto a minuto, qué le pasaría a la Tierra si el Sol desapareciera: la noche repentina, la Tierra saliendo disparada en línea recta, el frío de la primera semana, los océanos congelándose por la superficie y la vida que sobreviviría sin luz junto a las fuentes hidrotermales.\n\nPero también el giro que casi nadie cuenta: el Sol no puede explotar. Las supernovas solo les ocurren a estrellas con al menos unas ocho veces su masa. Su final real será otro: dentro de unos 5.000 millones de años se convertirá en una gigante roja que engullirá a Mercurio y Venus, y después en una enana blanca.\n\nY un dato que sorprende: mucho antes, dentro de unos 1.000 millones de años, el Sol brillará lo suficiente como para evaporar los océanos.\n\nSuscríbete a TecnoHistoria para más «¿qué pasaría si…?» con datos.",
+  "tags": [
+    "que pasaria si el sol explotara",
+    "que pasaria si",
+    "el sol",
+    "supernova",
+    "gigante roja",
+    "que pasaria si el sol desapareciera",
+    "astronomia",
+    "espacio",
+    "curiosidades del universo",
+    "enana blanca",
+    "tecnohistoria",
+    "ciencia"
+  ],
+  "hashtags": [
+    "#QuéPasaríaSi",
+    "#Sol",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "¿Y si explota?",
+  "thumbnail_badge": "8 min",
+  "thumbnail_icon": "☀️",
+  "thumbnail_photo": "The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Qué otro «¿qué pasaría si…?» quieres que investigue? Te leo 👇",
+  "playlists": [
+    "quepasaria"
+  ],
+  "sources": [
+    "https://www.livescience.com/planet-earth/what-would-happen-to-earth-if-the-sun-suddenly-vanished",
+    "https://www.iflscience.com/if-the-sun-suddenly-vanished-it-would-take-earth-8-minutes-and-20-seconds-before-feeling-any-change-83514",
+    "https://www.howitworksdaily.com/life-without-the-sun/",
+    "https://www.space.com/14732-sun-burns-star-death.html",
+    "https://space.com/107-life-earth-escape-swelling-sun.html",
+    "https://interestingengineering.com/science/the-lifecycle-of-the-solar-system-from-here-to-eternity",
+    "https://physicstoday.aip.org/news/earths-ultimate-destruction-and-possible-reincarnation"
+  ],
+  "publish_at": "2026-12-10T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Imagina que ahora mismo el Sol explota. Lo curioso es que durante ocho minutos y veinte segundos no te enterarías de nada. Seguirías viendo un cielo normal, sintiendo el calor en la cara, sin saber que la estrella de la que depende toda la vida en la Tierra ya no existe.",
+      "visual_query": "sun in sky",
+      "card": {
+        "layout": "number",
+        "heading": "8 min 20 s",
+        "items": [
+          "Lo que tardarías en enterarte"
+        ],
+        "icon": "☀️"
+      },
+      "photo": "The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819",
+      "photo_caption": "El Sol, fotografiado por la NASA"
+    },
+    {
+      "section": "La pregunta",
+      "narration": "¿Qué pasaría si el Sol explotara? Es una de las preguntas más buscadas en YouTube. Y la respuesta tiene un giro que casi nadie cuenta: el Sol no puede explotar. Pero lo que sí le va a pasar es casi igual de impresionante.",
+      "visual_query": "solar flare",
+      "card": {
+        "layout": "title",
+        "heading": "¿Y si el Sol explotara?",
+        "items": [
+          "Spoiler: no puede"
+        ],
+        "icon": "💥"
+      }
+    },
+    {
+      "section": "La promesa",
+      "narration": "En este vídeo vamos a ver qué pasaría minuto a minuto si el Sol desapareciera, por qué nuestra estrella nunca será una supernova y cuál será su final real, según la astronomía.",
+      "visual_query": "space stars",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que vas a ver",
+        "items": [
+          "Minuto a minuto",
+          "Por qué no explota",
+          "Su final real"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Los 8 minutos",
+      "narration": "Empecemos por esos ocho minutos. La luz del Sol tarda unos ocho minutos y veinte segundos en recorrer los ciento cincuenta millones de kilómetros que nos separan. Cuando miras el Sol, en realidad lo ves como era hace ocho minutos.",
+      "visual_query": "sunrise horizon",
+      "card": {
+        "layout": "number",
+        "heading": "150 millones km",
+        "items": [
+          "Distancia al Sol"
+        ],
+        "icon": "📏"
+      }
+    },
+    {
+      "section": "Los 8 minutos",
+      "narration": "Y aquí está lo sorprendente: la gravedad también viaja a la velocidad de la luz. Lo comprobaron en 2017, cuando se detectaron a la vez las ondas gravitacionales y la luz de una colisión de dos estrellas de neutrones, a unos ciento treinta millones de años luz. Llegaron con menos de dos segundos de diferencia.",
+      "visual_query": "neutron star collision",
+      "card": {
+        "layout": "bullets",
+        "heading": "La gravedad también tarda",
+        "items": [
+          "Viaja a la velocidad de la luz",
+          "Comprobado en 2017"
+        ],
+        "icon": "🌌"
+      }
+    },
+    {
+      "section": "Los 8 minutos",
+      "narration": "Eso significa que, durante esos ocho minutos, la Tierra seguiría girando alrededor de un Sol que ya no está. Como un perro que sigue dando vueltas atado a una correa que alguien acaba de soltar, sin saberlo todavía.",
+      "visual_query": "earth orbit",
+      "card": {
+        "layout": "title",
+        "heading": "Girando alrededor de nada",
+        "items": [
+          "Durante 8 minutos"
+        ],
+        "icon": "🔄"
+      }
+    },
+    {
+      "section": "Minuto 8",
+      "narration": "Minuto ocho. De golpe, se hace de noche en medio día. Y la Tierra deja de curvar su camino: sale disparada en línea recta, a unos treinta kilómetros por segundo, que es la velocidad a la que gira alrededor del Sol.",
+      "visual_query": "earth in space",
+      "card": {
+        "layout": "number",
+        "heading": "30 km/s",
+        "items": [
+          "Velocidad de la Tierra"
+        ],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "Minuto 8",
+      "narration": "La Luna seguiría con nosotros, porque está atada a la Tierra por su gravedad. Pero dejaría de brillar: la Luna no tiene luz propia, solo refleja la del Sol. Los demás planetas también se apagarían en el cielo.",
+      "visual_query": "full moon night",
+      "card": {
+        "layout": "bullets",
+        "heading": "Se apaga el cielo",
+        "items": [
+          "La Luna deja de brillar",
+          "Los planetas también"
+        ],
+        "icon": "🌑"
+      },
+      "photo": "Full Moon Luc Viatour",
+      "photo_caption": "La Luna llena"
+    },
+    {
+      "section": "Suscríbete",
+      "narration": "Si te gustan estos experimentos de qué pasaría si, suscríbete a TecnoHistoria. Hay uno nuevo cada semana.",
+      "visual_query": "subscribe",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Uno nuevo cada semana"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "Las primeras horas",
+      "narration": "Las primeras horas. Las plantas dejan de hacer la fotosíntesis, la base de casi toda la cadena alimentaria. Los árboles grandes podrían sobrevivir un tiempo gracias a sus reservas, pero el reloj ya ha empezado a correr para casi todo lo que vive.",
+      "visual_query": "forest trees",
+      "card": {
+        "layout": "title",
+        "heading": "Sin fotosíntesis",
+        "items": [
+          "La base de la vida se para"
+        ],
+        "icon": "🌿"
+      }
+    },
+    {
+      "section": "La primera semana",
+      "narration": "La primera semana. La temperatura empieza a caer rápido. Las estimaciones varían, pero en pocos días la superficie estaría bajo cero en casi todo el planeta. El aire conserva algo de calor, y el océano mucho más, así que el frío llega poco a poco.",
+      "visual_query": "frozen landscape",
+      "card": {
+        "layout": "bullets",
+        "heading": "Primera semana",
+        "items": [
+          "Bajo cero en pocos días",
+          "El mar guarda calor"
+        ],
+        "icon": "🥶"
+      }
+    },
+    {
+      "section": "El primer año",
+      "narration": "El primer año. Los océanos empezarían a congelarse por la superficie. Pero el hielo funciona como un abrigo: aísla el agua de debajo. Por eso, en las profundidades, el agua podría seguir líquida durante muchísimo tiempo, calentada por el calor del interior de la Tierra.",
+      "visual_query": "ice sheet ocean",
+      "card": {
+        "layout": "title",
+        "heading": "Un océano bajo el hielo",
+        "items": [
+          "El hielo hace de abrigo"
+        ],
+        "icon": "🧊"
+      }
+    },
+    {
+      "section": "¿Sobreviviría algo?",
+      "narration": "¿Sobreviviría algo? Sí. En el fondo del mar hay fuentes hidrotermales, chimeneas por las que sale agua caliente del interior de la Tierra. A su alrededor viven bacterias y animales que no dependen del Sol, sino de la química de esas aguas. Ellos podrían seguir como si nada.",
+      "visual_query": "hydrothermal vent",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los supervivientes",
+        "items": [
+          "Fuentes hidrotermales",
+          "Bacterias sin Sol"
+        ],
+        "icon": "🦠"
+      },
+      "photo": "Blacksmoker in Atlantic Ocean",
+      "photo_caption": "Fuente hidrotermal en el fondo del océano"
+    },
+    {
+      "section": "¿Y los humanos?",
+      "narration": "¿Y nosotros? Algunos expertos imaginan refugios en zonas con mucha energía geotérmica, como Islandia, o instalaciones subterráneas con energía nuclear. Sería una supervivencia muy difícil, durante un tiempo limitado. Pero no imposible a corto plazo.",
+      "visual_query": "Iceland geothermal",
+      "card": {
+        "layout": "title",
+        "heading": "Refugios geotérmicos",
+        "items": [
+          "Islandia, por ejemplo"
+        ],
+        "icon": "🌋"
+      },
+      "photo": "Nesjavellir Geothermal Power Station",
+      "photo_caption": "Central geotérmica en Islandia"
+    },
+    {
+      "section": "El giro",
+      "narration": "Ahora, el giro. Todo esto es un experimento mental, porque el Sol no puede explotar. Las grandes explosiones de estrellas, las supernovas, solo les pasan a estrellas con mucha más masa que el Sol, al menos unas ocho veces más.",
+      "visual_query": "supernova remnant",
+      "card": {
+        "layout": "number",
+        "heading": "x8",
+        "items": [
+          "Masa mínima para estallar"
+        ],
+        "icon": "⭐"
+      },
+      "photo": "Crab Nebula",
+      "photo_caption": "La nebulosa del Cangrejo, resto de una supernova"
+    },
+    {
+      "section": "El giro",
+      "narration": "Una estrella así quema su combustible tan rápido que, al final, su núcleo colapsa en una fracción de segundo y la estrella estalla. El Sol es demasiado pequeño y tranquilo para eso. Nunca será una supernova.",
+      "visual_query": "star explosion",
+      "card": {
+        "layout": "title",
+        "heading": "Demasiado pequeño",
+        "items": [
+          "Para explotar"
+        ],
+        "icon": "🔥"
+      }
+    },
+    {
+      "section": "El giro",
+      "narration": "¿Y si, por arte de magia, el Sol sí estallara como una supernova? Entonces no habría ocho minutos de calma: la onda de energía y materia que llegaría después arrancaría la atmósfera y fundiría la superficie de la Tierra. No habría refugio posible. Por suerte, eso no puede pasar.",
+      "visual_query": "explosion space",
+      "card": {
+        "layout": "title",
+        "heading": "Si fuera una supernova",
+        "items": [
+          "No habría refugio"
+        ],
+        "icon": "☄️"
+      }
+    },
+    {
+      "section": "El giro",
+      "narration": "Las supernovas sí existen, y una de las candidatas más famosas es Betelgeuse, la estrella roja del hombro de Orión. Es una supergigante enorme que acabará estallando, aunque los astrónomos calculan que probablemente falten decenas de miles de años o más.",
+      "visual_query": "Betelgeuse",
+      "card": {
+        "layout": "bullets",
+        "heading": "Betelgeuse",
+        "items": [
+          "Hombro de Orión",
+          "Estallará algún día",
+          "Pero no pronto"
+        ],
+        "icon": "🔭"
+      },
+      "photo": "Betelgeuse captured by ALMA",
+      "photo_caption": "Betelgeuse"
+    },
+    {
+      "section": "El giro",
+      "narration": "Y en 2019 y 2020 dio un buen susto: su brillo bajó tanto que mucha gente pensó que iba a explotar. Al final, los astrónomos concluyeron que la causa más probable fue una nube de polvo que la propia estrella expulsó. Y estaba tan lejos, a unos quinientos cincuenta años luz, que tampoco sería peligrosa para nosotros.",
+      "visual_query": "orion constellation",
+      "card": {
+        "layout": "number",
+        "heading": "2019",
+        "items": [
+          "El gran oscurecimiento"
+        ],
+        "icon": "🌫️"
+      }
+    },
+    {
+      "section": "Dato sorpresa",
+      "narration": "Y aquí está el dato que sorprende: aunque no explote, el Sol se vuelve más brillante con el tiempo, poco a poco. Según los modelos, dentro de unos mil millones de años brillará lo suficiente como para evaporar los océanos de la Tierra. Mucho antes de su final.",
+      "visual_query": "desert dry earth",
+      "card": {
+        "layout": "number",
+        "heading": "1.000 M años",
+        "items": [
+          "Adiós a los océanos"
+        ],
+        "icon": "🌡️"
+      }
+    },
+    {
+      "section": "La edad del Sol",
+      "narration": "Para entender cuánto le queda, hay que saber cuántos años tiene. El Sol se formó hace unos cuatro mil seiscientos millones de años, más o menos a la vez que la Tierra. Está, por así decirlo, a la mitad de su vida.",
+      "visual_query": "sun surface",
+      "card": {
+        "layout": "number",
+        "heading": "4.600 M años",
+        "items": [
+          "Edad del Sol"
+        ],
+        "icon": "⌛"
+      }
+    },
+    {
+      "section": "El final real",
+      "narration": "¿Y su final real? Dentro de unos cinco mil millones de años, el Sol agotará el hidrógeno de su núcleo y empezará a hincharse hasta convertirse en una gigante roja, cientos de veces más grande que ahora.",
+      "visual_query": "red giant star",
+      "card": {
+        "layout": "number",
+        "heading": "5.000 M años",
+        "items": [
+          "El Sol, gigante roja"
+        ],
+        "icon": "🔴"
+      }
+    },
+    {
+      "section": "El final real",
+      "narration": "En esa fase, el Sol se tragará a Mercurio y a Venus. ¿Y la Tierra? Los científicos no se ponen de acuerdo: unos creen que también será engullida, y otros que la pérdida de masa del Sol alejará nuestra órbita lo suficiente para salvarnos. Aunque sería una roca quemada y sin océanos.",
+      "visual_query": "planets solar system",
+      "card": {
+        "layout": "bullets",
+        "heading": "La gigante roja",
+        "items": [
+          "Engulle a Mercurio y Venus",
+          "¿La Tierra? En debate"
+        ],
+        "icon": "🪐"
+      }
+    },
+    {
+      "section": "El final real",
+      "narration": "Después, el Sol expulsará sus capas exteriores en una nube brillante de gas, una nebulosa planetaria. Lo que quede será una enana blanca: una esfera del tamaño de la Tierra, muy densa, que se irá enfriando durante miles de millones de años.",
+      "visual_query": "planetary nebula",
+      "card": {
+        "layout": "steps",
+        "heading": "El final",
+        "items": [
+          "Nebulosa planetaria",
+          "Enana blanca",
+          "Enfriamiento lento"
+        ],
+        "icon": "⚪"
+      },
+      "photo": "Ring Nebula",
+      "photo_caption": "La nebulosa del Anillo, una nebulosa planetaria"
+    },
+    {
+      "section": "La lección",
+      "narration": "Mi conclusión es esta: el Sol no va a explotar, y su final está tan lejos que es difícil de imaginar. Pero este experimento nos recuerda algo enorme: toda la vida que conocemos funciona con una sola fuente de energía, a ocho minutos luz de distancia.",
+      "visual_query": "sun rays clouds",
+      "card": {
+        "layout": "quote",
+        "heading": "A 8 minutos luz",
+        "items": [
+          "Toda la vida depende de él"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Si quieres otro qué pasaría si, tienes en el canal qué pasaría si hubiera un apagón mundial, y lo que haría una tormenta solar como la de 1859. Y cuéntame en los comentarios: ¿qué otro qué pasaría si quieres que investigue?",
+      "visual_query": "question",
+      "card": {
+        "layout": "title",
+        "heading": "¿Qué investigo ahora?",
+        "items": [
+          "Cuéntamelo abajo"
+        ],
+        "icon": "💬"
+      }
+    }
+  ],
+  "full_description": "¿Qué pasaría si el Sol explotara? Durante 8 minutos y 20 segundos no te enterarías de nada. En este vídeo vemos, minuto a minuto, qué le pasaría a la Tierra si el Sol desapareciera: la noche repentina, la Tierra saliendo disparada en línea recta, el frío de la primera semana, los océanos congelándose por la superficie y la vida que sobreviviría sin luz junto a las fuentes hidrotermales.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nPero también el giro que casi nadie cuenta: el Sol no puede explotar. Las supernovas solo les ocurren a estrellas con al menos unas ocho veces su masa. Su final real será otro: dentro de unos 5.000 millones de años se convertirá en una gigante roja que engullirá a Mercurio y Venus, y después en una enana blanca.\n\nY un dato que sorprende: mucho antes, dentro de unos 1.000 millones de años, el Sol brillará lo suficiente como para evaporar los océanos.\n\nSuscríbete a TecnoHistoria para más «¿qué pasaría si…?» con datos.\n\nCapítulos:\n0:00 Gancho\n0:17 La pregunta\n0:32 La promesa\n0:42 Los 8 minutos\n1:31 Minuto 8\n2:08 Las primeras horas\n2:24 La primera semana\n2:42 El primer año\n3:00 ¿Sobreviviría algo?\n3:19 ¿Y los humanos?\n3:38 El giro\n5:04 Dato sorpresa\n5:21 La edad del Sol\n5:36 El final real\n6:23 La lección\n6:39 Cierre\n\nFuentes:\nhttps://www.livescience.com/planet-earth/what-would-happen-to-earth-if-the-sun-suddenly-vanished\nhttps://www.iflscience.com/if-the-sun-suddenly-vanished-it-would-take-earth-8-minutes-and-20-seconds-before-feeling-any-change-83514\nhttps://www.howitworksdaily.com/life-without-the-sun/\nhttps://www.space.com/14732-sun-burns-star-death.html\nhttps://space.com/107-life-earth-escape-swelling-sun.html\nhttps://interestingengineering.com/science/the-lifecycle-of-the-solar-system-from-here-to-eternity\nhttps://physicstoday.aip.org/news/earths-ultimate-destruction-and-possible-reincarnation\n\n#QuéPasaríaSi #Sol #TecnoHistoria",
+  "duration_s": 413.9720000000001,
+  "image_credits": []
+}
