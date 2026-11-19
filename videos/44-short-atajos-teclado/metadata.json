@@ -1,0 +1,105 @@
+{
+  "topic": "Tres atajos de teclado de Windows y Mac que ahorran mucho tiempo: historial del portapapeles, captura de una zona y reabrir pestaña",
+  "title": "3 atajos de teclado que te ahorran horas #Shorts",
+  "description": "Tres atajos de teclado que casi nadie usa: Windows + V para el historial del portapapeles, Windows + Mayúsculas + S para capturar una zona de la pantalla (en Mac, Cmd + Mayúsculas + 4) y Ctrl + Mayúsculas + T para reabrir la pestaña que acabas de cerrar (en Mac, Cmd + Mayúsculas + T).\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "atajos de teclado",
+    "trucos windows",
+    "trucos mac",
+    "productividad",
+    "trucos ordenador",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#AtajosDeTeclado",
+    "#Trucos",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuál es tu atajo de teclado favorito? Compártelo para que lo aprendamos todos 👇",
+  "sources": [
+    "https://support.microsoft.com/es-es/windows/m%C3%A9todos-abreviados-de-teclado-de-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+    "https://support.apple.com/es-es/102650"
+  ],
+  "publish_at": "2026-12-07T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Tres atajos de teclado que te van a ahorrar horas. El tercero te salvará más de una vez.",
+      "visual_query": "keyboard typing",
+      "card": {
+        "layout": "title",
+        "heading": "3 atajos",
+        "items": [
+          "Que casi nadie usa"
+        ],
+        "icon": "⌨️"
+      }
+    },
+    {
+      "section": "Uno",
+      "narration": "Uno: Windows más V. Abre el historial del portapapeles: todo lo que has copiado, no solo lo último. La primera vez te pedirá activarlo.",
+      "visual_query": "laptop keyboard",
+      "card": {
+        "layout": "number",
+        "heading": "Win + V",
+        "items": [
+          "Historial del portapapeles"
+        ],
+        "icon": "📋"
+      }
+    },
+    {
+      "section": "Dos",
+      "narration": "Dos: Windows, Mayúsculas y S. Recorta y captura solo la zona de la pantalla que quieras. En Mac, Comando, Mayúsculas y cuatro.",
+      "visual_query": "screenshot screen",
+      "card": {
+        "layout": "number",
+        "heading": "Win + Mayús + S",
+        "items": [
+          "Captura una zona"
+        ],
+        "icon": "✂️"
+      }
+    },
+    {
+      "section": "Tres",
+      "narration": "Y tres: ¿has cerrado una pestaña sin querer? Control, Mayúsculas y T, y vuelve. En Mac, Comando, Mayúsculas y T.",
+      "visual_query": "web browser tabs",
+      "card": {
+        "layout": "number",
+        "heading": "Ctrl + Mayús + T",
+        "items": [
+          "Reabre la pestaña"
+        ],
+        "icon": "↩️"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Guárdalo para no olvidarlo. Y en el canal tienes más trucos de tecnología e inteligencia artificial.",
+      "visual_query": "bookmark",
+      "card": {
+        "layout": "title",
+        "heading": "Guárdalo",
+        "items": [
+          "Más trucos en el canal"
+        ],
+        "icon": "📌"
+      }
+    }
+  ],
+  "playlists": [
+    "ia"
+  ],
+  "full_description": "Tres atajos de teclado que casi nadie usa: Windows + V para el historial del portapapeles, Windows + Mayúsculas + S para capturar una zona de la pantalla (en Mac, Cmd + Mayúsculas + 4) y Ctrl + Mayúsculas + T para reabrir la pestaña que acabas de cerrar (en Mac, Cmd + Mayúsculas + T).\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.\n\nFuentes:\nhttps://support.microsoft.com/es-es/windows/m%C3%A9todos-abreviados-de-teclado-de-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec\nhttps://support.apple.com/es-es/102650\n\n#AtajosDeTeclado #Trucos #Shorts",
+  "duration_s": 43.418,
+  "image_credits": []
+}

@@ -1,0 +1,104 @@
+{
+  "topic": "En 2011 Netflix casi repite el error de Blockbuster con Qwikster y perdió unos 800.000 suscriptores",
+  "title": "El error que casi hunde a Netflix en 2011 #Shorts",
+  "description": "En 2011, Netflix subió precios y anunció que separaría su negocio de DVD en otra empresa, Qwikster. Perdió unos 800.000 suscriptores en Estados Unidos en un trimestre y canceló Qwikster en menos de un mes.\n\nLa historia de Blockbuster y Netflix, en el documental de TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más historias y trucos de tecnología.",
+  "tags": [
+    "netflix",
+    "qwikster",
+    "reed hastings",
+    "errores empresariales",
+    "historia de netflix",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#Netflix",
+    "#Negocios",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Recuerdas alguna subida de precio que te hiciera darte de baja de un servicio? 👇",
+  "sources": [
+    "https://www.npr.org/2011/09/19/140606651/netflix-splits-into-two-companies",
+    "https://www.kunc.org/npr-news/2011-10-10/netflix-kills-qwikster-price-hike-lives-on",
+    "https://tidbits.com/2011/09/19/netflix-ceo-explains-price-increase-renames-dvd-service/"
+  ],
+  "publish_at": "2026-12-06T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "En 2011, Netflix estuvo a punto de cometer un error que casi la hunde.",
+      "visual_query": "warning sign",
+      "card": {
+        "layout": "title",
+        "heading": "Netflix, 2011",
+        "items": [
+          "El gran error"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "La subida",
+      "narration": "Primero subió los precios: DVD y streaming juntos pasaron de nueve con noventa y nueve a quince con noventa y ocho dólares al mes.",
+      "visual_query": "price tag",
+      "card": {
+        "layout": "bullets",
+        "heading": "La subida",
+        "items": [
+          "Antes: 9,99 $",
+          "Después: 15,98 $"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Qwikster",
+      "narration": "Después anunció que los DVD irían a otra empresa con otra web: Qwikster. Los clientes estallaron.",
+      "visual_query": "angry customer",
+      "card": {
+        "layout": "title",
+        "heading": "Qwikster",
+        "items": [
+          "Dos webs, dos cuentas"
+        ],
+        "icon": "😡"
+      }
+    },
+    {
+      "section": "El golpe",
+      "narration": "Netflix perdió unos ochocientos mil suscriptores en Estados Unidos en un trimestre. Su fundador, Reed Hastings, pidió perdón y en menos de un mes canceló Qwikster.",
+      "visual_query": "falling chart",
+      "card": {
+        "layout": "number",
+        "heading": "-800.000",
+        "items": [
+          "Suscriptores perdidos"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Supo rectificar a tiempo. Blockbuster no tuvo esa suerte: su historia completa, en el canal.",
+      "visual_query": "u-turn sign",
+      "card": {
+        "layout": "title",
+        "heading": "Rectificar a tiempo",
+        "items": [
+          "La diferencia"
+        ],
+        "icon": "🔄"
+      }
+    }
+  ],
+  "full_description": "En 2011, Netflix subió precios y anunció que separaría su negocio de DVD en otra empresa, Qwikster. Perdió unos 800.000 suscriptores en Estados Unidos en un trimestre y canceló Qwikster en menos de un mes.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nLa historia de Blockbuster y Netflix, en el documental de TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más historias y trucos de tecnología.\n\nFuentes:\nhttps://www.npr.org/2011/09/19/140606651/netflix-splits-into-two-companies\nhttps://www.kunc.org/npr-news/2011-10-10/netflix-kills-qwikster-price-hike-lives-on\nhttps://tidbits.com/2011/09/19/netflix-ceo-explains-price-increase-renames-dvd-service/\n\n#Netflix #Negocios #Shorts",
+  "duration_s": 39.986000000000004,
+  "image_credits": []
+}
