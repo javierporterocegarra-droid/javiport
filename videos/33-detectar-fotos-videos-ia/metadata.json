@@ -1,0 +1,513 @@
+{
+  "topic": "Guía práctica para detectar fotos y vídeos falsos hechos con IA en 2026, con herramientas gratuitas",
+  "title": "Cómo detectar fotos y vídeos falsos hechos con IA (guía 2026)",
+  "description": "Cómo detectar fotos y vídeos falsos hechos con IA en 2026: un método de 6 pasos, gratis y desde el móvil. Tus ojos ya no bastan: en estudios científicos, la gente distingue las caras creadas por IA prácticamente al azar.\n\nEn esta guía aprenderás a comprobar una imagen o un vídeo como lo hacen los verificadores profesionales:\n1. Parar antes de compartir y revisar la fuente.\n2. Buscar si ya está desmentido por verificadores.\n3. Hacer una búsqueda inversa con Google Lens, Rodea para buscar o TinEye.\n4. Leer las credenciales de contenido (C2PA) en Content Credentials Verify.\n5. Preguntar a la app Gemini si la imagen lleva la marca de agua SynthID de Google.\n6. Analizar vídeos fotograma a fotograma con la extensión gratuita InVID WeVerify.\n\nTambién verás las pistas visuales que todavía delatan a la IA (textos deformes, fondos, luces y sombras), los errores más comunes, como fiarse de los detectores que dan un porcentaje, y qué hacer si recibes una llamada con una voz clonada.\n\nGuarda el vídeo para cuando lo necesites y compártelo con tu familia.\n\nSuscríbete a TecnoHistoria: historia de la tecnología, nuevas tecnologías explicadas con datos y guías prácticas cada semana.",
+  "tags": [
+    "detectar imágenes ia",
+    "cómo saber si una foto es ia",
+    "deepfake",
+    "fotos falsas",
+    "vídeos falsos ia",
+    "verificar imágenes",
+    "búsqueda inversa de imágenes",
+    "google lens",
+    "synthid",
+    "gemini",
+    "content credentials",
+    "invid",
+    "bulos",
+    "inteligencia artificial",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#IA",
+    "#Deepfake",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "¿Real o IA?",
+  "thumbnail_badge": "2026",
+  "thumbnail_icon": "🕵️",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuál es el bulo hecho con IA que más te ha sorprendido? ¿Te has creído alguno? 👇",
+  "sources": [
+    "https://www.pnas.org/doi/10.1073/pnas.2120481119",
+    "https://theconversation.com/can-you-spot-the-ai-impostors-we-found-ai-faces-can-look-more-real-than-actual-humans-215160",
+    "https://fullfact.org/blog/2025/apr/spotting-AI-content-guide/",
+    "https://blog.google/technology/ai/ai-image-verification-gemini-app/",
+    "https://support.google.com/gemini/answer/16722517",
+    "https://contentcredentials.org/verify",
+    "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/",
+    "https://bellingcat.gitbook.io/toolkit/more/all-tools/invid",
+    "https://www.malwarebytes.com/blog/news/how-to-tell-if-an-image-is-ai-generated"
+  ],
+  "publish_at": "2026-12-05T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "El resultado",
+      "narration": "Esta foto parece real. Este vídeo también. Al final de esta guía vas a tener un método de seis pasos, gratis y desde el móvil, para saber en menos de cinco minutos si una imagen o un vídeo tiene pinta de estar hecho con inteligencia artificial.",
+      "visual_query": "smartphone fact check",
+      "card": {
+        "layout": "steps",
+        "heading": "En 5 minutos",
+        "items": [
+          "Método de 6 pasos",
+          "Gratis",
+          "Desde el móvil"
+        ],
+        "icon": "🕵️"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Y lo necesitas, porque tus ojos ya no bastan. En un estudio publicado en 2022 en la revista PNAS, la gente acertó solo un cuarenta y ocho por ciento de las veces al distinguir caras reales de caras creadas por IA. Peor que lanzar una moneda.",
+      "visual_query": "face portrait",
+      "card": {
+        "layout": "number",
+        "heading": "48 %",
+        "items": [
+          "Aciertos distinguiendo caras IA"
+        ],
+        "icon": "🪙"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Y en otro estudio de 2023, en la revista Psychological Science, los participantes tomaron por personas reales el sesenta y seis por ciento de las caras generadas por IA. Más que las fotos reales. Las caras falsas parecían más auténticas que las de verdad.",
+      "visual_query": "realistic portrait",
+      "card": {
+        "layout": "number",
+        "heading": "66 %",
+        "items": [
+          "Caras IA tomadas por reales"
+        ],
+        "icon": "😶"
+      }
+    },
+    {
+      "section": "El problema",
+      "narration": "Por eso esta guía no va de buscar dedos de más. Eso funcionaba hace dos años. Hoy hay que pensar como un verificador profesional: mirar de dónde viene la imagen, qué rastro deja y qué dicen las herramientas. Los fallos visuales los dejamos para el final.",
+      "visual_query": "journalist desk",
+      "card": {
+        "layout": "title",
+        "heading": "Piensa como un verificador",
+        "items": [
+          "No como un detective de dedos"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Requisitos",
+      "narration": "Qué necesitas: un móvil o un ordenador, la imagen o el enlace al vídeo y cinco minutos. Todas las herramientas que vamos a usar son gratuitas. No hace falta instalar nada raro.",
+      "visual_query": "laptop and phone",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que necesitas",
+        "items": [
+          "Móvil u ordenador",
+          "La imagen o el enlace",
+          "5 minutos"
+        ],
+        "icon": "🧰"
+      }
+    },
+    {
+      "section": "Requisitos",
+      "narration": "Si te gustan estas guías prácticas sobre tecnología, suscríbete a TecnoHistoria. Cada sábado hay una nueva o un explicador con datos.",
+      "visual_query": "subscribe",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Guías cada sábado"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "Paso 1: para",
+      "narration": "Paso uno, y es el más importante: para. Las imágenes falsas están diseñadas para provocar una emoción fuerte: indignación, miedo, ternura o risa. Si algo te hace querer compartirlo inmediatamente, esa es justo la señal para no hacerlo todavía.",
+      "visual_query": "stop sign",
+      "card": {
+        "layout": "number",
+        "heading": "1",
+        "items": [
+          "Para antes de compartir"
+        ],
+        "icon": "✋"
+      }
+    },
+    {
+      "section": "Paso 1: para",
+      "narration": "Hazte tres preguntas rápidas. ¿Quién lo ha publicado? ¿Es la fuente original o alguien que lo ha copiado? ¿Y lo están contando también medios fiables? Si un suceso enorme solo aparece en una cuenta desconocida, desconfía.",
+      "visual_query": "question marks",
+      "card": {
+        "layout": "bullets",
+        "heading": "Tres preguntas",
+        "items": [
+          "¿Quién lo publica?",
+          "¿Es la fuente original?",
+          "¿Lo cuentan otros medios?"
+        ],
+        "icon": "❓"
+      }
+    },
+    {
+      "section": "Paso 2: verificadores",
+      "narration": "Paso dos: mira si ya está desmentido. Muchas imágenes virales ya han sido analizadas por verificadores profesionales. En España tienes, por ejemplo, Maldita y Newtral. Busca en internet una descripción de la imagen junto a la palabra bulo o falso.",
+      "visual_query": "news fact check",
+      "card": {
+        "layout": "number",
+        "heading": "2",
+        "items": [
+          "Busca si ya está desmentido"
+        ],
+        "icon": "🔎"
+      }
+    },
+    {
+      "section": "Paso 2: verificadores",
+      "narration": "Es el paso más rápido y muchas veces el definitivo. Si un verificador ya lo ha analizado, te explicará además cómo lo descubrió, y eso te enseña a hacerlo tú la próxima vez.",
+      "visual_query": "checklist",
+      "card": {
+        "layout": "title",
+        "heading": "El atajo",
+        "items": [
+          "Alguien ya lo ha comprobado"
+        ],
+        "icon": "⚡"
+      }
+    },
+    {
+      "section": "Paso 3: búsqueda inversa",
+      "narration": "Paso tres: la búsqueda inversa de imágenes. En lugar de buscar con palabras, buscas con la propia foto. En Android, mantén pulsado el botón de inicio o la barra de navegación y rodea la imagen con el dedo: es la función Rodea para buscar. En cualquier móvil puedes usar la app de Google con Lens.",
+      "visual_query": "reverse image search phone",
+      "card": {
+        "layout": "number",
+        "heading": "3",
+        "items": [
+          "Busca con la propia imagen"
+        ],
+        "icon": "🖼️"
+      }
+    },
+    {
+      "section": "Paso 3: búsqueda inversa",
+      "narration": "En el ordenador, además de Google Lens, prueba TinEye, que ordena los resultados por fecha. Así puedes ver cuándo apareció la imagen por primera vez y en qué contexto.",
+      "visual_query": "computer search",
+      "card": {
+        "layout": "bullets",
+        "heading": "Herramientas",
+        "items": [
+          "Google Lens",
+          "Rodea para buscar",
+          "TinEye"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Paso 3: búsqueda inversa",
+      "narration": "¿Qué buscas? Tres cosas. Si la foto es antigua y la están usando para otro suceso. Si existe una versión original distinta, sin retocar. O si aparece en webs de arte hecho con IA. Ojo: que no haya ningún resultado no demuestra nada, pero si la imagen dice mostrar un suceso real y nadie más la tiene, sospecha.",
+      "visual_query": "photo comparison",
+      "card": {
+        "layout": "steps",
+        "heading": "Qué buscar",
+        "items": [
+          "¿Es una foto antigua?",
+          "¿Hay un original distinto?",
+          "¿Sale en webs de IA?"
+        ],
+        "icon": "🧩"
+      }
+    },
+    {
+      "section": "Paso 3: búsqueda inversa",
+      "narration": "Un ejemplo típico: circula la foto de una gran inundación con la frase pasó ayer. Haces la búsqueda inversa y aparece en noticias de hace años, en otro país. No hace falta saber nada de inteligencia artificial: el bulo cae solo con mirar la fecha.",
+      "visual_query": "flood street",
+      "card": {
+        "layout": "title",
+        "heading": "Un ejemplo",
+        "items": [
+          "La foto era de hace años"
+        ],
+        "icon": "🌊"
+      }
+    },
+    {
+      "section": "Paso 4: credenciales",
+      "narration": "Paso cuatro: busca las credenciales de contenido. Es un estándar llamado C2PA que apoyan empresas como Adobe, Google, Microsoft u OpenAI. Funciona como una etiqueta firmada que viaja dentro del archivo y dice cómo se creó y si se editó con IA.",
+      "visual_query": "digital certificate",
+      "card": {
+        "layout": "number",
+        "heading": "4",
+        "items": [
+          "Credenciales de contenido"
+        ],
+        "icon": "🏷️"
+      }
+    },
+    {
+      "section": "Paso 4: credenciales",
+      "narration": "Para verlas, sube la imagen a la web Content Credentials Verify, en contentcredentials punto org barra verify. Si aparece una credencial que dice que se generó con IA, ya tienes la respuesta.",
+      "visual_query": "website upload",
+      "card": {
+        "layout": "steps",
+        "heading": "Cómo comprobarlo",
+        "items": [
+          "contentcredentials.org/verify",
+          "Sube la imagen",
+          "Lee el historial"
+        ],
+        "icon": "📜"
+      }
+    },
+    {
+      "section": "Paso 4: credenciales",
+      "narration": "Pero cuidado con la trampa: si alguien hace una captura de pantalla o la imagen pasa por algunas redes sociales, la credencial desaparece. Por eso, si no hay credencial, eso no significa que sea real. Solo que no hay etiqueta.",
+      "visual_query": "warning",
+      "card": {
+        "layout": "quote",
+        "heading": "Sin etiqueta ≠ real",
+        "items": [
+          "Una captura la borra"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Paso 5: Gemini",
+      "narration": "Paso cinco: pregunta a Gemini. Desde noviembre de 2025, la app Gemini de Google comprueba si una imagen lleva SynthID, la marca de agua invisible que Google pone en lo que crean sus modelos de IA.",
+      "visual_query": "chat app phone",
+      "card": {
+        "layout": "number",
+        "heading": "5",
+        "items": [
+          "Pregunta a Gemini"
+        ],
+        "icon": "💬"
+      }
+    },
+    {
+      "section": "Paso 5: Gemini",
+      "narration": "Es muy fácil: abre Gemini, sube la imagen y pregunta: ¿esta imagen la ha creado o editado la IA de Google? Si encuentra la marca de agua, te lo dirá. Google ha ido ampliando esta comprobación también a vídeo y audio.",
+      "visual_query": "smartphone app",
+      "card": {
+        "layout": "steps",
+        "heading": "Cómo se hace",
+        "items": [
+          "Abre Gemini",
+          "Sube la imagen",
+          "Pregunta si es de IA"
+        ],
+        "icon": "📱"
+      }
+    },
+    {
+      "section": "Paso 5: Gemini",
+      "narration": "La limitación es importante: solo detecta contenido creado con herramientas de Google o de los socios que usan SynthID. Una imagen hecha con un modelo de código abierto no lleva esa marca, y Gemini no podrá confirmarlo. Un no encontrado no es un es real.",
+      "visual_query": "limits",
+      "card": {
+        "layout": "bullets",
+        "heading": "Su límite",
+        "items": [
+          "Solo detecta IA de Google",
+          "Y de sus socios",
+          "No encontrado ≠ real"
+        ],
+        "icon": "🚧"
+      }
+    },
+    {
+      "section": "Paso 6: vídeos",
+      "narration": "Paso seis, para vídeos: InVID WeVerify. Es una extensión gratuita para Chrome y Firefox que usan muchos periodistas. Su código lo mantiene el laboratorio de la agencia de noticias AFP.",
+      "visual_query": "video editing timeline",
+      "card": {
+        "layout": "number",
+        "heading": "6",
+        "items": [
+          "Vídeos: InVID WeVerify"
+        ],
+        "icon": "🎞️"
+      }
+    },
+    {
+      "section": "Paso 6: vídeos",
+      "narration": "¿Por qué fotogramas? Porque los buscadores no buscan bien dentro de los vídeos, pero sí con imágenes fijas. Si un vídeo viral es en realidad un fragmento de una película, de un videojuego o de un vídeo antiguo, lo normal es que alguno de sus fotogramas aparezca en internet.",
+      "visual_query": "video frames grid",
+      "card": {
+        "layout": "title",
+        "heading": "El truco de los fotogramas",
+        "items": [
+          "Buscan bien en imágenes"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Paso 6: vídeos",
+      "narration": "Pegas el enlace del vídeo y la herramienta extrae los fotogramas clave. Después puedes hacer búsqueda inversa de cada uno en Google, Bing, Yandex o TinEye. Así descubres si el vídeo es antiguo, de otro país o de una película. También incluye filtros forenses y una lupa para ampliar detalles.",
+      "visual_query": "film frames",
+      "card": {
+        "layout": "steps",
+        "heading": "Cómo se usa",
+        "items": [
+          "Pega el enlace",
+          "Saca los fotogramas",
+          "Búsqueda inversa de cada uno"
+        ],
+        "icon": "🔬"
+      }
+    },
+    {
+      "section": "Las pistas visuales",
+      "narration": "Y ahora sí, las pistas visuales. Úsalas como indicios, no como pruebas. Fíjate en los textos: carteles, matrículas o etiquetas con letras deformes o sin sentido siguen siendo un fallo frecuente de la IA.",
+      "visual_query": "blurry text sign",
+      "card": {
+        "layout": "bullets",
+        "heading": "Pistas visuales",
+        "items": [
+          "Textos deformes",
+          "Fondos que se derriten",
+          "Luces imposibles"
+        ],
+        "icon": "👀"
+      }
+    },
+    {
+      "section": "Las pistas visuales",
+      "narration": "Mira también el fondo: objetos que se funden entre sí, edificios con líneas imposibles o personas al fondo con caras borrosas. Y las sombras y reflejos: si la luz viene de un lado pero la sombra va hacia otro, algo falla.",
+      "visual_query": "shadows lighting",
+      "card": {
+        "layout": "title",
+        "heading": "Fondo y luz",
+        "items": [
+          "Donde la IA aún tropieza"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Las pistas visuales",
+      "narration": "En vídeos, observa los bordes de la cara cuando la persona gira la cabeza, la sincronía entre labios y voz, y objetos que cambian de forma de un fotograma a otro. Y recuerda: cada nueva versión de estos modelos corrige parte de estos fallos.",
+      "visual_query": "face video close up",
+      "card": {
+        "layout": "bullets",
+        "heading": "En vídeo",
+        "items": [
+          "Bordes de la cara",
+          "Labios y voz",
+          "Objetos que cambian"
+        ],
+        "icon": "🎥"
+      }
+    },
+    {
+      "section": "Errores comunes",
+      "narration": "Ahora, los errores más comunes. Error uno: fiarse de los detectores online que dan un porcentaje, tipo noventa y ocho por ciento IA. Fallan en las dos direcciones: marcan como falsas fotos reales y dejan pasar imágenes generadas. Úsalos como una opinión más, nunca como veredicto.",
+      "visual_query": "error warning",
+      "card": {
+        "layout": "quote",
+        "heading": "«98 % IA»",
+        "items": [
+          "No es un veredicto"
+        ],
+        "icon": "❌"
+      }
+    },
+    {
+      "section": "Errores comunes",
+      "narration": "Error dos: pensar que si una herramienta no encuentra nada, la imagen es auténtica. Ya lo has visto: las marcas de agua y las credenciales se pierden con una captura, y muchos modelos no las ponen.",
+      "visual_query": "empty search",
+      "card": {
+        "layout": "title",
+        "heading": "Nada encontrado",
+        "items": [
+          "no significa real"
+        ],
+        "icon": "🙈"
+      }
+    },
+    {
+      "section": "Errores comunes",
+      "narration": "Error tres: centrarse solo en si es IA. Muchos bulos usan fotos reales sacadas de contexto: una inundación de hace diez años presentada como de ayer. Por eso los pasos de la fuente y la búsqueda inversa son los más valiosos.",
+      "visual_query": "old newspaper",
+      "card": {
+        "layout": "title",
+        "heading": "Real, pero fuera de contexto",
+        "items": [
+          "El bulo más común"
+        ],
+        "icon": "🗓️"
+      }
+    },
+    {
+      "section": "Errores comunes",
+      "narration": "Y un extra muy importante: las voces clonadas. Si recibes una llamada o un audio de un familiar pidiendo dinero urgente, cuelga y llámale tú a su número de siempre. Y acordad en familia una palabra clave para emergencias.",
+      "visual_query": "phone call",
+      "card": {
+        "layout": "steps",
+        "heading": "Voz clonada",
+        "items": [
+          "Cuelga",
+          "Llama tú",
+          "Usa una palabra clave"
+        ],
+        "icon": "📞"
+      }
+    },
+    {
+      "section": "Resumen",
+      "narration": "Resumen. Uno: para antes de compartir. Dos: mira si ya está desmentido. Tres: búsqueda inversa. Cuatro: credenciales de contenido. Cinco: pregunta a Gemini. Seis: para vídeos, InVID WeVerify. Y las pistas visuales, siempre como indicio.",
+      "visual_query": "checklist",
+      "card": {
+        "layout": "steps",
+        "heading": "Los 6 pasos",
+        "items": [
+          "Para",
+          "¿Desmentido?",
+          "Búsqueda inversa",
+          "Credenciales",
+          "Gemini",
+          "InVID"
+        ],
+        "icon": "✅"
+      }
+    },
+    {
+      "section": "Resumen",
+      "narration": "Ninguna herramienta es perfecta, pero juntas te dan una respuesta bastante fiable en pocos minutos. Guarda este vídeo para cuando lo necesites y compártelo con quien más se cree lo que le llega por WhatsApp.",
+      "visual_query": "sharing phone",
+      "card": {
+        "layout": "title",
+        "heading": "Guárdalo y compártelo",
+        "items": [
+          "Te lo agradecerán"
+        ],
+        "icon": "📲"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Si quieres más trucos para sacarle partido a la inteligencia artificial, tienes en el canal la guía con diez usos de la IA que te ahorran una hora al día. Y cuéntame en los comentarios: ¿cuál es el bulo hecho con IA que más te ha sorprendido?",
+      "visual_query": "artificial intelligence",
+      "card": {
+        "layout": "title",
+        "heading": "Sigue aprendiendo",
+        "items": [
+          "10 usos de la IA"
+        ],
+        "icon": "🤖"
+      }
+    }
+  ],
+  "playlists": [
+    "ia"
+  ],
+  "full_description": "Cómo detectar fotos y vídeos falsos hechos con IA en 2026: un método de 6 pasos, gratis y desde el móvil. Tus ojos ya no bastan: en estudios científicos, la gente distingue las caras creadas por IA prácticamente al azar.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nEn esta guía aprenderás a comprobar una imagen o un vídeo como lo hacen los verificadores profesionales:\n1. Parar antes de compartir y revisar la fuente.\n2. Buscar si ya está desmentido por verificadores.\n3. Hacer una búsqueda inversa con Google Lens, Rodea para buscar o TinEye.\n4. Leer las credenciales de contenido (C2PA) en Content Credentials Verify.\n5. Preguntar a la app Gemini si la imagen lleva la marca de agua SynthID de Google.\n6. Analizar vídeos fotograma a fotograma con la extensión gratuita InVID WeVerify.\n\nTambién verás las pistas visuales que todavía delatan a la IA (textos deformes, fondos, luces y sombras), los errores más comunes, como fiarse de los detectores que dan un porcentaje, y qué hacer si recibes una llamada con una voz clonada.\n\nGuarda el vídeo para cuando lo necesites y compártelo con tu familia.\n\nSuscríbete a TecnoHistoria: historia de la tecnología, nuevas tecnologías explicadas con datos y guías prácticas cada semana.\n\nCapítulos:\n0:00 El resultado\n0:15 El problema\n1:05 Requisitos\n1:27 Paso 1: para\n2:00 Paso 2: verificadores\n2:29 Paso 3: búsqueda inversa\n3:38 Paso 4: credenciales\n4:23 Paso 5: Gemini\n5:10 Paso 6: vídeos\n6:00 Las pistas visuales\n6:45 Errores comunes\n7:48 Resumen\n8:23 Cierre\n\nFuentes:\nhttps://www.pnas.org/doi/10.1073/pnas.2120481119\nhttps://theconversation.com/can-you-spot-the-ai-impostors-we-found-ai-faces-can-look-more-real-than-actual-humans-215160\nhttps://fullfact.org/blog/2025/apr/spotting-AI-content-guide/\nhttps://blog.google/technology/ai/ai-image-verification-gemini-app/\nhttps://support.google.com/gemini/answer/16722517\nhttps://contentcredentials.org/verify\nhttps://www.invid-project.eu/tools-and-services/invid-verification-plugin/\nhttps://bellingcat.gitbook.io/toolkit/more/all-tools/invid\nhttps://www.malwarebytes.com/blog/news/how-to-tell-if-an-image-is-ai-generated\n\n#IA #Deepfake #TecnoHistoria",
+  "duration_s": 517.314,
+  "image_credits": []
+}
