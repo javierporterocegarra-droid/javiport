@@ -1,0 +1,110 @@
+{
+  "topic": "Truco de móvil: comprobar en segundos si una foto viral es antigua o falsa con la búsqueda inversa",
+  "title": "Truco: descubre si una foto viral es falsa en 10 segundos #Shorts",
+  "description": "Antes de compartir una foto viral, haz una búsqueda inversa desde el móvil: en Android, con Rodea para buscar; en cualquier móvil, con Google Lens. Verás dónde apareció antes la imagen y si es antigua o de otro sitio.\n\nLa guía completa para detectar fotos y vídeos hechos con IA, este sábado en TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más historias y trucos de tecnología.",
+  "tags": [
+    "truco móvil",
+    "google lens",
+    "rodea para buscar",
+    "fotos falsas",
+    "búsqueda inversa",
+    "bulos",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#TrucosMóvil",
+    "#GoogleLens",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Conocías este truco? ¿Qué otro truco de móvil te gustaría aprender? 👇",
+  "sources": [
+    "https://support.google.com/websearch/answer/1325808",
+    "https://fullfact.org/blog/2025/apr/spotting-AI-content-guide/"
+  ],
+  "publish_at": "2026-12-03T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "¿Te ha llegado una foto increíble y no sabes si es real? Compruébalo en diez segundos.",
+      "visual_query": "smartphone",
+      "card": {
+        "layout": "title",
+        "heading": "¿Real o bulo?",
+        "items": [
+          "En 10 segundos"
+        ],
+        "icon": "🕵️"
+      }
+    },
+    {
+      "section": "Android",
+      "narration": "En Android, mantén pulsado el botón de inicio o la barra de abajo y rodea la imagen con el dedo. Es la función Rodea para buscar.",
+      "visual_query": "android phone",
+      "card": {
+        "layout": "steps",
+        "heading": "En Android",
+        "items": [
+          "Mantén pulsado inicio",
+          "Rodea la imagen"
+        ],
+        "icon": "⭕"
+      }
+    },
+    {
+      "section": "Cualquier móvil",
+      "narration": "En cualquier móvil, abre la app de Google, toca el icono de la cámara, que es Lens, y elige la foto de tu galería.",
+      "visual_query": "phone camera",
+      "card": {
+        "layout": "steps",
+        "heading": "Con Google Lens",
+        "items": [
+          "App de Google",
+          "Icono de cámara",
+          "Elige la foto"
+        ],
+        "icon": "📷"
+      }
+    },
+    {
+      "section": "Qué mirar",
+      "narration": "Verás dónde apareció antes esa imagen. Si es de hace años o de otro país, ya sabes que es un bulo.",
+      "visual_query": "search results",
+      "card": {
+        "layout": "bullets",
+        "heading": "Qué mirar",
+        "items": [
+          "¿Es antigua?",
+          "¿Es de otro sitio?"
+        ],
+        "icon": "🔎"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Y si sospechas que la ha hecho una IA, el sábado tienes en el canal la guía completa para detectarlo.",
+      "visual_query": "artificial intelligence",
+      "card": {
+        "layout": "title",
+        "heading": "Guía completa",
+        "items": [
+          "Este sábado"
+        ],
+        "icon": "🤖"
+      }
+    }
+  ],
+  "playlists": [
+    "ia"
+  ],
+  "full_description": "Antes de compartir una foto viral, haz una búsqueda inversa desde el móvil: en Android, con Rodea para buscar; en cualquier móvil, con Google Lens. Verás dónde apareció antes la imagen y si es antigua o de otro sitio.\n\n🔔 Suscríbete: https://www.youtube.com/@tecnohistoria-1?sub_confirmation=1\n\nLa guía completa para detectar fotos y vídeos hechos con IA, este sábado en TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más historias y trucos de tecnología.\n\nFuentes:\nhttps://support.google.com/websearch/answer/1325808\nhttps://fullfact.org/blog/2025/apr/spotting-AI-content-guide/\n\n#TrucosMóvil #GoogleLens #Shorts",
+  "duration_s": 36.89,
+  "image_credits": []
+}
