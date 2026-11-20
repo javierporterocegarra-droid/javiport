@@ -162,3 +162,42 @@ para los próximos vídeos. Ten en cuenta que los vídeos muy recientes aún no 
     Path(cfg["paths"]["feedback"]).write_text(text, encoding="utf-8")
     db.log("report_generated")
     return text
+
+
+def post_channel_comments(cfg: dict, root) -> int:
+    """Publica el comentario del canal (pinned_comment) en los vídeos ya públicos que aún no lo tienen.
+
+    Mientras un vídeo es privado/programado YouTube no deja comentar; esto se ejecuta a diario y
+    deja constancia en videos/<slug>/comment.json para no repetirlo.
+    """
+    import json
+    from pathlib import Path
+    yt = youtube_oauth(cfg)
+    n = 0
+    for up in sorted(Path(root, "videos").glob("*/uploaded.json")):
+        d = up.parent
+        if (d / "comment.json").exists():
+            continue
+        text = ""
+        for f in ("metadata.json", "script.json"):
+            p = d / f
+            if p.exists():
+                text = json.loads(p.read_text(encoding="utf-8")).get("pinned_comment") or text
+            if text:
+                break
+        if not text:
+            continue
+        vid = json.loads(up.read_text(encoding="utf-8"))["youtube_id"]
+        try:
+            items = yt.videos().list(part="status", id=vid).execute().get("items", [])
+            if not items or items[0]["status"]["privacyStatus"] != "public":
+                continue
+            r = yt.commentThreads().insert(part="snippet", body={"snippet": {
+                "videoId": vid, "topLevelComment": {"snippet": {"textOriginal": text}}}}).execute()
+            (d / "comment.json").write_text(json.dumps({"comment_id": r["id"], "text": text},
+                                                       ensure_ascii=False, indent=2), encoding="utf-8")
+            n += 1
+            log.info("Comentario del canal publicado en %s", d.name)
+        except Exception as e:
+            log.warning("No se pudo comentar en %s: %s", d.name, e)
+    return n

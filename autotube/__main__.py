@@ -171,6 +171,8 @@ def main(argv=None) -> int:
         return 0
     if args.cmd == "manage":
         manager.sync_stats(cfg, db)
+        from .config import ROOT
+        manager.post_channel_comments(cfg, ROOT)
         n = manager.handle_comments(cfg, db, llm) if llm else 0
         print(f"Estadísticas sincronizadas. Comentarios respondidos: {n}")
         return 0
