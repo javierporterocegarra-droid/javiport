@@ -1,0 +1,102 @@
+{
+  "topic": "El 99 % del tráfico internacional de internet viaja por cables submarinos, no por satélites",
+  "title": "Tu internet no va por el espacio, va por el mar #Shorts",
+  "description": "Alrededor del 99 % del tráfico internacional de internet viaja por cables en el fondo del mar, según la Unión Internacional de Telecomunicaciones. Hay unos 570 sistemas de cables submarinos en funcionamiento.\n\n¿Qué pasaría si se cortaran? Hoy a las 18:00, en TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "cables submarinos",
+    "como funciona internet",
+    "internet",
+    "fibra optica",
+    "curiosidades tecnologia",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#Internet",
+    "#Curiosidades",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Sabías que internet viajaba por el fondo del mar? 👇",
+  "sources": [
+    "https://www.itu.int/en/mediacentre/backgrounders/Pages/submarine-cable-resilience.aspx",
+    "https://blog.telegeography.com/how-many-submarine-cables-are-there-anyway"
+  ],
+  "publish_at": "2026-12-17T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "Cuando ves un vídeo de otro país, no te llega por satélite. Te llega por el fondo del mar.",
+      "visual_query": "ocean underwater",
+      "card": {
+        "layout": "title",
+        "heading": "Internet va por el mar",
+        "items": [
+          "No por el espacio"
+        ],
+        "icon": "🌊"
+      }
+    },
+    {
+      "section": "El dato",
+      "narration": "Alrededor del noventa y nueve por ciento del tráfico internacional de internet viaja por cables submarinos.",
+      "visual_query": "fiber optic",
+      "card": {
+        "layout": "number",
+        "heading": "~99 %",
+        "items": [
+          "Por cables submarinos"
+        ],
+        "icon": "🔌"
+      }
+    },
+    {
+      "section": "Cuántos",
+      "narration": "Hay unos quinientos setenta en funcionamiento, uniendo continentes. Por dentro llevan fibras de cristal por las que viaja luz.",
+      "visual_query": "submarine cable map",
+      "card": {
+        "layout": "number",
+        "heading": "~570",
+        "items": [
+          "Cables en uso"
+        ],
+        "icon": "🗺️"
+      }
+    },
+    {
+      "section": "Riesgo",
+      "narration": "Y se rompen más de lo que crees: más de cien reparaciones al año, sobre todo por anclas y barcos de pesca.",
+      "visual_query": "anchor",
+      "card": {
+        "layout": "title",
+        "heading": "Se rompen",
+        "items": [
+          "Más de 100 al año"
+        ],
+        "icon": "⚓"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "¿Y si se cortaran todos? Hoy a las seis de la tarde, en el canal.",
+      "visual_query": "clock",
+      "card": {
+        "layout": "title",
+        "heading": "Hoy a las 18:00",
+        "items": [
+          "¿Y si se cortaran?"
+        ],
+        "icon": "⏰"
+      }
+    }
+  ],
+  "playlists": [
+    "quepasaria"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "topic": "Qué pasaría si la Tierra dejara de girar de golpe: todo saldría despedido hacia el este a cientos de kilómetros por hora",
+  "title": "¿Qué pasaría si la Tierra dejara de girar? #Shorts",
+  "description": "En el ecuador, la superficie de la Tierra gira a unos 1.670 km/h. Si la Tierra se parara de golpe, la atmósfera, los océanos y todo lo que no estuviera anclado seguiría moviéndose a esa velocidad. Si se parara poco a poco, un día duraría un año: seis meses de día y seis de noche.\n\nMás «¿qué pasaría si…?» con datos en la lista del canal.\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "que pasaria si la tierra dejara de girar",
+    "que pasaria si",
+    "la tierra",
+    "rotacion de la tierra",
+    "curiosidades",
+    "ciencia",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#QuéPasaríaSi",
+    "#Tierra",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Qué otro «¿qué pasaría si…?» quieres que investigue? 👇",
+  "sources": [
+    "https://www.livescience.com/what-if-earth-stopped-spinning.html",
+    "https://www.space.com/what-would-happen-if-earth-stopped-spinning",
+    "https://www.astronomy.com/science/what-would-happen-if-earth-stopped-spinning/"
+  ],
+  "publish_at": "2026-12-20T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Ahora mismo, sin notarlo, te estás moviendo a cientos de kilómetros por hora. ¿Y si la Tierra se parara?",
+      "visual_query": "earth from space",
+      "card": {
+        "layout": "title",
+        "heading": "¿Y si se para?",
+        "items": [
+          "La Tierra"
+        ],
+        "icon": "🌍"
+      }
+    },
+    {
+      "section": "La velocidad",
+      "narration": "En el ecuador, la superficie de la Tierra gira a unos mil seiscientos setenta kilómetros por hora. En España, a algo más de mil doscientos.",
+      "visual_query": "globe spinning",
+      "card": {
+        "layout": "number",
+        "heading": "1.670 km/h",
+        "items": [
+          "En el ecuador"
+        ],
+        "icon": "🌀"
+      }
+    },
+    {
+      "section": "De golpe",
+      "narration": "Si se parara de golpe, el aire, los océanos y todo lo que no estuviera anclado seguiría moviéndose a esa velocidad hacia el este. Vientos y olas devastadores.",
+      "visual_query": "hurricane",
+      "card": {
+        "layout": "title",
+        "heading": "De golpe",
+        "items": [
+          "Todo sale despedido"
+        ],
+        "icon": "🌪️"
+      }
+    },
+    {
+      "section": "Poco a poco",
+      "narration": "Si se frenara poco a poco, el día duraría un año: seis meses de luz y seis de oscuridad, con un lado abrasado y otro helado.",
+      "visual_query": "day night earth",
+      "card": {
+        "layout": "bullets",
+        "heading": "Poco a poco",
+        "items": [
+          "6 meses de día",
+          "6 meses de noche"
+        ],
+        "icon": "🌗"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Tranquilo: la Tierra frena, pero muy despacio, unos milisegundos por siglo. Más qué pasaría si, en el canal.",
+      "visual_query": "clock",
+      "card": {
+        "layout": "title",
+        "heading": "Frena, pero muy poco",
+        "items": [
+          "Milisegundos por siglo"
+        ],
+        "icon": "⏱️"
+      }
+    }
+  ],
+  "playlists": [
+    "quepasaria"
+  ]
+}

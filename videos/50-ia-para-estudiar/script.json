@@ -1,0 +1,412 @@
+{
+  "topic": "Cómo usar la IA para estudiar sin hacer trampa en 2026: modo estudio, ponerte a prueba, NotebookLM, técnica Feynman y plan con repasos espaciados",
+  "title": "Cómo usar la IA para estudiar (sin hacer trampa) · 2026",
+  "description": "Cómo usar la IA para estudiar sin hacer trampa: 7 técnicas gratis con ChatGPT, Gemini y NotebookLM. En un experimento con unos mil alumnos de instituto, los que practicaron con ChatGPT resolvieron un 48 % más de ejercicios, pero sacaron un 17 % menos en el examen. La clave está en cómo la usas.\n\nEn esta guía aprenderás a:\n1. Usar el modo estudio de ChatGPT y el aprendizaje guiado de Gemini.\n2. Pedir analogías para entender lo difícil.\n3. Pedirle que te ponga a prueba (la técnica más potente).\n4. Estudiar tus propios apuntes con NotebookLM: tarjetas, cuestionarios y resúmenes en audio.\n5. Aplicar la técnica Feynman: explícaselo tú.\n6. Hacer un plan de estudio con repasos espaciados.\n7. Pedir correcciones de tus redacciones sin que te las reescriba.\n\nTambién los errores más comunes y por qué nunca debes fiarte sin comprobar.\n\nSuscríbete a TecnoHistoria: una guía práctica de inteligencia artificial cada sábado.",
+  "tags": [
+    "ia para estudiar",
+    "como usar la ia para estudiar",
+    "chatgpt para estudiar",
+    "notebooklm",
+    "modo estudio chatgpt",
+    "gemini aprendizaje guiado",
+    "tecnicas de estudio",
+    "estudiar con inteligencia artificial",
+    "oposiciones",
+    "selectividad",
+    "tecnohistoria"
+  ],
+  "hashtags": [
+    "#IA",
+    "#Estudiar",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "Estudia con IA",
+  "thumbnail_badge": "2026",
+  "thumbnail_icon": "🎓",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Qué estás estudiando ahora mismo? ¿Usas ya la IA para estudiar? 👇",
+  "playlists": [
+    "ia"
+  ],
+  "sources": [
+    "https://hechingerreport.org/kids-chatgpt-worse-on-tests/",
+    "https://knowledge.wharton.upenn.edu/?p=33254",
+    "https://techcrunch.com/2025/08/06/google-takes-on-chatgpts-study-mode-with-new-guided-learning-tool-in-gemini/",
+    "https://blog.google/products-and-platforms/products/gemini/guided-learning-google-gemini/",
+    "https://www.androidauthority.com/notebooklm-update-flashcards-quizzes-personal-tutor-3596019",
+    "https://www.techradar.com/ai-platforms-assistants/gemini/i-started-using-notebooklms-new-quiz-tools-and-theyre-actually-great-for-learning"
+  ],
+  "publish_at": "2026-12-19T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "El resultado",
+      "narration": "En 2024, investigadores de la Universidad de Pensilvania hicieron un experimento con unos mil alumnos de instituto en Turquía. Los que practicaron matemáticas con ChatGPT resolvieron un cuarenta y ocho por ciento más de ejercicios. Pero en el examen sacaron un diecisiete por ciento menos que los que estudiaron sin él.",
+      "visual_query": "students classroom exam",
+      "card": {
+        "layout": "bullets",
+        "heading": "El experimento",
+        "items": [
+          "+48 % en la práctica",
+          "-17 % en el examen"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "El resultado",
+      "narration": "La IA les hizo sentir que aprendían, pero en realidad les daba las respuestas. En esta guía vas a ver cómo usarla al revés: para que te haga pensar, recordar y entender. Siete técnicas, gratis, que funcionan para el instituto, la universidad o unas oposiciones.",
+      "visual_query": "student laptop study",
+      "card": {
+        "layout": "steps",
+        "heading": "En esta guía",
+        "items": [
+          "7 técnicas",
+          "Gratis",
+          "Sin hacer trampa"
+        ],
+        "icon": "🎓"
+      }
+    },
+    {
+      "section": "Requisitos",
+      "narration": "Qué necesitas: una cuenta gratuita de ChatGPT o de Gemini, y para una de las técnicas, NotebookLM, la herramienta de estudio de Google. Y tus apuntes, claro.",
+      "visual_query": "notebook desk",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que necesitas",
+        "items": [
+          "ChatGPT o Gemini",
+          "NotebookLM",
+          "Tus apuntes"
+        ],
+        "icon": "🧰"
+      }
+    },
+    {
+      "section": "Suscríbete",
+      "narration": "Si te gustan estas guías de inteligencia artificial, suscríbete a TecnoHistoria. Cada sábado hay una nueva.",
+      "visual_query": "subscribe",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Una guía de IA cada sábado"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "La regla de oro",
+      "narration": "Antes de las técnicas, la regla de oro: la IA tiene que hacerte trabajar a ti, no trabajar por ti. Si al terminar no eres capaz de explicarlo sin la pantalla delante, no has estudiado, solo has leído respuestas.",
+      "visual_query": "brain thinking",
+      "card": {
+        "layout": "quote",
+        "heading": "Que trabaje contigo",
+        "items": [
+          "No por ti"
+        ],
+        "icon": "⭐"
+      }
+    },
+    {
+      "section": "Técnica 1",
+      "narration": "Técnica uno: activa el modo de estudio. ChatGPT tiene un modo estudio y Gemini uno llamado aprendizaje guiado. En lugar de darte la solución, te hacen preguntas, te dan pistas y comprueban si lo has entendido antes de seguir.",
+      "visual_query": "chat app",
+      "card": {
+        "layout": "steps",
+        "heading": "Modo estudio",
+        "items": [
+          "ChatGPT: modo estudio",
+          "Gemini: aprendizaje guiado",
+          "Pistas, no respuestas"
+        ],
+        "icon": "1️⃣"
+      }
+    },
+    {
+      "section": "Técnica 1",
+      "narration": "Úsalo así: dile qué tema estás estudiando y tu nivel. Por ejemplo: estoy en segundo de bachillerato y no entiendo las derivadas, guíame paso a paso sin darme la solución.",
+      "visual_query": "math equations",
+      "card": {
+        "layout": "quote",
+        "heading": "«Sin darme la solución»",
+        "items": [
+          "La frase clave"
+        ],
+        "icon": "🗝️"
+      }
+    },
+    {
+      "section": "Técnica 1",
+      "narration": "Lo bueno de este modo es que se adapta a ti. Si respondes bien, avanza. Si te equivocas, vuelve atrás y te lo explica de otra forma. Es lo más parecido a tener un profesor particular con paciencia infinita, a las tres de la mañana antes del examen.",
+      "visual_query": "tutor student",
+      "card": {
+        "layout": "title",
+        "heading": "Se adapta a ti",
+        "items": [
+          "Avanza o vuelve atrás"
+        ],
+        "icon": "🧑‍🏫"
+      }
+    },
+    {
+      "section": "Técnica 2",
+      "narration": "Técnica dos: pide analogías. Si un concepto no te entra, pide que te lo explique con un ejemplo de la vida diaria, o como si tuvieras doce años. Luego pide otra analogía distinta. Ver lo mismo de dos formas ayuda mucho a fijarlo.",
+      "visual_query": "light bulb idea",
+      "card": {
+        "layout": "bullets",
+        "heading": "Analogías",
+        "items": [
+          "Ejemplo de la vida diaria",
+          "Como si tuvieras 12 años",
+          "Pide una segunda"
+        ],
+        "icon": "2️⃣"
+      }
+    },
+    {
+      "section": "Técnica 3",
+      "narration": "Técnica tres, la más potente: que te ponga a prueba. Recordar algo a la fuerza, sin mirar, es una de las formas mejor estudiadas de memorizar. Pídele: hazme diez preguntas sobre este tema, de una en una, espera mi respuesta y corrígeme.",
+      "visual_query": "quiz test",
+      "card": {
+        "layout": "quote",
+        "heading": "«Ponme a prueba»",
+        "items": [
+          "Recordar fija la memoria"
+        ],
+        "icon": "3️⃣"
+      }
+    },
+    {
+      "section": "Técnica 3",
+      "narration": "Puedes elegir el formato: preguntas tipo test para un examen de opción múltiple, preguntas cortas para uno de desarrollo, o casos prácticos si estudias algo aplicado, como derecho, empresa o medicina. Cuanto más se parezca la práctica al examen real, mejor.",
+      "visual_query": "multiple choice test",
+      "card": {
+        "layout": "bullets",
+        "heading": "Elige el formato",
+        "items": [
+          "Tipo test",
+          "Preguntas cortas",
+          "Casos prácticos"
+        ],
+        "icon": "📝"
+      }
+    },
+    {
+      "section": "Técnica 3",
+      "narration": "Y un truco: pídele que repita más adelante las preguntas que fallaste. Así practicas justo lo que no sabes, que es donde más se aprende.",
+      "visual_query": "repeat arrows",
+      "card": {
+        "layout": "title",
+        "heading": "Repite tus fallos",
+        "items": [
+          "Ahí es donde aprendes"
+        ],
+        "icon": "🔁"
+      }
+    },
+    {
+      "section": "Técnica 4",
+      "narration": "Técnica cuatro: NotebookLM. Es una herramienta gratuita de Google en la que subes tus propios apuntes, PDF o enlaces, y la IA responde basándose solo en ellos, citando de dónde sale cada respuesta. Así reduces el riesgo de que se invente cosas.",
+      "visual_query": "documents folder",
+      "card": {
+        "layout": "steps",
+        "heading": "NotebookLM",
+        "items": [
+          "Sube tus apuntes",
+          "Pregunta",
+          "Mira las citas"
+        ],
+        "icon": "4️⃣"
+      }
+    },
+    {
+      "section": "Técnica 4",
+      "narration": "Además puede crear tarjetas de memoria y cuestionarios a partir de tus documentos, e incluso un resumen en audio, como un pequeño pódcast, para repasar en el autobús o haciendo deporte.",
+      "visual_query": "headphones walking",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo mejor de NotebookLM",
+        "items": [
+          "Tarjetas de memoria",
+          "Cuestionarios",
+          "Resumen en audio"
+        ],
+        "icon": "🎧"
+      }
+    },
+    {
+      "section": "Técnica 4",
+      "narration": "Un ejemplo: subes los temas de historia que te dio tu profesor y preguntas qué causas de la Primera Guerra Mundial aparecen en mis apuntes. La respuesta saldrá de tus documentos, con la cita exacta. Si algo no está en tus apuntes, te lo dirá.",
+      "visual_query": "history book",
+      "card": {
+        "layout": "quote",
+        "heading": "Responde con tus apuntes",
+        "items": [
+          "Y te dice de dónde"
+        ],
+        "icon": "📚"
+      }
+    },
+    {
+      "section": "Técnica 5",
+      "narration": "Técnica cinco: explícaselo tú. Escribe con tus palabras lo que has entendido de un tema y pídele que encuentre errores o huecos. Es la técnica Feynman: si no lo sabes explicar de forma sencilla, todavía no lo entiendes del todo.",
+      "visual_query": "Richard Feynman",
+      "card": {
+        "layout": "quote",
+        "heading": "Técnica Feynman",
+        "items": [
+          "Explícalo tú"
+        ],
+        "icon": "5️⃣"
+      },
+      "photo": "Richard Feynman Nobel",
+      "photo_caption": "Richard Feynman"
+    },
+    {
+      "section": "Técnica 5",
+      "narration": "Un truco extra: haz una foto a una página de tus apuntes a mano y pídele que la convierta en un esquema o en una tabla. Después tapa el esquema e intenta reproducirlo de memoria. Así combinas organizar la información y ponerte a prueba.",
+      "visual_query": "handwritten notes",
+      "card": {
+        "layout": "steps",
+        "heading": "Foto a esquema",
+        "items": [
+          "Foto de tus apuntes",
+          "Esquema o tabla",
+          "Reprodúcelo de memoria"
+        ],
+        "icon": "📸"
+      }
+    },
+    {
+      "section": "Técnica 6",
+      "narration": "Técnica seis: un plan de estudio realista. Dale la fecha del examen, los temas y cuántas horas puedes estudiar cada día. Pídele un calendario con repasos espaciados, es decir, volver a cada tema varias veces con días de separación.",
+      "visual_query": "calendar planner",
+      "card": {
+        "layout": "steps",
+        "heading": "Tu plan",
+        "items": [
+          "Fecha del examen",
+          "Temas y horas",
+          "Repasos espaciados"
+        ],
+        "icon": "6️⃣"
+      }
+    },
+    {
+      "section": "Técnica 6",
+      "narration": "Por ejemplo: tengo el examen de biología dentro de tres semanas, son ocho temas y puedo estudiar dos horas al día; hazme un plan con repasos y un simulacro final. Si un día no cumples, pídele que reorganice el plan. Mejor un plan realista que uno perfecto que abandonas.",
+      "visual_query": "study schedule",
+      "card": {
+        "layout": "bullets",
+        "heading": "Ejemplo de plan",
+        "items": [
+          "3 semanas",
+          "8 temas",
+          "2 horas al día"
+        ],
+        "icon": "🗓️"
+      }
+    },
+    {
+      "section": "Técnica 7",
+      "narration": "Y técnica siete, para trabajos y redacciones: pide correcciones, no que te lo escriba. Pega tu texto y pide: dime tres cosas que mejorar y por qué, pero no lo reescribas. Aprenderás a escribir mejor y el trabajo seguirá siendo tuyo.",
+      "visual_query": "writing essay",
+      "card": {
+        "layout": "quote",
+        "heading": "«No lo reescribas»",
+        "items": [
+          "Pide correcciones"
+        ],
+        "icon": "7️⃣"
+      }
+    },
+    {
+      "section": "Idiomas",
+      "narration": "Y si estudias idiomas, usa el modo de voz: pídele que hable contigo en inglés sobre un tema que te guste, que te corrija los errores al final de cada respuesta y que use vocabulario de tu nivel. Diez minutos al día de conversación valen más que una hora de listas de palabras.",
+      "visual_query": "language learning",
+      "card": {
+        "layout": "title",
+        "heading": "Para idiomas",
+        "items": [
+          "Conversa en voz alta"
+        ],
+        "icon": "🗣️"
+      }
+    },
+    {
+      "section": "Errores comunes",
+      "narration": "Ahora, los errores más comunes. Uno: pedir directamente la respuesta de los ejercicios. Es lo que les pasó a los alumnos del experimento: practicaron más rápido y aprendieron menos.",
+      "visual_query": "copying homework",
+      "card": {
+        "layout": "title",
+        "heading": "Error 1",
+        "items": [
+          "Pedir la respuesta"
+        ],
+        "icon": "❌"
+      }
+    },
+    {
+      "section": "Errores comunes",
+      "narration": "Dos: fiarse sin comprobar. En ese mismo estudio, ChatGPT solo resolvía bien la mitad de los problemas. Revisa siempre los datos y las fórmulas con tus apuntes o tu libro.",
+      "visual_query": "textbook",
+      "card": {
+        "layout": "number",
+        "heading": "50 %",
+        "items": [
+          "Problemas bien resueltos"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Errores comunes",
+      "narration": "Y tres: usarla donde está prohibido. Si tu profesor o tu examen no permiten IA, no la uses. Además de ser trampa, te quitas la práctica que necesitas para el día del examen.",
+      "visual_query": "exam room",
+      "card": {
+        "layout": "title",
+        "heading": "Error 3",
+        "items": [
+          "Usarla donde no se puede"
+        ],
+        "icon": "🚫"
+      }
+    },
+    {
+      "section": "Resumen",
+      "narration": "Resumen. Modo estudio, analogías, que te ponga a prueba, NotebookLM con tus apuntes, explícaselo tú, plan con repasos espaciados y correcciones sin reescribir. Y la regla de oro: que la IA te haga pensar, no que piense por ti.",
+      "visual_query": "checklist",
+      "card": {
+        "layout": "steps",
+        "heading": "Las 7 técnicas",
+        "items": [
+          "Modo estudio",
+          "Analogías",
+          "Ponme a prueba",
+          "NotebookLM",
+          "Feynman",
+          "Plan",
+          "Correcciones"
+        ],
+        "icon": "✅"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Guarda este vídeo y compártelo con quien esté de exámenes. Y si quieres más, tienes en el canal los trucos de ChatGPT que casi nadie usa. Cuéntame en los comentarios: ¿qué estás estudiando ahora mismo?",
+      "visual_query": "students",
+      "card": {
+        "layout": "title",
+        "heading": "¿Qué estudias?",
+        "items": [
+          "Cuéntamelo abajo"
+        ],
+        "icon": "💬"
+      }
+    }
+  ]
+}

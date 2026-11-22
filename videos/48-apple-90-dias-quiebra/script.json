@@ -1,0 +1,598 @@
+{
+  "topic": "Cómo Steve Jobs salvó a Apple en 1997, cuando estaba a unos 90 días de quedarse sin dinero: Microsoft, la cuadrícula de cuatro productos y el iMac",
+  "title": "Apple estuvo a 90 días de la quiebra: así la salvó Steve Jobs",
+  "description": "Apple estuvo a unos 90 días de quedarse sin dinero en 1997. Michael Dell dijo que él la cerraría y devolvería el dinero a los accionistas. Este documental cuenta cómo Steve Jobs volvió y salvó a la empresa con tres decisiones incómodas.\n\nVemos cómo Apple se hundió en los noventa frente a Windows, con demasiados productos y la etapa de Gil Amelio; cómo compró NeXT por unos 429 millones de dólares y trajo a Jobs de vuelta; el sorprendente acuerdo con Microsoft de 150 millones en la Macworld de Boston de 1997, con abucheos a Bill Gates incluidos; la famosa cuadrícula de cuatro productos; la campaña Think Different; y el iMac de Jony Ive, que en 1998 devolvió a Apple a los beneficios.\n\nY lo que vino después: el iPod, iTunes, el iPhone y una empresa que llegó a valer billones de dólares.\n\nSuscríbete a TecnoHistoria: un documental de historia de la tecnología cada martes.",
+  "tags": [
+    "apple",
+    "historia de apple",
+    "steve jobs",
+    "apple 1997",
+    "imac",
+    "apple quiebra",
+    "michael dell",
+    "microsoft apple",
+    "jony ive",
+    "think different",
+    "historia de empresas",
+    "documental tecnología",
+    "tecnohistoria",
+    "historia de la tecnología"
+  ],
+  "hashtags": [
+    "#Apple",
+    "#SteveJobs",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "Casi quiebra",
+  "thumbnail_badge": "90 días",
+  "thumbnail_icon": "🍎",
+  "thumbnail_photo": "IMac Bondi Blue",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Cuál fue tu primer producto de Apple? ¿O por qué nunca has tenido uno? 👇",
+  "playlists": [
+    "historias"
+  ],
+  "sources": [
+    "https://www.cultofmac.com/news/michael-dell-quote-about-apple",
+    "https://www.eweek.com/mobile/eweek-at-30-steve-jobs-returns-in-1997-to-revive-a-moribund-apple/",
+    "https://en.wikipedia.org/wiki/Gil_Amelio",
+    "https://news.microsoft.com/1997/08/06/microsoft-and-apple-affirm-commitment-to-build-next-generation-software-for-macintosh/",
+    "https://content.time.com/time/magazine/article/0,9171,986850,00.html",
+    "https://stratechery.com/2013/steve-jobs-at-macworld-boston-in-1997/",
+    "https://www.slashgear.com/833462/how-steve-jobs-1997-return-to-apple-saved-the-company",
+    "https://stvp.stanford.edu/wp-content/uploads/sites/3/2024/09/when-steve-jobs-returned-to-apple-transcript.pdf",
+    "https://lowendmac.com/2013/think-different-ad-campaign-restored-apples-reputation/",
+    "https://www.theregister.com/2020/05/06/the_imac_at_22",
+    "https://www.macrumors.com/2018/08/15/happy-20th-launch-anniversary-imac/"
+  ],
+  "publish_at": "2026-12-15T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Octubre de 1997. Michael Dell, fundador de uno de los mayores fabricantes de ordenadores del mundo, recibe una pregunta en una conferencia: ¿qué haría él si dirigiera Apple? Su respuesta se hizo famosa: la cerraría y devolvería el dinero a los accionistas.",
+      "visual_query": "conference stage speaker",
+      "card": {
+        "layout": "quote",
+        "heading": "«La cerraría»",
+        "items": [
+          "Michael Dell, 1997"
+        ],
+        "icon": "🔒"
+      },
+      "photo": "Michael Dell",
+      "photo_caption": "Michael Dell"
+    },
+    {
+      "section": "Gancho",
+      "narration": "No era una opinión aislada. Ese año, Apple perdió más de mil millones de dólares y, según se ha contado muchas veces, estaba a unos noventa días de quedarse sin dinero. Hoy es una de las empresas más valiosas de la historia. Esto es lo que pasó en medio.",
+      "visual_query": "Apple logo",
+      "card": {
+        "layout": "number",
+        "heading": "90 días",
+        "items": [
+          "De quedarse sin dinero"
+        ],
+        "icon": "⏳"
+      },
+      "photo": "Apple logo black",
+      "photo_caption": "El logo de Apple"
+    },
+    {
+      "section": "La pregunta",
+      "narration": "¿Cómo se salva una empresa que todo el mundo daba por muerta? La respuesta tiene nombre propio, Steve Jobs, pero no es la historia de un genio que llega y lo arregla todo con una idea. Es la historia de cortar, de pedir ayuda al enemigo y de apostar por el diseño cuando nadie lo hacía.",
+      "visual_query": "apple fruit",
+      "card": {
+        "layout": "title",
+        "heading": "¿Cómo se salva una empresa?",
+        "items": [
+          "Que todos daban por muerta"
+        ],
+        "icon": "🍎"
+      }
+    },
+    {
+      "section": "La promesa",
+      "narration": "En este documental vas a ver cómo Apple llegó al borde del abismo, las tres decisiones de Jobs que la salvaron y por qué aquel rescate explica la Apple que conoces hoy.",
+      "visual_query": "computer history",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que vas a ver",
+        "items": [
+          "La caída",
+          "El rescate",
+          "El resurgir"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Contexto",
+      "narration": "Empecemos por el principio. En 1976, Steve Jobs y Steve Wozniak fundan Apple en California. Su Apple II se convierte en uno de los primeros ordenadores personales de éxito, y la empresa crece a toda velocidad.",
+      "visual_query": "Apple II computer",
+      "card": {
+        "layout": "number",
+        "heading": "1976",
+        "items": [
+          "Nace Apple"
+        ],
+        "icon": "🏠"
+      },
+      "photo": "Apple II",
+      "photo_caption": "Un Apple II"
+    },
+    {
+      "section": "Contexto",
+      "narration": "En 1984 lanzan el Macintosh, con un anuncio de televisión que se hizo legendario durante la Super Bowl. El Mac popularizó el ratón y las ventanas en pantalla, algo que hoy damos por hecho.",
+      "visual_query": "Macintosh 128K",
+      "card": {
+        "layout": "title",
+        "heading": "1984: el Macintosh",
+        "items": [
+          "Ratón y ventanas"
+        ],
+        "icon": "🖱️"
+      },
+      "photo": "Macintosh 128k transparency",
+      "photo_caption": "El primer Macintosh (1984)"
+    },
+    {
+      "section": "Contexto",
+      "narration": "Para entenderlo hay que volver a 1985. Steve Jobs, cofundador de Apple, pierde una lucha de poder dentro de la empresa y se marcha. Apple sigue adelante sin él, y durante unos años le va bien gracias al Macintosh.",
+      "visual_query": "Steve Jobs",
+      "card": {
+        "layout": "number",
+        "heading": "1985",
+        "items": [
+          "Jobs sale de Apple"
+        ],
+        "icon": "🚪"
+      },
+      "photo": "Steve Jobs 1984",
+      "photo_caption": "Steve Jobs en 1984"
+    },
+    {
+      "section": "Contexto",
+      "narration": "Lejos de Apple, Jobs no se quedó quieto. Fundó NeXT, que hacía ordenadores muy avanzados pero carísimos, y compró una pequeña división de animación por ordenador que se convirtió en Pixar. En 1995, Pixar estrenó Toy Story, la primera película hecha entera por ordenador.",
+      "visual_query": "animation studio",
+      "card": {
+        "layout": "bullets",
+        "heading": "Jobs fuera de Apple",
+        "items": [
+          "Funda NeXT",
+          "Compra Pixar",
+          "1995: Toy Story"
+        ],
+        "icon": "🎬"
+      }
+    },
+    {
+      "section": "Contexto",
+      "narration": "Pero en los noventa, Windows de Microsoft se convierte en el sistema de casi todos los ordenadores del mundo. Los PC son más baratos, hay más programas para ellos, y el Mac se va quedando arrinconado.",
+      "visual_query": "windows 95 computer",
+      "card": {
+        "layout": "bullets",
+        "heading": "Los noventa",
+        "items": [
+          "Windows domina",
+          "PC más baratos",
+          "El Mac se arrincona"
+        ],
+        "icon": "🪟"
+      }
+    },
+    {
+      "section": "Acto 1: la caída",
+      "narration": "Apple intenta reaccionar sacando productos y más productos. Llegó a tener una enorme lista de modelos de ordenador con nombres y números que ni sus propios vendedores entendían. Además, dejó que otras marcas fabricaran clones del Mac, que le quitaban ventas.",
+      "visual_query": "confusing products shelf",
+      "card": {
+        "layout": "title",
+        "heading": "Demasiados productos",
+        "items": [
+          "Que nadie entendía"
+        ],
+        "icon": "🌀"
+      }
+    },
+    {
+      "section": "Acto 1: la caída",
+      "narration": "En 1996, la empresa ficha como director ejecutivo a Gil Amelio, un ejecutivo con experiencia en chips. Su etapa se recuerda como los quinientos días de Amelio. Recortó costes, pero las pérdidas siguieron y la acción cayó a mínimos de muchos años.",
+      "visual_query": "Gil Amelio",
+      "card": {
+        "layout": "quote",
+        "heading": "Los 500 días de Amelio",
+        "items": [
+          "1996-1997"
+        ],
+        "icon": "📉"
+      },
+      "photo": "Gil Amelio",
+      "photo_caption": "Gil Amelio"
+    },
+    {
+      "section": "Acto 1: la caída",
+      "narration": "Apple tenía otro problema enorme: su sistema operativo se había quedado viejo, y no conseguía crear uno nuevo. Necesitaba comprar uno fuera. Y aquí aparece un giro del destino.",
+      "visual_query": "old computer screen",
+      "card": {
+        "layout": "title",
+        "heading": "Un sistema viejo",
+        "items": [
+          "Había que comprar uno"
+        ],
+        "icon": "💾"
+      }
+    },
+    {
+      "section": "Acto 1: la caída",
+      "narration": "A finales de 1996, Apple compra NeXT, la empresa que Steve Jobs había fundado tras irse, por unos cuatrocientos veintinueve millones de dólares. Con ella se lleva su sistema operativo. Y se lleva a Jobs de vuelta, al principio solo como asesor.",
+      "visual_query": "NeXT computer",
+      "card": {
+        "layout": "number",
+        "heading": "429 M$",
+        "items": [
+          "Apple compra NeXT"
+        ],
+        "icon": "↩️"
+      },
+      "photo": "NeXTcube",
+      "photo_caption": "Un ordenador NeXT"
+    },
+    {
+      "section": "Suscríbete",
+      "narration": "Si te gustan estas historias de empresas al borde del abismo, suscríbete a TecnoHistoria. Cada martes hay un documental nuevo.",
+      "visual_query": "subscribe",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Un documental cada martes"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "Acto 2: la vuelta",
+      "narration": "Julio de 1997. Jobs convence al consejo de Apple de que Amelio debe irse. Amelio dimite y, unas semanas después, Jobs se convierte en director ejecutivo interino. Él mismo bromeaba con que era el iCEO, el director provisional.",
+      "visual_query": "boardroom",
+      "card": {
+        "layout": "number",
+        "heading": "1997",
+        "items": [
+          "Jobs vuelve al mando"
+        ],
+        "icon": "👔"
+      }
+    },
+    {
+      "section": "Acto 2: la vuelta",
+      "narration": "Lo que encuentra es un desastre. En el año fiscal que terminó en septiembre de 1997, Apple perdió unos mil cuarenta millones de dólares. Según contaron después él y otros directivos, la empresa estaba a unos noventa días de no poder pagar sus facturas.",
+      "visual_query": "empty wallet",
+      "card": {
+        "layout": "number",
+        "heading": "-1.040 M$",
+        "items": [
+          "Pérdidas de 1997"
+        ],
+        "icon": "🩸"
+      }
+    },
+    {
+      "section": "Decisión 1: el enemigo",
+      "narration": "Y aquí llega la primera decisión, la más sorprendente. Agosto de 1997, feria Macworld de Boston. Jobs anuncia en el escenario un acuerdo con el gran enemigo de Apple: Microsoft.",
+      "visual_query": "keynote stage",
+      "card": {
+        "layout": "title",
+        "heading": "Macworld Boston, 1997",
+        "items": [
+          "Un anuncio inesperado"
+        ],
+        "icon": "🎤"
+      }
+    },
+    {
+      "section": "Decisión 1: el enemigo",
+      "narration": "Microsoft compraría ciento cincuenta millones de dólares en acciones de Apple sin derecho a voto, y se comprometía a seguir haciendo su programa Office para Mac. A cambio, el Mac usaría Internet Explorer como navegador por defecto.",
+      "visual_query": "handshake",
+      "card": {
+        "layout": "bullets",
+        "heading": "El acuerdo",
+        "items": [
+          "150 M$ de Microsoft",
+          "Office para Mac",
+          "Internet Explorer"
+        ],
+        "icon": "🤝"
+      }
+    },
+    {
+      "section": "Decisión 1: el enemigo",
+      "narration": "Entonces apareció Bill Gates en una pantalla gigante, por videoconferencia, encima de Jobs. El público, fanático de Apple, le abucheó. Pero Jobs lo dejó claro: había que dejar atrás la idea de que para que Apple ganara, Microsoft tenía que perder.",
+      "visual_query": "Bill Gates",
+      "card": {
+        "layout": "quote",
+        "heading": "Abucheos a Bill Gates",
+        "items": [
+          "Macworld 1997"
+        ],
+        "icon": "😠"
+      },
+      "photo": "Bill Gates 2017",
+      "photo_caption": "Bill Gates"
+    },
+    {
+      "section": "Dato sorpresa",
+      "narration": "Y aquí está el dato que sorprende: lo importante no era tanto el dinero, que para Apple no era tanto, sino la señal. Si Microsoft seguía haciendo Office para Mac, las empresas podían seguir comprando Macs. El rival que la estaba hundiendo se convirtió, por un momento, en su salvavidas.",
+      "visual_query": "lifebuoy",
+      "card": {
+        "layout": "title",
+        "heading": "Era la señal",
+        "items": [
+          "No el dinero"
+        ],
+        "icon": "🛟"
+      }
+    },
+    {
+      "section": "Decisión 2: cortar",
+      "narration": "La segunda decisión fue cortar. Jobs reunió a sus equipos, dibujó una cuadrícula de dos por dos en una pizarra y dijo que Apple solo haría cuatro ordenadores: uno de sobremesa y uno portátil para el público general, y lo mismo para profesionales.",
+      "visual_query": "whiteboard drawing",
+      "card": {
+        "layout": "steps",
+        "heading": "La cuadrícula",
+        "items": [
+          "Sobremesa normal",
+          "Portátil normal",
+          "Sobremesa pro",
+          "Portátil pro"
+        ],
+        "icon": "✂️"
+      }
+    },
+    {
+      "section": "Decisión 2: cortar",
+      "narration": "Todo lo demás se eliminó: decenas de modelos, proyectos enteros y el programa de clones del Mac. Fue doloroso, hubo despidos, pero por primera vez en años todo el mundo en Apple sabía exactamente qué estaba haciendo.",
+      "visual_query": "trash bin",
+      "card": {
+        "layout": "bullets",
+        "heading": "Fuera",
+        "items": [
+          "Decenas de modelos",
+          "Los clones del Mac",
+          "Proyectos sin futuro"
+        ],
+        "icon": "🗑️"
+      }
+    },
+    {
+      "section": "Decisión 2: cortar",
+      "narration": "Jobs lo resumió en una idea que repetiría toda su vida: concentrarse no es decir sí a lo que importa, es decir no a cien ideas buenas. Elegir qué no hacer es tan importante como elegir qué hacer.",
+      "visual_query": "focus target",
+      "card": {
+        "layout": "quote",
+        "heading": "Decir que no",
+        "items": [
+          "La clave de concentrarse"
+        ],
+        "icon": "🎯"
+      }
+    },
+    {
+      "section": "La campaña",
+      "narration": "Mientras tanto, Apple necesitaba recuperar su orgullo. En 1997 lanzó la campaña Think Different, piensa diferente. No salía ningún ordenador: salían Einstein, Gandhi o Bob Dylan, como homenaje a los locos que cambian el mundo.",
+      "visual_query": "black and white portrait",
+      "card": {
+        "layout": "quote",
+        "heading": "Think Different",
+        "items": [
+          "1997"
+        ],
+        "icon": "💭"
+      }
+    },
+    {
+      "section": "Decisión 3: el diseño",
+      "narration": "Y la tercera decisión fue apostar por el diseño. Dentro de Apple había un joven diseñador británico, Jony Ive, al que nadie hacía mucho caso. Jobs vio en él a un aliado, y juntos crearon el producto que cambiaría la empresa.",
+      "visual_query": "Jony Ive",
+      "card": {
+        "layout": "title",
+        "heading": "Jony Ive",
+        "items": [
+          "El aliado de Jobs"
+        ],
+        "icon": "✏️"
+      },
+      "photo": "Jony Ive",
+      "photo_caption": "Jony Ive"
+    },
+    {
+      "section": "Decisión 3: el diseño",
+      "narration": "En mayo de 1998 presentaron el iMac: un ordenador todo en uno, con forma redondeada y una carcasa de plástico translúcido de color azul, llamado Bondi Blue por una playa de Australia. Costaba mil doscientos noventa y nueve dólares.",
+      "visual_query": "iMac G3",
+      "card": {
+        "layout": "number",
+        "heading": "1998",
+        "items": [
+          "Nace el iMac"
+        ],
+        "icon": "💙"
+      },
+      "photo": "IMac Bondi Blue",
+      "photo_caption": "El iMac G3 en azul Bondi (1998)"
+    },
+    {
+      "section": "Decisión 3: el diseño",
+      "narration": "Antes de salir a la venta, en agosto, ya tenía ciento cincuenta mil pedidos. En sus primeras seis semanas vendió cerca de doscientas ochenta mil unidades. Era fácil de usar, estaba pensado para conectarse a internet y no se parecía a ningún otro ordenador.",
+      "visual_query": "computer store",
+      "card": {
+        "layout": "bullets",
+        "heading": "El éxito del iMac",
+        "items": [
+          "150.000 pedidos previos",
+          "~280.000 en 6 semanas"
+        ],
+        "icon": "🚀"
+      }
+    },
+    {
+      "section": "Decisión 3: el diseño",
+      "narration": "Fue además el primer producto con la famosa i delante. La i de internet, pero también de individual, inspirar o informar. Esa letra acabaría en el iPod, el iPhone y el iPad.",
+      "visual_query": "letter i",
+      "card": {
+        "layout": "title",
+        "heading": "La primera «i»",
+        "items": [
+          "iMac → iPod → iPhone"
+        ],
+        "icon": "ℹ️"
+      }
+    },
+    {
+      "section": "Decisión 3: el diseño",
+      "narration": "El iMac tenía también decisiones polémicas. No traía disquetera, cuando casi todos los ordenadores la tenían, y apostaba por un puerto nuevo, el USB. Muchos lo criticaron. Con el tiempo, el resto de la industria siguió el mismo camino.",
+      "visual_query": "usb cable",
+      "card": {
+        "layout": "bullets",
+        "heading": "Apuestas arriesgadas",
+        "items": [
+          "Sin disquetera",
+          "Todo por USB"
+        ],
+        "icon": "🔌"
+      }
+    },
+    {
+      "section": "Acto 3: el resurgir",
+      "narration": "Los números cambiaron rápido. En el año fiscal 1998, Apple volvió a ganar dinero: unos trescientos nueve millones de dólares de beneficio, tras perder más de mil millones el año anterior.",
+      "visual_query": "growth chart",
+      "card": {
+        "layout": "number",
+        "heading": "+309 M$",
+        "items": [
+          "Beneficio en 1998"
+        ],
+        "icon": "📈"
+      }
+    },
+    {
+      "section": "Acto 3: el resurgir",
+      "narration": "El sistema operativo que Apple había comprado con NeXT se convirtió en la base de Mac OS X, lanzado en 2001. Y en mayo de ese año abrieron las primeras tiendas Apple Store. La compra de 1996 que parecía desesperada acabó siendo el cimiento de todo lo que vino después.",
+      "visual_query": "Apple Store",
+      "card": {
+        "layout": "steps",
+        "heading": "La herencia de NeXT",
+        "items": [
+          "Mac OS X (2001)",
+          "Apple Store (2001)"
+        ],
+        "icon": "🏗️"
+      },
+      "photo": "Apple Store Fifth Avenue",
+      "photo_caption": "Una tienda Apple"
+    },
+    {
+      "section": "Acto 3: el resurgir",
+      "narration": "Y aquello fue solo el principio. En 2001 llegó el iPod. En 2003, la tienda de música iTunes. Y en enero de 2007, Jobs presentó el iPhone, el producto que cambiaría la historia de la tecnología. Tienes su historia completa en el canal.",
+      "visual_query": "iPod classic",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que vino después",
+        "items": [
+          "2001: iPod",
+          "2003: iTunes",
+          "2007: iPhone"
+        ],
+        "icon": "📱"
+      },
+      "photo": "IPod 1G",
+      "photo_caption": "El primer iPod (2001)"
+    },
+    {
+      "section": "Acto 3: el resurgir",
+      "narration": "En agosto de 2018, Apple se convirtió en la primera empresa estadounidense en valer un billón de dólares en bolsa. Y en enero de 2022 llegó a tocar los tres billones. La empresa que Michael Dell quería cerrar valía miles de veces más que la de 1997.",
+      "visual_query": "Apple Park",
+      "card": {
+        "layout": "bullets",
+        "heading": "De casi quebrar a...",
+        "items": [
+          "2018: 1 billón $",
+          "2022: 3 billones $"
+        ],
+        "icon": "🏔️"
+      },
+      "photo": "Apple Park",
+      "photo_caption": "Apple Park, la sede de Apple"
+    },
+    {
+      "section": "Acto 3: el resurgir",
+      "narration": "Steve Jobs dejó la dirección de Apple en agosto de 2011, enfermo, y murió en octubre de ese año. Le sustituyó Tim Cook, el directivo que había ordenado la fabricación y la logística de la empresa desde finales de los noventa.",
+      "visual_query": "Tim Cook",
+      "card": {
+        "layout": "title",
+        "heading": "2011: el relevo",
+        "items": [
+          "Tim Cook toma el mando"
+        ],
+        "icon": "🕯️"
+      },
+      "photo": "Tim Cook 2009 cropped",
+      "photo_caption": "Tim Cook"
+    },
+    {
+      "section": "La respuesta a Dell",
+      "narration": "Por cierto, Jobs nunca olvidó la frase de Dell. En 2006, cuando el valor de Apple superó al de Dell, envió un correo a sus empleados recordando que Michael Dell no era perfecto prediciendo el futuro.",
+      "visual_query": "email inbox",
+      "card": {
+        "layout": "quote",
+        "heading": "La venganza de Jobs",
+        "items": [
+          "2006"
+        ],
+        "icon": "😏"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Mi lección de esta historia: Apple no se salvó por una idea brillante, sino por tres decisiones incómodas. Aceptar ayuda del rival, eliminar casi todo lo que hacía y apostar por algo que nadie valoraba, el diseño.",
+      "visual_query": "light bulb",
+      "card": {
+        "layout": "steps",
+        "heading": "Tres decisiones",
+        "items": [
+          "Pactar con el rival",
+          "Cortar casi todo",
+          "Apostar por el diseño"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Y hay una idea que conecta con otras historias del canal: Nokia y Blockbuster cayeron por proteger lo que ya tenían. Apple se salvó precisamente por atreverse a tirar casi todo lo que tenía.",
+      "visual_query": "crossroads",
+      "card": {
+        "layout": "bullets",
+        "heading": "La diferencia",
+        "items": [
+          "Nokia: protegió",
+          "Blockbuster: protegió",
+          "Apple: tiró casi todo"
+        ],
+        "icon": "⚖️"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Si quieres ver qué pasó después, tienes en el canal la historia secreta del primer iPhone y de la demo que casi sale mal. Y cuéntame en los comentarios: ¿cuál fue tu primer producto de Apple, o por qué nunca has tenido uno?",
+      "visual_query": "smartphone",
+      "card": {
+        "layout": "title",
+        "heading": "Sigue con el iPhone",
+        "items": [
+          "La demo que casi sale mal"
+        ],
+        "icon": "📱"
+      }
+    }
+  ]
+}
