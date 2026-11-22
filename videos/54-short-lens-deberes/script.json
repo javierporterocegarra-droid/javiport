@@ -1,0 +1,107 @@
+{
+  "topic": "Truco de móvil: usar Google Lens para entender paso a paso un problema de matemáticas con una foto",
+  "title": "Truco: entiende un problema de mates con una foto #Shorts",
+  "description": "Con Google Lens (en la app de Google o en Rodea para buscar en Android) puedes hacer una foto a un problema de matemáticas y ver explicaciones paso a paso. Úsalo para entender el método, no para copiar el resultado.\n\nLa guía completa para estudiar con IA, mañana sábado en TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "google lens",
+    "truco movil",
+    "matematicas",
+    "deberes",
+    "ia para estudiar",
+    "trucos google",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#GoogleLens",
+    "#Trucos",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Te habría salvado este truco en el instituto? 👇",
+  "sources": [
+    "https://support.google.com/websearch/answer/1325808",
+    "https://hechingerreport.org/kids-chatgpt-worse-on-tests/"
+  ],
+  "publish_at": "2026-12-18T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "¿Atascado con un problema de matemáticas? Tu móvil te lo explica paso a paso con una foto.",
+      "visual_query": "math homework",
+      "card": {
+        "layout": "title",
+        "heading": "Mates con una foto",
+        "items": [
+          "Paso a paso"
+        ],
+        "icon": "📐"
+      }
+    },
+    {
+      "section": "Cómo",
+      "narration": "Abre la app de Google, toca el icono de la cámara, que es Lens, y elige la opción de deberes o simplemente haz la foto al problema.",
+      "visual_query": "phone camera",
+      "card": {
+        "layout": "steps",
+        "heading": "Cómo",
+        "items": [
+          "App de Google",
+          "Icono de cámara",
+          "Foto al problema"
+        ],
+        "icon": "📷"
+      }
+    },
+    {
+      "section": "Qué ves",
+      "narration": "Te mostrará explicaciones y vídeos con los pasos para resolverlo. En Android también funciona con Rodea para buscar.",
+      "visual_query": "equation steps",
+      "card": {
+        "layout": "bullets",
+        "heading": "Qué ves",
+        "items": [
+          "Pasos",
+          "Explicaciones",
+          "Vídeos"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Ojo",
+      "narration": "Pero ojo: úsalo para entender el método y luego hazlo tú solo. Si solo copias, en el examen no estará.",
+      "visual_query": "exam",
+      "card": {
+        "layout": "title",
+        "heading": "Entiende, no copies",
+        "items": [
+          "En el examen no estará"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Más técnicas para estudiar con IA sin hacer trampa, mañana en el canal.",
+      "visual_query": "students",
+      "card": {
+        "layout": "title",
+        "heading": "Mañana, la guía",
+        "items": [
+          "Estudiar con IA"
+        ],
+        "icon": "🎓"
+      }
+    }
+  ],
+  "playlists": [
+    "ia"
+  ]
+}

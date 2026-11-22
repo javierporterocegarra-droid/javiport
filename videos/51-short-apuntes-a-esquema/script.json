@@ -1,0 +1,103 @@
+{
+  "topic": "Truco de IA para estudiar: hacer una foto a los apuntes y pedir a ChatGPT o Gemini un esquema y preguntas de repaso",
+  "title": "Truco: convierte tus apuntes en un esquema con IA #Shorts",
+  "description": "Haz una foto a tus apuntes, súbela a ChatGPT o Gemini y pide un esquema con las ideas principales y cinco preguntas para repasar. Después tapa el esquema e intenta reproducirlo de memoria.\n\nLa guía completa para estudiar con IA sin hacer trampa, este sábado en TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "truco ia",
+    "ia para estudiar",
+    "chatgpt para estudiar",
+    "apuntes",
+    "esquemas",
+    "tecnicas de estudio",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#IA",
+    "#Estudiar",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Qué asignatura se te atraganta más? Te leo 👇",
+  "sources": [
+    "https://hechingerreport.org/kids-chatgpt-worse-on-tests/"
+  ],
+  "publish_at": "2026-12-14T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "¿Tienes diez páginas de apuntes y cero ganas? Este truco te las convierte en un esquema en segundos.",
+      "visual_query": "handwritten notes",
+      "card": {
+        "layout": "title",
+        "heading": "Apuntes → esquema",
+        "items": [
+          "En segundos"
+        ],
+        "icon": "📸"
+      }
+    },
+    {
+      "section": "Paso 1",
+      "narration": "Haz una foto a tus apuntes, aunque estén a mano, y súbela a ChatGPT o a Gemini.",
+      "visual_query": "phone photo notes",
+      "card": {
+        "layout": "steps",
+        "heading": "Paso 1",
+        "items": [
+          "Foto a los apuntes",
+          "Súbela a la IA"
+        ],
+        "icon": "📱"
+      }
+    },
+    {
+      "section": "Paso 2",
+      "narration": "Pídele: hazme un esquema con las ideas principales y cinco preguntas para repasar, sin darme las respuestas.",
+      "visual_query": "mind map",
+      "card": {
+        "layout": "quote",
+        "heading": "«Esquema y 5 preguntas»",
+        "items": [
+          "Sin respuestas"
+        ],
+        "icon": "🧠"
+      }
+    },
+    {
+      "section": "Paso 3",
+      "narration": "Y el truco de verdad: tapa el esquema e intenta reproducirlo de memoria. Recordar a la fuerza es lo que fija lo que estudias.",
+      "visual_query": "student writing",
+      "card": {
+        "layout": "title",
+        "heading": "Tápalo",
+        "items": [
+          "Y repítelo de memoria"
+        ],
+        "icon": "🙈"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Comprueba siempre que el esquema coincide con tus apuntes. La guía completa para estudiar con IA, el sábado en el canal.",
+      "visual_query": "students",
+      "card": {
+        "layout": "title",
+        "heading": "Guía completa",
+        "items": [
+          "Este sábado"
+        ],
+        "icon": "🎓"
+      }
+    }
+  ],
+  "playlists": [
+    "ia"
+  ]
+}

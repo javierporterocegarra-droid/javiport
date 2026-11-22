@@ -1,0 +1,410 @@
+{
+  "topic": "¿Qué pasaría si se cortaran los cables submarinos de internet? Cómo funcionan, qué fallaría, casos reales (Tonga, mar Rojo, Báltico) y por qué es improbable",
+  "title": "¿Qué pasaría si se cortaran los cables submarinos de internet?",
+  "description": "¿Qué pasaría si se cortaran los cables submarinos de internet? Alrededor del 99 % del tráfico internacional de internet viaja por cables en el fondo del mar, no por satélites. En este vídeo vemos cómo funcionan, qué fallaría primero si se cortaran todos y por qué los satélites no podrían sustituirlos.\n\nTambién casos reales: la erupción de Hunga Tonga en 2022, que dejó a Tonga semanas casi sin internet; los cables dañados en el mar Rojo en 2024; y los cortes en el mar Báltico entre 2024 y 2025. Y un dato que sorprende: cada año se reparan más de cien cables en todo el mundo y casi nunca te enteras.\n\nAl final, por qué un corte total es muy improbable, cuáles son los riesgos reales y qué puedes hacer para que una caída de internet te afecte menos.\n\nSuscríbete a TecnoHistoria para más «¿qué pasaría si…?» con datos.",
+  "tags": [
+    "que pasaria si",
+    "cables submarinos",
+    "internet submarino",
+    "como funciona internet",
+    "cables de internet",
+    "que pasaria si se cortaran los cables",
+    "tonga volcan internet",
+    "mar rojo cables",
+    "fibra optica",
+    "tecnohistoria",
+    "tecnologia"
+  ],
+  "hashtags": [
+    "#QuéPasaríaSi",
+    "#Internet",
+    "#TecnoHistoria"
+  ],
+  "thumbnail_text": "¿Sin internet?",
+  "thumbnail_badge": "99 %",
+  "thumbnail_icon": "🌊",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Sabías que internet viajaba por el fondo del mar? ¿Qué otro «¿qué pasaría si…?» quieres ver? 👇",
+  "playlists": [
+    "quepasaria"
+  ],
+  "sources": [
+    "https://www.itu.int/en/mediacentre/backgrounders/Pages/submarine-cable-resilience.aspx",
+    "https://blog.telegeography.com/how-many-submarine-cables-are-there-anyway",
+    "https://resources.telegeography.com/2023-mythbusting-part-3",
+    "https://www.internetsociety.org/resources/policybriefs/2025/enhancing-the-resilience-of-submarine-internet-infrastructure/",
+    "https://blog.telegeography.com/what-to-know-about-submarine-cable-breaks",
+    "https://www.datacenterknowledge.com/networks/tonga-volcano-highlights-global-undersea-cable-network-fragility",
+    "https://fortune.com/2024/03/04/internet-cables-cut-red-sea/",
+    "https://pulse.internetsociety.org/blog/resilient-internet-connectivity-in-europe-mitigates-impact-from-multiple-cable-cuts",
+    "https://www.ungeneva.org/en/news-media/news/2026/02/115416/invisible-highways-vast-network-undersea-cables-powering-our",
+    "https://www.history.com/news/first-transatlantic-telegraph-cable"
+  ],
+  "publish_at": "2026-12-17T18:00:00",
+  "tz": "Europe/Madrid",
+  "format": "long",
+  "scenes": [
+    {
+      "section": "Gancho",
+      "narration": "Cuando envías un mensaje a alguien en otro continente, ese mensaje no viaja por el espacio. Viaja por el fondo del mar, dentro de un cable de cristal más o menos del grosor de una manguera de jardín. Y ahora imagina que, de golpe, esos cables se cortan.",
+      "visual_query": "ocean underwater",
+      "card": {
+        "layout": "title",
+        "heading": "Internet va por el mar",
+        "items": [
+          "No por el espacio"
+        ],
+        "icon": "🌊"
+      }
+    },
+    {
+      "section": "La pregunta",
+      "narration": "¿Qué pasaría si se cortaran todos los cables submarinos de internet? Parece ciencia ficción, pero cada año se rompen más de cien, y en los últimos años algunos cortes han dejado países enteros prácticamente desconectados.",
+      "visual_query": "cable underwater",
+      "card": {
+        "layout": "title",
+        "heading": "¿Y si se cortaran todos?",
+        "items": [
+          "Lo que dicen los datos"
+        ],
+        "icon": "✂️"
+      }
+    },
+    {
+      "section": "La promesa",
+      "narration": "En este vídeo vas a ver cómo funciona de verdad internet entre continentes, qué pasaría minuto a minuto si se cortaran los cables, casos reales en los que ya ha ocurrido y por qué, aun así, internet es más resistente de lo que parece.",
+      "visual_query": "world map network",
+      "card": {
+        "layout": "steps",
+        "heading": "Lo que vas a ver",
+        "items": [
+          "Cómo funciona",
+          "Qué pasaría",
+          "Casos reales"
+        ],
+        "icon": "🧭"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "Primero, el dato que casi nadie sabe. Según la Unión Internacional de Telecomunicaciones, alrededor del noventa y nueve por ciento del tráfico internacional de internet viaja por cables submarinos. Los satélites llevan solo una pequeña parte.",
+      "visual_query": "fiber optic cable",
+      "card": {
+        "layout": "number",
+        "heading": "~99 %",
+        "items": [
+          "Del tráfico internacional"
+        ],
+        "icon": "🔌"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "En 2025, la consultora TeleGeography contaba unos quinientos setenta sistemas de cables submarinos en funcionamiento en todo el mundo, y decenas más en construcción. Unen continentes, islas y países costeros como una red de autopistas bajo el agua.",
+      "visual_query": "submarine cable map",
+      "card": {
+        "layout": "number",
+        "heading": "~570",
+        "items": [
+          "Cables submarinos en uso"
+        ],
+        "icon": "🗺️"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "Por dentro llevan fibras ópticas, hilos de cristal finísimos por los que la información viaja como pulsos de luz. En las zonas profundas, el cable es delgado. Cerca de la costa, donde hay barcos y anclas, se protege con capas de acero y se entierra bajo el fondo marino.",
+      "visual_query": "fiber optic light",
+      "card": {
+        "layout": "bullets",
+        "heading": "Por dentro",
+        "items": [
+          "Fibras de cristal",
+          "Luz",
+          "Acero cerca de la costa"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "Y hay un dato curioso: cada vez más cables pertenecen a grandes tecnológicas, como Google, Meta, Microsoft o Amazon, que los usan para conectar sus centros de datos entre continentes.",
+      "visual_query": "data center",
+      "card": {
+        "layout": "title",
+        "heading": "Los dueños",
+        "items": [
+          "Cada vez más, las tecnológicas"
+        ],
+        "icon": "🏢"
+      }
+    },
+    {
+      "section": "Suscríbete",
+      "narration": "Si te gustan estos experimentos de qué pasaría si, suscríbete a TecnoHistoria. Hay uno nuevo cada semana.",
+      "visual_query": "subscribe",
+      "card": {
+        "layout": "title",
+        "heading": "Suscríbete",
+        "items": [
+          "Uno nuevo cada semana"
+        ],
+        "icon": "🔔"
+      }
+    },
+    {
+      "section": "Cómo funciona",
+      "narration": "España, por ejemplo, es un punto clave. A Bilbao llega MAREA, un cable impulsado por Microsoft y Meta que la une con Virginia, en Estados Unidos, desde 2017. Y otros cables llegan a la costa mediterránea y a Canarias, conectando Europa con África, América y Asia.",
+      "visual_query": "Bilbao coast",
+      "card": {
+        "layout": "bullets",
+        "heading": "España, conectada",
+        "items": [
+          "MAREA: Bilbao-Virginia",
+          "Mediterráneo",
+          "Canarias"
+        ],
+        "icon": "🇪🇸"
+      }
+    },
+    {
+      "section": "Minuto 1",
+      "narration": "Ahora, el experimento. Minuto uno: se cortan todos los cables submarinos a la vez. Lo primero que notarías depende de dónde estés. Las páginas y servicios alojados en tu propio país podrían seguir funcionando, porque dentro de cada continente la mayor parte del tráfico va por cables terrestres.",
+      "visual_query": "city internet",
+      "card": {
+        "layout": "title",
+        "heading": "Minuto 1",
+        "items": [
+          "Lo local aguanta"
+        ],
+        "icon": "🏠"
+      }
+    },
+    {
+      "section": "Minuto 1",
+      "narration": "Pero todo lo que esté al otro lado del océano desaparece. Una web alojada en Estados Unidos, una videollamada con un familiar en otro continente o un pedido a una tienda de Asia simplemente no cargan.",
+      "visual_query": "error page laptop",
+      "card": {
+        "layout": "bullets",
+        "heading": "Lo que cae",
+        "items": [
+          "Webs de otros continentes",
+          "Videollamadas lejanas",
+          "Compras internacionales"
+        ],
+        "icon": "❌"
+      }
+    },
+    {
+      "section": "Hora 1",
+      "narration": "Hora uno. Los satélites intentan cubrir el hueco, pero no pueden. Su capacidad es una mínima parte de la de los cables. Sería como intentar desviar todo el tráfico de una autopista por un camino de tierra.",
+      "visual_query": "satellite dish",
+      "card": {
+        "layout": "title",
+        "heading": "Los satélites no bastan",
+        "items": [
+          "Un camino de tierra"
+        ],
+        "icon": "🛰️"
+      }
+    },
+    {
+      "section": "Hora 1",
+      "narration": "¿Y Starlink y los nuevos satélites? Ayudan mucho en zonas sin cable y en emergencias, como se vio en Tonga. Pero conectar a millones de personas y empresas entre continentes a la vez, con la misma velocidad, está hoy muy lejos de su capacidad.",
+      "visual_query": "satellite constellation",
+      "card": {
+        "layout": "title",
+        "heading": "¿Y Starlink?",
+        "items": [
+          "Ayuda, pero no sustituye"
+        ],
+        "icon": "📡"
+      }
+    },
+    {
+      "section": "Día 1",
+      "narration": "Día uno. El golpe gordo es económico. Los bancos y las bolsas mueven dinero entre continentes cada segundo. Las empresas que usan la nube con servidores en otro país se quedan sin sus programas. Y muchas aplicaciones dejan de funcionar aunque su servidor esté cerca, porque dependen de piezas alojadas lejos.",
+      "visual_query": "stock market screen",
+      "card": {
+        "layout": "bullets",
+        "heading": "Día 1",
+        "items": [
+          "Bancos y bolsas",
+          "Empresas en la nube",
+          "Apps rotas"
+        ],
+        "icon": "💸"
+      }
+    },
+    {
+      "section": "Semanas",
+      "narration": "Semanas después. Reparar un cable no es rápido. Hay que localizar el punto exacto de la rotura, enviar un barco especializado, subir el cable desde el fondo, empalmarlo y volver a bajarlo. Con unos pocos barcos de reparación en el mundo, arreglar cientos de cables a la vez llevaría muchísimo tiempo.",
+      "visual_query": "cable ship",
+      "card": {
+        "layout": "steps",
+        "heading": "Cómo se repara",
+        "items": [
+          "Localizar la rotura",
+          "Barco especializado",
+          "Subir, empalmar, bajar"
+        ],
+        "icon": "🚢"
+      }
+    },
+    {
+      "section": "Dato sorpresa",
+      "narration": "Y aquí el dato que sorprende: cada año se rompen muchos cables. El Comité Internacional de Protección de Cables contabilizó más de ciento setenta reparaciones en todo el mundo en 2025. Y casi nunca te enteras.",
+      "visual_query": "repair tools",
+      "card": {
+        "layout": "number",
+        "heading": "+170",
+        "items": [
+          "Reparaciones en 2025"
+        ],
+        "icon": "😮"
+      }
+    },
+    {
+      "section": "Casos reales",
+      "narration": "¿Por qué no te enteras? Porque la mayoría de las roturas son accidentes, sobre todo por barcos de pesca y anclas que arrastran el fondo, y porque internet tiene muchos caminos alternativos. Si un cable cae, el tráfico se desvía por otros.",
+      "visual_query": "fishing boat trawler",
+      "card": {
+        "layout": "bullets",
+        "heading": "Por qué se rompen",
+        "items": [
+          "Pesca de arrastre",
+          "Anclas",
+          "Terremotos y volcanes"
+        ],
+        "icon": "⚓"
+      }
+    },
+    {
+      "section": "Casos reales",
+      "narration": "Pero hay casos en los que sí se notó. En enero de 2022, la erupción del volcán submarino Hunga Tonga dañó el único cable que conectaba Tonga con el mundo. El país quedó prácticamente desconectado durante semanas, hasta que se reparó.",
+      "visual_query": "Hunga Tonga eruption",
+      "card": {
+        "layout": "number",
+        "heading": "Tonga 2022",
+        "items": [
+          "Semanas sin internet"
+        ],
+        "icon": "🌋"
+      },
+      "photo": "Hunga Tonga-Hunga Haʻapai eruption 2022-01-15 0420Z Himawari-8 visible",
+      "photo_caption": "La erupción de Hunga Tonga vista por satélite (2022)"
+    },
+    {
+      "section": "Casos reales",
+      "narration": "En 2024, en el mar Rojo, se dañaron varios cables a la vez en una zona de conflicto, después de ataques contra barcos. Que fallen cuatro a la vez es excepcional, y obligó a desviar mucho tráfico entre Europa, Asia y África.",
+      "visual_query": "red sea map",
+      "card": {
+        "layout": "title",
+        "heading": "Mar Rojo, 2024",
+        "items": [
+          "Varios cables a la vez"
+        ],
+        "icon": "🚢"
+      }
+    },
+    {
+      "section": "Casos reales",
+      "narration": "Y entre 2024 y 2025, en el mar Báltico, se dañaron varios cables que unen países europeos. Se investigó si fue sabotaje o anclas arrastradas por accidente, y en muchos casos no fue posible demostrarlo. Lo bueno es que, gracias a las rutas alternativas, la conexión en Europa apenas se resintió.",
+      "visual_query": "baltic sea",
+      "card": {
+        "layout": "bullets",
+        "heading": "Báltico, 2024-2025",
+        "items": [
+          "Varios cables dañados",
+          "¿Sabotaje o accidente?",
+          "Europa aguantó"
+        ],
+        "icon": "🇪🇺"
+      }
+    },
+    {
+      "section": "¿Es posible?",
+      "narration": "Entonces, ¿podrían cortarse todos a la vez? Es extremadamente improbable. Son cientos de cables, en océanos distintos, a miles de metros de profundidad en su mayoría. Haría falta una catástrofe global o un ataque coordinado de una escala nunca vista.",
+      "visual_query": "deep ocean",
+      "card": {
+        "layout": "title",
+        "heading": "Muy improbable",
+        "items": [
+          "Cientos de cables"
+        ],
+        "icon": "✅"
+      }
+    },
+    {
+      "section": "¿Es posible?",
+      "narration": "El riesgo real son los cuellos de botella: lugares por donde pasan muchos cables juntos, como el mar Rojo o algunos estrechos, y países pequeños o islas que dependen de uno o dos cables. Ahí, un solo corte puede ser un problema serio.",
+      "visual_query": "island ocean",
+      "card": {
+        "layout": "bullets",
+        "heading": "El riesgo real",
+        "items": [
+          "Cuellos de botella",
+          "Islas con un solo cable"
+        ],
+        "icon": "⚠️"
+      }
+    },
+    {
+      "section": "Un poco de historia",
+      "narration": "Por cierto, esto no es nuevo. En 1858 se tendió el primer cable de telégrafo a través del Atlántico. El primer mensaje oficial, de la reina Victoria al presidente de Estados Unidos, tardó horas en transmitirse, y el cable dejó de funcionar a las pocas semanas. Pero demostró que se podía.",
+      "visual_query": "transatlantic telegraph cable 1858",
+      "card": {
+        "layout": "number",
+        "heading": "1858",
+        "items": [
+          "Primer cable transatlántico"
+        ],
+        "icon": "📜"
+      },
+      "photo": "Atlantic cable Map",
+      "photo_caption": "Mapa del cable telegráfico transatlántico"
+    },
+    {
+      "section": "Qué puedes hacer",
+      "narration": "¿Y tú qué puedes hacer? Poco frente a un corte de cables, pero sí reducir el impacto de cualquier caída de internet: descarga mapas sin conexión en el móvil, guarda los documentos importantes también en tu dispositivo y no dependas de un único servicio en la nube para todo.",
+      "visual_query": "smartphone offline map",
+      "card": {
+        "layout": "steps",
+        "heading": "Tu plan B",
+        "items": [
+          "Mapas sin conexión",
+          "Copias en tu dispositivo",
+          "No todo en la nube"
+        ],
+        "icon": "🧰"
+      }
+    },
+    {
+      "section": "La lección",
+      "narration": "Mi conclusión: internet parece algo etéreo, en la nube, pero es físico. Depende de cables en el fondo del mar, barcos de reparación y acuerdos entre países. Un corte total es casi imposible, pero entender cómo funciona te ayuda a ver por qué proteger esa infraestructura importa tanto.",
+      "visual_query": "light bulb",
+      "card": {
+        "layout": "quote",
+        "heading": "La nube está en el mar",
+        "items": [
+          "Internet es físico"
+        ],
+        "icon": "💡"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Si quieres otro qué pasaría si, tienes en el canal qué pasaría si hubiera un apagón mundial. Y cuéntame en los comentarios: ¿sabías que internet viajaba por el fondo del mar?",
+      "visual_query": "question",
+      "card": {
+        "layout": "title",
+        "heading": "¿Lo sabías?",
+        "items": [
+          "Cuéntamelo abajo"
+        ],
+        "icon": "💬"
+      }
+    }
+  ]
+}

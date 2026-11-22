@@ -1,0 +1,104 @@
+{
+  "topic": "En 1997 Michael Dell dijo que cerraría Apple y devolvería el dinero a los accionistas; en 2006 Apple ya valía más que Dell",
+  "title": "«Yo cerraría Apple»: la predicción que salió fatal #Shorts",
+  "description": "En octubre de 1997, Michael Dell dijo que si dirigiera Apple la cerraría y devolvería el dinero a los accionistas. En 2006 el valor de Apple superó al de Dell, y Steve Jobs se lo recordó a sus empleados en un correo.\n\nLa historia completa de cómo Jobs salvó a Apple, en el documental de TecnoHistoria.\n\nSuscríbete a TecnoHistoria para más trucos e historias de tecnología.",
+  "tags": [
+    "apple",
+    "michael dell",
+    "steve jobs",
+    "historia de apple",
+    "historia de empresas",
+    "tecnohistoria",
+    "shorts"
+  ],
+  "hashtags": [
+    "#Apple",
+    "#SteveJobs",
+    "#Shorts"
+  ],
+  "thumbnail_text": "",
+  "thumbnail_badge": "",
+  "thumbnail_icon": "",
+  "thumbnail_photo": "",
+  "thumbnail_query": "",
+  "pinned_comment": "¿Qué otra predicción tecnológica famosa salió fatal? 👇",
+  "sources": [
+    "https://www.cultofmac.com/news/michael-dell-quote-about-apple",
+    "https://www.eweek.com/mobile/eweek-at-30-steve-jobs-returns-in-1997-to-revive-a-moribund-apple/"
+  ],
+  "publish_at": "2026-12-16T13:00:00",
+  "tz": "Europe/Madrid",
+  "format": "short",
+  "scenes": [
+    {
+      "section": "Giro",
+      "narration": "En 1997, el fundador de Dell dijo qué haría con Apple: cerrarla.",
+      "visual_query": "Michael Dell",
+      "card": {
+        "layout": "quote",
+        "heading": "«La cerraría»",
+        "items": [
+          "Michael Dell, 1997"
+        ],
+        "icon": "🔒"
+      },
+      "photo": "Michael Dell",
+      "photo_caption": "Michael Dell"
+    },
+    {
+      "section": "La frase",
+      "narration": "Le preguntaron en una conferencia qué haría si dirigiera Apple. Respondió que la cerraría y devolvería el dinero a los accionistas.",
+      "visual_query": "conference",
+      "card": {
+        "layout": "title",
+        "heading": "Octubre de 1997",
+        "items": [
+          "Una conferencia"
+        ],
+        "icon": "🎤"
+      }
+    },
+    {
+      "section": "El contexto",
+      "narration": "No era tan raro: ese año Apple perdió más de mil millones de dólares y casi se queda sin dinero.",
+      "visual_query": "falling chart",
+      "card": {
+        "layout": "number",
+        "heading": "-1.000 M$",
+        "items": [
+          "Pérdidas de Apple en 1997"
+        ],
+        "icon": "📉"
+      }
+    },
+    {
+      "section": "La venganza",
+      "narration": "Pero Steve Jobs volvió, lanzó el iMac y la salvó. En 2006, Apple ya valía más que Dell, y Jobs se lo recordó a sus empleados en un correo.",
+      "visual_query": "email",
+      "card": {
+        "layout": "title",
+        "heading": "2006",
+        "items": [
+          "Apple supera a Dell"
+        ],
+        "icon": "😏"
+      }
+    },
+    {
+      "section": "Cierre",
+      "narration": "Cómo se salvó Apple de verdad, en tres decisiones incómodas: el documental completo, en el canal.",
+      "visual_query": "movie",
+      "card": {
+        "layout": "title",
+        "heading": "La historia completa",
+        "items": [
+          "En el canal"
+        ],
+        "icon": "🎬"
+      }
+    }
+  ],
+  "playlists": [
+    "historias"
+  ]
+}

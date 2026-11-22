@@ -13,9 +13,9 @@ Formato sugerido: **L** = vídeo largo, **S** = Short, **Q** = «¿qué pasaría
 2. [x] ¿Qué pasaría si la IA se rebelara? — ~140k — `40-que-pasaria-ia-se-rebela`
 3. [x] ¿Qué pasaría si hubiera un apagón mundial? — ~69k — `39-que-pasaria-apagon-mundial`
 4. [x] ¿Qué pasaría si la Luna desapareciera? — Short `47-short-que-pasaria-luna`
-5. [ ] ¿Qué pasaría si la Tierra dejara de girar? — ~10k
+5. [x] ¿Qué pasaría si la Tierra dejara de girar? — ~10k — Short `55-short-tierra-dejara-girar`
 6. [ ] ¿Qué pasaría si explotara la burbuja de la IA? (sin consejos de inversión)
-7. [ ] ¿Qué pasaría si se cortaran los cables submarinos de internet?
+7. [x] ¿Qué pasaría si se cortaran los cables submarinos de internet? — `49-que-pasaria-cables-submarinos`
 8. [ ] ¿Qué pasaría si el GPS dejara de funcionar un día?
 9. [ ] ¿Qué pasaría si la IA hiciera todos los trabajos de oficina?
 10. [ ] ¿Qué pasaría si vivieras un mes sin móvil?
@@ -26,7 +26,7 @@ Formato sugerido: **L** = vídeo largo, **S** = Short, **Q** = «¿qué pasaría
 13. [ ] Cómo editar y crear fotos con ChatGPT (2026) — ~104k
 14. [ ] Trucos de Gemini que te ahorran tiempo (2026) — ~60k
 15. [ ] Meta AI en WhatsApp: qué puede hacer y trucos — ~58k
-16. [ ] Cómo usar la IA para estudiar (sin hacer trampa) — ~51k
+16. [x] Cómo usar la IA para estudiar (sin hacer trampa) — ~51k — `50-ia-para-estudiar`
 17. [ ] Apps para estudiar con IA (gratis) — ~41k
 18. [ ] Cómo funciona ChatGPT por dentro, explicado fácil — ~39k
 19. [ ] Cómo ganar dinero con IA: lo que funciona y lo que es humo — ~38k
@@ -53,7 +53,7 @@ Formato sugerido: **L** = vídeo largo, **S** = Short, **Q** = «¿qué pasaría
 36. [x] NVIDIA: de tarjetas gráficas a la empresa más valiosa del mundo — ~130k — `41-nvidia-historia`, Short `45-short-nvidia-dennys`
 37. [ ] La consola más potente casi nunca gana (historia de las consolas) — tendencia 2,5 M
 38. [ ] Elon Musk: la historia de SpaceX
-39. [ ] Apple estuvo a 90 días de la quiebra: el regreso de Steve Jobs
+39. [x] Apple estuvo a 90 días de la quiebra: el regreso de Steve Jobs — `48-apple-90-dias-quiebra`
 40. [ ] Samsung: empezó vendiendo pescado seco
 41. [ ] Sony contra Nintendo: la traición que creó la PlayStation
 42. [ ] Kodak inventó la cámara digital… y la escondió
