@@ -57,6 +57,7 @@ jobs:
       - name: Producir y programar los próximos vídeos
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}   # opcional: vídeo real de fondo
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # opcional: clips realistas con Veo
         run: python -m autotube produce-due --days "${{ github.event.inputs.days || '3' }}" --max 4
 
       - name: Sincronizar estadísticas del canal

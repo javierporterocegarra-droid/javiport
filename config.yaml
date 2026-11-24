@@ -37,6 +37,14 @@ video:
   visuals: footage       # footage = vídeo real de Pexels de fondo + tarjetas encima (sin clave: solo tarjetas)
   theme_color: "#F5B942"
 
+# Clips realistas generados con IA (Google Veo, API de Gemini). Solo personas inventadas.
+# Se activa cuando hay clave (GEMINI_API_KEY); cada escena con "ai_video": "prompt en inglés" pide un clip.
+ai_video:
+  enabled: true
+  model: ""                 # vacío = el modelo Veo más barato disponible en la cuenta
+  seconds: 6
+  max_clips_per_video: 3    # presupuesto: solo los ganchos de los vídeos largos
+
 tts:
   engine: edge            # edge (voces neuronales de Microsoft, gratis) | kokoro (local, más robótica) | elevenlabs (de pago)
   kokoro_voice: em_alex   # em_alex / em_santa (hombre), ef_dora (mujer)
