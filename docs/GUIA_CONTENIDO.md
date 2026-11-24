@@ -66,7 +66,16 @@ Los vídeos largos deben pasar de 8 minutos (permite anuncios a mitad de vídeo 
   canal» cuando derive de un vídeo largo. Nada de saludos.
 - Una escena = 1–3 frases. Cada escena lleva una tarjeta (`card`). En historias, 4–8 escenas con `photo`
   (búsqueda en inglés para Wikimedia Commons, o `File:Nombre_exacto.jpg`) y `photo_caption` en español.
-- Varía los `layout` (title, bullets, number, quote, steps). `items` cortos (máx. ~30 caracteres).
+- Varía los `layout` (title, bullets, number, quote, steps, chart). `items` cortos (máx. ~30 caracteres).
+  Todas las tarjetas están animadas: en `number` la cifra cuenta desde cero (pon la cifra en `heading` y el
+  texto en `items`), `title` y `quote` aparecen palabra a palabra, `bullets` y `steps` entran uno a uno.
+- `chart`: gráfico de barras que crece. `items` con formato `"Etiqueta: valor"`, p. ej.
+  `["1994: 8400", "2011: 320"]`. Úsalo cuando compares cifras (al menos 1 por vídeo largo).
+- `ai_video` (opcional): prompt EN INGLÉS para un clip realista de 6 s generado con Veo, solo en las 2–3
+  primeras escenas del gancho de los vídeos largos (el presupuesto lo limita a 3 por vídeo). Reglas:
+  solo personas inventadas y genéricas ("a young engineer in a 1990s office looking at a beige computer
+  screen, night"), NUNCA personas reales, famosos, marcas o logos, ni hechos inventados presentados como
+  reales. Si no hay clave de Gemini, la escena usa su tarjeta o su foto.
 - Sin emojis dentro del texto de `items` o `heading` (solo en `icon`).
 
 ## Formato de `script.json`
@@ -91,7 +100,8 @@ Los vídeos largos deben pasar de 8 minutos (permite anuncios a mitad de vídeo 
   "scenes": [
     {"section": "Capítulo", "narration": "Texto que lee la voz.", "visual_query": "english words",
      "card": {"layout": "title", "heading": "Texto grande", "items": ["subtítulo"], "icon": "💡"},
-     "photo": "Nokia 3310", "photo_caption": "Nokia 3310 (2000)"}
+     "photo": "Nokia 3310", "photo_caption": "Nokia 3310 (2000)",
+     "ai_video": "a man in his thirties in a 2000s office holding a small grey mobile phone, cinematic"}
   ]
 }
 ```

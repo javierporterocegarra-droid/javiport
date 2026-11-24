@@ -112,6 +112,18 @@ def _pill(d, xy, accent):
     d.rounded_rectangle([x, y, x + 90, y + 10], radius=5, fill=accent)
 
 
+def number_parts(heading: str, items: list[str]) -> tuple[str, str]:
+    """(cifra grande, texto pequeño): la cifra es el campo con dígitos más corto, esté donde esté."""
+    import re as _re
+    first = items[0] if items else ""
+    if not first:
+        return heading, ""
+    h_num, i_num = bool(_re.search(r"\d", heading)), bool(_re.search(r"\d", first))
+    if h_num and (not i_num or len(heading) <= len(first)):
+        return heading, first
+    return first, heading
+
+
 def render_card(card: dict, size: tuple[int, int], accent_hex: str, reveal: int | None = None,
                 seed: int = 0, transparent: bool = False) -> Image.Image:
     """transparent=True: solo el contenido (RGBA), para superponerlo a un fondo animado."""
@@ -128,8 +140,7 @@ def render_card(card: dict, size: tuple[int, int], accent_hex: str, reveal: int 
     margin = int(110 * s)
 
     if layout == "number":
-        big = items[0] if items else heading
-        caption = heading if items else ""
+        big, caption = number_parts(heading, items)
         f, lines = None, [big]
         for size in range(int(260 * s), int(120 * s), -6):  # mejor en una sola línea
             if d.textlength(big, font=font(BOLD, size)) <= w - 2 * margin:
@@ -152,7 +163,7 @@ def render_card(card: dict, size: tuple[int, int], accent_hex: str, reveal: int 
 
     elif layout == "quote":
         _paste_icon(img, icon or "💬", int(150 * s), (w / 2, h * (0.2 if not vertical else 0.25)))
-        f, lines = _fit(d, f"«{heading}»", BOLD, w - 2.4 * margin, h * 0.45, int(84 * s))
+        f, lines = _fit(d, f"«{heading.strip('«»\"“” ')}»", BOLD, w - 2.4 * margin, h * 0.45, int(84 * s))
         y = h * 0.55 - len(lines) * f.size * 0.6
         for ln in lines:
             d.text((w / 2, y), ln, font=f, fill=TEXT, anchor="mt")
@@ -299,3 +310,29 @@ def photo_frame(photo_path: Path, caption: str, size: tuple[int, int], accent_he
         d.text((bx + 22 * s, by + f.size * 0.25), text, font=f, fill=BG_TOP)
     return bg
 
+
+
+def lower_third(text: str, size: tuple[int, int], accent_hex: str) -> Image.Image:
+    """Rótulo discreto en la parte baja (para clips de vídeo): franja degradada y texto con barra de color."""
+    w, h = size
+    s = min(w, h) / 1080
+    accent = hex_rgb(accent_hex)
+    img = Image.new("RGBA", size, (0, 0, 0, 0))
+    if not text:
+        return img
+    vertical = h > w
+    band_h = int(h * (0.16 if vertical else 0.24))
+    top = h - band_h - (int(h * 0.30) if vertical else 0)  # en Shorts, por encima de los subtítulos
+    grad = Image.new("L", (1, band_h))
+    for y in range(band_h):
+        grad.putpixel((0, y), int(170 * (y / band_h) ** 1.4) if not vertical else 140)
+    img.paste(Image.new("RGBA", (w, band_h), (0, 0, 0, 255)), (0, top), grad.resize((w, band_h)))
+    d = ImageDraw.Draw(img)
+    margin = int(90 * s)
+    f, lines = _fit(d, text, BOLD, w - 2 * margin - 30 * s, band_h * 0.6, int(64 * s))
+    y = top + band_h - (len(lines) * f.size * 1.2) - 40 * s
+    d.rectangle([margin, y, margin + 10 * s, y + len(lines) * f.size * 1.2], fill=accent)
+    for ln in lines:
+        d.text((margin + 30 * s, y), ln, font=f, fill=TEXT)
+        y += f.size * 1.2
+    return img

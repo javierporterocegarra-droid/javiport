@@ -181,19 +181,39 @@ def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = ""
     try:
         # Pasada 1: voz y fotos (hace falta la duración total para la barra de progreso)
         plan, used, used_photos, credits = [], set(), set(), []
+        ai_left = [int((cfg.get("ai_video") or {}).get("max_clips_per_video", 0))]
         for i, scene in enumerate(sc["scenes"]):
             log.info("Voz e imágenes %d/%d", i + 1, len(sc["scenes"]))
             audio = workdir / f"scene_{i:03d}.mp3"
             dur, words = _cached_tts(cfg, scene["narration"], audio)
             photo = _scene_photo(cfg, workdir, i, scene, used_photos, size, accent) if use_photos else None
-            if photo:
+            clip = None
+            if scene.get("ai_video") and ai_left[0] > 0:
+                try:
+                    from . import aivideo
+                    clip = aivideo.generate_clip(cfg, scene["ai_video"], workdir / f"ai_{i:03d}.mp4",
+                                                 cfg["video"]["format"] == "short")
+                except Exception as e:
+                    log.warning("Clip de IA no disponible (%s): se usa la tarjeta o la foto", e)
+                if clip:
+                    ai_left[0] -= 1
+            if clip:
+                lt = workdir / f"card_{i:03d}_lt.png"
+                cards.lower_third((scene.get("card") or {}).get("heading", ""), size, accent).save(lt)
+                kind, assets = "aiclip", (clip, [(lt, dur + video.SCENE_GAP)])
+            elif photo:
                 kind, assets = "photo", photo[0]
                 if photo[1] not in credits:
                     credits.append(photo[1])
             elif use_cards and scene.get("card"):
                 kind = "card"
-                assets = cards.card_frames(scene["card"], size, accent, workdir / f"card_{i:03d}", seed=i,
-                                           transparent=animated)
+                if animated and cfg["video"].get("motion", True):
+                    from . import anim
+                    assets = anim.card_timeline(scene["card"], size, accent, workdir / f"card_{i:03d}",
+                                                dur + video.SCENE_GAP, seed=i, transparent=True)
+                else:
+                    assets = cards.card_frames(scene["card"], size, accent, workdir / f"card_{i:03d}", seed=i,
+                                               transparent=animated)
                 clip = _scene_footage(cfg, workdir, i, scene, dur, used) if use_footage else None
                 if clip:
                     kind, assets = "footage", (clip, assets)
@@ -216,7 +236,8 @@ def render_from_script(cfg: dict, db, workdir: Path, sc: dict, dossier: str = ""
                 total = video.render_segment(cfg, kind, assets, audio, dur, seg, offset, total_video, bg_wide, accent)
             else:
                 total = video.render_scene(cfg, assets, audio, dur, seg, card=(kind == "card"))
-            media_files.append(assets[-1] if isinstance(assets, list) else assets)
+            last = assets[-1] if isinstance(assets, list) else assets
+            media_files.append(last[0] if isinstance(last, tuple) else last)
             segments.append(seg)
             sub_scenes.append({"offset": offset, "words": words})
             starts.append((offset, scene["section"]))

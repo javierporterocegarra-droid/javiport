@@ -46,14 +46,15 @@
       "narration": "En 2024, investigadores de la Universidad de Pensilvania hicieron un experimento con unos mil alumnos de instituto en Turquía. Los que practicaron matemáticas con ChatGPT resolvieron un cuarenta y ocho por ciento más de ejercicios. Pero en el examen sacaron un diecisiete por ciento menos que los que estudiaron sin él.",
       "visual_query": "students classroom exam",
       "card": {
-        "layout": "bullets",
-        "heading": "El experimento",
+        "layout": "chart",
+        "heading": "Con ChatGPT vs. sin él",
         "items": [
-          "+48 % en la práctica",
-          "-17 % en el examen"
+          "Práctica: +48 %",
+          "Examen: -17 %"
         ],
         "icon": "📉"
-      }
+      },
+      "ai_video": "a teenage student at a desk at night typing on a laptop with math notebooks around, looking tired, warm desk lamp, cinematic"
     },
     {
       "section": "El resultado",
@@ -68,7 +69,8 @@
           "Sin hacer trampa"
         ],
         "icon": "🎓"
-      }
+      },
+      "ai_video": "a university student in a library writing notes by hand and then checking a laptop, natural daylight, cinematic"
     },
     {
       "section": "Requisitos",
